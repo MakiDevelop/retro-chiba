@@ -1,0 +1,93 @@
+---
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Figcaption from './Figcaption.astro';
+import YouTubeEmbed from './YouTubeEmbed.astro';
+import ConsoleSpecs from './ConsoleSpecs.astro';
+import { useTranslations, localizedPath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  entry: CollectionEntry<'consoles'>;
+  lang: Lang;
+}
+
+const { entry, lang } = Astro.props;
+const t = useTranslations(lang);
+const { Content } = await render(entry);
+const d = entry.data;
+
+const specsI18n = {
+  specsTitle: t('console.specs'),
+  releaseTitle: t('console.release'),
+  salesTitle: t('console.sales'),
+  maker: t('console.maker'),
+  jp: t('console.jp'),
+  na: t('console.na'),
+  eu: t('console.eu'),
+  official: t('console.official'),
+  community: t('console.community'),
+};
+---
+
+<BaseLayout title={d.title}>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang, `/generations/${d.gen}/`)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {t('console.back', { n: String(d.gen) })}
+      </a>
+    </nav>
+
+    <header class="mb-8">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">
+        [ GEN {d.gen} · {d.maker} ]
+      </p>
+      <h1 class="mt-2 font-pixel text-2xl text-crt-amber crt-glow md:text-4xl">
+        {d.title}
+      </h1>
+    </header>
+
+    {d.images.hero && (
+      <figure class="my-6">
+        <img
+          src={d.images.hero.src}
+          alt={d.images.hero.alt ?? ''}
+          class="w-full rounded border border-crt-dim/40"
+          loading="eager"
+        />
+        <Figcaption {...d.images.hero} />
+      </figure>
+    )}
+
+    <ConsoleSpecs
+      specs={d.specs}
+      release={d.release}
+      sales={d.sales}
+      maker={d.maker}
+      i18n={specsI18n}
+    />
+
+    <div class="prose prose-invert prose-crt max-w-none [&_p]:text-crt-text/85 [&_strong]:text-crt-amber">
+      <Content />
+    </div>
+
+    {d.notable_games.length > 0 && (
+      <section class="my-12 rounded border border-crt-dim/40 bg-crt-panel/40 p-5">
+        <h2 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{t('console.notable')}</h2>
+        <ul class="grid gap-2 text-sm md:grid-cols-2">
+          {d.notable_games.map((g) => (
+            <li class="border-l-2 border-crt-amber-dim/60 pl-3 text-crt-text/85">{g}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {d.videos.length > 0 && (
+      <section class="my-12">
+        <h2 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{t('console.video')}</h2>
+        {d.videos.map((v) => <YouTubeEmbed id={v.youtube} caption={v.caption} source={v.source} />)}
+      </section>
+    )}
+  </article>
+</BaseLayout>

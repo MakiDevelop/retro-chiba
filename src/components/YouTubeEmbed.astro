@@ -1,0 +1,25 @@
+---
+interface Props {
+  id: string;
+  caption: string;
+  source: string;
+}
+const { id, caption, source } = Astro.props;
+---
+
+<figure class="my-8">
+  <div class="aspect-video overflow-hidden rounded border border-crt-dim/40 bg-black">
+    <iframe
+      class="h-full w-full"
+      src={`https://www.youtube-nocookie.com/embed/${id}?rel=0`}
+      title={caption}
+      loading="lazy"
+      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <figcaption class="mt-2 text-xs text-crt-text/55">
+    {caption} · <span class="text-crt-amber-dim">{source}</span>
+  </figcaption>
+</figure>

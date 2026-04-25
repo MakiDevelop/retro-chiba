@@ -1,0 +1,13 @@
+---
+import { getCollection } from 'astro:content';
+import ConsolePage from '../../components/ConsolePage.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('consoles', (e) => e.data.lang === 'zh-tw');
+  return entries.map((entry) => ({ params: { slug: entry.id.split('/')[0] }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+---
+
+<ConsolePage entry={entry} lang="zh-tw" />

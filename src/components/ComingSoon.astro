@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, localizedPath } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -18,21 +18,19 @@ const t = useTranslations(lang);
     {t('site.tagline')}
   </p>
 
-  <div class="my-10 inline-block rounded border border-crt-amber/40 bg-crt-panel/60 px-8 py-6">
+  <div class="my-6 max-w-2xl rounded border border-crt-amber/40 bg-crt-panel/60 px-8 py-6">
     <div class="font-pixel text-lg text-crt-amber crt-glow md:text-xl">
       {t('soon.heading')}
     </div>
-    <div class="mt-4 max-w-md text-sm text-crt-text/80">
+    <div class="mt-4 text-sm text-crt-text/80">
       {t('soon.body')}
     </div>
+    <a
+      href={localizedPath(lang, '/generations/3/')}
+      class="mt-6 inline-block rounded border border-crt-amber bg-crt-amber/10 px-5 py-2 font-pixel text-xs text-crt-amber transition hover:bg-crt-amber/20"
+    >
+      {t('soon.cta')} →
+    </a>
     <div class="mt-6 text-xs text-crt-text/40">{t('soon.signature')}</div>
   </div>
-
-  <pre
-    class="hidden font-mono text-[10px] text-crt-amber-dim md:block">
-{`     ╔═══════════════════════════╗
-     ║   ▓▓▓ NOW LOADING... ▓▓▓  ║
-     ║   ░░░░░░░░░░░░░░░░░░░ 5%  ║
-     ╚═══════════════════════════╝`}
-  </pre>
 </section>

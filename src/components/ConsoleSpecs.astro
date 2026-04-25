@@ -1,0 +1,64 @@
+---
+interface Props {
+  specs?: Record<string, string>;
+  release?: { jp?: string; na?: string; eu?: string };
+  sales?: { official?: string; community?: string; source?: string };
+  maker: string;
+  i18n: {
+    specsTitle: string;
+    releaseTitle: string;
+    salesTitle: string;
+    maker: string;
+    jp: string;
+    na: string;
+    eu: string;
+    official: string;
+    community: string;
+  };
+}
+const { specs = {}, release = {}, sales = {}, maker, i18n } = Astro.props;
+const hasRelease = release.jp || release.na || release.eu;
+const hasSales = sales.official || sales.community;
+---
+
+<div class="my-10 grid gap-6 md:grid-cols-2">
+  <section class="rounded border border-crt-dim/40 bg-crt-panel/40 p-5">
+    <h3 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{i18n.specsTitle}</h3>
+    <dl class="space-y-1 text-sm">
+      <div class="flex justify-between gap-4 border-b border-crt-dim/20 py-1">
+        <dt class="text-crt-text/60">{i18n.maker}</dt>
+        <dd class="font-mono text-crt-text/90">{maker}</dd>
+      </div>
+      {Object.entries(specs).map(([k, v]) => (
+        <div class="flex justify-between gap-4 border-b border-crt-dim/20 py-1">
+          <dt class="text-crt-text/60">{k}</dt>
+          <dd class="text-right font-mono text-crt-text/90">{v}</dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+
+  <section class="rounded border border-crt-dim/40 bg-crt-panel/40 p-5">
+    {hasRelease && (
+      <>
+        <h3 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{i18n.releaseTitle}</h3>
+        <dl class="mb-4 space-y-1 text-sm">
+          {release.jp && <div class="flex justify-between border-b border-crt-dim/20 py-1"><dt class="text-crt-text/60">{i18n.jp}</dt><dd class="font-mono">{release.jp}</dd></div>}
+          {release.na && <div class="flex justify-between border-b border-crt-dim/20 py-1"><dt class="text-crt-text/60">{i18n.na}</dt><dd class="font-mono">{release.na}</dd></div>}
+          {release.eu && <div class="flex justify-between border-b border-crt-dim/20 py-1"><dt class="text-crt-text/60">{i18n.eu}</dt><dd class="font-mono">{release.eu}</dd></div>}
+        </dl>
+      </>
+    )}
+
+    {hasSales && (
+      <>
+        <h3 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{i18n.salesTitle}</h3>
+        <dl class="space-y-1 text-sm">
+          {sales.official && <div class="flex justify-between border-b border-crt-dim/20 py-1"><dt class="text-crt-text/60">{i18n.official}</dt><dd class="font-mono">{sales.official}</dd></div>}
+          {sales.community && <div class="flex justify-between border-b border-crt-dim/20 py-1"><dt class="text-crt-text/60">{i18n.community}</dt><dd class="font-mono">{sales.community}</dd></div>}
+        </dl>
+        {sales.source && <p class="mt-2 text-xs text-crt-text/45">{sales.source}</p>}
+      </>
+    )}
+  </section>
+</div>

@@ -1,0 +1,63 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { useTranslations, localizedPath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  entry: CollectionEntry<'generations'>;
+  lang: Lang;
+}
+
+const { entry, lang } = Astro.props;
+const t = useTranslations(lang);
+const d = entry.data;
+
+const allConsoles = await getCollection('consoles', (e) => e.data.lang === lang && e.data.gen === d.gen);
+---
+
+<BaseLayout title={d.title}>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {t('gen.back')}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">
+        [ {d.period} ]
+      </p>
+      <h1 class="mt-2 font-pixel text-2xl text-crt-amber crt-glow md:text-4xl">
+        {d.title}
+      </h1>
+      <p class="mt-6 max-w-3xl text-base text-crt-text/85">{d.summary}</p>
+    </header>
+
+    <section>
+      <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{t('gen.consoles')}</h2>
+      <ul class="grid gap-4 md:grid-cols-2">
+        {allConsoles.map((c) => (
+          <li>
+            <a
+              href={localizedPath(lang, `/consoles/${c.id.split('/')[0]}/`)}
+              class="block rounded border border-crt-dim/40 bg-crt-panel/40 p-5 transition hover:border-crt-amber/60"
+            >
+              {c.data.images.hero && (
+                <img
+                  src={c.data.images.hero.src}
+                  alt={c.data.images.hero.alt ?? ''}
+                  class="mb-3 aspect-video w-full rounded object-cover"
+                  loading="lazy"
+                />
+              )}
+              <div class="font-pixel text-sm text-crt-amber">{c.data.title}</div>
+              <div class="mt-1 text-xs text-crt-text/60">{c.data.maker}</div>
+              {c.data.release.jp && <div class="mt-1 font-mono text-xs text-crt-text/45">{c.data.release.jp} (JP)</div>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </article>
+</BaseLayout>

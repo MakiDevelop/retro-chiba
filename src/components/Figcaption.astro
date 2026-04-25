@@ -1,0 +1,48 @@
+---
+import type { z } from 'astro:content';
+
+interface Props {
+  caption?: string;
+  license: 'CC-BY-SA-4.0' | 'CC-BY-SA-3.0' | 'CC-BY-SA-2.0' | 'CC-BY-4.0' | 'PD' | 'fair-use' | 'ai-generated' | 'own';
+  author?: string;
+  source_url?: string;
+  rights_holder?: string;
+  rationale?: string;
+  tool?: string;
+}
+
+const { caption, license, author, source_url, rights_holder, rationale, tool } = Astro.props;
+
+const isCc = license.startsWith('CC') || license === 'PD';
+const isFairUse = license === 'fair-use';
+const isAi = license === 'ai-generated';
+const isOwn = license === 'own';
+---
+
+<figcaption class="img-meta mt-2 text-xs leading-relaxed text-crt-text/55 [&_a]:text-crt-amber-dim [&_a]:underline-offset-2 [&_a:hover]:text-crt-amber">
+  {caption && <div class="text-crt-text/80">{caption}</div>}
+  <div class="mt-1 flex flex-wrap gap-x-2 gap-y-1">
+    {isCc && (
+      <>
+        {author && <span>© {author}</span>}
+        {source_url && <a href={source_url} rel="noopener" target="_blank">Source</a>}
+        <span class="rounded border border-crt-dim/60 px-1 text-[10px] uppercase tracking-wider">{license}</span>
+      </>
+    )}
+    {isFairUse && (
+      <>
+        <span>© {rights_holder ?? 'Rights holder'}</span>
+        <span class="text-crt-text/45">·</span>
+        <span>Used under fair use for {rationale ?? 'historical/educational commentary'}</span>
+        {source_url && <a href={source_url} rel="noopener" target="_blank">Source</a>}
+      </>
+    )}
+    {isAi && (
+      <>
+        <span class="rounded border border-crt-dim/60 px-1 text-[10px] uppercase tracking-wider">AI-generated</span>
+        {tool && <span>· {tool}</span>}
+      </>
+    )}
+    {isOwn && <span class="rounded border border-crt-dim/60 px-1 text-[10px] uppercase tracking-wider">Own collection</span>}
+  </div>
+</figcaption>
