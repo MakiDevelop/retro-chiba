@@ -1,22 +1,45 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { useTranslations, localizedPath } from '../i18n/utils';
 import type { Lang } from '../i18n/ui';
+import { generations, type GenKey } from '../data/generations';
+import consolesData from '../data/consoles.json';
+
+interface ConsoleEntry {
+  qid: string;
+  slug: string;
+  gen: string;
+  kind: string;
+  names: Record<string, string>;
+  maker: string;
+  first_release: string;
+}
 
 interface Props {
-  entry: CollectionEntry<'generations'>;
+  gen: GenKey;
   lang: Lang;
 }
 
-const { entry, lang } = Astro.props;
+const { gen, lang } = Astro.props;
 const t = useTranslations(lang);
-const d = entry.data;
+const info = generations[gen];
 
-const allConsoles = await getCollection('consoles', (e) => e.data.lang === lang && e.data.gen === d.gen);
+const allConsoles = (consolesData as ConsoleEntry[]).filter((c) => c.gen === gen);
+allConsoles.sort((a, b) => (a.first_release || '9999').localeCompare(b.first_release || '9999'));
+
+const fullEntries = await getCollection('consoles', (e) => e.data.lang === lang);
+const fullSlugs = new Set(fullEntries.map((e) => e.id.split('/')[0]));
+
+const buildingLabel = {
+  'zh-tw': '建造中',
+  'zh-cn': '建造中',
+  en: 'Under construction',
+  ja: '建設中',
+}[lang];
 ---
 
-<BaseLayout title={d.title}>
+<BaseLayout title={info.titles[lang]}>
   <article>
     <nav class="mb-6 text-sm">
       <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
@@ -25,39 +48,49 @@ const allConsoles = await getCollection('consoles', (e) => e.data.lang === lang 
     </nav>
 
     <header class="mb-10">
-      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">
-        [ {d.period} ]
-      </p>
-      <h1 class="mt-2 font-pixel text-2xl text-crt-amber crt-glow md:text-4xl">
-        {d.title}
-      </h1>
-      <p class="mt-6 max-w-3xl text-base text-crt-text/85">{d.summary}</p>
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">[ {info.period} ]</p>
+      <h1 class="mt-2 font-pixel text-2xl text-crt-amber crt-glow md:text-4xl">{info.titles[lang]}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85">{info.summaries[lang]}</p>
     </header>
 
     <section>
       <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{t('gen.consoles')}</h2>
-      <ul class="grid gap-4 md:grid-cols-2">
-        {allConsoles.map((c) => (
-          <li>
-            <a
-              href={localizedPath(lang, `/consoles/${c.id.split('/')[0]}/`)}
-              class="block rounded border border-crt-dim/40 bg-crt-panel/40 p-5 transition hover:border-crt-amber/60"
-            >
-              {c.data.images.hero && (
-                <img
-                  src={c.data.images.hero.src}
-                  alt={c.data.images.hero.alt ?? ''}
-                  class="mb-3 aspect-video w-full rounded object-cover"
-                  loading="lazy"
-                />
-              )}
-              <div class="font-pixel text-sm text-crt-amber">{c.data.title}</div>
-              <div class="mt-1 text-xs text-crt-text/60">{c.data.maker}</div>
-              {c.data.release.jp && <div class="mt-1 font-mono text-xs text-crt-text/45">{c.data.release.jp} (JP)</div>}
-            </a>
-          </li>
-        ))}
-      </ul>
+      {allConsoles.length === 0 ? (
+        <p class="text-sm text-crt-text/60">—</p>
+      ) : (
+        <ul class="grid gap-4 md:grid-cols-2">
+          {allConsoles.map((c) => {
+            const isFull = fullSlugs.has(c.slug);
+            const displayName = c.names[lang] || c.names.en || c.slug;
+            const cardClass = isFull
+              ? 'block rounded border border-crt-dim/40 bg-crt-panel/40 p-5 transition hover:border-crt-amber/60'
+              : 'block rounded border border-crt-dim/30 bg-crt-panel/20 p-5 opacity-70';
+            const inner = (
+              <>
+                <div class="font-pixel text-sm text-crt-amber">{displayName}</div>
+                <div class="mt-1 text-xs text-crt-text/60">{c.maker || '—'}</div>
+                {c.first_release && (
+                  <div class="mt-1 font-mono text-xs text-crt-text/45">{c.first_release}</div>
+                )}
+                {!isFull && (
+                  <div class="mt-3 inline-block rounded border border-crt-dim/40 px-2 py-0.5 text-[10px] uppercase tracking-wider text-crt-text/50">
+                    {buildingLabel}
+                  </div>
+                )}
+              </>
+            );
+            return (
+              <li>
+                {isFull ? (
+                  <a href={localizedPath(lang, `/consoles/${c.slug}/`)} class={cardClass}>{inner}</a>
+                ) : (
+                  <div class={cardClass}>{inner}</div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      )}
     </section>
   </article>
 </BaseLayout>

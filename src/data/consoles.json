@@ -1,0 +1,827 @@
+[
+  {
+    "qid": "Q744987",
+    "slug": "magnavox-odyssey",
+    "gen": "1",
+    "kind": "home",
+    "names": {
+      "en": "Odyssey",
+      "ja": "オデッセイ",
+      "zh-tw": "Magnavox Odyssey",
+      "zh-cn": "Magnavox Odyssey"
+    },
+    "maker": "Magnavox",
+    "first_release": "1972-09-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q744987"
+  },
+  {
+    "qid": "Q6390435",
+    "slug": "atari-pong",
+    "gen": "1",
+    "kind": "home",
+    "names": {
+      "en": "Atari Home Pong series",
+      "ja": "",
+      "zh-tw": "",
+      "zh-cn": ""
+    },
+    "maker": "",
+    "first_release": "1975-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q6390435"
+  },
+  {
+    "qid": "Q1064163",
+    "slug": "coleco-telstar",
+    "gen": "1",
+    "kind": "home",
+    "names": {
+      "en": "Coleco Telstar series",
+      "ja": "コレコ・テルスター",
+      "zh-tw": "Telstar",
+      "zh-cn": "Telstar"
+    },
+    "maker": "Coleco",
+    "first_release": "",
+    "wikidata": "https://www.wikidata.org/wiki/Q1064163"
+  },
+  {
+    "qid": "Q206261",
+    "slug": "atari-2600",
+    "gen": "2",
+    "kind": "home",
+    "names": {
+      "en": "Atari 2600",
+      "ja": "Atari 2600",
+      "zh-tw": "Atari 2600",
+      "zh-cn": "Atari 2600"
+    },
+    "maker": "Atari, Inc.",
+    "first_release": "1977-09-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q206261"
+  },
+  {
+    "qid": "Q743222",
+    "slug": "atari-5200",
+    "gen": "2",
+    "kind": "home",
+    "names": {
+      "en": "Atari 5200",
+      "ja": "Atari 5200",
+      "zh-tw": "雅達利5200",
+      "zh-cn": "雅達利5200"
+    },
+    "maker": "Atari Corporation",
+    "first_release": "1982-11-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q743222"
+  },
+  {
+    "qid": "Q1061441",
+    "slug": "intellivision",
+    "gen": "2",
+    "kind": "home",
+    "names": {
+      "en": "Intellivision",
+      "ja": "インテレビジョン",
+      "zh-tw": "Intellivision",
+      "zh-cn": "Intellivision"
+    },
+    "maker": "INTV",
+    "first_release": "1979-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q1061441"
+  },
+  {
+    "qid": "Q1046862",
+    "slug": "colecovision",
+    "gen": "2",
+    "kind": "home",
+    "names": {
+      "en": "ColecoVision",
+      "ja": "コレコビジョン",
+      "zh-tw": "ColecoVision",
+      "zh-cn": "ColecoVision"
+    },
+    "maker": "Coleco",
+    "first_release": "1982-08-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q1046862"
+  },
+  {
+    "qid": "Q767631",
+    "slug": "vectrex",
+    "gen": "2",
+    "kind": "home",
+    "names": {
+      "en": "Vectrex",
+      "ja": "光速船",
+      "zh-tw": "Vectrex",
+      "zh-cn": "Vectrex"
+    },
+    "maker": "Milton Bradley Company",
+    "first_release": "1982-11-20",
+    "wikidata": "https://www.wikidata.org/wiki/Q767631"
+  },
+  {
+    "qid": "Q576932",
+    "slug": "magnavox-odyssey-2",
+    "gen": "2",
+    "kind": "home",
+    "names": {
+      "en": "Magnavox Odyssey 2",
+      "ja": "マグナボックス・オデッセイ2",
+      "zh-tw": "米罗华奥德赛²",
+      "zh-cn": "米罗华奥德赛²"
+    },
+    "maker": "Magnavox",
+    "first_release": "1978-12-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q576932"
+  },
+  {
+    "qid": "Q172742",
+    "slug": "famicom",
+    "gen": "3",
+    "kind": "home",
+    "names": {
+      "en": "Nintendo Entertainment System",
+      "ja": "ファミリーコンピュータ",
+      "zh-tw": "紅白機",
+      "zh-cn": "红白机"
+    },
+    "maker": "Nintendo Research & Development 2",
+    "first_release": "1983-07-15",
+    "wikidata": "https://www.wikidata.org/wiki/Q172742"
+  },
+  {
+    "qid": "Q209868",
+    "slug": "master-system",
+    "gen": "3",
+    "kind": "home",
+    "names": {
+      "en": "Sega Master System",
+      "ja": "セガ・マスターシステム",
+      "zh-tw": "世嘉Master System",
+      "zh-cn": "世嘉Master System"
+    },
+    "maker": "Tectoy",
+    "first_release": "1986-09-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q209868"
+  },
+  {
+    "qid": "Q753600",
+    "slug": "atari-7800",
+    "gen": "3",
+    "kind": "home",
+    "names": {
+      "en": "Atari 7800",
+      "ja": "Atari 7800",
+      "zh-tw": "雅达利7800",
+      "zh-cn": "雅达利7800"
+    },
+    "maker": "Atari Corporation",
+    "first_release": "1986-05-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q753600"
+  },
+  {
+    "qid": "Q183259",
+    "slug": "super-famicom",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "Super Nintendo Entertainment System",
+      "ja": "スーパーファミコン",
+      "zh-tw": "超級任天堂",
+      "zh-cn": "超级任天堂"
+    },
+    "maker": "Nintendo Research & Development 2",
+    "first_release": "1990-11-21",
+    "wikidata": "https://www.wikidata.org/wiki/Q183259"
+  },
+  {
+    "qid": "Q10676",
+    "slug": "mega-drive",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "Sega Genesis",
+      "ja": "メガドライブ",
+      "zh-tw": "Mega Drive",
+      "zh-cn": "Mega Drive"
+    },
+    "maker": "",
+    "first_release": "1988-10-29",
+    "wikidata": "https://www.wikidata.org/wiki/Q10676"
+  },
+  {
+    "qid": "Q1057377",
+    "slug": "pc-engine",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "TurboGrafx-16",
+      "ja": "PCエンジン",
+      "zh-tw": "PC Engine",
+      "zh-cn": "PC Engine"
+    },
+    "maker": "NEC",
+    "first_release": "1987-10-30",
+    "wikidata": "https://www.wikidata.org/wiki/Q1057377"
+  },
+  {
+    "qid": "Q64428080",
+    "slug": "neo-geo-aes",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "Neo Geo AES",
+      "ja": "Neo Geo AES",
+      "zh-tw": "Neo Geo AES",
+      "zh-cn": "Neo Geo AES"
+    },
+    "maker": "SNK",
+    "first_release": "1990-04-26",
+    "wikidata": "https://www.wikidata.org/wiki/Q64428080"
+  },
+  {
+    "qid": "Q1047516",
+    "slug": "sega-cd",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "Sega CD",
+      "ja": "メガCD",
+      "zh-tw": "Sega CD",
+      "zh-cn": "Sega CD"
+    },
+    "maker": "",
+    "first_release": "1991-12-12",
+    "wikidata": "https://www.wikidata.org/wiki/Q1047516"
+  },
+  {
+    "qid": "Q10677",
+    "slug": "ps1",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "PlayStation",
+      "ja": "PlayStation",
+      "zh-tw": "PlayStation",
+      "zh-cn": "PlayStation"
+    },
+    "maker": "Sony Interactive Entertainment",
+    "first_release": "1994-12-03",
+    "wikidata": "https://www.wikidata.org/wiki/Q10677"
+  },
+  {
+    "qid": "Q184839",
+    "slug": "n64",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "Nintendo 64",
+      "ja": "NINTENDO 64",
+      "zh-tw": "任天堂64",
+      "zh-cn": "任天堂64"
+    },
+    "maker": "Silicon Graphics",
+    "first_release": "1996-06-23",
+    "wikidata": "https://www.wikidata.org/wiki/Q184839"
+  },
+  {
+    "qid": "Q200912",
+    "slug": "saturn",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "Sega Saturn",
+      "ja": "セガサターン",
+      "zh-tw": "Sega Saturn",
+      "zh-cn": "Sega Saturn"
+    },
+    "maker": "",
+    "first_release": "1994-11-22",
+    "wikidata": "https://www.wikidata.org/wiki/Q200912"
+  },
+  {
+    "qid": "Q229429",
+    "slug": "3do",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "3DO",
+      "ja": "3DO",
+      "zh-tw": "3DO",
+      "zh-cn": "3DO"
+    },
+    "maker": "Creative Technology",
+    "first_release": "1993-10-04",
+    "wikidata": "https://www.wikidata.org/wiki/Q229429"
+  },
+  {
+    "qid": "Q15015195",
+    "slug": "apple-pippin",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "Apple Pippin",
+      "ja": "ピピンアットマーク",
+      "zh-tw": "Apple Pippin",
+      "zh-cn": "Apple Pippin"
+    },
+    "maker": "Bandai",
+    "first_release": "",
+    "wikidata": "https://www.wikidata.org/wiki/Q15015195"
+  },
+  {
+    "qid": "Q650601",
+    "slug": "atari-jaguar",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "Atari Jaguar",
+      "ja": "Atari Jaguar",
+      "zh-tw": "Atari Jaguar",
+      "zh-cn": "Atari Jaguar"
+    },
+    "maker": "Atari Corporation",
+    "first_release": "1993-11-23",
+    "wikidata": "https://www.wikidata.org/wiki/Q650601"
+  },
+  {
+    "qid": "Q184198",
+    "slug": "dreamcast",
+    "gen": "6",
+    "kind": "home",
+    "names": {
+      "en": "Dreamcast",
+      "ja": "ドリームキャスト",
+      "zh-tw": "Dreamcast",
+      "zh-cn": "Dreamcast"
+    },
+    "maker": "",
+    "first_release": "1998-11-27",
+    "wikidata": "https://www.wikidata.org/wiki/Q184198"
+  },
+  {
+    "qid": "Q10680",
+    "slug": "ps2",
+    "gen": "6",
+    "kind": "home",
+    "names": {
+      "en": "PlayStation 2",
+      "ja": "PlayStation 2",
+      "zh-tw": "PlayStation 2",
+      "zh-cn": "PlayStation 2"
+    },
+    "maker": "Sony Interactive Entertainment",
+    "first_release": "2000-03-04",
+    "wikidata": "https://www.wikidata.org/wiki/Q10680"
+  },
+  {
+    "qid": "Q182172",
+    "slug": "nintendo-gamecube",
+    "gen": "6",
+    "kind": "home",
+    "names": {
+      "en": "Nintendo GameCube",
+      "ja": "ニンテンドーゲームキューブ",
+      "zh-tw": "任天堂GameCube",
+      "zh-cn": "任天堂GameCube"
+    },
+    "maker": "",
+    "first_release": "2001-09-14",
+    "wikidata": "https://www.wikidata.org/wiki/Q182172"
+  },
+  {
+    "qid": "Q132020",
+    "slug": "xbox",
+    "gen": "6",
+    "kind": "home",
+    "names": {
+      "en": "Xbox",
+      "ja": "Xbox",
+      "zh-tw": "Xbox",
+      "zh-cn": "Xbox"
+    },
+    "maker": "Flex Ltd.",
+    "first_release": "2001-11-15",
+    "wikidata": "https://www.wikidata.org/wiki/Q132020"
+  },
+  {
+    "qid": "Q10683",
+    "slug": "ps3",
+    "gen": "7",
+    "kind": "home",
+    "names": {
+      "en": "PlayStation 3",
+      "ja": "PlayStation 3",
+      "zh-tw": "PlayStation 3",
+      "zh-cn": "PlayStation 3"
+    },
+    "maker": "Sony Interactive Entertainment",
+    "first_release": "2006-11-11",
+    "wikidata": "https://www.wikidata.org/wiki/Q10683"
+  },
+  {
+    "qid": "Q48263",
+    "slug": "xbox-360",
+    "gen": "7",
+    "kind": "home",
+    "names": {
+      "en": "Xbox 360",
+      "ja": "Xbox 360",
+      "zh-tw": "Xbox 360",
+      "zh-cn": "Xbox 360"
+    },
+    "maker": "Flex Ltd.",
+    "first_release": "2005-11-22",
+    "wikidata": "https://www.wikidata.org/wiki/Q48263"
+  },
+  {
+    "qid": "Q8079",
+    "slug": "wii",
+    "gen": "7",
+    "kind": "home",
+    "names": {
+      "en": "Wii",
+      "ja": "Wii",
+      "zh-tw": "Wii",
+      "zh-cn": "Wii"
+    },
+    "maker": "Foxconn",
+    "first_release": "2006-11-19",
+    "wikidata": "https://www.wikidata.org/wiki/Q8079"
+  },
+  {
+    "qid": "Q5014725",
+    "slug": "ps4",
+    "gen": "8",
+    "kind": "home",
+    "names": {
+      "en": "PlayStation 4",
+      "ja": "PlayStation 4",
+      "zh-tw": "PlayStation 4",
+      "zh-cn": "PlayStation 4"
+    },
+    "maker": "Sony Interactive Entertainment",
+    "first_release": "2013-11-15",
+    "wikidata": "https://www.wikidata.org/wiki/Q5014725"
+  },
+  {
+    "qid": "Q13361286",
+    "slug": "xbox-one",
+    "gen": "8",
+    "kind": "home",
+    "names": {
+      "en": "Xbox One",
+      "ja": "Xbox One",
+      "zh-tw": "Xbox One",
+      "zh-cn": "Xbox One"
+    },
+    "maker": "Flex Ltd.",
+    "first_release": "2013-11-22",
+    "wikidata": "https://www.wikidata.org/wiki/Q13361286"
+  },
+  {
+    "qid": "Q56942",
+    "slug": "wii-u",
+    "gen": "8",
+    "kind": "home",
+    "names": {
+      "en": "Wii U",
+      "ja": "Wii U",
+      "zh-tw": "Wii U",
+      "zh-cn": "Wii U"
+    },
+    "maker": "",
+    "first_release": "2012-11-18",
+    "wikidata": "https://www.wikidata.org/wiki/Q56942"
+  },
+  {
+    "qid": "Q19610114",
+    "slug": "switch",
+    "gen": "8",
+    "kind": "hybrid",
+    "names": {
+      "en": "Nintendo Switch",
+      "ja": "Nintendo Switch",
+      "zh-tw": "任天堂Switch",
+      "zh-cn": "任天堂Switch"
+    },
+    "maker": "Nintendo Platform Technology Development",
+    "first_release": "2017-03-03",
+    "wikidata": "https://www.wikidata.org/wiki/Q19610114"
+  },
+  {
+    "qid": "Q63184502",
+    "slug": "ps5",
+    "gen": "9",
+    "kind": "home",
+    "names": {
+      "en": "PlayStation 5",
+      "ja": "PlayStation 5",
+      "zh-tw": "PlayStation 5",
+      "zh-cn": "PlayStation 5"
+    },
+    "maker": "Sony Group",
+    "first_release": "2020-11-12",
+    "wikidata": "https://www.wikidata.org/wiki/Q63184502"
+  },
+  {
+    "qid": "Q64513817",
+    "slug": "xbox-series-x",
+    "gen": "9",
+    "kind": "home",
+    "names": {
+      "en": "Xbox Series X",
+      "ja": "Xbox Series X",
+      "zh-tw": "Xbox Series X",
+      "zh-cn": "Xbox Series X"
+    },
+    "maker": "Microsoft",
+    "first_release": "2020-11-10",
+    "wikidata": "https://www.wikidata.org/wiki/Q64513817"
+  },
+  {
+    "qid": "Q98967383",
+    "slug": "xbox-series-s",
+    "gen": "9",
+    "kind": "home",
+    "names": {
+      "en": "Xbox Series S",
+      "ja": "Xbox Series S",
+      "zh-tw": "Xbox Series S",
+      "zh-cn": "Xbox Series S"
+    },
+    "maker": "Microsoft",
+    "first_release": "2020-11-10",
+    "wikidata": "https://www.wikidata.org/wiki/Q98967383"
+  },
+  {
+    "qid": "Q122761124",
+    "slug": "switch-2",
+    "gen": "9",
+    "kind": "hybrid",
+    "names": {
+      "en": "Nintendo Switch 2",
+      "ja": "Nintendo Switch 2",
+      "zh-tw": "任天堂Switch 2",
+      "zh-cn": "任天堂Switch 2"
+    },
+    "maker": "Foxconn",
+    "first_release": "2025-06-05",
+    "wikidata": "https://www.wikidata.org/wiki/Q122761124"
+  },
+  {
+    "qid": "Q186437",
+    "slug": "game-boy",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Game Boy",
+      "ja": "ゲームボーイ",
+      "zh-tw": "Game Boy",
+      "zh-cn": "Game Boy"
+    },
+    "maker": "Nintendo Research & Development 1",
+    "first_release": "1989-04-21",
+    "wikidata": "https://www.wikidata.org/wiki/Q186437"
+  },
+  {
+    "qid": "Q203992",
+    "slug": "game-boy-color",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Game Boy Color",
+      "ja": "ゲームボーイカラー",
+      "zh-tw": "Game Boy Color",
+      "zh-cn": "Game Boy Color"
+    },
+    "maker": "Nintendo Research & Engineering Department",
+    "first_release": "1998-10-21",
+    "wikidata": "https://www.wikidata.org/wiki/Q203992"
+  },
+  {
+    "qid": "Q188642",
+    "slug": "game-boy-advance",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Game Boy Advance",
+      "ja": "ゲームボーイアドバンス",
+      "zh-tw": "Game Boy Advance",
+      "zh-cn": "Game Boy Advance"
+    },
+    "maker": "",
+    "first_release": "2001-03-21",
+    "wikidata": "https://www.wikidata.org/wiki/Q188642"
+  },
+  {
+    "qid": "Q170323",
+    "slug": "nintendo-ds",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Nintendo DS",
+      "ja": "ニンテンドーDS",
+      "zh-tw": "任天堂DS",
+      "zh-cn": "任天堂DS"
+    },
+    "maker": "",
+    "first_release": "2004-11-21",
+    "wikidata": "https://www.wikidata.org/wiki/Q170323"
+  },
+  {
+    "qid": "Q203597",
+    "slug": "nintendo-3ds",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Nintendo 3DS",
+      "ja": "ニンテンドー3DS",
+      "zh-tw": "任天堂3DS",
+      "zh-cn": "任天堂3DS"
+    },
+    "maker": "",
+    "first_release": "2011-02-26",
+    "wikidata": "https://www.wikidata.org/wiki/Q203597"
+  },
+  {
+    "qid": "Q751719",
+    "slug": "game-gear",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Game Gear",
+      "ja": "ゲームギア",
+      "zh-tw": "Game Gear",
+      "zh-cn": "Game Gear"
+    },
+    "maker": "",
+    "first_release": "1990-10-06",
+    "wikidata": "https://www.wikidata.org/wiki/Q751719"
+  },
+  {
+    "qid": "Q170325",
+    "slug": "psp",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "PlayStation Portable",
+      "ja": "PlayStation Portable",
+      "zh-tw": "PlayStation Portable",
+      "zh-cn": "PlayStation Portable"
+    },
+    "maker": "Sony Interactive Entertainment",
+    "first_release": "2004-12-12",
+    "wikidata": "https://www.wikidata.org/wiki/Q170325"
+  },
+  {
+    "qid": "Q188808",
+    "slug": "ps-vita",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "PlayStation Vita",
+      "ja": "PlayStation Vita",
+      "zh-tw": "PlayStation Vita",
+      "zh-cn": "PlayStation Vita"
+    },
+    "maker": "Sony Interactive Entertainment",
+    "first_release": "2011-12-17",
+    "wikidata": "https://www.wikidata.org/wiki/Q188808"
+  },
+  {
+    "qid": "Q1065792",
+    "slug": "wonderswan",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "WonderSwan",
+      "ja": "ワンダースワン",
+      "zh-tw": "WonderSwan",
+      "zh-cn": "WonderSwan"
+    },
+    "maker": "Bandai",
+    "first_release": "1999-03-04",
+    "wikidata": "https://www.wikidata.org/wiki/Q1065792"
+  },
+  {
+    "qid": "Q939881",
+    "slug": "neo-geo-pocket",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Neo Geo Pocket",
+      "ja": "ネオジオポケット",
+      "zh-tw": "Neo Geo Pocket",
+      "zh-cn": "Neo Geo Pocket"
+    },
+    "maker": "SNK",
+    "first_release": "1998-10-28",
+    "wikidata": "https://www.wikidata.org/wiki/Q939881"
+  },
+  {
+    "qid": "Q336434",
+    "slug": "n-gage",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "N-Gage",
+      "ja": "N-Gage",
+      "zh-tw": "N-Gage",
+      "zh-cn": "N-Gage"
+    },
+    "maker": "",
+    "first_release": "2003-10-07",
+    "wikidata": "https://www.wikidata.org/wiki/Q336434"
+  },
+  {
+    "qid": "Q164651",
+    "slug": "virtual-boy",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Virtual Boy",
+      "ja": "バーチャルボーイ",
+      "zh-tw": "Virtual Boy",
+      "zh-cn": "Virtual Boy"
+    },
+    "maker": "Nintendo Research & Development 1",
+    "first_release": "1995-07-21",
+    "wikidata": "https://www.wikidata.org/wiki/Q164651"
+  },
+  {
+    "qid": "Q753657",
+    "slug": "atari-lynx",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Atari Lynx",
+      "ja": "Atari Lynx",
+      "zh-tw": "雅达利Lynx",
+      "zh-cn": "雅达利Lynx"
+    },
+    "maker": "Atari Corporation",
+    "first_release": "1989-09-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q753657"
+  },
+  {
+    "qid": "Q966193",
+    "slug": "turbo-express",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "TurboExpress",
+      "ja": "PCエンジンGT",
+      "zh-tw": "PC Engine GT",
+      "zh-cn": "PC Engine GT"
+    },
+    "maker": "NEC",
+    "first_release": "1990-12-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q966193"
+  },
+  {
+    "qid": "Q1475303",
+    "slug": "microvision",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Microvision",
+      "ja": "Microvision",
+      "zh-tw": "Microvision",
+      "zh-cn": "Microvision"
+    },
+    "maker": "Milton Bradley Company",
+    "first_release": "1979-11-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q1475303"
+  },
+  {
+    "qid": "Q2498396",
+    "slug": "game-com",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Game.com",
+      "ja": "game.com",
+      "zh-tw": "",
+      "zh-cn": ""
+    },
+    "maker": "Tiger Electronics",
+    "first_release": "1997-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q2498396"
+  },
+  {
+    "qid": "Q523532",
+    "slug": "tapwave-zodiac",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Tapwave Zodiac",
+      "ja": "",
+      "zh-tw": "",
+      "zh-cn": ""
+    },
+    "maker": "Tapwave",
+    "first_release": "2003-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q523532"
+  }
+]

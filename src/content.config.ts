@@ -51,16 +51,4 @@ export const consoles = defineCollection({
   }),
 });
 
-export const generations = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/generations' }),
-  schema: z.object({
-    gen: z.union([z.number().int().min(1).max(9), z.literal('h'), z.literal('arcade-pc')]),
-    lang: langEnum,
-    title: z.string(),
-    period: z.string(),
-    summary: z.string(),
-    consoles: z.array(z.string()).default([]),
-  }),
-});
-
-export const collections = { consoles, generations };
+export const collections = { consoles };

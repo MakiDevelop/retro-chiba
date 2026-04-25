@@ -1,13 +1,12 @@
 ---
-import { getCollection } from 'astro:content';
 import GenerationPage from '../../../components/GenerationPage.astro';
+import { allGenKeys } from '../../../data/generations';
 
-export async function getStaticPaths() {
-  const entries = await getCollection('generations', (e) => e.data.lang === 'en');
-  return entries.map((entry) => ({ params: { gen: String(entry.data.gen) }, props: { entry } }));
+export function getStaticPaths() {
+  return allGenKeys.map((gen) => ({ params: { gen }, props: { gen } }));
 }
 
-const { entry } = Astro.props;
+const { gen } = Astro.props;
 ---
 
-<GenerationPage entry={entry} lang="en" />
+<GenerationPage gen={gen} lang="en" />
