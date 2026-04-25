@@ -1,0 +1,79 @@
+# Curated Wikidata Q-IDs for retro.chiba.tw
+# Format: QID,gen,kind,nickname
+# Auto-rebuilt by scripts/rebuild-seeds.py
+
+
+# Gen 1 (1972-1983)
+Q744987,1,home,Magnavox Odyssey
+Q6390435,1,home,Atari Home Pong
+Q1064163,1,home,Coleco Telstar
+
+# Gen 2 (1976-1992)
+Q206261,2,home,Atari 2600
+Q743222,2,home,Atari 5200
+Q1061441,2,home,Intellivision
+Q1046862,2,home,ColecoVision
+Q767631,2,home,Vectrex
+Q576932,2,home,Magnavox Odyssey 2
+
+# Gen 3 (1983-2003)
+Q172742,3,home,Nintendo Entertainment System / Famicom
+Q209868,3,home,Sega Master System
+Q753600,3,home,Atari 7800
+
+# Gen 4 (1987-2004)
+Q183259,4,home,Super Nintendo / Super Famicom
+Q10676,4,home,Sega Genesis / Mega Drive
+Q1057377,4,home,TurboGrafx-16 / PC Engine
+Q64428080,4,home,Neo Geo AES
+Q1047516,4,home,Sega CD / Mega-CD
+
+# Gen 5 (1993-2006)
+Q10677,5,home,PlayStation
+Q184839,5,home,Nintendo 64
+Q200912,5,home,Sega Saturn
+Q229429,5,home,3DO Interactive Multiplayer
+Q15015195,5,home,Apple Pippin
+Q650601,5,home,Atari Jaguar
+
+# Gen 6 (1998-2013)
+Q184198,6,home,Sega Dreamcast
+Q10680,6,home,PlayStation 2
+Q182172,6,home,Nintendo GameCube
+Q132020,6,home,Xbox
+
+# Gen 7 (2005-2017)
+Q10683,7,home,PlayStation 3
+Q48263,7,home,Xbox 360
+Q8079,7,home,Wii
+
+# Gen 8 (2012-)
+Q5014725,8,home,PlayStation 4
+Q13361286,8,home,Xbox One
+Q56942,8,home,Wii U
+Q19610114,8,hybrid,Nintendo Switch
+
+# Gen 9 (2020-)
+Q63184502,9,home,PlayStation 5
+Q64513817,9,home,Xbox Series X
+Q98967383,9,home,Xbox Series S
+Q122761124,9,hybrid,Nintendo Switch 2
+
+# Handhelds (獨立支線)
+Q186437,h,handheld,Game Boy
+Q203992,h,handheld,Game Boy Color
+Q188642,h,handheld,Game Boy Advance
+Q170323,h,handheld,Nintendo DS
+Q203597,h,handheld,Nintendo 3DS
+Q751719,h,handheld,Sega Game Gear
+Q170325,h,handheld,PlayStation Portable
+Q188808,h,handheld,PlayStation Vita
+Q1065792,h,handheld,WonderSwan
+Q939881,h,handheld,Neo Geo Pocket
+Q336434,h,handheld,Nokia N-Gage
+Q164651,h,handheld,Virtual Boy
+Q753657,h,handheld,Atari Lynx
+Q966193,h,handheld,TurboExpress
+Q1475303,h,handheld,Microvision
+Q2498396,h,handheld,Tiger Game.com
+Q523532,h,handheld,Tapwave Zodiac
