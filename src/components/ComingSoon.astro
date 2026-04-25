@@ -1,0 +1,38 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="flex flex-col items-center gap-8 py-16 text-center">
+  <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">
+    [ MUSEUM · STATUS · 0001 ]
+  </p>
+
+  <h1 class="font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">
+    {t('site.title')}
+  </h1>
+
+  <p class="max-w-xl text-sm text-crt-text/80 md:text-base">
+    {t('site.tagline')}
+  </p>
+
+  <div class="my-10 inline-block rounded border border-crt-amber/40 bg-crt-panel/60 px-8 py-6">
+    <div class="font-pixel text-lg text-crt-amber crt-glow md:text-xl">
+      {t('soon.heading')}
+    </div>
+    <div class="mt-4 max-w-md text-sm text-crt-text/80">
+      {t('soon.body')}
+    </div>
+    <div class="mt-6 text-xs text-crt-text/40">{t('soon.signature')}</div>
+  </div>
+
+  <pre
+    class="hidden font-mono text-[10px] text-crt-amber-dim md:block">
+{`     ╔═══════════════════════════╗
+     ║   ▓▓▓ NOW LOADING... ▓▓▓  ║
+     ║   ░░░░░░░░░░░░░░░░░░░ 5%  ║
+     ╚═══════════════════════════╝`}
+  </pre>
+</section>
