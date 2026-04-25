@@ -24,11 +24,18 @@ specs:
 images:
   hero:
     src: "/img/consoles/super-famicom-hero.jpg"
-    alt: "Super Famicom 主機 + 雙肩鈕控制器"
-    caption: "Super Famicom，1990 年 11 月 21 日上市，25,000 円。圓潤線條、四色按鈕（紅黃綠藍）、控制器引入了 L/R 肩鈕——這個介面影響了之後三十年的家用機。"
+    alt: "日本版 Super Famicom 主機（米白圓潤）+ 四色按鈕控制器"
+    caption: "Super Famicom 日本版，1990 年 11 月 21 日上市，25,000 円。米白圓潤外型、四色按鈕（紅黃綠藍）、控制器引入 L/R 肩鈕——這個介面影響了之後三十年的家用機。"
     license: PD
     author: "Evan-Amos"
-    source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
+    source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Super-Famicom-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/snes-na.jpg"
+      alt: "北美版 Super Nintendo Entertainment System（紫黑配色）"
+      caption: "北美版 SNES（1991 年）。為了避開 Atari 大崩盤後對「console」一詞的零售焦慮，外型徹底重新設計——紫色按鈕與直角線條，與日版反差極大。"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
 notable_games:
   - "超級瑪利歐世界（任天堂，1990，內附）"
   - "薩爾達傳說：眾神的三角力量（任天堂，1991）"

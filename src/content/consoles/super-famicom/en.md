@@ -24,11 +24,18 @@ specs:
 images:
   hero:
     src: "/img/consoles/super-famicom-hero.jpg"
-    alt: "Super Famicom console with two-shoulder controller"
-    caption: "Super Famicom, released 21 November 1990 at ¥25,000. The rounded silhouette, four-color buttons (red/yellow/green/blue), and the introduction of L/R shoulder buttons set the template that home consoles would follow for the next thirty years."
+    alt: "Japanese Super Famicom (cream rounded body) with four-color button controller"
+    caption: "Super Famicom (Japanese edition), released 21 November 1990 at ¥25,000. The cream rounded silhouette, four-color buttons (red/yellow/green/blue), and the introduction of L/R shoulder buttons set the template that home consoles would follow for the next thirty years."
     license: PD
     author: "Evan-Amos"
-    source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
+    source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Super-Famicom-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/snes-na.jpg"
+      alt: "North American Super Nintendo Entertainment System (purple/grey)"
+      caption: "North American SNES (1991). The exterior was redesigned from the ground up — purple buttons, hard-edged grey casing — to escape the post-1983 retail anxiety around the word 'console'. Visually a world apart from the Japanese cousin."
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
 notable_games:
   - "Super Mario World (Nintendo, 1990 — pack-in)"
   - "The Legend of Zelda: A Link to the Past (Nintendo, 1991)"

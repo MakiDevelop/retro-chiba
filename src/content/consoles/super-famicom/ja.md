@@ -24,11 +24,18 @@ specs:
 images:
   hero:
     src: "/img/consoles/super-famicom-hero.jpg"
-    alt: "スーパーファミコン本体と肩ボタン搭載コントローラ"
-    caption: "スーパーファミコン、1990 年 11 月 21 日発売、25,000 円。丸みを帯びた筐体、4 色（赤黄緑青）ボタン、L/R 肩ボタンの導入——以後 30 年の家庭用機の基本形を定めた。"
+    alt: "日本版スーパーファミコン本体（クリーム色・丸み）と 4 色ボタンコントローラ"
+    caption: "スーパーファミコン日本版、1990 年 11 月 21 日発売、25,000 円。クリーム色の丸みを帯びた筐体、4 色（赤黄緑青）ボタン、L/R 肩ボタンの導入——以後 30 年の家庭用機の基本形を定めた。"
     license: PD
     author: "Evan-Amos"
-    source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
+    source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Super-Famicom-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/snes-na.jpg"
+      alt: "北米版 Super Nintendo Entertainment System（紫グレー）"
+      caption: "北米版 SNES（1991 年）。1983 年アタリショック後、玩具流通が「console」という語に抱いていた抵抗感を回避するため筐体を全面再設計——紫ボタン・直線基調のグレー筐体は、丸みを帯びた日本版とは別物の視覚言語。"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
 notable_games:
   - "スーパーマリオワールド（任天堂、1990、本体同梱）"
   - "ゼルダの伝説 神々のトライフォース（任天堂、1991）"

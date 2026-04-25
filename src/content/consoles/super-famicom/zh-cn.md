@@ -24,11 +24,18 @@ specs:
 images:
   hero:
     src: "/img/consoles/super-famicom-hero.jpg"
-    alt: "Super Famicom 主机 + 双肩键手柄"
-    caption: "Super Famicom，1990 年 11 月 21 日上市，25,000 日元。圆润线条、四色按钮（红黄绿蓝）、手柄引入 L/R 肩键——这个界面影响了之后三十年的家用机。"
+    alt: "日版 Super Famicom 主机（米白圆润）+ 四色按钮手柄"
+    caption: "Super Famicom 日版，1990 年 11 月 21 日上市，25,000 日元。米白圆润外型、四色按钮（红黄绿蓝）、手柄引入 L/R 肩键——这个界面影响了之后三十年的家用机。"
     license: PD
     author: "Evan-Amos"
-    source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
+    source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Super-Famicom-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/snes-na.jpg"
+      alt: "北美版 Super Nintendo Entertainment System（紫黑配色）"
+      caption: "北美版 SNES（1991 年）。为了避开 Atari 大崩盘后零售对「console」一词的焦虑，外型彻底重新设计——紫色按钮与直角线条，与日版反差极大。"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
 notable_games:
   - "超级马里奥世界（任天堂，1990，附赠）"
   - "塞尔达传说：众神的三角力量（任天堂，1991）"
