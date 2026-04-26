@@ -37,4 +37,14 @@ notable_games:
   - "Jet Set Radio（Smilebit，2000）"
 ---
 
-Sega 最后一台家用主机。技术上领先一代——内建 modem 把线上对战送进客厅、PowerVR2 图形足以对抗下一世代 PS2、GD-ROM 容量翻倍。但 PS2 在 2000 年挟 DVD 播放器与向下兼容上市后，Dreamcast 销售崩盘。**Sega 2001 年宣布永久退出主机硬件业务**——一个 24 年的家用主机品牌就此走入历史。
+Dreamcast 是 Sega 在家用主机产业的最后一搏，**也是史上最被低估的失败主机**。1990 年代后期 Sega 经历 Mega-CD、32X、Saturn 连续失败后，内部 1996 年启动「**黑带计划**」（Project Blackbelt，后改名 Katana），决定全部归零、放弃 Saturn 的双 CPU 噩梦架构，从零打造下一代。1998 年 11 月 27 日，Dreamcast 在日本上市，售价 29,800 日元。**这是家用主机史上第一台内建调制解调器的机种**——Sega 把 56k modem（日本 33.6k）直接焊在主板上，要把在线对战送进客厅。**比 Xbox Live 早 4 年、比 PS3 标准宽带早 8 年。**
+
+技术上 Dreamcast 领先一代。Hitachi SH-4 CPU @ 200 MHz、PowerVR2 GPU（NEC CLX2）、16 MB 统一内存、GD-ROM 1.2 GB 高密度光盘（CD 容量翻倍）——当 1998 年 PS1 还在主流的时候，Dreamcast 直接跳进 6 代规格战场。手柄内建 VMU（Visual Memory Unit），一个**有自己屏幕的记忆卡**，可以拔下来当迷你游戏机（Sega 设计师认为「玩家应该能在公司偷玩 Sonic Adventure 的迷你版」）。
+
+但 1999 年 5 月美国 E3，**Bernie Stolar**（前 Sony PSX 守护者，当时是 Sega of America 主席）离职前泄漏了致命一击：他**对外揭示 Sony 即将推出的 PS2 规格**——DVD 播放、PS1 向下兼容、Emotion Engine 比 Dreamcast 强三倍。**这个泄漏直接定型了 Dreamcast 的死刑**。北美零售商与媒体开始把 Dreamcast 视为「过渡品」，等 PS2 上市才买真正的主机。2000 年 3 月 PS2 在日本上市后，Dreamcast 销售一路崩盘。
+
+软件阵容却是 Sega 史上最好的。**《莎木 Shenmue》**（1999，铃木裕）——当时史上最贵的游戏（制作预算 7,000 万美元，超过好莱坞 A 级电影），定义了「QTE」与「开放城市生活模拟」这两个品类，至今仍是日式游戏设计的传说。**《Phantasy Star Online》**（2000）是**家用主机史上第一款 MMORPG**，比 Final Fantasy XI 早一年。**《Sonic Adventure》**、**《Soulcalibur》**（划时代的对战格斗画面）、**《Jet Set Radio》**（cel-shading 卡通渲染与嘻哈涂鸦文化的合体）、**《Crazy Taxi》**——这些游戏的影响至今仍在。
+
+中国大陆 Dreamcast 几乎完全空白——主机禁令期 + PS2 烧录文化太强势。少数玩家通过水货管道接触过《莎木》与 PSO，但远不如 PS2 普及。台湾水货管道有但边缘化。
+
+2001 年 1 月 31 日，**Sega 宣布永久退出主机硬件业务**。Dreamcast 全球累计约 **1,060 万台**（含 2001 后清库存），2001 年 3 月正式停产。**Sega 从 1977 年第一台 SG-1000 起家，到 2001 年退出，24 年的家用主机历史就此结束。** Sega 从此转型为纯软件发行商与街机商，《Sonic》、《如龙》、《女神异闻录》（后来吸收 Atlus）撑起新时代。**Dreamcast 是「对的硬件、错的时机」最尖锐的范例——它的死亡不是因为它弱，是因为 PS2 太强、Sega 太累、客厅争夺战的标准从硬件变成媒介整合。**
