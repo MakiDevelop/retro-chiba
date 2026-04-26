@@ -103,8 +103,61 @@ variants:
 
 ## 3. 還沒做但已知要補
 
-- **影像 pipeline 自動化**（`scripts/wikimedia.py` fetcher）
 - **Tailwind typography**：body prose 樣式陽春
 - **每台主機影片**（廠商官方 retro YouTube 嵌入）
-- **掌機支線 17 台**（最大未開工區塊）
 - **首頁時間軸視覺**：目前是清單式，可考慮做成真正時間軸（橫向 / 縱向）
+
+## 4. 已完成基礎工程
+
+### 影像 pipeline 自動化（2026-04-26）
+
+`scripts/wikimedia.py` 已就位。在 console frontmatter `images.gallery` 加入：
+
+```yaml
+images:
+  gallery:
+    - src: "wikimedia:File:Nintendo-Famicom-AV-Console-Set.jpg"
+      alt: "AV ファミコン HVC-101（1993）"
+      caption: "AV Famicom（1993）—— 任天堂為延長 FC 壽命推出的小型重設計版"
+      license: PD              # 留 placeholder，腳本會校正
+```
+
+然後跑：
+
+```bash
+# 先 dry run 看看會抓什麼
+python3 scripts/wikimedia.py
+
+# 實際執行：下載到 public/img/consoles/、改寫 frontmatter src 指向本地路徑
+python3 scripts/wikimedia.py --apply
+```
+
+腳本會：
+1. 從 Commons API 抓 license / author / source_url
+2. 下載圖檔到 `public/img/consoles/<console-slug>-<commons-name>.jpg`
+3. 重寫該 markdown：`src` 改成本地路徑，補齊 `license` / `author` / `source_url`
+4. 4 語版本共用同一個圖檔（節省下載）
+5. 已存在的圖檔 skip，re-run 安全
+
+完成後可跑 `python3 scripts/optimize-images.py` 壓縮 jpg + `node scripts/generate-console-thumbs.mjs` 生 webp 縮圖。
+
+### 已 Phase 2 完整清單（2026-04-26）
+
+家用主機編年史 31 台 × 4 語（124 篇）全 Phase 2 敘事完成：
+- **Gen 1**：Magnavox Odyssey / Atari Pong / Coleco Telstar
+- **Gen 2**：Atari 2600 / Magnavox Odyssey² / Intellivision / Atari 5200 / ColecoVision / Vectrex
+- **Gen 3**：Famicom / Master System / Atari 7800
+- **Gen 4**：Super Famicom / Mega Drive / PC Engine / Neo Geo AES / Sega CD
+- **Gen 5**：PS1 / N64 / Saturn / 3DO / Apple Pippin / Atari Jaguar
+- **Gen 6**：PS2 / Xbox / GameCube / Dreamcast
+- **Gen 7**：PS3 / Xbox 360 / Wii
+- **Gen 8/9**：（Phase 1 階段，待後續批次升 Phase 2）
+
+掌機支線 17 台 × 4 語（68 篇）為 Phase 1（commit 85a6e4c）。
+
+### 4 語 tone 差異化已落實
+
+- **en**: archival 敘事，社會脈絡（Senate 聽證、ESRB 起源等）
+- **ja**: 1970-2000 年代日本廠商視角（Sony / Sega / 任天堂）
+- **zh-tw**: 中華商場、光華商場、電玩通月刊、童年水貨
+- **zh-cn**: 民間漢化文化（天幻網、漢化新世紀）、主機禁令空白、街機室拳皇文化
