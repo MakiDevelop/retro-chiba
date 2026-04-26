@@ -33,4 +33,12 @@ notable_games:
   - "Practice（内置单人模式）"
 ---
 
-1976 年家用主机产业「**第一波山寨潮**」的代表作——同期几十家厂商都用 General Instrument 的 **AY-3-8500「Pong-on-a-chip」**芯片做外壳包装差异化的 Pong 机，Coleco 系列销量最高。Coleco 从 1932 年皮革厂出身、转型玩具、靠 Telstar 建立电子玩具部门——这个经验让它有能力在 1982 年推出**真正的次世代主机 ColecoVision**。
+Coleco Telstar 是 1976 年家用主机产业**第一波「山寨潮」**的代表作——但这个故事比表面看起来复杂。1976 年初，半导体大厂 **General Instrument**（GI）发表了 **AY-3-8500**——人类史上第一颗「**Pong-on-a-chip**」消费级 IC。这颗芯片把 Pong 系列游戏的整个逻辑压缩进单一 ASIC，**并且 GI 对任何家电厂商开放购买**。零售价约 $5-8 美元、开发周期几个月、不需要懂游戏设计——**任何家电厂都能变成主机厂**。
+
+结果 1976-1977 年间出现了主机产业史上最荒唐的场面——**全球超过 70 家厂商**用同一颗 AY-3-8500 芯片做出不同外壳的 Pong 机。Sears 自家 Tele-Games、Radio Shack TV Scoreboard、Magnavox Odyssey 100/200（连 Magnavox 自己都加入了）、Roberts、Toshiba、National、PC-Pong、APF TV Fun、Universal Research、Wonder Wizard——清单长到列不完。**这是第一波「主机 = 通用芯片 + 自订外壳」的标准化商品大潮**，跟 1990 年代 PC 「组装市场」是完全相同的商业模式。
+
+**Coleco Telstar 系列在这波山寨潮中销量最高**——1976-1978 年间累计超过 100 万台，因为 Coleco 比竞争者多做了三件事：（1）外壳设计奇特显眼（米色塑料三角形主机、内置旋钮无线造型）、（2）变种机型多达十几款（Telstar / Alpha / Combat / Ranger / Arcade / Marksman / Galaxy 各针对不同价位带与渠道）、（3）营销比所有对手强。
+
+Coleco 公司本身的故事更值得写——**1932 年成立的「Connecticut Leather Company」**（康涅狄格皮革公司，原名 COnnecticut LEather COmpany 缩写），1950-60 年代从皮革转型玩具，1976 年靠 Telstar 系列建立**电子玩具部门**。**这个部门的累积经验让 Coleco 在 1982 年推出真正的次世代主机 ColecoVision**——一台采用 Z80 CPU、可换卡带、第三方授权街机 Donkey Kong 的成熟家用机（会在 Gen 2 条目详述）。
+
+Telstar 系列在 1978 年随着 Atari 2600 普及瞬间过时，但**它证明了「Pong 机通用芯片」这个商业模式的极限**——当没有差异化的标准化商品大量涌入市场时，产业必然会被「真正能换软件」的下一代取代。**这是 1983 年 Atari 大崩盘的伏笔。**
