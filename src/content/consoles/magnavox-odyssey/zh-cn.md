@@ -34,4 +34,10 @@ notable_games:
   - "Ski（内置）"
 ---
 
-**史上第一台家用电视游戏机**——1972 年 9 月发行，比 Atari Pong 早 3 年。Ralph Baer 自 1968 年「Brown Box」原型发展而来。没有 CPU、纯模拟电路；游戏画面只有移动的白点，玩家须**贴塑料彩色 overlay 上电视屏幕**作为背景，实体骰子与纸钞当道具。1976 年 Atari Pong 上市后 Magnavox 反告 Atari 抄袭，达成历史性授权和解——这也催生了往后家用主机产业的所有专利战先例。
+Magnavox Odyssey 是**人类史上第一台家用电视游戏机**——1972 年 9 月在北美上市，售价 $99 美元（2026 年币值约 $750）。比 Atari Pong 早整整 3 年。设计者是 **Ralph Baer**（1922-2014），一位德裔美籍工程师，1966 年在国防电子公司 Sanders Associates 上班时提出「**让电视机从接收信号变成互动装置**」的想法。1968 年 Baer 完成「**Brown Box**」原型机（外壳贴木纹胶布，内部是晶体管电路），1971 年授权给家电厂 Magnavox 量产。
+
+技术上 Odyssey **完全没有 CPU**——纯模拟晶体管电路。没有 RAM、没有 ROM、没有可加载的「程序」。**「游戏卡」其实是电路跳线卡**，插进主机后改变硬件电路本身的信号流向。画面是电视扫描线上的几个白色色块，没有色彩。为了让游戏看起来不那么贫瘠，Magnavox **附赠塑料彩色 overlay**——你要把这些半透明塑料片**贴在电视屏幕上**当作关卡背景；某些游戏还附塑料骰子、纸钞、计分卡，要玩家自己手动算分。**这是「家用机」最原始的形态：电视当显示器、塑料当道具、玩家当 CPU。**
+
+历史上最关键的不是 Odyssey 本身的销量（35 万台，几乎全部在北美），而是它引发的**第一场电玩产业专利战**。1972 年 5 月 Burlingame，加州一场 Magnavox 经销商 demo 中，**Nolan Bushnell**（Atari 创办人）亲眼看过 Odyssey 的「Table Tennis」游戏。三年后 Atari 推出 Pong，玩法几乎一模一样。Magnavox 1974 年起诉 Atari 专利侵权，1976 年达成和解（Atari 一次付 70 万美元换取永久授权）。**这场官司的判例催生了往后家用主机产业所有专利战的先例**——任天堂与 Universal、Sony 与 Immersion、Nintendo 与 Tropic 等等。
+
+Ralph Baer 后来被尊称为「**家用电玩之父**」（Father of Video Games），2006 年获颁美国国家科技奖章（National Medal of Technology）。Magnavox Odyssey 在 2026 年的今天看来简陋到难以想象，但**它就是这个产业的零点**——没有它，没有后面所有东西。
