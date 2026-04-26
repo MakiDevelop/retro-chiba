@@ -17,6 +17,7 @@ const { entry, lang } = Astro.props;
 const t = useTranslations(lang);
 const { Content } = await render(entry);
 const d = entry.data;
+const hasLightbox = Boolean(d.images.hero || d.images.gallery.length > 0);
 
 const specsI18n = {
   specsTitle: t('console.specs'),
@@ -48,36 +49,138 @@ const specsI18n = {
       </h1>
     </header>
 
-    {d.images.hero && (
-      <figure class="my-6">
-        <img
-          src={d.images.hero.src}
-          alt={d.images.hero.alt ?? ''}
-          class="w-full rounded border border-crt-dim/40"
-          loading="eager"
-        />
-        <Figcaption {...d.images.hero} />
-      </figure>
-    )}
+    <div data-console-lightbox-root>
+      {d.images.hero && (
+        <figure class="my-6">
+          <button
+            type="button"
+            class="group block w-full cursor-zoom-in text-left"
+            data-lightbox-trigger
+            data-lightbox-src={d.images.hero.src}
+            data-lightbox-alt={d.images.hero.alt ?? d.title}
+            data-lightbox-caption={d.images.hero.caption ?? ''}
+            aria-haspopup="dialog"
+          >
+            <img
+              src={d.images.hero.src}
+              alt={d.images.hero.alt ?? ''}
+              class="w-full rounded border border-crt-dim/40 transition duration-300 group-hover:border-crt-amber/70"
+              loading="eager"
+            />
+          </button>
+          <Figcaption {...d.images.hero} />
+        </figure>
+      )}
 
-    {d.images.gallery.length > 0 && (
-      <section class="my-10">
-        <h2 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{t('console.gallery')}</h2>
-        <div class="grid gap-6 md:grid-cols-2">
-          {d.images.gallery.map((g) => (
-            <figure>
-              <img
-                src={g.src}
-                alt={g.alt ?? ''}
-                class="w-full rounded border border-crt-dim/40"
-                loading="lazy"
-              />
-              <Figcaption {...g} />
-            </figure>
-          ))}
-        </div>
-      </section>
-    )}
+      {d.images.gallery.length > 0 && (
+        <section class="my-10">
+          <h2 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{t('console.gallery')}</h2>
+          <div class="grid gap-6 md:grid-cols-2">
+            {d.images.gallery.map((g) => (
+              <figure>
+                <button
+                  type="button"
+                  class="group block w-full cursor-zoom-in text-left"
+                  data-lightbox-trigger
+                  data-lightbox-src={g.src}
+                  data-lightbox-alt={g.alt ?? d.title}
+                  data-lightbox-caption={g.caption ?? ''}
+                  aria-haspopup="dialog"
+                >
+                  <img
+                    src={g.src}
+                    alt={g.alt ?? ''}
+                    class="w-full rounded border border-crt-dim/40 transition duration-300 group-hover:border-crt-amber/70"
+                    loading="lazy"
+                  />
+                </button>
+                <Figcaption {...g} />
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {hasLightbox && (
+        <>
+          <dialog
+            data-lightbox-dialog
+            class="m-0 w-[min(92vw,1100px)] max-w-none overflow-hidden rounded-xl border border-crt-amber/70 bg-crt-bg/95 p-0 text-crt-text shadow-[0_0_35px_rgba(255,176,0,0.12)] backdrop:bg-black/85"
+          >
+            <div class="relative">
+              <button
+                type="button"
+                data-lightbox-close
+                aria-label={t('console.lightboxClose')}
+                class="absolute right-3 top-3 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-crt-amber/45 bg-crt-bg/80 font-mono text-lg text-crt-amber transition hover:border-crt-amber hover:bg-crt-panel/95"
+              >
+                ×
+              </button>
+              <img data-lightbox-image alt="" class="max-h-[82vh] w-full bg-black object-contain" />
+              <p
+                data-lightbox-caption
+                class="border-t border-crt-dim/50 px-4 py-3 text-sm leading-relaxed text-crt-text/80"
+                hidden
+              ></p>
+            </div>
+          </dialog>
+
+          <script is:inline>
+            for (const root of document.querySelectorAll('[data-console-lightbox-root]')) {
+              const dialog = root.querySelector('[data-lightbox-dialog]');
+              const image = root.querySelector('[data-lightbox-image]');
+              const caption = root.querySelector('[data-lightbox-caption]');
+              const close = root.querySelector('[data-lightbox-close]');
+
+              if (!(dialog instanceof HTMLDialogElement) || !(image instanceof HTMLImageElement) || !(caption instanceof HTMLElement)) {
+                continue;
+              }
+
+              const closeDialog = () => {
+                if (dialog.open) {
+                  dialog.close();
+                }
+              };
+
+              const openDialog = (trigger) => {
+                const src = trigger.getAttribute('data-lightbox-src');
+                if (!src) {
+                  return;
+                }
+
+                image.src = src;
+                image.alt = trigger.getAttribute('data-lightbox-alt') || '';
+
+                const text = trigger.getAttribute('data-lightbox-caption') || '';
+                caption.textContent = text;
+                caption.hidden = text.length === 0;
+
+                dialog.showModal();
+                document.body.style.overflow = 'hidden';
+              };
+
+              for (const trigger of root.querySelectorAll('[data-lightbox-trigger]')) {
+                trigger.addEventListener('click', () => openDialog(trigger));
+              }
+
+              close?.addEventListener('click', closeDialog);
+              dialog.addEventListener('click', (event) => {
+                if (event.target === dialog) {
+                  closeDialog();
+                }
+              });
+              dialog.addEventListener('close', () => {
+                image.removeAttribute('src');
+                image.alt = '';
+                caption.textContent = '';
+                caption.hidden = true;
+                document.body.style.overflow = '';
+              });
+            }
+          </script>
+        </>
+      )}
+    </div>
 
     <ConsoleSpecs
       specs={d.specs}
@@ -87,7 +190,7 @@ const specsI18n = {
       i18n={specsI18n}
     />
 
-    <div class="prose prose-invert prose-crt max-w-none [&_p]:text-crt-text/85 [&_strong]:text-crt-amber">
+    <div class="prose prose-invert prose-crt max-w-none">
       <Content />
     </div>
 

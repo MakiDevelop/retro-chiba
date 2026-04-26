@@ -62,21 +62,37 @@ const buildingLabel = {
           {allConsoles.map((c) => {
             const isFull = fullSlugs.has(c.slug);
             const displayName = c.names[lang] || c.names.en || c.slug;
+            const thumbBase = `/img/consoles/thumbs/${c.slug}-hero`;
             const cardClass = isFull
-              ? 'block rounded border border-crt-dim/40 bg-crt-panel/40 p-5 transition hover:border-crt-amber/60'
-              : 'block rounded border border-crt-dim/30 bg-crt-panel/20 p-5 opacity-70';
+              ? 'group block overflow-hidden rounded-xl border border-crt-dim/40 bg-crt-panel/40 transition hover:-translate-y-0.5 hover:border-crt-amber/60 hover:bg-crt-panel/65'
+              : 'group block overflow-hidden rounded-xl border border-crt-dim/30 bg-crt-panel/20 opacity-80';
             const inner = (
               <>
-                <div class="font-pixel text-sm text-crt-amber">{displayName}</div>
-                <div class="mt-1 text-xs text-crt-text/60">{c.maker || '—'}</div>
-                {c.first_release && (
-                  <div class="mt-1 font-mono text-xs text-crt-text/45">{c.first_release}</div>
-                )}
-                {!isFull && (
-                  <div class="mt-3 inline-block rounded border border-crt-dim/40 px-2 py-0.5 text-[10px] uppercase tracking-wider text-crt-text/50">
-                    {buildingLabel}
-                  </div>
-                )}
+                <div class="aspect-video overflow-hidden border-b border-crt-dim/30 bg-crt-bg/50">
+                  <img
+                    src={`${thumbBase}-640.webp`}
+                    srcset={`${thumbBase}-320.webp 320w, ${thumbBase}-640.webp 640w`}
+                    sizes="(min-width: 768px) 44vw, 92vw"
+                    alt={displayName}
+                    width="640"
+                    height="360"
+                    class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="p-5">
+                  <div class="font-pixel text-sm leading-relaxed text-crt-amber">{displayName}</div>
+                  <div class="mt-1 text-xs text-crt-text/60">{c.maker || '—'}</div>
+                  {c.first_release && (
+                    <div class="mt-2 font-mono text-xs text-crt-text/45">{c.first_release}</div>
+                  )}
+                  {!isFull && (
+                    <div class="mt-3 inline-block rounded border border-crt-dim/40 px-2 py-0.5 text-[10px] uppercase tracking-wider text-crt-text/50">
+                      {buildingLabel}
+                    </div>
+                  )}
+                </div>
               </>
             );
             return (

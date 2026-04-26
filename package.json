@@ -4,14 +4,17 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "predev": "node scripts/generate-console-thumbs.mjs",
     "dev": "astro dev",
+    "prebuild": "node scripts/generate-console-thumbs.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.17.1",
     "@astrojs/tailwind": "^5.1.4",
+    "@tailwindcss/typography": "^0.5.19",
+    "astro": "^5.17.1",
     "tailwindcss": "^3.4.17"
   }
 }

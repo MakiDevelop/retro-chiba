@@ -19,6 +19,7 @@ export const ui = {
     'soon.cta': '進入第三世代展廳',
     'home.gen3': '第三世代（1983-2003）',
     'home.gen3desc': '8-bit 革命：紅白機橫掃全球，Master System 在歐洲撐住場面，Atari 7800 完成最後一搏。',
+    'home.handheldMark': '掌機',
     'gen.title': '第 {n} 世代',
     'gen.consoles': '本世代主機',
     'gen.back': '回首頁',
@@ -35,6 +36,7 @@ export const ui = {
     'console.gallery': '影像紀錄',
     'console.video': '廣告 / 紀錄影片',
     'console.back': '回第 {n} 世代',
+    'console.lightboxClose': '關閉放大圖片',
   },
   'zh-cn': {
     'site.title': '怀旧电玩历史馆',
@@ -45,6 +47,7 @@ export const ui = {
     'soon.cta': '进入第三世代展厅',
     'home.gen3': '第三世代（1983-2003）',
     'home.gen3desc': '8-bit 革命：红白机横扫全球，Master System 在欧洲撑住场面，Atari 7800 完成最后一搏。',
+    'home.handheldMark': '掌机',
     'gen.title': '第 {n} 世代',
     'gen.consoles': '本世代主机',
     'gen.back': '回首页',
@@ -61,6 +64,7 @@ export const ui = {
     'console.gallery': '影像记录',
     'console.video': '广告 / 记录影片',
     'console.back': '回第 {n} 世代',
+    'console.lightboxClose': '关闭放大图片',
   },
   en: {
     'site.title': 'Retro Console Museum',
@@ -71,6 +75,7 @@ export const ui = {
     'soon.cta': 'Enter the Third Generation hall',
     'home.gen3': 'Third Generation (1983–2003)',
     'home.gen3desc': 'The 8-bit revolution: Famicom swept the world, Master System held Europe, Atari 7800 made a last stand.',
+    'home.handheldMark': 'Handheld',
     'gen.title': 'Generation {n}',
     'gen.consoles': 'Consoles in this generation',
     'gen.back': 'Back to home',
@@ -87,6 +92,7 @@ export const ui = {
     'console.gallery': 'Image archive',
     'console.video': 'Commercials / archival video',
     'console.back': 'Back to Generation {n}',
+    'console.lightboxClose': 'Close enlarged image',
   },
   ja: {
     'site.title': 'レトロゲーム歴史館',
@@ -97,6 +103,7 @@ export const ui = {
     'soon.cta': '第3世代の展示室へ',
     'home.gen3': '第3世代（1983–2003）',
     'home.gen3desc': '8ビット革命。ファミコンが世界を席巻し、マスターシステムが欧州を支え、Atari 7800 が最後の戦いを見せた。',
+    'home.handheldMark': '携帯機',
     'gen.title': '第 {n} 世代',
     'gen.consoles': 'この世代のゲーム機',
     'gen.back': 'ホームへ',
@@ -113,6 +120,7 @@ export const ui = {
     'console.gallery': '画像アーカイブ',
     'console.video': 'CM / アーカイブ映像',
     'console.back': '第 {n} 世代へ戻る',
+    'console.lightboxClose': '拡大画像を閉じる',
   },
 } as const;
 
