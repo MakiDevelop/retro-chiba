@@ -35,4 +35,12 @@ notable_games:
   - "Ys I & II（Falcom，1989，CD-ROM²）"
 ---
 
-8 位元 CPU + 16 位元 GPU 的混血架構，1987 年於日本 NEC 與 Hudson Soft 聯手推出，**早 Mega Drive 一年、早 SFC 三年**。日本第三大家用主機、CD-ROM² 是首見家用光碟媒介；北美以 TurboGrafx-16 之名發行卻失利，歐洲未正式上架。Hudson 後被 Konami 收購，IP 至今由 Konami 持有。**英文 retro 圈共識：用 PC Engine 是 purist，叫 TG-16 是北美口語。**
+1987 年 10 月 30 日，NEC Home Electronics 與 Hudson Soft 在日本聯手推出 PC Engine。售價 24,800 円，**發售當下是世界最小的家用主機**——機身尺寸只有 14 公分見方，名片大小的 HuCard 卡帶從側邊插入。架構奇特：8 位元 CPU 配 16 位元 GPU，**這是 Hudson 半導體設計團隊（HuC6280 系列）的工程實驗**，混血設計讓 PC Engine 在 8 位元 CPU 跑速度的同時，畫面同屏 482 色，開機就是另一個世代的視覺密度。
+
+**比 Mega Drive 早一年，比超任早三年。** 日本市場給了回應——PC Engine 在日本搶到家用主機**第三大份額**（僅次於 SFC 與紅白機），多數時間還壓著 Mega Drive。1988 年 12 月 NEC 推出 CD-ROM²，**家用主機史上第一次掛上光碟機**——比 Sega Mega-CD 早三年、比 PS1 早六年。Falcom 的《Ys I & II》、Konami 的《惡魔城 X 血之輪迴》就是在這片光碟上誕生的代表作。
+
+但海外是徹底的災難。1989 年北美以 **TurboGrafx-16** 之名上市，一切都錯位了——主機被 NEC-HE 重新設計成醜陋黑色大盒、行銷擊不到 Sega「Genesis Does What Nintendon't」攻勢、第三方授權困難（任天堂的鎖喉策略仍在運作）、CD-ROM² 加裝套件天價。歐洲根本沒上市。**「PC Engine 強，TurboGrafx-16 弱」幾乎是同一台機器在兩個市場的雙重命運。**
+
+機型衍生豐富：CoreGrafx 修色版、SuperGrafx（強化但失敗）、PC Engine GT（手提版，掌機支線會獨立收錄）、Duo / Duo-R / Duo-RX 把 HuCard + CD 整合一機。對台灣的孩子，PC Engine 是中華商場二樓較稀少的那一櫃——比超任貴、卡帶量少、但擁有它的孩子知道自己在玩另一個維度的東西。中國大陸幾乎完全空白。
+
+Hudson 在 2012 年被 Konami 完全吸收，PC Engine IP 現由 Konami 持有，2020 年推出復刻迷你機。**英文 retro 圈共識：用 PC Engine 是 purist，叫 TG-16 是北美口語。**

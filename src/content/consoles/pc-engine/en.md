@@ -35,4 +35,12 @@ notable_games:
   - "Ys I & II (Falcom, 1989 — CD-ROM²)"
 ---
 
-A hybrid architecture: 8-bit CPU paired with a 16-bit GPU. Released in Japan in October 1987 by NEC and Hudson Soft — **a year before the Mega Drive, three years before the Super Famicom**. Took third place in Japan; CD-ROM² in 1988 became the first home-console optical drive. Released in North America as the TurboGrafx-16 and faltered. Never officially released in Europe. Hudson was later absorbed by Konami; the IP now sits with Konami. **English retro-gaming consensus: "PC Engine" is the purist usage; "TG-16" is the North American vernacular.**
+On 30 October 1987, NEC Home Electronics and Hudson Soft launched the PC Engine in Japan at ¥24,800. It was, at launch, **the smallest home console in the world** — a 14 cm cube fed by credit-card-sized **HuCard** cartridges that slid in from the side. The architecture was odd: an 8-bit CPU paired with a 16-bit GPU. This was Hudson's semiconductor team flexing — the HuC6280 family let the system push 482 simultaneous colors while the CPU ran 8-bit-fast, and from boot the visual density jumped a clear generation.
+
+**A year before the Mega Drive, three years before the Super Famicom.** And in Japan, it landed. PC Engine took **third place** in the Japanese home market — behind only the Famicom and Super Famicom — and outsold the Mega Drive in Japan for most of its life. In December 1988 NEC launched **CD-ROM²**, the first optical drive ever attached to a home console — three years before Sega's Mega-CD, six years before PlayStation. Falcom's *Ys I & II* and Konami's *Castlevania: Rondo of Blood* were born on those discs.
+
+Abroad, total disaster. The 1989 North American launch as the **TurboGrafx-16** went wrong on every axis: NEC-HE redesigned the chassis into an ugly black slab, marketing was outflanked by Sega's "Genesis Does What Nintendon't" assault, third-party licensing was strangled by Nintendo's lockout posture, and the CD-ROM add-on was priced beyond reach. Europe never got an official release at all. **"PC Engine is strong, TurboGrafx-16 is weak"** — same hardware, two opposite fates in two markets.
+
+The variant family was unusually rich: CoreGrafx (color refresh), SuperGrafx (over-engineered, commercial flop), PC Engine GT (the handheld version — covered separately on the handheld track), Duo / Duo-R / Duo-RX (HuCard + CD integrated). For Asian retro collectors, PC Engine remains the connoisseur's pick — niche, expensive, and culturally distinct from the Nintendo / Sega axis.
+
+Hudson was fully absorbed by Konami in 2012; the IP now sits with Konami, which released the **PC Engine Mini** reissue in 2020. **English retro consensus: "PC Engine" is purist usage; "TG-16" is North American vernacular.**

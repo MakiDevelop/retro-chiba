@@ -35,4 +35,12 @@ notable_games:
   - "Ys I & II（Falcom，1989，CD-ROM²）"
 ---
 
-8 位 CPU + 16 位 GPU 的混血架构，1987 年于日本 NEC 与 Hudson Soft 联手推出，**早 Mega Drive 一年、早 SFC 三年**。日本第三大家用主机、CD-ROM² 是首见家用光盘介质；北美以 TurboGrafx-16 之名发行却失利，欧洲未正式上架。Hudson 后被 Konami 收购，IP 至今由 Konami 持有。中国大陆罕见，仅极少数玩家通过日货管道接触过。
+1987 年 10 月 30 日，NEC Home Electronics 与 Hudson Soft 在日本联手推出 PC Engine。售价 24,800 日元，**发售当下是世界最小的家用主机**——机身只有 14 公分见方，名片大小的 HuCard 卡带从侧边插入。架构奇特：8 位 CPU 配 16 位 GPU，**这是 Hudson 半导体设计团队（HuC6280 系列）的工程实验**，混血设计让 PC Engine 在 8 位 CPU 跑速度的同时，画面同屏 482 色，开机就是另一个世代的视觉密度。
+
+**比 Mega Drive 早一年，比超任早三年。** 日本市场给了回应——PC Engine 在日本拿下家用主机**第三大份额**（仅次于 SFC 与红白机），多数时间还压着 Mega Drive。1988 年 12 月 NEC 推出 CD-ROM²，**家用主机史上第一次挂上光驱**——比 Sega Mega-CD 早三年、比 PS1 早六年。Falcom 的《Ys I & II》、Konami 的《恶魔城：血之轮回》就是在这片光盘上诞生的代表作。
+
+但海外是彻底的灾难。1989 年北美以 **TurboGrafx-16** 之名上市，一切都错位了——主机被 NEC-HE 重新设计成丑陋黑色大盒、营销打不过 Sega「Genesis Does What Nintendon't」攻势、第三方授权困难（任天堂的锁喉策略仍在运作）、CD-ROM² 加装套件天价。欧洲根本没上市。**「PC Engine 强，TurboGrafx-16 弱」几乎是同一台机器在两个市场的双重命运。**
+
+中国大陆这条线基本完全空白——红白机有「小霸王」山寨补位，PC Engine 没有进入山寨食物链：架构特殊、卡带寻源困难、第三方授权封闭。对绝大多数中国玩家而言，PC Engine 是「在杂志上看过、家里没有」的少数派记忆。机型衍生丰富：CoreGrafx 修色版、SuperGrafx（强化但失败）、PC Engine GT（手提版，掌机支线另收）、Duo / Duo-R / Duo-RX 把 HuCard + CD 整合一机。
+
+Hudson 于 2012 年被 Konami 完全吸收，PC Engine IP 现由 Konami 持有，2020 年推出复刻迷你机。**英文 retro 圈共识：用 PC Engine 是 purist，叫 TG-16 是北美口语。**
