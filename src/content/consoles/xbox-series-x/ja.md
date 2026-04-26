@@ -24,12 +24,12 @@ specs:
   ネットワーク: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-pair-hero.jpg"
-    alt: "Xbox Series X（左、黒色のトールタワー）と Series S（右、小型白色）"
-    caption: "Xbox Series X（左）と Series S（右）並置。**Xbox Series X は 2020 年同世代家庭用機としては最高性能**（12 TFLOPS、PS5 の 10.28 を上回る）、発売価格は $499 で PS5 通常版と同価格帯。"
+    src: "/img/consoles/xbox-series-x-xbox-series-x-2.jpg"
+    author: "Der. Bellemer"
+    source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20X%202.jpg"
+    alt: "Xbox Series X 黒色縦置きタワー型本体"
+    caption: "Xbox Series X、2020 年 11 月 10 日世界同時発売、$499 米ドル。**2020 年同世代家庭用機としては最高性能**（12 TFLOPS、PS5 の 10.28 を上回る）、PS5 通常版と同価格帯・同タイミングでの発売。"
     license: CC-BY-SA-4.0
-    author: "Steam"
-    source_url: "https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg"
 notable_games:
   - "Halo Infinite（343 Industries、2021）"
   - "Forza Horizon 5（Playground、2021）"

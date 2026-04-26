@@ -24,12 +24,12 @@ specs:
   Network: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-pair-hero.jpg"
-    alt: "Xbox Series X (left, tall black tower) and Series S (right, smaller white)"
-    caption: "Xbox Series X (left) alongside Series S (right). **The Series X is the most powerful same-generation home console of 2020** (12 TFLOPS vs the PS5's 10.28), launched at $499 — matching the PS5 Standard."
+    src: "/img/consoles/xbox-series-x-xbox-series-x-2.jpg"
+    author: "Der. Bellemer"
+    source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20X%202.jpg"
+    alt: "Xbox Series X black vertical tower console"
+    caption: "Xbox Series X, worldwide simultaneous launch 10 November 2020 at $499. **The most powerful same-generation home console of 2020** (12 TFLOPS vs the PS5's 10.28), priced at the same level as the PS5 Standard."
     license: CC-BY-SA-4.0
-    author: "Steam"
-    source_url: "https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg"
 notable_games:
   - "Halo Infinite (343 Industries, 2021)"
   - "Forza Horizon 5 (Playground, 2021)"

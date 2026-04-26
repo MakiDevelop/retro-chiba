@@ -24,12 +24,12 @@ specs:
   Network: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-pair-hero.jpg"
-    alt: "Xbox Series X (left, tall black tower) and Series S (right, smaller white)"
-    caption: "Xbox Series S (right) alongside Series X (left). **The Series S is the only same-generation step-down console of the ninth generation** — one-third the size of the X, one-third the performance, all-digital, at $299 (against the X at $499). Microsoft's bet was 'cheap entry, subscription supplies the software.'"
+    src: "/img/consoles/xbox-series-s-xbox-series-s-with-controller.jpg"
+    author: "AsmodeanUnderscore"
+    source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20S%20with%20controller.jpg"
+    alt: "Xbox Series S white compact console with controller"
+    caption: "Xbox Series S, worldwide simultaneous launch 10 November 2020 at $299 ($100 below the PS5 Digital). **The only same-generation step-down console of the ninth generation** — one-third the size of the X, one-third the performance, all-digital. Microsoft's bet was 'cheap entry, subscription supplies the software.'"
     license: CC-BY-SA-4.0
-    author: "Steam"
-    source_url: "https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg"
 notable_games:
   - "(Shares the Series X catalog, capped at 1440p targets)"
   - "Halo Infinite (343 Industries, 2021)"

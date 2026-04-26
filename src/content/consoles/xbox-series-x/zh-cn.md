@@ -24,12 +24,12 @@ specs:
   网络: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-pair-hero.jpg"
-    alt: "Xbox Series X（左，黑色高塔）+ Series S（右，白色矮版）"
-    caption: "Xbox Series X（左）与 Series S（右）并列。**Xbox Series X 是 2020 年 Gen 9 同代算力最高家用机**（12 TFLOPS vs PS5 的 10.28），定价 $499 与 PS5 标准版同价。"
+    src: "/img/consoles/xbox-series-x-xbox-series-x-2.jpg"
+    author: "Der. Bellemer"
+    source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20X%202.jpg"
+    alt: "Xbox Series X 黑色直立塔型主机"
+    caption: "Xbox Series X，2020 年 11 月 10 日全球同步上市，$499 美元。**Gen 9 同代算力最高家用机**（12 TFLOPS vs PS5 的 10.28），与 PS5 标准版同价同期上市。"
     license: CC-BY-SA-4.0
-    author: "Steam"
-    source_url: "https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg"
 notable_games:
   - "光环：无限（343 Industries，2021）"
   - "极限竞速 地平线 5（Playground，2021）"

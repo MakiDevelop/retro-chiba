@@ -24,12 +24,12 @@ specs:
   網路: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-pair-hero.jpg"
-    alt: "Xbox Series X（左，黑色高塔）+ Series S（右，白色矮版）"
-    caption: "Xbox Series S（右）與 Series X（左）並列。**Xbox Series S 是 Gen 9 唯一的「降配版同代主機」**——體積為 X 三分之一、定價 $299（X 為 $499）、效能 1/3，純數位。Microsoft 賭「**便宜入門 + 訂閱補軟體**」策略。"
+    src: "/img/consoles/xbox-series-s-xbox-series-s-with-controller.jpg"
+    author: "AsmodeanUnderscore"
+    source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20S%20with%20controller.jpg"
+    alt: "Xbox Series S 白色矮型主機 + 控制器"
+    caption: "Xbox Series S，2020 年 11 月 10 日全球同步上市，$299 美元（比 PS5 Digital 便宜 $100）。**Gen 9 唯一的「降配版同代主機」**——體積為 X 三分之一、效能 1/3、純數位。Microsoft 賭「**便宜入門 + 訂閱補軟體**」策略。"
     license: CC-BY-SA-4.0
-    author: "Steam"
-    source_url: "https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg"
 notable_games:
   - "（與 Series X 共享軟體陣容，但效能限制 1440p）"
   - "Halo Infinite（343 Industries，2021）"

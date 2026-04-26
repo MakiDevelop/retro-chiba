@@ -6,3 +6,4 @@ dist/
 .env
 .env.local
 public/img/consoles/thumbs/
+scripts/__pycache__/

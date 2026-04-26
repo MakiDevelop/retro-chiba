@@ -24,12 +24,12 @@ specs:
   网络: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-pair-hero.jpg"
-    alt: "Xbox Series X（左，黑色高塔）+ Series S（右，白色矮版）"
-    caption: "Xbox Series S（右）与 Series X（左）并列。**Xbox Series S 是 Gen 9 唯一的「降配版同代主机」**——体积为 X 三分之一、定价 $299（X 为 $499）、性能 1/3，纯数字。Microsoft 赌「**便宜入门 + 订阅补软件**」策略。"
+    src: "/img/consoles/xbox-series-s-xbox-series-s-with-controller.jpg"
+    author: "AsmodeanUnderscore"
+    source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20S%20with%20controller.jpg"
+    alt: "Xbox Series S 白色矮型主机 + 手柄"
+    caption: "Xbox Series S，2020 年 11 月 10 日全球同步上市，$299 美元（比 PS5 Digital 便宜 $100）。**Gen 9 唯一的「降配版同代主机」**——体积为 X 三分之一、性能 1/3、纯数字。Microsoft 赌「**便宜入门 + 订阅补软件**」策略。"
     license: CC-BY-SA-4.0
-    author: "Steam"
-    source_url: "https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg"
 notable_games:
   - "（与 Series X 共享软件阵容，但性能限制 1440p）"
   - "光环：无限（343 Industries，2021）"
