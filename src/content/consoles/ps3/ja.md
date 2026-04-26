@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-3-CECHA01-wController-L.jpg"
+  gallery:
+    - src: "/img/consoles/ps3-sony-playstation-ps3-slim-console-br.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-PS3-Slim-Console-BR.jpg"
+      alt: "PS3 Slim（CECH-2000、2009 年）"
+      caption: "PS3 Slim（CECH-2000）、2009 年 9 月発売——PS2 後方互換を廃止、筐体を 32% 小型化、消費電力を半減、価格を $299 へ引き下げた。2006 年ローンチ期の重い赤字からソニーが回復し始めた、世代中盤の再設計機。"
 notable_games:
   - "アンチャーテッド 黄金刀と消えた船団（Naughty Dog、2009）"
   - "The Last of Us（Naughty Dog、2013）"

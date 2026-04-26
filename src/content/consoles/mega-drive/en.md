@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Mega-Drive-JP-Mk1-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/mega-drive-sega-genesis-mk2-6button.jpg"
+      license: CC-BY-SA-3.0
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg"
+      alt: "Sega Genesis Mk2 (1993 NA slim revision) with six-button controller"
+      caption: "Genesis Mk2 (NA, 1993) with the six-button controller. The Mk2 dropped the headphone jack and volume slider, shrank the chassis, and was cost-engineered for late-generation mass production. The six-button pad became standard for the Street Fighter II era of fighting-game ports."
+    - src: "/img/consoles/mega-drive-sega-nomad-handheld.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega-Nomad-Handheld.jpg"
+      alt: "Sega Nomad (1995 handheld Genesis variant)"
+      caption: "Sega Nomad (1995, North America) — a complete Genesis squeezed into a handheld chassis with a 3.25-inch color screen, running every Genesis cartridge directly. Sega's second handheld track after the Game Gear; commercially weak, now a treasured collectible."
 notable_games:
   - "Sonic the Hedgehog (Sega, 1991)"
   - "Streets of Rage 2 (Sega, 1992)"

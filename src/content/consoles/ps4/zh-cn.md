@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg"
+  gallery:
+    - src: "/img/consoles/ps4-playstation-4-slim-8504.jpg"
+      license: CC-BY-SA-4.0
+      author: "Ashley Pomeroy"
+      source_url: "https://commons.wikimedia.org/wiki/File:PlayStation%204%20Slim%208504.jpg"
+      alt: "PS4 Slim（CUH-2000，2016 年）"
+      caption: "PS4 Slim（CUH-2000），2016 年 9 月发行，售价 $299——机体小型化 30%、能耗降一半、HDMI 2.0a 支持 HDR、亚光面板取代有光泽面板。世代中段普及机型，是 PS4 终身销量 1.175 亿的主要贡献者。"
 notable_games:
   - "最后生还者 第二章（Naughty Dog，2020）"
   - "血源诅咒（FromSoftware，2015）"

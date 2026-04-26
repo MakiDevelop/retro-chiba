@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg"
+  gallery:
+    - src: "/img/consoles/ps4-playstation-4-slim-8504.jpg"
+      license: CC-BY-SA-4.0
+      author: "Ashley Pomeroy"
+      source_url: "https://commons.wikimedia.org/wiki/File:PlayStation%204%20Slim%208504.jpg"
+      alt: "PS4 Slim（CUH-2000，2016 年）"
+      caption: "PS4 Slim（CUH-2000），2016 年 9 月發行，售價 $299——機體小型化 30%、能耗降一半、HDMI 2.0a 支援 HDR、藍光取代有光澤面板。世代中段普及機型，是 PS4 終身銷量 1.175 億的主要貢獻者。"
 notable_games:
   - "The Last of Us Part II（Naughty Dog，2020）"
   - "Bloodborne（FromSoftware，2015）"

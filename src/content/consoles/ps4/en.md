@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg"
+  gallery:
+    - src: "/img/consoles/ps4-playstation-4-slim-8504.jpg"
+      license: CC-BY-SA-4.0
+      author: "Ashley Pomeroy"
+      source_url: "https://commons.wikimedia.org/wiki/File:PlayStation%204%20Slim%208504.jpg"
+      alt: "PS4 Slim (CUH-2000, 2016)"
+      caption: "PS4 Slim (CUH-2000), released September 2016 at $299 — chassis 30% smaller, power draw halved, HDMI 2.0a HDR support added, the glossy upper surface replaced by a matte finish. The mid-generation mass-market revision and the largest single contributor to PS4's 117.5M lifetime total."
 notable_games:
   - "The Last of Us Part II (Naughty Dog, 2020)"
   - "Bloodborne (FromSoftware, 2015)"

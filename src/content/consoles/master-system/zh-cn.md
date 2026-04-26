@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Master-System-Set.jpg"
+  gallery:
+    - src: "/img/consoles/master-system-sega-master-system-ii-1990-1.jpg"
+      license: CC-BY-SA-4.0
+      author: "Jzh2074"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega%20Master%20System%20II%20%281990%29%201.jpg"
+      alt: "Sega Master System II（1990 年 slim 版）"
+      caption: "Sega Master System II（1990），slim 版重新设计、价格更低、移除卡带卡槽以外的接口。北美与欧洲市场主力，也是 Tectoy 巴西版的基础机型。"
 notable_games:
   - "神奇小子（Sega，1986，内置 BIOS）"
   - "梦幻之星（Sega，1987）"

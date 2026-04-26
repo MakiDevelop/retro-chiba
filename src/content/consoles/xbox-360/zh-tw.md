@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Xbox-360-Pro-wController.jpg"
+  gallery:
+    - src: "/img/consoles/xbox-360-xbox-360-s-front.jpg"
+      license: CC-BY-SA-2.0
+      author: "pulkitsinha"
+      source_url: "https://commons.wikimedia.org/wiki/File:Xbox-360-S-Front.jpg"
+      alt: "Xbox 360 S（Slim，2010 年 6 月）"
+      caption: "Xbox 360 S（Slim），2010 年 6 月北美發行——徹底解決 Red Ring of Death 散熱缺陷的重新設計、機體小型化、內建 Wi-Fi、加入 Kinect 接口。Microsoft 重整 360 中後期銷售節奏的關鍵 SKU。"
 notable_games:
   - "Halo 3（Bungie，2007）"
   - "Gears of War（Epic Games，2006）"

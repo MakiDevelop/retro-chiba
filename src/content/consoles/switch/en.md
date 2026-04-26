@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+  gallery:
+    - src: "/img/consoles/switch-nintendo-switch-lite-grey-01.jpg"
+      license: CC-BY-SA-4.0
+      author: "DYVER"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo%20Switch%20Lite%20Grey%20-%2001.jpg"
+      alt: "Nintendo Switch Lite (2019 handheld-only revision)"
+      caption: "Nintendo Switch Lite (September 2019, $199) — the handheld-only variant. Dock mode removed, the Joy-Cons are non-detachable, no TV output — but the smallest and lightest model in the Switch family. Aimed at players who only use handheld mode, and **the first step in Nintendo's multi-SKU Switch strategy**."
 notable_games:
   - "The Legend of Zelda: Breath of the Wild (Nintendo, 2017 — pack-in)"
   - "Super Mario Odyssey (Nintendo, 2017)"

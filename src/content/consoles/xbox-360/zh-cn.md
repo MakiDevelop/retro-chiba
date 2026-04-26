@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Xbox-360-Pro-wController.jpg"
+  gallery:
+    - src: "/img/consoles/xbox-360-xbox-360-s-front.jpg"
+      license: CC-BY-SA-2.0
+      author: "pulkitsinha"
+      source_url: "https://commons.wikimedia.org/wiki/File:Xbox-360-S-Front.jpg"
+      alt: "Xbox 360 S（Slim，2010 年 6 月）"
+      caption: "Xbox 360 S（Slim），2010 年 6 月北美发行——彻底解决 Red Ring of Death 散热缺陷的重新设计、机体小型化、内建 Wi-Fi、加入 Kinect 接口。Microsoft 重整 360 中后期销售节奏的关键 SKU。"
 notable_games:
   - "光环 3（Bungie，2007）"
   - "战争机器（Epic Games，2006）"

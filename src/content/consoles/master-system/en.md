@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Master-System-Set.jpg"
+  gallery:
+    - src: "/img/consoles/master-system-sega-master-system-ii-1990-1.jpg"
+      license: CC-BY-SA-4.0
+      author: "Jzh2074"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega%20Master%20System%20II%20%281990%29%201.jpg"
+      alt: "Sega Master System II (1990 slim revision)"
+      caption: "Sega Master System II (1990) — the slim cost-down redesign, with all I/O ports beyond the cartridge slot removed. The dominant North American and European model, and the basis for Tectoy's Brazilian production line."
 notable_games:
   - "Alex Kidd in Miracle World (Sega, 1986 — built into BIOS)"
   - "Phantasy Star (Sega, 1987)"

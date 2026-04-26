@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Master-System-Set.jpg"
+  gallery:
+    - src: "/img/consoles/master-system-sega-master-system-ii-1990-1.jpg"
+      license: CC-BY-SA-4.0
+      author: "Jzh2074"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega%20Master%20System%20II%20%281990%29%201.jpg"
+      alt: "セガ・マスターシステム II（1990 年スリム版）"
+      caption: "セガ・マスターシステム II（1990）——コストダウン・スリム版リデザインで、カートリッジ挿入口以外の I/O ポートを撤廃した廉価モデル。北米・欧州市場の主力機種であり、Tectoy ブラジル生産ラインの基礎機種となった。"
 notable_games:
   - "アレックスキッドのミラクルワールド（セガ、1986、本体内蔵）"
   - "ファンタシースター（セガ、1987）"

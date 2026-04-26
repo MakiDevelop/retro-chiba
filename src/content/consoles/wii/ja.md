@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Wii-Console.png"
+  gallery:
+    - src: "/img/consoles/wii-wii-mini-console-set-h.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Wii-Mini-Console-Set-H.jpg"
+      alt: "Wii ミニ（2012 年廉価版）"
+      caption: "Wii ミニ（2012 年 12 月カナダ先行、2013 年北米・欧州）——赤黒配色、トップローディング光ディスク、ゲームキューブ互換廃止、SD カード・オンライン接続を削除——史上最も簡素化された Wii の派生機で、$99 米ドル。Wii U 発売と同時期に投入された任天堂の「**廉価版リイシュー**」という奇異な戦略の産物。"
 notable_games:
   - "Wii Sports（任天堂、2006、本体同梱・史上最も売れたゲームの一つ）"
   - "スーパーマリオギャラクシー（任天堂、2007）"

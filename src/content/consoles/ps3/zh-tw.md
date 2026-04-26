@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-3-CECHA01-wController-L.jpg"
+  gallery:
+    - src: "/img/consoles/ps3-sony-playstation-ps3-slim-console-br.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-PS3-Slim-Console-BR.jpg"
+      alt: "PS3 Slim（CECH-2000，2009 年）"
+      caption: "PS3 Slim（CECH-2000），2009 年 9 月發行，砍掉 PS2 向下相容、機體小型化 32%、能耗降一半，售價降到 $299——是 PS3 從 2006 慘虧期回血的關鍵世代中段重設計。"
 notable_games:
   - "Uncharted 2: Among Thieves（Naughty Dog，2009）"
   - "The Last of Us（Naughty Dog，2013）"

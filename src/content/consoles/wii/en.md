@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Wii-Console.png"
+  gallery:
+    - src: "/img/consoles/wii-wii-mini-console-set-h.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Wii-Mini-Console-Set-H.jpg"
+      alt: "Wii Mini (2012 budget revision)"
+      caption: "Wii Mini (Canada launch December 2012, NA/EU 2013) — a red-and-black redesign with a top-loading disc drive, GameCube compatibility removed, SD card and online connectivity stripped out — the most pared-down Wii variant ever shipped, at $99. Nintendo's strange budget-reissue strategy launched alongside the Wii U."
 notable_games:
   - "Wii Sports (Nintendo, 2006 — pack-in / one of the all-time best-selling games)"
   - "Super Mario Galaxy (Nintendo, 2007)"

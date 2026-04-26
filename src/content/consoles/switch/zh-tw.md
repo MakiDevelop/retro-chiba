@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+  gallery:
+    - src: "/img/consoles/switch-nintendo-switch-lite-grey-01.jpg"
+      license: CC-BY-SA-4.0
+      author: "DYVER"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo%20Switch%20Lite%20Grey%20-%2001.jpg"
+      alt: "Nintendo Switch Lite（2019 年純掌機版）"
+      caption: "Nintendo Switch Lite（2019 年 9 月），$199 美元——純掌機版，移除 Dock 模式、Joy-Con 不可分離、不支援電視輸出，但體積與重量都是 Switch 系列最輕巧。專攻只玩掌機模式的玩家，**Switch 多 SKU 戰略的第一步**。"
 notable_games:
   - "薩爾達傳說：曠野之息（任天堂，2017，內附）"
   - "Super Mario Odyssey（任天堂，2017）"

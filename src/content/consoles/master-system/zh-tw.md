@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Master-System-Set.jpg"
+  gallery:
+    - src: "/img/consoles/master-system-sega-master-system-ii-1990-1.jpg"
+      license: CC-BY-SA-4.0
+      author: "Jzh2074"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega%20Master%20System%20II%20%281990%29%201.jpg"
+      alt: "Sega Master System II（1990 年 slim 版）"
+      caption: "Sega Master System II（1990），slim 版重新設計、價格更低、移除卡帶卡槽以外的接口。北美與歐洲市場主力，也是 Tectoy 巴西版的基礎機型。"
 notable_games:
   - "Alex Kidd in Miracle World（Sega，1986，內建 BIOS）"
   - "Phantasy Star（Sega，1987）"

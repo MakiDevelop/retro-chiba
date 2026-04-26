@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+  gallery:
+    - src: "/img/consoles/switch-nintendo-switch-lite-grey-01.jpg"
+      license: CC-BY-SA-4.0
+      author: "DYVER"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo%20Switch%20Lite%20Grey%20-%2001.jpg"
+      alt: "Nintendo Switch Lite（2019 年携帯専用版）"
+      caption: "Nintendo Switch Lite（2019 年 9 月、$199 米ドル）——携帯専用版。ドックモード廃止、Joy-Con 着脱不可、テレビ出力非対応——だが Switch ファミリ最小・最軽量。携帯モードしか使わないプレイヤー向けで、**任天堂による Switch マルチ SKU 戦略の第一歩**となった。"
 notable_games:
   - "ゼルダの伝説 ブレス オブ ザ ワイルド（任天堂、2017、本体同梱）"
   - "スーパーマリオ オデッセイ（任天堂、2017）"

@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-3-CECHA01-wController-L.jpg"
+  gallery:
+    - src: "/img/consoles/ps3-sony-playstation-ps3-slim-console-br.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-PS3-Slim-Console-BR.jpg"
+      alt: "PS3 Slim (CECH-2000, 2009)"
+      caption: "PS3 Slim (CECH-2000), released September 2009 — dropped PS2 backward compatibility, shrank the chassis by 32%, halved power draw, and dropped the price to $299. The mid-generation redesign that began Sony's recovery from the 2006 launch losses."
 notable_games:
   - "Uncharted 2: Among Thieves (Naughty Dog, 2009)"
   - "The Last of Us (Naughty Dog, 2013)"

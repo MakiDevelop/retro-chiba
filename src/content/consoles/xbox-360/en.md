@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Xbox-360-Pro-wController.jpg"
+  gallery:
+    - src: "/img/consoles/xbox-360-xbox-360-s-front.jpg"
+      license: CC-BY-SA-2.0
+      author: "pulkitsinha"
+      source_url: "https://commons.wikimedia.org/wiki/File:Xbox-360-S-Front.jpg"
+      alt: "Xbox 360 S (Slim, June 2010)"
+      caption: "Xbox 360 S (Slim), released June 2010 — the redesign that finally fixed the Red Ring of Death thermal failure, with a smaller chassis, built-in Wi-Fi, and a dedicated Kinect port. The mid-life-cycle SKU that restored Microsoft's 360 sales momentum."
 notable_games:
   - "Halo 3 (Bungie, 2007)"
   - "Gears of War (Epic Games, 2006)"

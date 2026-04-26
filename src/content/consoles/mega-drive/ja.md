@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Mega-Drive-JP-Mk1-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/mega-drive-sega-genesis-mk2-6button.jpg"
+      license: CC-BY-SA-3.0
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg"
+      alt: "Sega Genesis Mk2（北米 1993 年スリム版）と 6 ボタンコントローラ"
+      caption: "Genesis Mk2（北米 1993 年スリム版）と 6 ボタンコントローラ。Mk2 はヘッドホン端子とボリュームスライダを廃止、筐体を小型化しコスト最適化された世代後期の量産機。6 ボタンパッドは『ストリートファイター II』移植以降の格闘ゲーム標準仕様となった。"
+    - src: "/img/consoles/mega-drive-sega-nomad-handheld.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega-Nomad-Handheld.jpg"
+      alt: "Sega Nomad（1995 年メガドライブの携帯機派生）"
+      caption: "Sega Nomad（1995 年北米）——メガドライブまるごとを携帯機筐体に収めた仕様、3.25 インチカラー液晶、全 Genesis カートリッジが直接動作する。ゲームギアに続くセガ第二の携帯機路線で、商業的には不振だったが現在ではレトロ収集家の希少な逸品となっている。"
 notable_games:
   - "ソニック・ザ・ヘッジホッグ（セガ、1991）"
   - "ベア・ナックル II（セガ、1992）"

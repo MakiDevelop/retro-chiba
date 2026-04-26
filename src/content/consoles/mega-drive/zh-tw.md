@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Mega-Drive-JP-Mk1-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/mega-drive-sega-genesis-mk2-6button.jpg"
+      license: CC-BY-SA-3.0
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg"
+      alt: "Sega Genesis Mk2（北美 1993 slim 版）+ 六鍵控制器"
+      caption: "Genesis Mk2（北美 1993 年 slim 版）+ 六鍵控制器。Mk2 移除耳機孔與音量旋鈕、機身縮小、降成本量產，是北美 Genesis 後期主力機型。六鍵手把是格鬥遊戲（Street Fighter II 移植）的標配。"
+    - src: "/img/consoles/mega-drive-sega-nomad-handheld.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sega-Nomad-Handheld.jpg"
+      alt: "Sega Nomad（1995 手提版 Genesis）"
+      caption: "Sega Nomad（1995 北美），把整台 Genesis 塞進手提機殼、3.25 吋彩色螢幕、能直接跑全部 Genesis 卡帶。SEGA 在 Game Gear 後另一條手提路線，銷量不佳但成為今天 retro 收藏家的稀有逸品。"
 notable_games:
   - "音速小子（Sega，1991）"
   - "Streets of Rage 2（Sega，1992）"

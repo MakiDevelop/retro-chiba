@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg"
+  gallery:
+    - src: "/img/consoles/ps4-playstation-4-slim-8504.jpg"
+      license: CC-BY-SA-4.0
+      author: "Ashley Pomeroy"
+      source_url: "https://commons.wikimedia.org/wiki/File:PlayStation%204%20Slim%208504.jpg"
+      alt: "PS4 Slim（CUH-2000、2016 年）"
+      caption: "PS4 Slim（CUH-2000）、2016 年 9 月発売、$299——筐体を 30% 小型化、消費電力を半減、HDMI 2.0a で HDR 対応、上面の光沢パネルがマット仕上げに変更された。世代中盤の量販機種であり、PS4 累計 1 億 1,750 万台への最大単独貢献モデル。"
 notable_games:
   - "The Last of Us Part II（Naughty Dog、2020）"
   - "Bloodborne（フロム・ソフトウェア、2015）"

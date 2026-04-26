@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Wii-Console.png"
+  gallery:
+    - src: "/img/consoles/wii-wii-mini-console-set-h.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Wii-Mini-Console-Set-H.jpg"
+      alt: "Wii Mini（2012 年廉價版）"
+      caption: "Wii Mini（2012 年 12 月加拿大首發，2013 年北美/歐洲），紅黑配色、頂載光碟機、移除 GameCube 相容、移除 SD 卡與線上連線——史上最簡化的 Wii 變種，定價 $99 美元。任天堂在 Wii U 上市同期推出的「**入門級復刻**」奇怪策略。"
 notable_games:
   - "Wii Sports（任天堂，2006，內附 / 史上最暢銷遊戲之一）"
   - "Super Mario Galaxy（任天堂，2007）"

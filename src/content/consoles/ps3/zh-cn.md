@@ -30,6 +30,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-3-CECHA01-wController-L.jpg"
+  gallery:
+    - src: "/img/consoles/ps3-sony-playstation-ps3-slim-console-br.jpg"
+      license: PD
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-PS3-Slim-Console-BR.jpg"
+      alt: "PS3 Slim（CECH-2000，2009 年）"
+      caption: "PS3 Slim（CECH-2000），2009 年 9 月发行，砍掉 PS2 向下兼容、机体小型化 32%、能耗降一半，售价降到 $299——是 PS3 从 2006 惨亏期回血的关键世代中段重设计。"
 notable_games:
   - "神秘海域 2：纵横四海（Naughty Dog，2009）"
   - "最后生还者（Naughty Dog，2013）"

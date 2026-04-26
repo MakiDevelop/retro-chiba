@@ -210,12 +210,19 @@ def rewrite_markdown(hit: Hit, meta: CommonsMeta):
         hit.md_path.write_text(new_text, encoding="utf-8")
         return
 
-    # Find indent of the src line (this is a list-item continuation).
+    # Compute the YAML continuation indent for this imageRef block.
+    # - For hero block:  `    src: "..."`  → continuation indent is the same 4 spaces.
+    # - For gallery list item:  `    - src: "..."` → continuation indent is 4 + 2 = 6
+    #   (the `- ` prefix occupies two columns, and YAML requires sibling keys to align
+    #   with `src` not with the dash).
     src_line = lines[src_idx]
-    indent_match = re.match(r"^(\s+)", src_line)
-    indent = indent_match.group(1) if indent_match else "      "
+    leading_match = re.match(r"^(\s*)(- )?", src_line)
+    leading = leading_match.group(1) if leading_match else ""
+    is_list_item = bool(leading_match and leading_match.group(2))
+    indent = leading + ("  " if is_list_item else "")
 
-    # Find end of this list item: next line at same `- ` level or dedent past indent.
+    # Find end of this imageRef block: next sibling list item, dedent past indent,
+    # or one of the well-known top-level frontmatter keys.
     end_idx = len(lines)
     for j in range(src_idx + 1, len(lines)):
         ln = lines[j]
@@ -223,8 +230,7 @@ def rewrite_markdown(hit: Hit, meta: CommonsMeta):
             continue
         ln_indent_match = re.match(r"^(\s*)", ln)
         ln_indent = ln_indent_match.group(1) if ln_indent_match else ""
-        # End of imageRef block: hit a new `- src:` (gallery sibling) or closing fence.
-        if ln.strip().startswith("- src:") and len(ln_indent) < len(indent):
+        if ln.strip().startswith("- ") and len(ln_indent) < len(indent):
             end_idx = j
             break
         if ln.startswith("---") or ln.startswith("notable_games:") or ln.startswith("videos:"):
