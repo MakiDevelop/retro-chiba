@@ -37,4 +37,14 @@ notable_games:
   - "Carnival（Coleco，1982）"
 ---
 
-1982 年家用主機產業「**Wave 2 高規格機**」的代表作——Coleco 從 1976 年 Telstar Pong 機累積經驗轉型推出真正的 8 位元主機，**內附《Donkey Kong》卡帶**讓客廳裡瞬間變成街機體驗。技術上勝過 2600 與 Intellivision，模組擴充還可向下相容 Atari 2600 卡帶（家用主機史上首見「正式向下相容對手平台」）。1983 大崩盤把整個 Wave 2 一起捲走——Coleco 1985 年退出主機業務轉戰 Cabbage Patch Kids 玩偶，1988 年公司倒閉。
+ColecoVision 是 1982 年家用主機產業「**Wave 2 高規格機**」的代表作——也是 Coleco 從 1976 年 Telstar Pong 機累積 6 年經驗後的真正第二代主機。1982 年 8 月北美上市，售價 $175 美元，定位為「**把街機帶回家**」。Zilog Z80A CPU + TI TMS9928A GPU 在 1982 年的家用機市場上規格全面領先，**畫面表現是 Atari 2600 與 Intellivision 都做不到的層次**。
+
+ColecoVision 真正的殺手鐧是 **《Donkey Kong》內附**——任天堂街機版（1981）的官方家用授權移植，由 Coleco 軟體工程師親手實作。1981 年的《Donkey Kong》在街機市場是現象級爆款（任天堂宮本茂職業生涯第一個爆紅作品）；**Coleco 從任天堂手裡爭取到家用獨佔授權**，把這款街機巨作直接送進每台 ColecoVision。**這個策略徹底奠定了 ColecoVision 的市場地位**——「在客廳裡擁有 Donkey Kong」比任何技術規格都更直白。一年內 ColecoVision 銷量超越 Intellivision，成為 1982-1983 年家用機市場第二強（僅次於 Atari 2600）。
+
+更瘋狂的是 **Expansion Module #1**——一個小擴充器讓 ColecoVision 可以**直接跑 Atari 2600 卡帶**！這是**家用主機史上第一台正式相容對手平台的機器**。Atari 立刻起訴 Coleco 違反專利，但 1983 年和解（Coleco 付授權費）——這是**家用主機產業專利戰史上另一個重要判例**。從此「相容對手平台」成為合法策略，後來 Sega Saturn 跑 Mega Drive、Sony PS2 跑 PS1、Microsoft Xbox 360 跑原 Xbox 都遵循這個 1982 年的判例。
+
+但 ColecoVision 也是 Coleco **走得太遠的失敗**。Coleco 1983 年推出 **Adam 家用電腦**（與 ColecoVision 共用主機殼，但加上鍵盤、印表機、磁帶機），定位「家用機 + 個人電腦」雙模式。Adam 上市時各種品質問題——印表機不穩、磁帶機卡帶、軟體少——讓 Coleco 在 1983 年虧損 3,500 萬美元。**1983 年大崩盤接著襲來**：1984 年 ColecoVision 銷售崩盤、Adam 1985 年停產、Coleco 1985 年宣布退出主機業務。
+
+1985 年後 Coleco 試圖重操玩具老本——**Cabbage Patch Kids（高麗菜娃娃）**在 1983-1985 年是史上最熱玩具現象，Coleco 一度從電子事業轉型為布偶娃娃廠。但 Cabbage Patch 熱潮結束後 Coleco 沒有下一個爆款，**1988 年公司宣告破產**。Coleco 的故事完整刻畫了 1980 年代電子玩具產業的血淋淋週期——**從 1976 Pong 機到 1988 倒閉，12 年完整循環**。
+
+ColecoVision 全球累計約 200 萬台。今天「ColecoVision Flashback」迷你機仍由 AtGames 在零售通路販賣——這是 1982 年世代少數仍以正版形式存活的品牌之一。
