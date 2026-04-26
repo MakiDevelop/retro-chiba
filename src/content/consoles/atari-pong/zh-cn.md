@@ -31,4 +31,10 @@ notable_games:
   - "Super Pong / Ultra Pong / Pong Doubles（变种主机系列）"
 ---
 
-**单一 ASIC 内置一款 Pong 游戏**——1975 年 Atari 从街机版 Pong（1972）转换家用市场的成果。Sears 玩具部门独家销售，当年圣诞节卖断货。虽然游戏只有 Pong 一个（且对手是 Magnavox Odyssey 的 Table Tennis），但**这是家用主机产业第一次站稳商业可行性的瞬间**——Atari 后续推出 Super Pong、Ultra Pong 等十多款变种主机。1976 年 Atari 与 Magnavox 达成 Pong 专利和解，Atari 取得授权后正式进入主流玩具市场。
+Atari Home Pong 的故事不是从 1975 年开始的，是从 1972 年那场 Magnavox 经销商 demo 开始的。**Nolan Bushnell**（Atari 创办人）在 1972 年 5 月看完 Magnavox Odyssey 的 Table Tennis 后，回到 Atari 命令工程师 **Allan Alcorn** 做一个「**简化练习**」——把这个概念做成街机版。Alcorn 三个月内完成原型，安装在加州 Sunnyvale 的 Andy Capp's 酒吧。**第一晚机台就坏了——不是电路问题，是投币口被塞满 25 美分硬币**。1972 年街机版 Pong 是 Atari 的第一笔大钱，三年内卖出 19,000 台街机。
+
+家用版 Home Pong 是 1974 年 Alcorn 带领的家用化项目——把整个 Pong 街机压缩进**一颗自研 ASIC 芯片**。没有 CPU、没有 RAM、没有可编程逻辑，**整个游戏就是这颗 ASIC 内置的硬件电路**。1975 年圣诞季由 **Sears Roebuck**（美国最大百货）独家销售，售价 $99。**Sears 玩具部门的订单是 Atari 史上第一笔 7 位数的订单——15 万台首年销售在 Sears 卖断货**，成为 1975 年圣诞节最热销玩具。
+
+但「Home Pong 是抄 Magnavox Odyssey 的」这件事，在 1974 年就被 Magnavox 法务注意到。1974 年 Magnavox 起诉 Atari 专利侵权，**1976 年双方达成历史性和解**——Atari 一次付 70 万美元换取 Pong 相关专利的永久授权。**这场官司的判例至今仍影响主机产业所有专利战**。Atari 在 1976-1977 推出 Super Pong、Ultra Pong、Pong Doubles 等十多款变种，每款都是**单一 ASIC 内置一款 Pong 变体游戏**——这是「主机 = 一款游戏」时代的最后疯狂。
+
+1977 年 Atari 推出真正能换卡带的 Atari 2600，**Pong 系列瞬间过时**。但 Home Pong 在 1975 年完成的事比销量更重要——它是**家用主机产业第一次站稳商业可行性的瞬间**。Magnavox Odyssey 证明「家用机可行」，Atari Home Pong 证明「**家用机可赚钱**」。没有 Home Pong 的成功，就没有 Atari 投入 Atari 2600 开发的勇气，也没有后来 1980 年代的整个产业。
