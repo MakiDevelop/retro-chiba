@@ -38,4 +38,16 @@ notable_games:
   - "LittleBigPlanet（Media Molecule，2008）"
 ---
 
-Sony 第三代旗艦，**Cell 處理器與藍光的雙重豪賭**。Cell 異質多核設計超前但極難開發，初期第三方移植效能反不如 Xbox 360；定價 $599（北美 60GB 版）讓 PS2 那批非玩家市場買不下手。但**內建 Blu-ray 播放器是 2007-08 年藍光對 HD-DVD 規格戰勝出的決定性籌碼**——HD-DVD 2008 年敗退、家庭影音規格從此 Sony 主導。生命週期後期靠 Uncharted、The Last of Us 等 Naughty Dog 大作翻身。
+PS3 是 Sony 在主機產業最接近自毀的一次世代——也是後半段最戲劇性的翻身。2006 年 11 月 11 日，PS3 在日本上市，60GB 版售價 **59,980 円**，北美版 **$599 美元**——比 PS2 上市價貴一倍、比 Xbox 360 高 200 美元。Sony 內部稱這是「**雙重豪賭**」——豪賭 Cell 處理器、豪賭 Blu-ray 媒介。兩個押注都極具野心，兩個都差點壓垮 Sony 的遊戲事業。
+
+第一個豪賭是 **Cell Broadband Engine**——IBM、Sony、東芝聯合設計的異質多核 CPU（1 顆 PowerPC PPE + 7 顆 SPE 流處理器），目標是把超級電腦級的並行運算塞進家用機。理論峰值高得離譜（單精度 218 GFLOPS），但**對開發者極端不友善**——SPE 沒有快取、需要手動 DMA、記憶體模型違反所有 PC 開發者的直覺。**結果 2006-2009 年大量第三方多平台遊戲在 PS3 上跑得比 Xbox 360 慢**——同樣的 Call of Duty、GTA IV、生化奇兵，PS3 版幀率掉、解析度低、loading 久。Cell 是工程上的傑作，**但商業上是場災難**。
+
+第二個豪賭是 **Blu-ray**。2005-2008 年是高解析光碟規格戰爭——Sony 主導的 Blu-ray vs 東芝/微軟主導的 HD-DVD。Sony 的策略：**把 Blu-ray 播放器強塞進每台 PS3**。2006 年單買 Blu-ray 播放器要 $1,000+，PS3 把 Blu-ray 影音播放硬體變成「免費贈品」。**結果 PS3 在賣出第 100 萬台之前就成為全球最大的 Blu-ray 播放器裝機量**。2008 年 1 月 Warner Bros. 宣布獨家支持 Blu-ray，**東芝兩週後撤退 HD-DVD**——規格戰結束。從此 20 年家庭影音光碟規格 Sony 主導。**Blu-ray 大戰的勝利是 PS3 史上最重要的成就，比任何遊戲銷量都更深遠**。
+
+但前期銷售是徹底的災難。2006-2009 年 PS3 落後 Xbox 360 整整三年——**Sony 在這三年虧損約 50 億美元**（每台 PS3 上市賣 $599 但成本 $850）。Microsoft 用 Halo 3、Gears of War、Xbox Live 把北美與歐洲的核心玩家鎖在 360 上，PS3 連 PS2 在日本的霸權都岌岌可危。
+
+翻身來自第一方獨佔。**Naughty Dog** 從《Crash Bandicoot》（PS1）+《Jak & Daxter》（PS2）的兒童向工作室，**蛻變為主機產業最重要的敘事工作室**——《Uncharted》系列三部曲（2007-2011）定義「電影式動作冒險」、2013 年的**《The Last of Us》**用末日題材把家用機遊戲推進到電影獎項評論層級。**Sony Santa Monica 的《God of War》**（後 PS3 三部曲）、**Media Molecule 的《LittleBigPlanet》**、Konami 小島秀夫的**《MGS4》**、**FromSoftware 的《Demon's Souls》**（2009）開創魂系列——這些遊戲讓 PS3 後期商業翻身。
+
+對台灣的孩子，PS3 是中華商場最後一個「正版主流」世代——燒錄文化在 PS3 上失效（Blu-ray 燒錄成本高、PS3 模組難破解），**正版遊戲市場第一次在台灣成形**。中國大陸 PS3 仍受主機禁令限制，水貨流通但邊緣化。
+
+商業上 PS3 全球累計 **8,740 萬台**——比 PS2 的 1.6 億掉了 45%、與 Xbox 360（8,500 萬）平起平坐。**PS3 是 Sony 30 年主機歷史中第一次「沒有絕對勝出」的世代**。但 Blu-ray 的勝利、Naughty Dog 的崛起、PSN 線上服務的建立，為 PS4 的「**1 億 1,750 萬反超**」奠定基礎。**PS3 是 Sony 最痛的一代，也是 PS4 黃金時代的學費。**
