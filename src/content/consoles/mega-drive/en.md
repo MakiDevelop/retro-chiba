@@ -36,4 +36,12 @@ notable_games:
   - "Shining Force II (Sega, 1993)"
 ---
 
-Sega's 16-bit flagship. Released two years before the Super Famicom with a CPU more than twice as fast; Sonic and the aggressive **"Genesis does what Nintendon't"** marketing won North America and Europe — but the home market in Japan stayed loyal to Nintendo.
+On 29 October 1988, Sega launched the Mega Drive in Japan at ¥21,000. Stamped boldly on the front of the case: **"16-BIT"** — the first time in console history that a spec figure was literally embossed onto the chassis as marketing copy. Sega's bet was simple: ship two years before Nintendo's next generation, ship with a CPU twice as fast, **win on engineering lead time**.
+
+Japan never answered. Once the Super Famicom arrived in 1990, Mega Drive plateaued at 3.58 million lifetime sales in Japan — thirteen million behind SFC. Japan's RPG-driving third parties (Square, Enix, Capcom's marquee lines) overwhelmingly skipped Mega Drive in favor of the SFC, locking it out of the cultural mainstream at home.
+
+The story inverted abroad. In 1990 Tom Kalinske took over Sega of America and threw four punches at Nintendo: **drop the price to $199, bundle Sonic into the box, loosen third-party licensing terms, and run attack ads**. "Genesis Does What Nintendon't" remains the most aggressive headline in console-war history. From 1991 to 1993 Mega Drive / Genesis outsold the SNES in North America for three straight years — **the first time Nintendo had ever lost a generation in a home market**. Europe followed suit.
+
+The longest tail runs through Brazil. Sega licensed the brand to Tectoy, which began local manufacturing in the early 1990s and **continues to ship new bundled-game variants of the Mega Drive to this day** — a duplicate of the Master System playbook: lose Japan, but stretch the product line into decades through overseas partners.
+
+A final irony: the Mega Drive opened Sega's catastrophic add-on era. Mega-CD, 32X, Saturn, Dreamcast — every later strategic disaster traces back to this machine. **Sega won North America, but the seeds of its engineering chaos were planted here.**
