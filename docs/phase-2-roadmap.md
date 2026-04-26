@@ -141,9 +141,9 @@ python3 scripts/wikimedia.py --apply
 
 完成後可跑 `python3 scripts/optimize-images.py` 壓縮 jpg + `node scripts/generate-console-thumbs.mjs` 生 webp 縮圖。
 
-### 已 Phase 2 完整清單（2026-04-26）
+### 已 Phase 2 完整清單（2026-04-26 全世代完成）
 
-家用主機編年史 31 台 × 4 語（124 篇）全 Phase 2 敘事完成：
+家用主機編年史 **38 台 × 4 語（152 篇）全 Phase 2 敘事完成**：
 - **Gen 1**：Magnavox Odyssey / Atari Pong / Coleco Telstar
 - **Gen 2**：Atari 2600 / Magnavox Odyssey² / Intellivision / Atari 5200 / ColecoVision / Vectrex
 - **Gen 3**：Famicom / Master System / Atari 7800
@@ -151,9 +151,10 @@ python3 scripts/wikimedia.py --apply
 - **Gen 5**：PS1 / N64 / Saturn / 3DO / Apple Pippin / Atari Jaguar
 - **Gen 6**：PS2 / Xbox / GameCube / Dreamcast
 - **Gen 7**：PS3 / Xbox 360 / Wii
-- **Gen 8/9**：（Phase 1 階段，待後續批次升 Phase 2）
+- **Gen 8**：PS4 / Xbox One / Wii U / Switch
+- **Gen 9**：PS5 / Xbox Series X / Xbox Series S / Switch 2
 
-掌機支線 17 台 × 4 語（68 篇）為 Phase 1（commit 85a6e4c）。
+掌機支線 17 台 × 4 語（68 篇）仍為 Phase 1（commit 85a6e4c），下批次推升 Phase 2 候選。
 
 ### 4 語 tone 差異化已落實
 
