@@ -35,4 +35,12 @@ notable_games:
   - "Garou: Mark of the Wolves (SNK, 1999)"
 ---
 
-The home AES and the arcade MVS shared identical hardware and identical cartridges — **the first console that delivered the arcade, unaltered, into a home**. The price reflected that: a system plus one cartridge cost more than an entire SNES. Sold as a deliberate luxury product to arcade enthusiasts and rental stores. SNK passed through several bankruptcies and acquisitions; the IP now sits with EGDC, a subsidiary of Saudi Arabia's Misk Foundation.
+On 26 April 1990, SNK launched the Neo Geo Advanced Entertainment System in Japan. **It was the first console in history that delivered the arcade, unaltered, into a living room** — the home AES and the arcade MVS shared identical silicon, identical cartridges; the only difference was the plastic shell. The price tracked the proposition: ¥58,000 for the system in Japan ($649 USD in North America, roughly $1,500 in 2026 dollars), with cartridges retailing at $200–$300 each. **A console and one game cost more than an entire SNES.**
+
+The positioning was deliberate. This was not a mass-market product; it was a **luxury statement**. SNK was selling the social status of "owning the arcade." In Japan the early sales channel ran largely through "Neo Geo World" rental shops — you could rent the system and a stack of cartridges for a week and take it home. North America and Europe followed similar high-end retail tracks.
+
+But the **real Neo Geo experience across Asia and most of the world was never the AES — it was the arcade MVS**. Throughout the 1990s, MVS multi-cart cabinets (one board, four games) defined arcade culture in Asia: *Fatal Fury*, *Samurai Shodown*, *The King of Fighters '94–'98*, *Metal Slug*. For an entire generation of Asian arcade kids, "Neo Geo" doesn't evoke a console — it evokes a coin-op cabinet in a corner store.
+
+On software, Neo Geo held the 2D fighting-game golden age. The KOF series shipped annually from 1994 through 2003 without missing a year; the long *SNK vs Capcom* rivalry against Street Fighter became the defining 2D-fighter feud of the decade. *Metal Slug* (1996) set the ceiling for pixel-art run-and-gun. **Neo Geo CD** (1994) attempted to lower the price of entry, but its punishing load times destroyed the experience.
+
+SNK declared bankruptcy in 2001. The IP cycled through Aruze, then Playmore (rebranded as SNK Playmore, then back to plain SNK). In 2020, **Saudi Arabia's Misk Foundation**, via subsidiary EGDC, acquired and restructured the company. SNK is now one of the very few classic Japanese game brands held by a Middle Eastern sovereign wealth fund.
