@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:GameCube-Set.jpg"
+  gallery:
+    - src: "/img/consoles/gamecube-panasonic-q-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Panasonic-Q-Console-Set.jpg"
+      alt: "Panasonic Q (GameCube + DVD hybrid, 2001 Japan-only)"
+      caption: "Panasonic Q (model SL-GC10), released in December 2001 — **Japan-exclusive**, priced at ¥39,800. A Nintendo / Panasonic co-branded hybrid that integrated the entire GameCube hardware with a full DVD-Video player, housed in a stainless-steel chassis. **The only home console in history to ship under joint Nintendo and Panasonic branding** — extremely low production volume, a collector's grail."
+      license: CC-BY-SA-3.0
 notable_games:
   - "Super Smash Bros. Melee (HAL Lab, 2001)"
   - "Resident Evil 4 (Capcom, 2005 — originally GC-exclusive)"

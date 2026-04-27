@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-2-30001-wController-L.jpg"
+  gallery:
+    - src: "/img/consoles/ps2-ps2-slim-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PS2-Slim-Console-Set.jpg"
+      alt: "PS2 Slim（SCPH-70000、2004 年）"
+      caption: "PS2 Slim（SCPH-70000）、2004 年 11 月発売、$149 米ドル——筐体の厚みは初代のおよそ 3 分の 1、Ethernet 内蔵、トップローディング光ディスクで初代の引き出しトレイ式を置き換えた。**PS2 史上最高記録 1 億 6,000 万台のうち大部分は、2004-2013 年における本 Slim の長期販売貢献に由来する**。"
+      license: PD
 notable_games:
   - "Grand Theft Auto: San Andreas（ロックスター、2004）"
   - "ファイナルファンタジーX（スクウェア、2001）"

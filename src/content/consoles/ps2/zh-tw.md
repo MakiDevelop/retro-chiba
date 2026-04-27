@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-2-30001-wController-L.jpg"
+  gallery:
+    - src: "/img/consoles/ps2-ps2-slim-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PS2-Slim-Console-Set.jpg"
+      alt: "PS2 Slim（SCPH-70000，2004 年）"
+      caption: "PS2 Slim（SCPH-70000），2004 年 11 月發行，售價 $149 美元——機體厚度只剩原版三分之一、加 Ethernet 內建、頂載光碟取代抽屜式。**Sony 1.6 億史上最高銷量主要靠這台 Slim 在 2004-2013 年的長尾貢獻**。"
+      license: PD
 notable_games:
   - "GTA：San Andreas（Rockstar，2004）"
   - "Final Fantasy X（Square，2001）"

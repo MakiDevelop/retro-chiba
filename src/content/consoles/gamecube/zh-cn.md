@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:GameCube-Set.jpg"
+  gallery:
+    - src: "/img/consoles/gamecube-panasonic-q-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Panasonic-Q-Console-Set.jpg"
+      alt: "Panasonic Q（GameCube + DVD 混合机，2001 年日本独占）"
+      caption: "Panasonic Q（型号 SL-GC10），2001 年 12 月**日本独占上市**，售价 39,800 日元——任天堂与 Panasonic（松下）合作的混血机，把 GameCube 全部硬件 + 标准 DVD 播放器整合进不锈钢机壳。**这是史上唯一挂任天堂 + Panasonic 双标的家用主机**，产量极小、收藏家神物。"
+      license: CC-BY-SA-3.0
 notable_games:
   - "任天堂明星大乱斗 DX（HAL Lab，2001）"
   - "生化危机 4（Capcom，2005，原 GC 独占）"

@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PlayStation-2-30001-wController-L.jpg"
+  gallery:
+    - src: "/img/consoles/ps2-ps2-slim-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PS2-Slim-Console-Set.jpg"
+      alt: "PS2 Slim (SCPH-70000, 2004)"
+      caption: "PS2 Slim (SCPH-70000), released November 2004 at $149 — the chassis shrunk to roughly one-third the original's depth, integrated Ethernet, and a top-loading disc drive replaced the original front-loading tray. **Most of the PS2's all-time-record 160 million lifetime sales come from the Slim's long tail across 2004–2013.**"
+      license: PD
 notable_games:
   - "Grand Theft Auto: San Andreas (Rockstar, 2004)"
   - "Final Fantasy X (Square, 2001)"

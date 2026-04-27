@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:GameCube-Set.jpg"
+  gallery:
+    - src: "/img/consoles/gamecube-panasonic-q-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Panasonic-Q-Console-Set.jpg"
+      alt: "Panasonic Q（ゲームキューブ + DVD ハイブリッド機、2001 年日本限定）"
+      caption: "Panasonic Q（型番 SL-GC10）、2001 年 12 月**日本限定発売**、価格 39,800 円——任天堂とパナソニックのコラボによるハイブリッド機で、ゲームキューブのハードウェア全機能と DVD プレーヤー機能をステンレス筐体に統合した。**任天堂とパナソニックの両ロゴが共存する唯一の家庭用ゲーム機**——生産台数は極小、コレクター垂涎の希少機種。"
+      license: CC-BY-SA-3.0
 notable_games:
   - "大乱闘スマッシュブラザーズ DX（HAL 研究所、2001）"
   - "バイオハザード 4（カプコン、2005、当初 GC 独占）"
