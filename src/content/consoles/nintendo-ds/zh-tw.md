@@ -29,6 +29,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Fat-Blue.jpg"
+  gallery:
+    - src: "/img/consoles/nintendo-ds-nintendo-ds-lite-black-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.jpg"
+      alt: "Nintendo DS Lite（USG-001，2006）"
+      caption: "Nintendo DS Lite（2006），DS 家族最暢銷型號——更薄、更亮、白色版成為 2006-2010 年機場通勤景觀的標配。"
+      license: PD
+    - src: "/img/consoles/nintendo-ds-nintendo-dsi-bl-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DSi-Bl-Open.jpg"
+      alt: "Nintendo DSi（TWL-001，2008）"
+      caption: "Nintendo DSi（2008），加雙鏡頭 + SD 卡插槽 + DSi Shop 數位下載商店——任天堂第一次把掌機與線上數位商店整合。"
+      license: PD
 notable_games:
   - "Brain Age（任天堂，2005，銀髮族 + 主婦市場開拓）"
   - "Nintendogs（任天堂，2005）"

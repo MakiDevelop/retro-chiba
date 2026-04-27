@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PSP-1000-Body.jpg"
+  gallery:
+    - src: "/img/consoles/psp-psp-2000.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PSP-2000.jpg"
+      alt: "PSP-2000 Slim & Lite（2007）"
+      caption: "PSP-2000 Slim & Lite（2007），更薄 33% + TV 輸出 + RAM 提升到 64 MB + 充電孔改 mini-USB。Slim 是 PSP 最暢銷型號。"
+      license: PD
+    - src: "/img/consoles/psp-psp-go-fl-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PSP-Go-FL-Open.jpg"
+      alt: "PSP Go（PSP-N1000，2009）"
+      caption: "PSP Go（2009），純數位下載 + 滑蓋設計 — Sony 試圖跳過 UMD 走純數位的失敗嘗試。零售商抗議無實體卡帶可賣 + 玩家不滿 UMD 不能升級到 Go，銷量極低。"
+      license: PD
 notable_games:
   - "Monster Hunter Portable 2nd G（Capcom，2008，亞洲社會現象）"
   - "Crisis Core: Final Fantasy VII（Square Enix，2007）"

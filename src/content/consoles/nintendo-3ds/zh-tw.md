@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-AquaOpen.jpg"
+  gallery:
+    - src: "/img/consoles/nintendo-3ds-nintendo-3ds-xl-angled.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-XL-angled.jpg"
+      alt: "Nintendo 3DS XL（SPR-001，2012）"
+      caption: "Nintendo 3DS XL（2012），螢幕放大 90% + 電池更耐久 — 任天堂為較大年齡層玩家推的旗艦版，後期成為 3DS 家族最暢銷型號。"
+      license: PD
+    - src: "/img/consoles/nintendo-3ds-nintendo-2ds-angle.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-2DS-angle.jpg"
+      alt: "Nintendo 2DS（FTR-001，2013）"
+      caption: "Nintendo 2DS（2013），平板式無翻蓋設計 + 完全去掉 3D 功能 — 任天堂為兒童市場推的廉價版（$129），實質承認 3D 功能多數玩家不用。"
+      license: PD
 notable_games:
   - "Pokémon X/Y（GameFreak，2013，**Pokémon 系列首次原生 3D**）"
   - "動物森友會：新葉（任天堂，2012）"

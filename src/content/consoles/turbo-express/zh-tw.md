@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:NEC-TurboExpress-Upright-FL.jpg"
+  gallery:
+    - src: "/img/consoles/turbo-express-pc-engine-hucard.jpg"
+      author: "SACHEN at Japanese Wikipedia"
+      source_url: "https://commons.wikimedia.org/wiki/File:PC%20Engine%20HuCARD.jpg"
+      alt: "PC Engine HuCard 卡帶"
+      caption: "HuCard（信用卡大小的 PC Engine 卡帶）— TurboExpress / PC Engine GT 直插即玩 PC Engine 主機全部軟體，是「家用機 = 掌機」概念的最早商業化具現。"
+      license: PD
 notable_games:
   - "（與 PC Engine 主機完全相同的 HuCard 軟體陣容）"
   - "Bonk's Adventure（Hudson，1989）"

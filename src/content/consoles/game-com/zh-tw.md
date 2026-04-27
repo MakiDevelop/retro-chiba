@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Tiger-Game-Com-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-com-tiger-game.com-with-cartridges.jpg"
+      author: "Matthew Paul Argall"
+      source_url: "https://commons.wikimedia.org/wiki/File:Tiger%20Game.Com%20with%20cartridges.jpg"
+      alt: "Tiger Game.com 主機 + 卡帶"
+      caption: "Tiger Game.com 主機 + 卡帶配件 — 全壽命約 20 款卡帶，包括《Resident Evil 2》《Sonic Jam》《Mortal Kombat Trilogy》等臭名昭著的主機級 IP 移植災難。"
+      license: PD
 notable_games:
   - "Lights Out（Tiger，1997，內附）"
   - "Resident Evil 2（Capcom，1998，**主機級 IP 移植大失敗**）"

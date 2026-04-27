@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-1101-FL.jpg"
+  gallery:
+    - src: "/img/consoles/ps-vita-playstation-vita-2001-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-2001-FL.jpg"
+      alt: "PS Vita Slim（PCH-2001，2013）"
+      caption: "PS Vita Slim（PCH-2001，2013），OLED 改 LCD（壓成本）+ 更薄 + 內建 1 GB 儲存。改款後 OLED 機身（PCH-1101）反而成為玩家偏好的「好版本」。"
+      license: PD
 notable_games:
   - "Persona 4 Golden（Atlus，2012，cult 神作）"
   - "Tearaway（Media Molecule，2013）"

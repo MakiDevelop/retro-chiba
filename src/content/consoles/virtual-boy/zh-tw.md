@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Virtual-Boy-Set.png"
+  gallery:
+    - src: "/img/consoles/virtual-boy-nintendo-virtual-boy-parts.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Virtual-Boy-Parts.jpg"
+      alt: "Virtual Boy 內部拆解（主機 + 雙紅色 LED 模組 + 三腳架）"
+      caption: "Virtual Boy 內部拆解 — 紅色雙眼罩內含左右各一組單色紅 LED 線性掃描陣列 + 機械式震動鏡頭。1995 年的 32-bit RISC + 機械光學整合在當時是異常激進的設計。"
+      license: PD
 notable_games:
   - "Mario's Tennis（任天堂，1995，內附 / 系統殺手鐧）"
   - "Wario Land（任天堂，1995）"

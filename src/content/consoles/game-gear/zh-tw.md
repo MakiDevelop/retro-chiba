@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Game-Gear-WB.png"
+  gallery:
+    - src: "/img/consoles/game-gear-game-gear-cartridge.jpg"
+      author: "AOMAF2024 from Wedel, Germany"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game%20gear%20cartridge.jpg"
+      alt: "Sega Game Gear ROM 卡帶"
+      caption: "Game Gear ROM 卡帶 — 與 Master System 卡帶轉接器相容，Game Gear 透過 Master Gear Converter 可玩家用機完整 SMS 軟體庫。"
+      license: PD
 notable_games:
   - "Sonic the Hedgehog（Sega，1991）"
   - "Columns（Sega，1990）"
