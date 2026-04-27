@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Famicom-Console-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/famicom-nintendo-av-famicom-console-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-AV-Famicom-Console-FL.jpg"
+      alt: "AV Famicom (HVC-101, 1993)"
+      caption: "AV Famicom (HVC-101), released December 1993 — Nintendo's compact redesign that extended the original FC's life cycle, replacing the RF coaxial output with proper AV jacks, shrinking the chassis, and switching to detachable controllers. The farewell edition of the 8-bit era."
+      license: PD
 notable_games:
   - "Super Mario Bros. (Nintendo, 1985)"
   - "Dragon Quest (Enix, 1986)"

@@ -118,8 +118,15 @@ def strip_html(s: str) -> str:
     return unicodedata.normalize("NFKC", s).strip()
 
 
-def slugify_filename(commons_filename: str, console_slug: str) -> str:
-    """Deterministic local filename: <console-slug>-<lowercased-commons-name>."""
+def slugify_filename(commons_filename: str, console_slug: str, *, is_hero: bool = False) -> str:
+    """Deterministic local filename.
+
+    Hero block:    <console-slug>-hero.<ext>   (matches generate-console-thumbs.mjs glob)
+    Gallery item:  <console-slug>-<lowercased-commons-name>
+    """
+    ext = commons_filename.rsplit(".", 1)[-1].lower()
+    if is_hero:
+        return f"{console_slug}-hero.{ext}"
     base = commons_filename.lower()
     base = re.sub(r"[^a-z0-9.-]+", "-", base)
     base = re.sub(r"-+", "-", base).strip("-")
@@ -128,6 +135,15 @@ def slugify_filename(commons_filename: str, console_slug: str) -> str:
 
 # Match `wikimedia:File:NAME.ext` strings across the document.
 WIKIMEDIA_RE = re.compile(r"\bwikimedia:File:([A-Za-z0-9._\-' ()]+\.[A-Za-z0-9]{3,4})")
+
+
+def _is_hero_marker(text: str, marker_pos: int) -> bool:
+    """A marker is in hero block iff the closest preceding `hero:` / `gallery:`
+    token at the imageRef level is `hero:`."""
+    head = text[:marker_pos]
+    last_hero = head.rfind("\n  hero:")
+    last_gallery = head.rfind("\n  gallery:")
+    return last_hero > last_gallery
 
 
 @dataclass
@@ -148,7 +164,8 @@ def scan() -> list[Hit]:
         console_slug = md.parent.name
         for m in WIKIMEDIA_RE.finditer(text):
             commons_filename = m.group(1)
-            local_basename = slugify_filename(commons_filename, console_slug)
+            is_hero = _is_hero_marker(text, m.start())
+            local_basename = slugify_filename(commons_filename, console_slug, is_hero=is_hero)
             disk_path = IMG_DIR / local_basename
             web_path = f"/img/consoles/{local_basename}"
             hits.append(Hit(

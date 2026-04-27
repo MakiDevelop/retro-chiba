@@ -27,6 +27,13 @@ images:
     license: CC-BY-SA-3.0
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:3DO-FZ1-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/3do-3do-fz-10-console-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:3DO-FZ-10-Console-FL.jpg"
+      alt: "Panasonic 3DO FZ-10（1994 年廉價版）"
+      caption: "Panasonic 3DO FZ-10（1994 年），FZ-1 的低成本繼承者——頂載光碟機（取代 FZ-1 的前置抽屜）、機體小型化、上市價降到 $499。Panasonic 試圖挽救 3DO 的最後一搏，但 1995 年 PS1 / Saturn 上市後即停產。"
+      license: PD
 notable_games:
   - "Road Rash（Electronic Arts，1994）"
   - "Star Control II（Toys for Bob，1994）"

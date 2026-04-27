@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:N64-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/n64-nintendo-n64-ique-player-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-N64-iQue-Player-FL.jpg"
+      alt: "iQue Player（神游机，2003 年中国大陆版）"
+      caption: "iQue Player（神游机），2003 年 11 月由任天堂与华裔工程师**颜维群**合资的「神游科技」推出——把整台 N64 缩小成一支内建屏幕的手柄、仅在中国大陆发售、软件经文化部审查。**这是任天堂家用机历史上唯一在中国大陆正式上市的世代**（之后 Switch 才有第二次）。"
+      license: PD
 notable_games:
   - "超级马里奥 64（任天堂，1996，附赠）"
   - "塞尔达传说：时之笛（任天堂，1998）"

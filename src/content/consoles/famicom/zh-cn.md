@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Famicom-Console-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/famicom-nintendo-av-famicom-console-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-AV-Famicom-Console-FL.jpg"
+      alt: "AV Famicom（HVC-101，1993 年）"
+      caption: "AV Famicom（HVC-101），1993 年 12 月发行——任天堂为延长 FC 寿命的小型重设计版，加入 AV 影音输出（取代 RF 调频信号）、机体小型化、手柄改成可插拔。8 位时代的告别纪念版。"
+      license: PD
 notable_games:
   - "超级马里奥兄弟（任天堂，1985）"
   - "勇者斗恶龙（Enix，1986）"

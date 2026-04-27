@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:N64-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/n64-nintendo-n64-ique-player-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-N64-iQue-Player-FL.jpg"
+      alt: "iQue Player（神遊機、2003 年中国大陸版）"
+      caption: "iQue Player（神遊機）、2003 年 11 月、任天堂と中華系米国人エンジニア **Wei Yen（顔維群）**の合弁会社「神遊科技」から発売——NINTENDO64 全体を画面内蔵コントローラ 1 つに小型化、中国大陸限定販売、ソフトは中国文化部の事前審査済み。**2019 年の Switch 以前、任天堂家庭用機が中国大陸で正式販売された唯一の世代**となった。"
+      license: PD
 notable_games:
   - "スーパーマリオ 64（任天堂、1996、本体同梱）"
   - "ゼルダの伝説 時のオカリナ（任天堂、1998）"

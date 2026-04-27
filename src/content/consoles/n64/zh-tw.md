@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:N64-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/n64-nintendo-n64-ique-player-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-N64-iQue-Player-FL.jpg"
+      alt: "iQue Player（神遊機，2003 年中國大陸版）"
+      caption: "iQue Player（神遊機），2003 年 11 月由任天堂與華裔工程師**顏維群**合資的「神遊科技」推出——把整台 N64 縮小成一支內建螢幕的控制器、僅在中國大陸發售、軟體經文化部審查。**這是任天堂家用機歷史上唯一在中國大陸正式上市的世代**（之後 Switch 才有第二次）。"
+      license: PD
 notable_games:
   - "Super Mario 64（任天堂，1996，內附）"
   - "薩爾達傳說：時之笛（任天堂，1998）"

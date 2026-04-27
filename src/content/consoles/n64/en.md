@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:N64-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/n64-nintendo-n64-ique-player-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-N64-iQue-Player-FL.jpg"
+      alt: "iQue Player (mainland China variant, 2003)"
+      caption: "iQue Player, released November 2003 by **iQue (神遊科技)** — a joint venture between Nintendo and Chinese-American engineer **Wei Yen**. The entire Nintendo 64 was miniaturized into a single controller with a built-in screen, sold only in mainland China, with software pre-approved by China's Ministry of Culture. **This is the only Nintendo home console generation ever officially released in mainland China before the 2019 Switch.**"
+      license: PD
 notable_games:
   - "Super Mario 64 (Nintendo, 1996 — pack-in)"
   - "The Legend of Zelda: Ocarina of Time (Nintendo, 1998)"

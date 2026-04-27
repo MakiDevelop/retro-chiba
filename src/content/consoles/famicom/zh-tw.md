@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Famicom-Console-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/famicom-nintendo-av-famicom-console-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-AV-Famicom-Console-FL.jpg"
+      alt: "AV Famicom（HVC-101，1993 年）"
+      caption: "AV Famicom（HVC-101），1993 年 12 月發行——任天堂為延長 FC 壽命的小型重設計版，加入 AV 影音輸出（取代 RF 調頻訊號）、機體小型化、控制器改成可插拔。8 位元時代的告別紀念版。"
+      license: PD
 notable_games:
   - "Super Mario Bros.（任天堂，1985）"
   - "勇者鬥惡龍（Enix，1986）"

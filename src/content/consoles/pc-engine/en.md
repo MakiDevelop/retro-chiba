@@ -27,6 +27,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PC-Engine-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/pc-engine-supergrafx-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SuperGrafx-Console-Set.jpg"
+      alt: "PC Engine SuperGrafx (1989 hardware-upgraded variant)"
+      caption: "SuperGrafx (December 1989, ¥39,800) — NEC's attempt to counter the imminent Mega Drive and Super Famicom with an enhanced VDP and doubled RAM. **Only five SuperGrafx-exclusive games ever shipped** before discontinuation — the most extreme over-engineering failure in the PC Engine line."
+      license: CC-BY-SA-3.0
+    - src: "/img/consoles/pc-engine-turbografx16-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:TurboGrafx16-Console-Set.jpg"
+      alt: "TurboGrafx-16 (North American PC Engine, 1989)"
+      caption: "TurboGrafx-16, North American launch August 1989 — NEC-HE reskinned the cute little white box into an ugly black slab and rebranded it 'TurboGrafx-16' to emphasize the 16-bit graphics. **'PC Engine is strong, TurboGrafx-16 is weak' — same hardware, two opposite market fates.**"
+      license: PD
 notable_games:
   - "Bonk's Adventure (Hudson, 1989)"
   - "R-Type (Irem, 1988)"

@@ -27,6 +27,13 @@ images:
     license: CC-BY-SA-3.0
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:3DO-FZ1-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/3do-3do-fz-10-console-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:3DO-FZ-10-Console-FL.jpg"
+      alt: "Panasonic 3DO FZ-10（1994 年廉価版）"
+      caption: "Panasonic 3DO FZ-10（1994 年）——FZ-1 の低価格後継機、トップローディング光ディスク（FZ-1 の前面トレイ式を置き換え）、筐体を小型化、発売価格を $499 に引き下げた。3DO フォーマット救済を狙った Panasonic 最後の試みだが、1995 年のプレイステーションとサターン登場直後に生産終了となった。"
+      license: PD
 notable_games:
   - "Road Rash（エレクトロニック・アーツ、1994）"
   - "Star Control II（Toys for Bob、1994）"

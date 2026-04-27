@@ -27,6 +27,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PC-Engine-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/pc-engine-supergrafx-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SuperGrafx-Console-Set.jpg"
+      alt: "PC Engine SuperGrafx（1989 年強化版）"
+      caption: "SuperGrafx（1989 年 12 月，39,800 円）——NEC 試圖以增強 VDP + 雙倍 RAM 對抗即將上市的 Mega Drive 與超任。但**只發行 5 款專屬遊戲**就停產，是 PC Engine 系列最大的工程過度設計失敗範例。"
+      license: CC-BY-SA-3.0
+    - src: "/img/consoles/pc-engine-turbografx16-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:TurboGrafx16-Console-Set.jpg"
+      alt: "TurboGrafx-16（PC Engine 北美版，1989 年）"
+      caption: "TurboGrafx-16，1989 年 8 月北美上市——NEC-HE 把可愛的小白盒重新設計成醜陋黑色大盒、改名「TurboGrafx-16」強調 16 位元規格。**「PC Engine 強，TurboGrafx-16 弱」是同一台機器在兩個市場的雙重命運**。"
+      license: PD
 notable_games:
   - "Bonk's Adventure（Hudson，1989）"
   - "R-Type（Irem，1988）"

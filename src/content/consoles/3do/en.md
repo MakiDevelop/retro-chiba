@@ -27,6 +27,13 @@ images:
     license: CC-BY-SA-3.0
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:3DO-FZ1-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/3do-3do-fz-10-console-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:3DO-FZ-10-Console-FL.jpg"
+      alt: "Panasonic 3DO FZ-10 (1994 cost-down revision)"
+      caption: "Panasonic 3DO FZ-10 (1994) — the low-cost successor to the FZ-1, with a top-loading disc drive (replacing the FZ-1's front-loading tray), a smaller chassis, and a $499 launch price. Panasonic's last attempt to save the 3DO format; discontinued shortly after PlayStation and Saturn arrived in 1995."
+      license: PD
 notable_games:
   - "Road Rash (Electronic Arts, 1994)"
   - "Star Control II (Toys for Bob, 1994)"

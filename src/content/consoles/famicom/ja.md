@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Famicom-Console-Set-FL.jpg"
+  gallery:
+    - src: "/img/consoles/famicom-nintendo-av-famicom-console-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-AV-Famicom-Console-FL.jpg"
+      alt: "AV ファミコン（HVC-101、1993 年）"
+      caption: "AV ファミコン（HVC-101）、1993 年 12 月発売——初代 FC のライフサイクル延長を目的とした任天堂のコンパクト再設計版。RF 同軸出力を AV ジャック化、筐体を小型化、コントローラを着脱式に変更。8 ビット時代の最終記念モデル。"
+      license: PD
 notable_games:
   - "スーパーマリオブラザーズ（任天堂、1985）"
   - "ドラゴンクエスト（エニックス、1986）"

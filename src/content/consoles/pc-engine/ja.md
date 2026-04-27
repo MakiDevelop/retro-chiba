@@ -27,6 +27,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PC-Engine-Console-Set.jpg"
+  gallery:
+    - src: "/img/consoles/pc-engine-supergrafx-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SuperGrafx-Console-Set.jpg"
+      alt: "PC エンジン スーパーグラフィックス（1989 年強化版）"
+      caption: "スーパーグラフィックス（1989 年 12 月、39,800 円）——NEC が間近に迫るメガドライブとスーパーファミコンに対抗すべく投入した、強化 VDP と倍増 RAM 搭載の上位機。だが**スーパーグラフィックス専用ソフトはわずか 5 タイトル**で生産終了——PC エンジン・シリーズ最大の過剰設計商業失敗例となった。"
+      license: CC-BY-SA-3.0
+    - src: "/img/consoles/pc-engine-turbografx16-console-set.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:TurboGrafx16-Console-Set.jpg"
+      alt: "TurboGrafx-16（北米版 PC エンジン、1989 年）"
+      caption: "TurboGrafx-16、1989 年 8 月北米発売——NEC-HE は愛らしい白色小型筐体を野暮ったい黒色の大箱に再設計、名称も「TurboGrafx-16」へ変更し 16 ビットグラフィックスを訴求した。**「PC エンジンは強く、TurboGrafx-16 は弱い」**——同じハードが二つの市場で正反対の運命を辿った。"
+      license: PD
 notable_games:
   - "PC 原人（ハドソン、1989）"
   - "R-TYPE（アイレム、1988）"
