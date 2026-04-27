@@ -37,4 +37,16 @@ notable_games:
   - "Danganronpa 系列（Spike Chunsoft，2014）"
 ---
 
-PSP 後繼機——技術上勝過 PSP 數倍（**5 吋 OLED + 雙類比 + 背後觸控板**）但**專用 Memory Card 售價過貴**（32 GB 一張卡 $99）+ **智慧型手機遊戲已成熟**（iPhone 上市 4 年）讓 Vita 受到雙重擠壓。Sony 後期幾乎放棄第一方支援，靠 indie 與日系 niche（Persona、Danganronpa、Gravity Rush）撐到 2019 停產。**Sony 至今最後一台掌機**——退出之後 Sony 把資源全押 PS4/5。
+2011 年 12 月 17 日，Sony 在日本推出 PlayStation Vita（PS Vita），售價 24,980 円（Wi-Fi 版）/ 29,980 円（3G+Wi-Fi 版）。**這是 PSP 的後繼機，也是 Sony 至今最後一台 dedicated handheld**——研發代號 NGP（Next Generation Portable）就明確了任天堂 3DS 才是真正對手。設計目標：**把 PS3 級畫面塞進掌機**——同樣是 Sony 慣用的「家用機規格小型化」邏輯。
+
+技術上 Vita 是當代最強掌機。**ARM Cortex-A9 四核 @ 333 MHz-2 GHz** + **PowerVR SGX543MP4+ GPU**（這是當年 PS Vita 與 iPhone 4S 同款 GPU 系列、PSV 是 4 核版）、**5 吋 OLED 觸控 960×544**（Vita 2000 改 LCD）、512 MB RAM、雙類比（補上 PSP 一直被批評的單類比致命缺點）、前後雙觸控（**背後觸控板 是家用機 / 掌機產業首見**）、前後雙鏡頭、六軸感測器、3G 內建（部分 SKU）、Wi-Fi。**Vita 規格上是「掌機級的 PS3」**——但和 PSP 對 NDS 一樣，規格優勢沒有換來市場優勢。
+
+**最致命的策略失誤是「專用 Memory Card」**——Sony 取消 PSP 時代的 Memory Stick Pro Duo（兼容相機），改用 Vita 專用卡（為了防破解 / 加密 ROM）。**容量 4 GB 賣 $19 / 8 GB $29 / 16 GB $59 / 32 GB $99**，比同期 microSD 貴 3-5 倍。Vita 的遊戲都要安裝到卡裡，買主機後**幾乎強制再買一張卡**——這個價格在 iPhone 已普及的時代給玩家留下非常負面的第一印象。後期 Vita 主機降價到 $199，但 Memory Card 始終沒有合理化。
+
+**第二個致命壓力是智慧型手機**。Vita 2011 年上市時，**iPhone 已經 4 歲、Android 4 歲，Angry Birds、Cut the Rope、Infinity Blade 等手遊已經成熟**。Sony 想用 Vita 重複 PSP 「掌機 + 多媒體」的路線——但 2007 年的 PSP 多媒體價值在 2011 年的 iPhone 面前徹底崩潰。**Vita 等於同時被任天堂 3DS（dedicated handheld 強檔陣容）+ 智慧型手機（casual 市場）雙向夾擊**——這是 PSP 沒遇到、但 Vita 必須面對的時代分水嶺。
+
+**Sony 中期幾乎放棄第一方支援**——SCE 內部資源在 PS4 與 PS Vita 之間明確選了 PS4。前 2 年的 Sony 第一方陣容（Uncharted: Golden Abyss / Killzone: Mercenary / LittleBigPlanet PS Vita / Tearaway / Gravity Rush）品質不錯但數量稀薄，後期幾乎只剩 PS4 Remote Play 串流。**這個「軟體斷糧」是 Vita 銷量崩盤的最直接原因**——硬體再好沒遊戲玩，玩家就跑了。
+
+**真正撐起 Vita 後半生的是 indie + 日系 niche RPG / VN**——**《Persona 4 Golden》**（Atlus 2012，PS2 P4 大幅補完版，被視為 Vita cult 神作）、**《Danganronpa 1+2》**（Spike Chunsoft 2014）、**《Gravity Rush》**（SCE Japan / 外山圭一郎 2012）、**《Soul Sacrifice》**（Marvelous / 稻船敬二 2013）、**《軌跡系列 PSV 移植版》**（Falcom）、**《Atelier / 戰國蘭斯 / Disgaea / Senran Kagura》全套日系 niche** —— Vita 末期成為「日式 RPG / VN 的避風港」，這也是它在華人重度玩家圈被視為「珍藏品」的原因。
+
+商業上 Vita 全球累計 **1,500-1,600 萬台**（Sony 從未公布精確數字，業界推估）——**只有 PSP 8,000 萬的 1/5**。**2019 年 3 月日本最終生產停止**，Sony 自此再也沒推出新的 dedicated handheld。**Sony 至今最後一台掌機**——2024 年的 PlayStation Portal 只是 PS5 串流配件（不能獨立執行遊戲），不算 dedicated handheld 復活。Sony 從 PSP 巔峰（撼動 Nintendo 掌機霸權）到 Vita 退場（徹底交還掌機市場給 Nintendo）只花了 15 年——**這是家用 / 掌機產業最戲劇性的單一公司退場**。
