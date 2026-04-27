@@ -24,7 +24,7 @@ specs:
   ネットワーク: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-s-xbox-series-s-with-controller.jpg"
+    src: "/img/consoles/xbox-series-s-hero.jpg"
     author: "AsmodeanUnderscore"
     source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20S%20with%20controller.jpg"
     alt: "Xbox Series S 白色小型本体とコントローラ"

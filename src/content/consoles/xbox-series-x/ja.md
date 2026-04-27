@@ -24,7 +24,7 @@ specs:
   ネットワーク: "Gigabit Ethernet + Wi-Fi 6 + Xbox Wireless"
 images:
   hero:
-    src: "/img/consoles/xbox-series-x-xbox-series-x-2.jpg"
+    src: "/img/consoles/xbox-series-x-hero.jpg"
     author: "Der. Bellemer"
     source_url: "https://commons.wikimedia.org/wiki/File:Xbox%20Series%20X%202.jpg"
     alt: "Xbox Series X 黒色縦置きタワー型本体"
