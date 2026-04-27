@@ -31,6 +31,13 @@ images:
     license: CC-BY-SA-4.0
     author: "Wikimedia Commons contributor"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_in_Docking_Console.jpg"
+  gallery:
+    - src: "/img/consoles/switch-2-nintendo-switch-2-and-1-compared.jpg"
+      author: "SilviaASH"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo%20Switch%202%20and%201%20compared.jpg"
+      alt: "Switch 2 (left) compared side-by-side with the original Switch (right)"
+      caption: "Switch 2 (left) and the original Switch (right) shown together. Switch 2's screen grew from 6.2 to 7.9 inches and the overall chassis is modestly larger, but the magnetic Joy-Con system and vertical Dock visually carry forward unchanged. **This is the first generational handoff in Nintendo's three-decade home-console history that explicitly continues the previous brand's identity** — deliberate visual continuity to preserve the 146.65 million-strong Switch installed base."
+      license: PD
 notable_games:
   - "Mario Kart World (Nintendo, 2025 — pack-in)"
   - "Donkey Kong Bananza (Nintendo, 2025)"

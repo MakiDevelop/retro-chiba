@@ -31,6 +31,13 @@ images:
     license: CC-BY-SA-4.0
     author: "Wikimedia Commons contributor"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_in_Docking_Console.jpg"
+  gallery:
+    - src: "/img/consoles/switch-2-nintendo-switch-2-and-1-compared.jpg"
+      author: "SilviaASH"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo%20Switch%202%20and%201%20compared.jpg"
+      alt: "Switch 2（左）と初代 Switch（右）の並置比較"
+      caption: "Switch 2（左）と初代 Switch（右）の並置。Switch 2 は画面が 6.2 インチから 7.9 インチへ拡大、筐体全体もやや大型化したが、Joy-Con のマグネット式装着と縦置き Dock の視覚的同一性は維持されている。**任天堂 30 年の家庭用機史において、初めてブランド・アイデンティティをそのまま継承した世代交代**——意図的な視覚連続性により、Switch の 1 億 4,665 万のインストールベースを保全する設計判断。"
+      license: PD
 notable_games:
   - "マリオカート ワールド（任天堂、2025、本体同梱）"
   - "ドンキーコング バナンザ（任天堂、2025）"

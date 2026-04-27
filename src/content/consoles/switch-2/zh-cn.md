@@ -31,6 +31,13 @@ images:
     license: CC-BY-SA-4.0
     author: "Wikimedia Commons contributor"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_in_Docking_Console.jpg"
+  gallery:
+    - src: "/img/consoles/switch-2-nintendo-switch-2-and-1-compared.jpg"
+      author: "SilviaASH"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo%20Switch%202%20and%201%20compared.jpg"
+      alt: "Switch 2（左）与初代 Switch（右）并列比较"
+      caption: "Switch 2（左）与初代 Switch（右）并列——Switch 2 屏幕从 6.2 寸升 7.9 寸，整体尺寸略大但保持 Joy-Con 磁吸 + 直立 Dock 的视觉一致性。**这是任天堂 30 年家用机史上首次正面延续品牌的世代交接**——刻意维持外型语言以保留 1.4665 亿 Switch 用户基础。"
+      license: PD
 notable_games:
   - "马里奥卡丁车 World（任天堂，2025，附赠）"
   - "森喜剛 Bananza（任天堂，2025）"
