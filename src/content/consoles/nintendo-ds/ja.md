@@ -29,6 +29,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Fat-Blue.jpg"
+  gallery:
+    - src: "/img/consoles/nintendo-ds-nintendo-ds-lite-black-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.jpg"
+      alt: "ニンテンドー DS Lite（USG-001、2006）"
+      caption: "ニンテンドー DS Lite（2006）、DS ファミリ最大の販売実績を持つ SKU——薄型化・高輝度化された改訂版で、白の DS Lite は 2006-2010 年の世界各地の空港や通勤シーンで日常的に目にする光景となった。"
+      license: PD
+    - src: "/img/consoles/nintendo-ds-nintendo-dsi-bl-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DSi-Bl-Open.jpg"
+      alt: "ニンテンドー DSi（TWL-001、2008）"
+      caption: "ニンテンドー DSi（2008）、デュアルカメラ・SD カードスロット・DSi ショップ（デジタルダウンロードストア）を追加——任天堂が携帯機にオンラインデジタルストアを統合した最初の事例である。"
+      license: PD
 notable_games:
   - "脳を鍛える大人の DS トレーニング（任天堂、2005、シニア・ライト層を新規開拓）"
   - "nintendogs（任天堂、2005）"

@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-AquaOpen.jpg"
+  gallery:
+    - src: "/img/consoles/nintendo-3ds-nintendo-3ds-xl-angled.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-XL-angled.jpg"
+      alt: "ニンテンドー 3DS LL（SPR-001、2012）"
+      caption: "ニンテンドー 3DS LL（2012）——画面サイズ 90% 拡大、バッテリー駆動時間延長。年齢層が高めのプレイヤー向けに投入された旗艦機種で、最終的に 3DS ファミリで最も売れた SKU となった。"
+      license: PD
+    - src: "/img/consoles/nintendo-3ds-nintendo-2ds-angle.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-2DS-angle.jpg"
+      alt: "ニンテンドー 2DS（FTR-001、2013）"
+      caption: "ニンテンドー 2DS（2013）——折りたたみ式ではない一体型フォームファクタを採用し、3D 機能を完全に削除した SKU。$129 の児童向け廉価モデルとして投入され、大多数のプレイヤーが 3D 機能を使用していなかった事実を実質的に認める内容だった。"
+      license: PD
 notable_games:
   - "ポケットモンスター X・Y（ゲームフリーク、2013、**シリーズ初のフル 3D 対応**）"
   - "とびだせ どうぶつの森（任天堂、2012）"

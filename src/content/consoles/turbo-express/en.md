@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:NEC-TurboExpress-Upright-FL.jpg"
+  gallery:
+    - src: "/img/consoles/turbo-express-pc-engine-hucard.jpg"
+      author: "SACHEN at Japanese Wikipedia"
+      source_url: "https://commons.wikimedia.org/wiki/File:PC%20Engine%20HuCARD.jpg"
+      alt: "PC Engine HuCard cartridge"
+      caption: "HuCard — the credit-card-sized PC Engine cartridge. The TurboExpress / PC Engine GT accepted HuCards directly and ran the full PC Engine catalog natively, the earliest commercial instantiation of the 'handheld equals console' concept."
+      license: PD
 notable_games:
   - "(Plays the entire PC Engine HuCard library)"
   - "Bonk's Adventure (Hudson, 1989)"

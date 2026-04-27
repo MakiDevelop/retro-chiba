@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PSP-1000-Body.jpg"
+  gallery:
+    - src: "/img/consoles/psp-psp-2000.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PSP-2000.jpg"
+      alt: "PSP-2000 Slim & Lite (2007)"
+      caption: "PSP-2000 Slim & Lite (2007) — 33% thinner, TV output added, RAM increased to 64 MB, charging port changed to mini-USB. The Slim revision was the PSP's best-selling SKU."
+      license: PD
+    - src: "/img/consoles/psp-psp-go-fl-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PSP-Go-FL-Open.jpg"
+      alt: "PSP Go (PSP-N1000, 2009)"
+      caption: "PSP Go (2009) — download-only with a sliding form factor. Sony's attempt to bypass UMD entirely became a commercial failure: retailers protested the absence of physical inventory, players protested the lack of any UMD-to-Go upgrade path, and the SKU sold poorly."
+      license: PD
 notable_games:
   - "Monster Hunter Portable 2nd G (Capcom, 2008 — Asian social phenomenon)"
   - "Crisis Core: Final Fantasy VII (Square Enix, 2007)"

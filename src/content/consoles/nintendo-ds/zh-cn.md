@@ -29,6 +29,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Fat-Blue.jpg"
+  gallery:
+    - src: "/img/consoles/nintendo-ds-nintendo-ds-lite-black-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.jpg"
+      alt: "Nintendo DS Lite（USG-001，2006）"
+      caption: "Nintendo DS Lite（2006），DS 家族最畅销型号——更薄、更亮、白色版成为 2006-2010 年机场通勤景观的标配。"
+      license: PD
+    - src: "/img/consoles/nintendo-ds-nintendo-dsi-bl-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DSi-Bl-Open.jpg"
+      alt: "Nintendo DSi（TWL-001，2008）"
+      caption: "Nintendo DSi（2008），加双镜头 + SD 卡插槽 + DSi Shop 数字下载商店——任天堂第一次把掌机与在线数字商店整合。"
+      license: PD
 notable_games:
   - "脑力锻炼（任天堂，2005，银发族 + 主妇市场开拓）"
   - "Nintendogs（任天堂，2005）"

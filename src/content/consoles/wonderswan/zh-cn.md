@@ -26,6 +26,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:WonderSwan-Black-Left.jpg"
+  gallery:
+    - src: "/img/consoles/wonderswan-wonderswan-color-blue-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:WonderSwan-Color-Blue-Left.jpg"
+      alt: "WonderSwan Color（SwanCrystal 前身，2000）"
+      caption: "WonderSwan Color（2000-12，SCT-001），加 STN-LCD 彩色 + 64 色同屏 — Square 在这代上重制《Final Fantasy I/II/IV》独占，是 WS 商业最热期。"
+      license: PD
+    - src: "/img/consoles/wonderswan-swancrystal-wine-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SwanCrystal-Wine-Left.jpg"
+      alt: "Bandai SwanCrystal（2002）"
+      caption: "SwanCrystal（2002），加 TFT 彩色屏幕、视角更广 — WonderSwan 家族最后一台改款，2003 年 Bandai 退出后成绝响。"
+      license: PD
 notable_games:
   - "最终幻想 I/II/IV（Square，2000-02 重制）"
   - "犬夜叉：奈落之罠（Bandai，2002）"

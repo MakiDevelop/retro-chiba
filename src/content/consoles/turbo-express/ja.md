@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:NEC-TurboExpress-Upright-FL.jpg"
+  gallery:
+    - src: "/img/consoles/turbo-express-pc-engine-hucard.jpg"
+      author: "SACHEN at Japanese Wikipedia"
+      source_url: "https://commons.wikimedia.org/wiki/File:PC%20Engine%20HuCARD.jpg"
+      alt: "PC エンジン HuCard カートリッジ"
+      caption: "HuCard——クレジットカードサイズの PC エンジン用カートリッジ。TurboExpress / PC エンジン GT は HuCard を直接挿入することで、PC エンジン本体の全ソフトウェアライブラリをネイティブ動作させることができた——「携帯機＝家庭用機」というコンセプトの最初期商業実装である。"
+      license: PD
 notable_games:
   - "（PC エンジン本体の HuCard 全ライブラリを動作）"
   - "PC 原人（ハドソン、1989）"

@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-AquaOpen.jpg"
+  gallery:
+    - src: "/img/consoles/nintendo-3ds-nintendo-3ds-xl-angled.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-XL-angled.jpg"
+      alt: "Nintendo 3DS XL (SPR-001, 2012)"
+      caption: "Nintendo 3DS XL (2012) — 90% larger screens and longer battery life. Aimed at older players, it eventually became the 3DS family's best-selling SKU."
+      license: PD
+    - src: "/img/consoles/nintendo-3ds-nintendo-2ds-angle.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-2DS-angle.jpg"
+      alt: "Nintendo 2DS (FTR-001, 2013)"
+      caption: "Nintendo 2DS (2013) — slate-style (non-clamshell) form factor with the 3D function removed entirely. A child-market budget SKU at $129 that effectively conceded that most players were not using the 3D feature."
+      license: PD
 notable_games:
   - "Pokémon X/Y (GameFreak, 2013 — **the first natively 3D Pokémon games**)"
   - "Animal Crossing: New Leaf (Nintendo, 2012)"

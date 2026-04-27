@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nokia-NGage-LL.jpg"
+  gallery:
+    - src: "/img/consoles/n-gage-nokia-ngage-qd.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nokia-NGage-QD.jpg"
+      alt: "Nokia N-Gage QD 改訂版（2004）"
+      caption: "N-Gage QD（2004）——初代の設計欠陥のうち主要なものを修正：カートリッジスロットが電池脱着なしで使用可能に、マイクとイヤピースを本体正面に再配置（Sidetalking 問題の解消）、価格を $199 に引き下げ。しかし 2003 年の Sidetalking ミームによって既に固定化されたブランドイメージは、QD でも回復不能だった。"
+      license: PD
 notable_games:
   - "Tomb Raider（Eidos、2003）"
   - "Sonic N（セガ、2003）"

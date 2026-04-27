@@ -26,6 +26,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:WonderSwan-Black-Left.jpg"
+  gallery:
+    - src: "/img/consoles/wonderswan-wonderswan-color-blue-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:WonderSwan-Color-Blue-Left.jpg"
+      alt: "WonderSwan Color (predecessor of SwanCrystal, 2000)"
+      caption: "WonderSwan Color (December 2000, SCT-001) — STN color LCD with 64 simultaneous colors. The Square Final Fantasy I/II/IV remakes shipped exclusively on this SKU, marking the WonderSwan's commercial peak."
+      license: PD
+    - src: "/img/consoles/wonderswan-swancrystal-wine-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SwanCrystal-Wine-Left.jpg"
+      alt: "Bandai SwanCrystal (2002)"
+      caption: "SwanCrystal (2002) — TFT color display with wider viewing angles. The final revision in the WonderSwan family; after Bandai's 2003 platform exit, no further hardware was produced."
+      license: PD
 notable_games:
   - "Final Fantasy I/II/IV (Square, 2000–02 remakes)"
   - "Inuyasha: Naraku no Wana (Bandai, 2002)"

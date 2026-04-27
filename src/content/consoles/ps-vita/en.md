@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-1101-FL.jpg"
+  gallery:
+    - src: "/img/consoles/ps-vita-playstation-vita-2001-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-2001-FL.jpg"
+      alt: "PS Vita Slim (PCH-2001, 2013)"
+      caption: "PS Vita Slim (PCH-2001, 2013) — OLED replaced with LCD (cost reduction), thinner, 1 GB of built-in storage. After the revision, the original OLED model (PCH-1101) became the version more prized by collectors."
+      license: PD
 notable_games:
   - "Persona 4 Golden (Atlus, 2012 — cult classic)"
   - "Tearaway (Media Molecule, 2013)"

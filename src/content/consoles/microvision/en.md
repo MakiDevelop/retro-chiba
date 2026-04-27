@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Milton-Bradley-Microvision-Handheld-FL.jpg"
+  gallery:
+    - src: "/img/consoles/microvision-milton-bradley-microvision-cartridge-exposed.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Milton-Bradley-Microvision-Cartridge-Exposed.jpg"
+      alt: "Milton Bradley Microvision cartridge (exposed, internal CPU visible)"
+      caption: "Microvision cartridge with the shell removed, exposing the embedded CPU (Intel 8021 or TMS1100). The system unit was only an LCD, keypad, and speaker — an extreme cost-engineered architecture unique in 1979 industry practice."
+      license: PD
 notable_games:
   - "Block Buster (Milton Bradley, 1979 — Pong / Breakout-style)"
   - "Mindbuster (Milton Bradley, 1979)"

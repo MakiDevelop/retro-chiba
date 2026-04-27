@@ -29,6 +29,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-FL.png"
+  gallery:
+    - src: "/img/consoles/game-boy-game-boy-pocket-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg"
+      alt: "ゲームボーイポケット（MGB-001、1996）"
+      caption: "ゲームボーイポケット（1996）——小型化・軽量化、単 4 電池 2 本に変更（従来の単 3 電池 4 本から）。同年のポケットモンスター 赤・緑と並走して発売され、初代ゲームボーイのライフサイクルを 1998 年まで延長した。"
+      license: PD
+    - src: "/img/consoles/game-boy-game-boy-light-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Light-FL.jpg"
+      alt: "ゲームボーイライト（MGB-101、1998 日本限定）"
+      caption: "ゲームボーイライト（1998、日本限定）——初代ゲームボーイハードウェアにバックライトを搭載した最初の改訂版。ポケットモンスター 金・銀の需要拡大期の副産物として登場し、日本国外では発売されなかった。"
+      license: PD
 notable_games:
   - "テトリス（任天堂、1989、本体同梱・システムセラー）"
   - "スーパーマリオランド（任天堂、1989）"

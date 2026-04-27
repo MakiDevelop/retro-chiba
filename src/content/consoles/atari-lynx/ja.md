@@ -29,6 +29,13 @@ images:
     license: CC-BY-SA-3.0
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Atari-Lynx-I-Handheld.jpg"
+  gallery:
+    - src: "/img/consoles/atari-lynx-atari-lynx-ii-handheld-angled.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Atari-Lynx-II-Handheld-Angled.jpg"
+      alt: "Atari Lynx II（PAG-0401、1991）"
+      caption: "Atari Lynx II（1991）——本体小型化、ステレオヘッドホン出力、バックライト OFF による省電力モードを搭載。初代 Lynx の電力消費問題を修正しようとした試みだが、根本問題（1989 年の半導体コスト水準でのカラー・バックライト駆動）は解消されないままだった。"
+      license: PD
 notable_games:
   - "California Games（Epyx、1989、本体同梱）"
   - "Klax（アタリ、1990）"

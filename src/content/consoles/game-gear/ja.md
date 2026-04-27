@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Game-Gear-WB.png"
+  gallery:
+    - src: "/img/consoles/game-gear-game-gear-cartridge.jpg"
+      author: "AOMAF2024 from Wedel, Germany"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game%20gear%20cartridge.jpg"
+      alt: "セガ ゲームギア ROM カートリッジ"
+      caption: "ゲームギア ROM カートリッジ——マスターシステム アダプタ（Master Gear Converter）と組み合わせることで、家庭用マスターシステムの全ソフトウェアライブラリへのアクセスが可能だった。"
+      license: PD
 notable_games:
   - "ソニック・ザ・ヘッジホッグ（セガ、1991）"
   - "コラムス（セガ、1990）"

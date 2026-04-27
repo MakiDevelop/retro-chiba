@@ -29,6 +29,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Fat-Blue.jpg"
+  gallery:
+    - src: "/img/consoles/nintendo-ds-nintendo-ds-lite-black-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.jpg"
+      alt: "Nintendo DS Lite (USG-001, 2006)"
+      caption: "Nintendo DS Lite (2006), the best-selling SKU of the DS family — thinner, brighter, and the white version became a fixture of airport and commute scenes worldwide between 2006 and 2010."
+      license: PD
+    - src: "/img/consoles/nintendo-ds-nintendo-dsi-bl-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-DSi-Bl-Open.jpg"
+      alt: "Nintendo DSi (TWL-001, 2008)"
+      caption: "Nintendo DSi (2008), adding dual cameras, an SD card slot, and the DSi Shop digital download storefront — Nintendo's first integration of a handheld with an online digital storefront."
+      license: PD
 notable_games:
   - "Brain Age (Nintendo, 2005 — opened the senior and casual markets)"
   - "Nintendogs (Nintendo, 2005)"

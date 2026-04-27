@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Virtual-Boy-Set.png"
+  gallery:
+    - src: "/img/consoles/virtual-boy-nintendo-virtual-boy-parts.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Virtual-Boy-Parts.jpg"
+      alt: "バーチャルボーイ 内部パーツ（本体・赤色 LED 双眼モジュール・三脚）"
+      caption: "バーチャルボーイ 内部パーツ——赤色ゴーグル内には片眼ごとの単色赤色 LED ラインスキャンアレイと機械式振動ミラー機構が収められていた。1995 年時点で 32 ビット RISC と機械光学を統合したこの設計は、当時としては極めて野心的だった。"
+      license: PD
 notable_games:
   - "マリオのテニス（任天堂、1995、本体同梱・システムセラー）"
   - "バーチャルボーイ ワリオランド（任天堂、1995）"

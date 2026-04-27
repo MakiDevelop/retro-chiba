@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Virtual-Boy-Set.png"
+  gallery:
+    - src: "/img/consoles/virtual-boy-nintendo-virtual-boy-parts.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Virtual-Boy-Parts.jpg"
+      alt: "Virtual Boy internals (chassis + dual red LED arrays + tripod)"
+      caption: "Virtual Boy internals — the red goggle housing contained one monochrome red-LED linear-scan array per eye plus the mechanically oscillating mirror system. A 1995 combination of 32-bit RISC and mechanical optical integration that was extraordinarily aggressive for its time."
+      license: PD
 notable_games:
   - "Mario's Tennis (Nintendo, 1995 — pack-in / system seller)"
   - "Wario Land (Nintendo, 1995)"

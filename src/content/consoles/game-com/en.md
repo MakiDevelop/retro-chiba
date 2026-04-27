@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Tiger-Game-Com-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-com-tiger-game.com-with-cartridges.jpg"
+      author: "Matthew Paul Argall"
+      source_url: "https://commons.wikimedia.org/wiki/File:Tiger%20Game.Com%20with%20cartridges.jpg"
+      alt: "Tiger Game.com system with cartridges"
+      caption: "Tiger Game.com with its cartridge accessories — roughly 20 titles shipped over the platform's life, including the notoriously catastrophic console-grade IP downports Resident Evil 2, Sonic Jam, and Mortal Kombat Trilogy."
+      license: PD
 notable_games:
   - "Lights Out (Tiger, 1997 — pack-in)"
   - "Resident Evil 2 (Capcom, 1998 — **the platform's notorious port disaster**)"

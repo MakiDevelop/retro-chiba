@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-1101-FL.jpg"
+  gallery:
+    - src: "/img/consoles/ps-vita-playstation-vita-2001-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-2001-FL.jpg"
+      alt: "PlayStation Vita Slim（PCH-2001、2013）"
+      caption: "PlayStation Vita Slim（PCH-2001、2013）——有機 EL から LCD への変更（コスト削減）、薄型化、内蔵ストレージ 1 GB を搭載。改訂後、初代の有機 EL モデル（PCH-1101）はコレクター層から「好バージョン」として再評価される結果となった。"
+      license: PD
 notable_games:
   - "ペルソナ 4 ザ・ゴールデン（アトラス、2012、カルト的傑作）"
   - "Tearaway（Media Molecule、2013）"

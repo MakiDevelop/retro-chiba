@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sony-PSP-1000-Body.jpg"
+  gallery:
+    - src: "/img/consoles/psp-psp-2000.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PSP-2000.jpg"
+      alt: "PSP-2000 Slim & Lite（2007）"
+      caption: "PSP-2000 Slim & Lite（2007）——本体厚を 33% 薄型化、TV 出力対応、RAM を 64 MB に増量、充電端子を mini-USB に変更。Slim は PSP ファミリで最も売れた SKU となった。"
+      license: PD
+    - src: "/img/consoles/psp-psp-go-fl-open.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:PSP-Go-FL-Open.jpg"
+      alt: "PSP go（PSP-N1000、2009）"
+      caption: "PSP go（2009）——ダウンロード専用、スライド式フォームファクタを採用。UMD を完全に廃する試みだったが商業的に失敗：小売チェーンは物理パッケージ販売不能に反発、ユーザーは手持ち UMD の go への移行不可に反発し、販売台数は極めて低調だった。"
+      license: PD
 notable_games:
   - "モンスターハンターポータブル 2nd G（カプコン、2008、アジア圏の社会現象）"
   - "クライシス コア -ファイナルファンタジー VII-（スクウェア・エニックス、2007）"

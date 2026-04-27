@@ -29,6 +29,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-FL.png"
+  gallery:
+    - src: "/img/consoles/game-boy-game-boy-pocket-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg"
+      alt: "Game Boy Pocket (MGB-001, 1996)"
+      caption: "Game Boy Pocket (1996) — smaller, lighter, two AAAs instead of four AAs. Shipped alongside Pokémon Red/Green and extended the original Game Boy's commercial life to 1998."
+      license: PD
+    - src: "/img/consoles/game-boy-game-boy-light-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Light-FL.jpg"
+      alt: "Game Boy Light (MGB-101, 1998 Japan-only)"
+      caption: "Game Boy Light (1998, Japan only) — the first backlit revision of the original Game Boy hardware, a side product of the Pokémon Gold/Silver demand cycle, never released outside Japan."
+      license: PD
 notable_games:
   - "Tetris (Nintendo, 1989 — pack-in / system seller)"
   - "Super Mario Land (Nintendo, 1989)"

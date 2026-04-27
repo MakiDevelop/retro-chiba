@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Color-Blue-Left.jpg"
+  gallery:
+    - src: "/img/consoles/neo-geo-pocket-neo-geo-pocket-anthra-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Anthra-Left.jpg"
+      alt: "Neo Geo Pocket（NGP，1998 黑白原版）"
+      caption: "Neo Geo Pocket（1998，黑白原版），SNK 第一台掌机 — 8 向微动摇杆规格已成形，但黑白屏幕让它在 Game Boy Color（同期 1998 推出）面前失去差异。1999 年升级为彩色 NGPC。"
+      license: PD
 notable_games:
   - "SNK vs. Capcom: Match of the Millennium（SNK，1999，**史上首见格斗跨公司对战**）"
   - "King of Fighters R-2（SNK，1999）"

@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Color-Blue-Left.jpg"
+  gallery:
+    - src: "/img/consoles/neo-geo-pocket-neo-geo-pocket-anthra-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Anthra-Left.jpg"
+      alt: "Neo Geo Pocket (NGP, 1998 monochrome original)"
+      caption: "Neo Geo Pocket (1998 monochrome original), SNK's first handheld — the eight-direction microswitch joystick was already in place, but the monochrome screen left the system without differentiation against the Game Boy Color (also 1998). The color upgrade to NGPC followed in 1999."
+      license: PD
 notable_games:
   - "SNK vs. Capcom: Match of the Millennium (SNK, 1999 — **the first cross-publisher fighting-game crossover**)"
   - "The King of Fighters R-2 (SNK, 1999)"

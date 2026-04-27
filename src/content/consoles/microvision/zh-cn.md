@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Milton-Bradley-Microvision-Handheld-FL.jpg"
+  gallery:
+    - src: "/img/consoles/microvision-milton-bradley-microvision-cartridge-exposed.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Milton-Bradley-Microvision-Cartridge-Exposed.jpg"
+      alt: "Milton Bradley Microvision 卡带（拆壳，CPU 内建可见）"
+      caption: "Microvision 卡带拆壳后可见内建 CPU（Intel 8021 或 TMS1100）— 主机本身只是 LCD + 键盘 + 喇叭，极端 cost-saving 架构在 1979 年是业界唯一一例。"
+      license: PD
 notable_games:
   - "Block Buster（Milton Bradley，1979，Pong / 打砖块类）"
   - "Mindbuster（Milton Bradley，1979）"

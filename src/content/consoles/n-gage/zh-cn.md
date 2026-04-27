@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nokia-NGage-LL.jpg"
+  gallery:
+    - src: "/img/consoles/n-gage-nokia-ngage-qd.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nokia-NGage-QD.jpg"
+      alt: "Nokia N-Gage QD 改款（2004）"
+      caption: "N-Gage QD（2004），修补原版设计灾难 — 卡片插槽不必拆电池、麦克风 / 听筒移到正面（解决 Sidetalking 迷因）、降价到 $199。但市场印象已被 2003 年 Sidetalking 迷因钉死，无法挽回。"
+      license: PD
 notable_games:
   - "古墓丽影（Eidos，2003）"
   - "Sonic N（Sega，2003）"

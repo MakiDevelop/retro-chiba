@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nokia-NGage-LL.jpg"
+  gallery:
+    - src: "/img/consoles/n-gage-nokia-ngage-qd.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Nokia-NGage-QD.jpg"
+      alt: "Nokia N-Gage QD revision (2004)"
+      caption: "N-Gage QD (2004) — addressed several of the original's design failures: cartridge slot no longer required battery removal, microphone and earpiece relocated to the front (Sidetalking solved), price cut to $199. The 2003 Sidetalking meme had already fixed the brand's mainstream perception, however, and the QD could not recover it."
+      license: PD
 notable_games:
   - "Tomb Raider (Eidos, 2003)"
   - "Sonic N (Sega, 2003)"

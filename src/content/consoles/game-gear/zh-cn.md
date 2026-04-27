@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Sega-Game-Gear-WB.png"
+  gallery:
+    - src: "/img/consoles/game-gear-game-gear-cartridge.jpg"
+      author: "AOMAF2024 from Wedel, Germany"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game%20gear%20cartridge.jpg"
+      alt: "Sega Game Gear ROM 卡带"
+      caption: "Game Gear ROM 卡带 — 与 Master System 卡带转接器兼容，Game Gear 透过 Master Gear Converter 可玩家用机完整 SMS 软件库。"
+      license: PD
 notable_games:
   - "刺猬索尼克（Sega，1991）"
   - "Columns（Sega，1990）"

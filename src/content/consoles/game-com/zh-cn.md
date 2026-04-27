@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Tiger-Game-Com-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-com-tiger-game.com-with-cartridges.jpg"
+      author: "Matthew Paul Argall"
+      source_url: "https://commons.wikimedia.org/wiki/File:Tiger%20Game.Com%20with%20cartridges.jpg"
+      alt: "Tiger Game.com 主机 + 卡带"
+      caption: "Tiger Game.com 主机 + 卡带配件 — 全寿命约 20 款卡带，包括《生化危机 2》《Sonic Jam》《真人快打 Trilogy》等臭名昭著的主机级 IP 移植灾难。"
+      license: PD
 notable_games:
   - "Lights Out（Tiger，1997，附赠）"
   - "生化危机 2（Capcom，1998，**主机级 IP 移植大失败**）"

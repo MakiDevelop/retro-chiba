@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-boy-color-game-boy-color-purple.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Color-Purple.jpg"
+      alt: "Game Boy Color Atomic Purple (translucent purple shell)"
+      caption: "Atomic Purple — the Game Boy Color's iconic 1998–2003 color, with a translucent shell exposing the internal motherboard. The same finish was used contemporaneously on the N64 Atomic Purple controller."
+      license: PD
 notable_games:
   - "Pokémon Gold/Silver (GameFreak, 1999)"
   - "Pokémon Crystal (GameFreak, 2000)"

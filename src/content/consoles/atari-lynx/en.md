@@ -29,6 +29,13 @@ images:
     license: CC-BY-SA-3.0
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Atari-Lynx-I-Handheld.jpg"
+  gallery:
+    - src: "/img/consoles/atari-lynx-atari-lynx-ii-handheld-angled.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Atari-Lynx-II-Handheld-Angled.jpg"
+      alt: "Atari Lynx II (PAG-0401, 1991)"
+      caption: "Atari Lynx II (1991) — smaller chassis, stereo headphone output, and a backlight off-switch for extended battery life. Atari's attempt to repair the original Lynx's power-consumption fault, though the underlying issue (color backlight at 1989 hardware costs) was never resolved."
+      license: PD
 notable_games:
   - "California Games (Epyx, 1989 — pack-in)"
   - "Klax (Atari, 1990)"

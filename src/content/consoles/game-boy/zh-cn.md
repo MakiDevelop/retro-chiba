@@ -29,6 +29,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-FL.png"
+  gallery:
+    - src: "/img/consoles/game-boy-game-boy-pocket-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg"
+      alt: "Game Boy Pocket（MGB-001，1996）"
+      caption: "Game Boy Pocket（1996），更小、更轻、用 2 颗 AAA 而非 4 颗 AA。也是 Pokémon 红绿 1996 同期推出，帮初代 Game Boy 延长寿命到 1998。"
+      license: PD
+    - src: "/img/consoles/game-boy-game-boy-light-fl.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Light-FL.jpg"
+      alt: "Game Boy Light（MGB-101，1998 日本限定）"
+      caption: "Game Boy Light（1998 日本限定），第一台原版 Game Boy 加背光的版本——Pokémon 金银同期需求的副产品，仅日本发行。"
+      license: PD
 notable_games:
   - "Tetris（任天堂，1989，附赠 / 系统杀手锏）"
   - "Super Mario Land（任天堂，1989）"

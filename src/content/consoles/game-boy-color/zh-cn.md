@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-boy-color-game-boy-color-purple.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Color-Purple.jpg"
+      alt: "Game Boy Color Atomic Purple（紫色透明壳）"
+      caption: "Atomic Purple（紫色透明壳）—— Game Boy Color 1998-2003 年最具代表性的配色，透明外壳让内部主板可见，是 N64 Atomic Purple 的延伸设计。"
+      license: PD
 notable_games:
   - "口袋妖怪 金/银（GameFreak，1999）"
   - "口袋妖怪 水晶（GameFreak，2000）"

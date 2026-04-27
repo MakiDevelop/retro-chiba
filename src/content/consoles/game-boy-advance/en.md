@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-boy-advance-game-boy-advance-sp-mk1-blue.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Advance-SP-Mk1-Blue.jpg"
+      alt: "Game Boy Advance SP (AGS-001, 2003)"
+      caption: "Game Boy Advance SP (2003) — clamshell design, built-in rechargeable battery, front-lit screen. The SP solved the original GBA's long-standing screen-visibility complaint and became the GBA family's best-selling SKU."
+      license: PD
+    - src: "/img/consoles/game-boy-advance-game-boy-micro.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Micro.jpg"
+      alt: "Game Boy Advance Micro (OXY-001, 2005)"
+      caption: "Game Boy Advance Micro (2005) — a mini SKU released for Famicom's 20th anniversary. GBA-only (no Game Boy / Game Boy Color backwards compatibility), with a faceplate styled after the original NES controller."
+      license: PD
 notable_games:
   - "Pokémon Ruby/Sapphire/Emerald (GameFreak, 2002–04)"
   - "Mario Kart Super Circuit (Nintendo, 2001)"

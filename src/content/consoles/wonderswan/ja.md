@@ -26,6 +26,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:WonderSwan-Black-Left.jpg"
+  gallery:
+    - src: "/img/consoles/wonderswan-wonderswan-color-blue-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:WonderSwan-Color-Blue-Left.jpg"
+      alt: "ワンダースワン カラー（SwanCrystal の前世代、2000）"
+      caption: "ワンダースワン カラー（2000 年 12 月、SCT-001）——STN カラー LCD、同時 64 色を搭載。スクウェアの『ファイナルファンタジー I／II／IV』リメイクがこの SKU 独占で発売され、ワンダースワンの商業的ピーク期を形成した。"
+      license: PD
+    - src: "/img/consoles/wonderswan-swancrystal-wine-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:SwanCrystal-Wine-Left.jpg"
+      alt: "バンダイ SwanCrystal（2002）"
+      caption: "SwanCrystal（2002）——TFT カラー LCD を採用、視野角を拡大。ワンダースワンファミリ最後の改訂版であり、2003 年のバンダイのプラットフォーム撤退をもってシリーズは終焉を迎えた。"
+      license: PD
 notable_games:
   - "ファイナルファンタジー I/II/IV（スクウェア、2000-02 リメイク）"
   - "犬夜叉 奈落の罠（バンダイ、2002）"

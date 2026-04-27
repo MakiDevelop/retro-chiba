@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-boy-advance-game-boy-advance-sp-mk1-blue.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Advance-SP-Mk1-Blue.jpg"
+      alt: "ゲームボーイアドバンス SP（AGS-001、2003）"
+      caption: "ゲームボーイアドバンス SP（2003）——折りたたみ式（クラムシェル）設計、内蔵充電池、フロントライト搭載。初代 GBA の長年の弱点であった画面視認性問題を解消し、GBA ファミリで最も売れた SKU となった。"
+      license: PD
+    - src: "/img/consoles/game-boy-advance-game-boy-micro.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Micro.jpg"
+      alt: "ゲームボーイミクロ（OXY-001、2005）"
+      caption: "ゲームボーイミクロ（2005）——ファミコン 20 周年記念として発売された小型 SKU。GBA 専用機で、ゲームボーイ／ゲームボーイカラーの後方互換は持たない。フェイスプレートのデザインは初代 NES コントローラに着想を得ている。"
+      license: PD
 notable_games:
   - "ポケットモンスター ルビー・サファイア・エメラルド（ゲームフリーク、2002-04）"
   - "マリオカートアドバンス（任天堂、2001）"

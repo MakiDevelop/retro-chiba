@@ -29,6 +29,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Color-Blue-Left.jpg"
+  gallery:
+    - src: "/img/consoles/neo-geo-pocket-neo-geo-pocket-anthra-left.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Anthra-Left.jpg"
+      alt: "ネオジオポケット（NGP、1998 モノクロ原版）"
+      caption: "ネオジオポケット（1998 モノクロ原版）、SNK 初の携帯機——8 方向マイクロスイッチ式スティックの仕様は既に確立されていたが、モノクロ画面では同年発売のゲームボーイカラーに対する差別化要素が欠けていた。1999 年にカラー化され NGPC に進化する。"
+      license: PD
 notable_games:
   - "SNK vs. CAPCOM カードファイターズ・クラッシュ（SNK、1999、**史上初の格闘ゲーム企業間クロスオーバー**）"
   - "ザ・キング・オブ・ファイターズ R-2（SNK、1999）"

@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Tapwave-Zodiac2-FL.jpg"
+  gallery:
+    - src: "/img/consoles/tapwave-zodiac-tapwave-zodiac2-and-stylus.jpg"
+      author: "Alex Pappajohn from Vancouver, Canada"
+      source_url: "https://commons.wikimedia.org/wiki/File:Tapwave%20Zodiac2%20and%20stylus.jpg"
+      alt: "Tapwave Zodiac 2（128 MB 高阶版）+ 触控笔"
+      caption: "Tapwave Zodiac 2（128 MB RAM，$399）+ 配件触控笔 — Palm OS 5 的触控介面让 Zodiac 从第一天就有触控笔，比后来 DS（2004）早一年。"
+      license: PD
 notable_games:
   - "Tony Hawk's Pro Skater 4（Tapwave，2003，移植）"
   - "Doom II（id Software，2004 移植）"

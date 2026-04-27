@@ -29,6 +29,13 @@ images:
     license: CC-BY-SA-3.0
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Atari-Lynx-I-Handheld.jpg"
+  gallery:
+    - src: "/img/consoles/atari-lynx-atari-lynx-ii-handheld-angled.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Atari-Lynx-II-Handheld-Angled.jpg"
+      alt: "Atari Lynx II（PAG-0401，1991）"
+      caption: "Atari Lynx II（1991），更小 + 立体声耳机输出 + 可关背光省电 — Atari 修补初代 Lynx 耗电命门的尝试。但根本问题（彩色背光在 1989 年硬件成本下耗电）未解。"
+      license: PD
 notable_games:
   - "California Games（Epyx，1989，附赠）"
   - "Klax（Atari，1990）"

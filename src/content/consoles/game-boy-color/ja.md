@@ -28,6 +28,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-boy-color-game-boy-color-purple.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Color-Purple.jpg"
+      alt: "ゲームボーイカラー アトミックパープル（半透明紫筐体）"
+      caption: "アトミックパープル——ゲームボーイカラー 1998-2003 年を代表する配色。半透明筐体により内部基板が透けて見えるデザインで、同時期の N64 アトミックパープルと意匠を共有していた。"
+      license: PD
 notable_games:
   - "ポケットモンスター 金・銀（ゲームフリーク、1999）"
   - "ポケットモンスター クリスタル（ゲームフリーク、2000）"

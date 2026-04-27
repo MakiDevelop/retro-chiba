@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Tapwave-Zodiac2-FL.jpg"
+  gallery:
+    - src: "/img/consoles/tapwave-zodiac-tapwave-zodiac2-and-stylus.jpg"
+      author: "Alex Pappajohn from Vancouver, Canada"
+      source_url: "https://commons.wikimedia.org/wiki/File:Tapwave%20Zodiac2%20and%20stylus.jpg"
+      alt: "Tapwave Zodiac 2（128 MB 上位版）＋スタイラス"
+      caption: "Tapwave Zodiac 2（128 MB RAM、$399）と付属スタイラス——Palm OS 5 のタッチインターフェイスにより、Zodiac は発売初日からスタイラス入力に対応しており、後発のニンテンドー DS（2004）より 1 年早かった。"
+      license: PD
 notable_games:
   - "Tony Hawk's Pro Skater 4（Tapwave、2003、移植）"
   - "Doom II（id Software、2004 移植）"

@@ -27,6 +27,13 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Tiger-Game-Com-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-com-tiger-game.com-with-cartridges.jpg"
+      author: "Matthew Paul Argall"
+      source_url: "https://commons.wikimedia.org/wiki/File:Tiger%20Game.Com%20with%20cartridges.jpg"
+      alt: "Tiger Game.com 本体＋カートリッジ"
+      caption: "Tiger Game.com 本体＋カートリッジ周辺機器——プラットフォーム生涯で約 20 タイトルが発売され、その中には『バイオハザード 2』『Sonic Jam』『Mortal Kombat Trilogy』など、本体級 IP の悪名高い移植失敗例も含まれていた。"
+      license: PD
 notable_games:
   - "Lights Out（Tiger、1997、本体同梱）"
   - "バイオハザード 2（カプコン、1998、**本機の悪名高い移植失敗例**）"

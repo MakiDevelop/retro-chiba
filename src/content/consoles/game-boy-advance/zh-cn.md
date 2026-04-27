@@ -28,6 +28,19 @@ images:
     license: PD
     author: "Evan-Amos"
     source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+  gallery:
+    - src: "/img/consoles/game-boy-advance-game-boy-advance-sp-mk1-blue.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Advance-SP-Mk1-Blue.jpg"
+      alt: "Game Boy Advance SP（AGS-001，2003）"
+      caption: "Game Boy Advance SP（2003），翻盖式设计 + 内置充电电池 + 前光式背光 — 解决原版 GBA「屏幕看不清」的长年抱怨。GBA 家族最畅销型号。"
+      license: PD
+    - src: "/img/consoles/game-boy-advance-game-boy-micro.jpg"
+      author: "Evan-Amos"
+      source_url: "https://commons.wikimedia.org/wiki/File:Game-Boy-Micro.jpg"
+      alt: "Game Boy Advance Micro（OXY-001，2005）"
+      caption: "Game Boy Advance Micro（2005），任天堂为 Famicom 20 周年纪念推的 mini SKU——只跑 GBA 卡带（无 GB/GBC 向下兼容）、外观近似初代 NES 控制器。"
+      license: PD
 notable_games:
   - "口袋妖怪 红宝石/蓝宝石/绿宝石（GameFreak，2002-04）"
   - "马里奥卡丁车 Super Circuit（任天堂，2001）"
