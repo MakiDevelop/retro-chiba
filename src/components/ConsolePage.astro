@@ -6,6 +6,7 @@ import Figcaption from './Figcaption.astro';
 import YouTubeEmbed from './YouTubeEmbed.astro';
 import ConsoleSpecs from './ConsoleSpecs.astro';
 import { useTranslations, localizedPath } from '../i18n/utils';
+import { makeUrl } from '../data/seo';
 import type { Lang } from '../i18n/ui';
 
 interface Props {
@@ -17,7 +18,12 @@ const { entry, lang } = Astro.props;
 const t = useTranslations(lang);
 const { Content } = await render(entry);
 const d = entry.data;
+const slug = entry.id.split('/')[0];
 const hasLightbox = Boolean(d.images.hero || d.images.gallery.length > 0);
+const consoleDescription =
+  d.curation.thesis ??
+  d.curation.turning_point ??
+  `${d.title} 是第 ${d.gen} 世代遊戲主機展品，收錄硬體規格、發行日期、銷量、代表作與策展筆記。`;
 
 const specsI18n = {
   specsTitle: t('console.specs'),
@@ -69,7 +75,22 @@ const curationLabels = {
 const hasCuration = Boolean(d.curation.thesis || d.curation.turning_point || d.curation.local_memory);
 ---
 
-<BaseLayout title={d.title}>
+<BaseLayout
+  title={d.title}
+  description={consoleDescription}
+  image={d.images.hero?.src}
+  keywords={[d.title, d.maker, `generation ${d.gen}`, 'video game console']}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: d.title,
+    description: consoleDescription,
+    image: d.images.hero?.src ? makeUrl(d.images.hero.src) : undefined,
+    brand: { '@type': 'Brand', name: d.maker },
+    category: 'Video game console',
+    url: makeUrl(localizedPath(lang, `consoles/${slug}/`)),
+  }}
+>
   <article>
     <nav class="mb-6 text-sm">
       <a href={localizedPath(lang, `/generations/${d.gen}/`)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">

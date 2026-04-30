@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { useTranslations, localizedPath } from '../i18n/utils';
+import { makeUrl } from '../data/seo';
 import type { Lang } from '../i18n/ui';
 import { generations, type GenKey } from '../data/generations';
 import consolesData from '../data/consoles.json';
@@ -39,7 +40,19 @@ const buildingLabel = {
 }[lang];
 ---
 
-<BaseLayout title={info.titles[lang]}>
+<BaseLayout
+  title={info.titles[lang]}
+  description={info.summaries[lang]}
+  keywords={[info.titles[lang], info.period, 'video game console generation']}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: info.titles[lang],
+    description: info.summaries[lang],
+    url: makeUrl(localizedPath(lang, `generations/${gen}/`)),
+    about: 'Video game console history',
+  }}
+>
   <article>
     <nav class="mb-6 text-sm">
       <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">

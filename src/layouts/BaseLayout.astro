@@ -6,15 +6,78 @@ import { languages, type Lang } from '../i18n/ui';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  canonicalPath?: string;
+  keywords?: string[];
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const { title, description } = Astro.props;
-const pageTitle = title ?? t('site.title');
+const { title, description, image, type = 'website', canonicalPath, keywords = [], jsonLd } = Astro.props;
+const siteUrl = Astro.site ?? new URL('https://retro.chiba.tw');
+const pageTitle = title ? `${title} | ${t('site.title')}` : t('site.title');
 const pageDesc = description ?? t('site.tagline');
+const pageImage = image ? new URL(image, siteUrl).href : new URL('/img/consoles/famicom-hero.jpg', siteUrl).href;
+const canonicalUrl = new URL(canonicalPath ?? Astro.url.pathname, siteUrl).href;
+
+const segments = Astro.url.pathname.split('/').filter(Boolean);
+const routeSegments = segments[0] && segments[0] in languages ? segments.slice(1) : segments;
+const routePath = routeSegments.length > 0 ? `${routeSegments.join('/')}/` : '';
+const alternateLinks = (Object.keys(languages) as Lang[]).map((l) => ({
+  lang: l,
+  href: new URL(localizedPath(l, routePath), siteUrl).href,
+}));
+const defaultHref = new URL(localizedPath('zh-tw', routePath), siteUrl).href;
 
 const htmlLang = lang === 'zh-tw' ? 'zh-Hant' : lang === 'zh-cn' ? 'zh-Hans' : lang;
+const ogLocale =
+  {
+    'zh-tw': 'zh_TW',
+    'zh-cn': 'zh_CN',
+    en: 'en_US',
+    ja: 'ja_JP',
+  }[lang] ?? 'zh_TW';
+const keywordContent = [
+  'retro games',
+  'video game history',
+  'game console museum',
+  '懷舊電玩',
+  '遊戲主機歷史',
+  ...keywords,
+].join(', ');
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: t('site.title'),
+    url: new URL(localizedPath(lang), siteUrl).href,
+    inLanguage: htmlLang,
+    description: t('site.tagline'),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': type === 'article' ? 'Article' : 'WebPage',
+    headline: title ?? t('site.title'),
+    name: title ?? t('site.title'),
+    description: pageDesc,
+    url: canonicalUrl,
+    image: pageImage,
+    inLanguage: htmlLang,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: t('site.title'),
+      url: new URL('/', siteUrl).href,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'retro.chiba.tw',
+      url: new URL('/', siteUrl).href,
+    },
+  },
+  ...(Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : []),
+];
 const fontSizeLabel =
   {
     'zh-tw': '字體大小',
@@ -36,7 +99,39 @@ const fontSizeOptions = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDesc} />
+    <meta name="keywords" content={keywordContent} />
+    <meta name="author" content="Makito Chiba" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#05070a" />
+    <meta name="generator" content="Astro" />
+    <link rel="canonical" href={canonicalUrl} />
+    {alternateLinks.map((link) => <link rel="alternate" hreflang={link.lang} href={link.href} />)}
+    <link rel="alternate" hreflang="x-default" href={defaultHref} />
+    <meta property="og:site_name" content={t('site.title')} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDesc} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={pageImage} />
+    <meta property="og:locale" content={ogLocale} />
+    {alternateLinks.filter((link) => link.lang !== lang).map((link) => (
+      <meta property="og:locale:alternate" content={{
+        'zh-tw': 'zh_TW',
+        'zh-cn': 'zh_CN',
+        en: 'en_US',
+        ja: 'ja_JP',
+      }[link.lang]} />
+    ))}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDesc} />
+    <meta name="twitter:image" content={pageImage} />
+    <meta name="citation_title" content={title ?? t('site.title')} />
+    <meta name="abstract" content={pageDesc} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

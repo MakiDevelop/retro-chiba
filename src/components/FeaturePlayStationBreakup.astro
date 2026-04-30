@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localizedPath } from '../i18n/utils';
+import { featureSeo, makeUrl } from '../data/seo';
 import type { Lang } from '../i18n/ui';
 
 interface Props {
@@ -8,6 +9,7 @@ interface Props {
 }
 
 const { lang } = Astro.props;
+const seo = featureSeo['playstation-breakup'];
 
 const copy = {
   'zh-tw': {
@@ -248,7 +250,23 @@ const deepDive = {
 }[lang];
 ---
 
-<BaseLayout title={copy.title} description={copy.intro}>
+<BaseLayout
+  title={seo.title[lang]}
+  description={seo.description[lang]}
+  image="/img/consoles/ps1-hero.jpg"
+  type="article"
+  keywords={seo.keywords}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: seo.title[lang],
+    description: seo.description[lang],
+    about: ['PlayStation', 'Nintendo', 'Sony', 'Super Famicom CD-ROM', 'Ken Kutaragi'],
+    articleSection: 'Special Exhibition',
+    author: { '@type': 'Person', name: 'Makito Chiba' },
+    mainEntityOfPage: makeUrl(localizedPath(lang, 'features/playstation-breakup/')),
+  }}
+>
   <article>
     <nav class="mb-6 text-sm">
       <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
