@@ -15,6 +15,18 @@ const pageTitle = title ?? t('site.title');
 const pageDesc = description ?? t('site.tagline');
 
 const htmlLang = lang === 'zh-tw' ? 'zh-Hant' : lang === 'zh-cn' ? 'zh-Hans' : lang;
+const fontSizeLabel =
+  {
+    'zh-tw': '字體大小',
+    'zh-cn': '字体大小',
+    en: 'Font size',
+    ja: '文字サイズ',
+  }[lang] ?? 'Font size';
+const fontSizeOptions = [
+  { value: 'small', label: lang === 'zh-cn' ? '小' : '小' },
+  { value: 'medium', label: lang === 'zh-cn' ? '中' : '中' },
+  { value: 'large', label: lang === 'zh-cn' ? '大' : '大' },
+];
 ---
 
 <!doctype html>
@@ -31,30 +43,65 @@ const htmlLang = lang === 'zh-tw' ? 'zh-Hant' : lang === 'zh-cn' ? 'zh-Hans' : l
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Noto+Sans+TC:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script is:inline>
+      (() => {
+        const key = 'retro-font-size';
+        const sizes = ['small', 'medium', 'large'];
+        let size = 'small';
+        try {
+          const stored = localStorage.getItem(key);
+          if (sizes.includes(stored)) size = stored;
+        } catch {
+          size = 'small';
+        }
+        document.documentElement.dataset.fontSize = size;
+      })();
+    </script>
   </head>
   <body class="min-h-screen bg-crt-bg text-crt-text crt-scanlines">
     <header class="border-b border-crt-dim/40">
-      <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+      <div class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5">
         <a href={localizedPath(lang)} class="font-pixel text-sm text-crt-amber crt-glow">
           RETRO.CHIBA.TW
         </a>
-        <nav class="flex gap-3 text-xs">
-          {
-            (Object.keys(languages) as Lang[]).map((l) => (
-              <a
-                href={localizedPath(l)}
-                class:list={[
-                  'rounded border px-2 py-1 transition',
-                  l === lang
-                    ? 'border-crt-amber text-crt-amber'
-                    : 'border-crt-dim/60 text-crt-text/70 hover:border-crt-amber-dim hover:text-crt-amber-dim',
-                ]}
-              >
-                {languages[l]}
-              </a>
-            ))
-          }
-        </nav>
+        <div class="flex flex-wrap items-center gap-3">
+          <div
+            class="flex gap-1 text-xs"
+            role="group"
+            aria-label={fontSizeLabel}
+            data-font-size-control
+          >
+            {
+              fontSizeOptions.map((option) => (
+                <button
+                  type="button"
+                  class="font-size-button"
+                  data-font-size-option={option.value}
+                  aria-pressed={option.value === 'small' ? 'true' : 'false'}
+                >
+                  {option.label}
+                </button>
+              ))
+            }
+          </div>
+          <nav class="flex gap-3 text-xs" aria-label="Language">
+            {
+              (Object.keys(languages) as Lang[]).map((l) => (
+                <a
+                  href={localizedPath(l)}
+                  class:list={[
+                    'rounded border px-2 py-1 transition',
+                    l === lang
+                      ? 'border-crt-amber text-crt-amber'
+                      : 'border-crt-dim/60 text-crt-text/70 hover:border-crt-amber-dim hover:text-crt-amber-dim',
+                  ]}
+                >
+                  {languages[l]}
+                </a>
+              ))
+            }
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -68,5 +115,35 @@ const htmlLang = lang === 'zh-tw' ? 'zh-Hant' : lang === 'zh-cn' ? 'zh-Hans' : l
         <span class="text-crt-amber-dim">v0.0.1</span>
       </div>
     </footer>
+    <script is:inline>
+      (() => {
+        const key = 'retro-font-size';
+        const sizes = ['small', 'medium', 'large'];
+
+        const applyFontSize = (value) => {
+          const size = sizes.includes(value) ? value : 'small';
+          document.documentElement.dataset.fontSize = size;
+          try {
+            localStorage.setItem(key, size);
+          } catch {
+            // localStorage may be unavailable in private or restricted contexts.
+          }
+
+          document.querySelectorAll('[data-font-size-option]').forEach((button) => {
+            const isActive = button.getAttribute('data-font-size-option') === size;
+            button.setAttribute('aria-pressed', String(isActive));
+            button.toggleAttribute('data-active', isActive);
+          });
+        };
+
+        applyFontSize(document.documentElement.dataset.fontSize);
+
+        document.querySelectorAll('[data-font-size-option]').forEach((button) => {
+          button.addEventListener('click', () => {
+            applyFontSize(button.getAttribute('data-font-size-option'));
+          });
+        });
+      })();
+    </script>
   </body>
 </html>

@@ -6,6 +6,13 @@
   html {
     background: theme(colors.crt.bg);
     color: theme(colors.crt.text);
+    font-size: 16px;
+  }
+  html[data-font-size='medium'] {
+    font-size: 18px;
+  }
+  html[data-font-size='large'] {
+    font-size: 20px;
   }
   body {
     font-family: theme(fontFamily.body);
@@ -13,6 +20,14 @@
 }
 
 @layer components {
+  .font-size-button {
+    @apply rounded border border-crt-dim/60 px-2 py-1 text-crt-text/70 transition hover:border-crt-amber-dim hover:text-crt-amber-dim;
+  }
+
+  .font-size-button[data-active] {
+    @apply border-crt-amber text-crt-amber;
+  }
+
   /* CRT scanline overlay (opt-in via .crt-scanlines wrapper) */
   .crt-scanlines {
     position: relative;
