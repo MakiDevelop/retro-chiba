@@ -44,6 +44,17 @@ const curationLabels = {
     turningPoint: '歷史轉折',
     localMemory: '中文圈記憶',
     curatedGames: '策展推薦',
+    deepDive: '深挖筆記',
+    oneLiner: '一句話定位',
+    context: '誕生背景',
+    hardwareTradeoffs: '硬體與設計取捨',
+    softwareIdentity: '軟體陣容與平台氣質',
+    regionalMemory: '地區記憶',
+    businessResult: '商業結果',
+    myths: '迷思 vs. 事實',
+    afterlife: '今日回看',
+    myth: '迷思',
+    fact: '事實',
     related: '延伸展品',
   },
   'zh-cn': {
@@ -52,6 +63,17 @@ const curationLabels = {
     turningPoint: '历史转折',
     localMemory: '中文圈记忆',
     curatedGames: '策展推荐',
+    deepDive: '深挖笔记',
+    oneLiner: '一句话定位',
+    context: '诞生背景',
+    hardwareTradeoffs: '硬件与设计取舍',
+    softwareIdentity: '软件阵容与平台气质',
+    regionalMemory: '地区记忆',
+    businessResult: '商业结果',
+    myths: '迷思 vs. 事实',
+    afterlife: '今日回看',
+    myth: '迷思',
+    fact: '事实',
     related: '延伸展品',
   },
   en: {
@@ -60,6 +82,17 @@ const curationLabels = {
     turningPoint: 'Turning point',
     localMemory: 'Regional memory',
     curatedGames: 'Curated picks',
+    deepDive: 'Deep Dive',
+    oneLiner: 'One-line thesis',
+    context: 'Origin context',
+    hardwareTradeoffs: 'Hardware tradeoffs',
+    softwareIdentity: 'Software identity',
+    regionalMemory: 'Regional memory',
+    businessResult: 'Commercial result',
+    myths: 'Myths vs. facts',
+    afterlife: 'Afterlife',
+    myth: 'Myth',
+    fact: 'Fact',
     related: 'Related exhibits',
   },
   ja: {
@@ -68,11 +101,32 @@ const curationLabels = {
     turningPoint: '歴史の転換点',
     localMemory: '地域の記憶',
     curatedGames: 'キュレーション選',
+    deepDive: '深掘りノート',
+    oneLiner: '一言でいうと',
+    context: '誕生背景',
+    hardwareTradeoffs: 'ハードと設計の取捨選択',
+    softwareIdentity: 'ソフト群と平台の性格',
+    regionalMemory: '地域の記憶',
+    businessResult: '商業的結果',
+    myths: '神話 vs. 事実',
+    afterlife: '現在から見た意味',
+    myth: '神話',
+    fact: '事実',
     related: '関連展示',
   },
 }[lang];
 
 const hasCuration = Boolean(d.curation.thesis || d.curation.turning_point || d.curation.local_memory);
+const legacy = d.legacy;
+const legacySections = [
+  { key: 'context', label: curationLabels.context, body: legacy.context },
+  { key: 'hardware', label: curationLabels.hardwareTradeoffs, body: legacy.hardware_tradeoffs },
+  { key: 'software', label: curationLabels.softwareIdentity, body: legacy.software_identity },
+  { key: 'regional', label: curationLabels.regionalMemory, body: legacy.regional_memory },
+  { key: 'business', label: curationLabels.businessResult, body: legacy.business_result },
+  { key: 'afterlife', label: curationLabels.afterlife, body: legacy.afterlife },
+].filter((section) => section.body);
+const hasLegacy = Boolean(legacy.one_liner || legacySections.length > 0 || legacy.myths.length > 0);
 ---
 
 <BaseLayout
@@ -247,6 +301,46 @@ const hasCuration = Boolean(d.curation.thesis || d.curation.turning_point || d.c
       maker={d.maker}
       i18n={specsI18n}
     />
+
+    {hasLegacy && (
+      <section class="my-12 border-y border-crt-green/25 bg-crt-panel/20 py-7">
+        <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-green">{curationLabels.deepDive}</h2>
+
+        {legacy.one_liner && (
+          <div class="mt-5 border-l-2 border-crt-amber pl-4">
+            <h3 class="font-mono text-[11px] uppercase tracking-[0.22em] text-crt-amber-dim">{curationLabels.oneLiner}</h3>
+            <p class="mt-2 text-lg leading-relaxed text-crt-text/90">{legacy.one_liner}</p>
+          </div>
+        )}
+
+        {legacySections.length > 0 && (
+          <div class="mt-7 grid gap-5 md:grid-cols-2">
+            {legacySections.map((section) => (
+              <section class="border border-crt-dim/35 bg-crt-bg/30 p-4">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/80">{section.body}</p>
+              </section>
+            ))}
+          </div>
+        )}
+
+        {legacy.myths.length > 0 && (
+          <section class="mt-7">
+            <h3 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{curationLabels.myths}</h3>
+            <div class="grid gap-4 md:grid-cols-2">
+              {legacy.myths.map((item) => (
+                <article class="border border-crt-dim/35 bg-crt-bg/30 p-4">
+                  <p class="font-mono text-xs uppercase tracking-[0.2em] text-crt-text/50">{curationLabels.myth}</p>
+                  <p class="mt-2 text-sm leading-relaxed text-crt-text/85">{item.myth}</p>
+                  <p class="mt-4 font-mono text-xs uppercase tracking-[0.2em] text-crt-green/70">{curationLabels.fact}</p>
+                  <p class="mt-2 text-sm leading-relaxed text-crt-text/78">{item.fact}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+      </section>
+    )}
 
     {(hasCuration || d.curated_games.length > 0) && (
       <section class="my-12 border-y border-crt-amber/25 bg-crt-panel/25 py-6">

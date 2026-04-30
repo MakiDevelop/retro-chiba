@@ -33,6 +33,22 @@ const relatedConsole = z.object({
   note: z.string(),
 });
 
+const mythFact = z.object({
+  myth: z.string(),
+  fact: z.string(),
+});
+
+const legacyDeepDive = z.object({
+  one_liner: z.string().optional(),
+  context: z.string().optional(),
+  hardware_tradeoffs: z.string().optional(),
+  software_identity: z.string().optional(),
+  regional_memory: z.string().optional(),
+  business_result: z.string().optional(),
+  myths: z.array(mythFact).default([]),
+  afterlife: z.string().optional(),
+}).default({});
+
 export const consoles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/consoles' }),
   schema: z.object({
@@ -66,6 +82,7 @@ export const consoles = defineCollection({
     }).default({}),
     curated_games: z.array(curatedGame).default([]),
     related_consoles: z.array(relatedConsole).default([]),
+    legacy: legacyDeepDive,
   }),
 });
 
