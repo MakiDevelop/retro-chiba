@@ -225,6 +225,21 @@
     "wikidata": "https://www.wikidata.org/wiki/Q1057377"
   },
   {
+    "qid": "Q10854461",
+    "slug": "pc-engine-cd-rom2",
+    "gen": "4",
+    "kind": "addon",
+    "names": {
+      "en": "PC Engine CD-ROM² / TurboGrafx-CD",
+      "ja": "PCエンジンCD-ROM²",
+      "zh-tw": "PC Engine CD-ROM²",
+      "zh-cn": "PC Engine CD-ROM²"
+    },
+    "maker": "NEC Home Electronics + Hudson Soft",
+    "first_release": "1988-12-04",
+    "wikidata": "https://www.wikidata.org/wiki/Q10854461"
+  },
+  {
     "qid": "Q64428080",
     "slug": "neo-geo-aes",
     "gen": "4",
@@ -243,7 +258,7 @@
     "qid": "Q1047516",
     "slug": "sega-cd",
     "gen": "4",
-    "kind": "home",
+    "kind": "addon",
     "names": {
       "en": "Sega CD",
       "ja": "メガCD",
