@@ -46,6 +46,12 @@ const featureCopies = {
     cta: '進入專題展',
     items: [
       {
+        href: '/features/atari-crash/',
+        title: 'Atari 大崩潰',
+        body: 'Atari 2600 盛世後，北美家用主機市場因供給過剩、品質失控與零售信任崩壞而急凍。任天堂後來的 NES 復興，就是從修復這場崩潰開始。',
+        images: ['/img/consoles/thumbs/atari-2600-hero-320.webp', '/img/consoles/thumbs/famicom-hero-320.webp'],
+      },
+      {
         href: '/features/16-bit-war/',
         title: '16-bit 戰爭',
         body: 'Mega Drive 用速度與攻擊型廣告挑戰任天堂；Super Famicom 用色彩、聲音與 RPG 陣容守住主流。從這裡開始，主機戰不再只是規格表。',
@@ -63,6 +69,12 @@ const featureCopies = {
     eyebrow: '[ SPECIAL EXHIBITIONS ]',
     cta: '进入专题展',
     items: [
+      {
+        href: '/features/atari-crash/',
+        title: 'Atari 大崩溃',
+        body: 'Atari 2600 盛世后，北美家用主机市场因供给过剩、品质失控与零售信任崩坏而急冻。任天堂后来的 NES 复兴，就是从修复这场崩溃开始。',
+        images: ['/img/consoles/thumbs/atari-2600-hero-320.webp', '/img/consoles/thumbs/famicom-hero-320.webp'],
+      },
       {
         href: '/features/16-bit-war/',
         title: '16-bit 战争',
@@ -82,6 +94,12 @@ const featureCopies = {
     cta: 'Enter exhibit',
     items: [
       {
+        href: '/features/atari-crash/',
+        title: 'The Atari Crash',
+        body: 'After the Atari 2600 boom, North American consoles froze under oversupply, weak quality control, and broken retailer trust. NES revival started by repairing that damage.',
+        images: ['/img/consoles/thumbs/atari-2600-hero-320.webp', '/img/consoles/thumbs/famicom-hero-320.webp'],
+      },
+      {
         href: '/features/16-bit-war/',
         title: 'The 16-bit War',
         body: 'Mega Drive challenged Nintendo with speed and attack advertising; Super Famicom answered with color, sound, and RPG gravity. From here on, console wars were no longer just spec sheets.',
@@ -99,6 +117,12 @@ const featureCopies = {
     eyebrow: '[ SPECIAL EXHIBITIONS ]',
     cta: '展示へ',
     items: [
+      {
+        href: '/features/atari-crash/',
+        title: 'Atari ショック',
+        body: 'Atari 2600 ブーム後、北米の家庭用ゲーム市場は供給過多、品質低下、小売の不信で冷え込んだ。NES の復興はその修復から始まった。',
+        images: ['/img/consoles/thumbs/atari-2600-hero-320.webp', '/img/consoles/thumbs/famicom-hero-320.webp'],
+      },
       {
         href: '/features/16-bit-war/',
         title: '16ビット戦争',
@@ -199,7 +223,7 @@ const featureCopies = {
 
   <section class="mt-14 border-y border-crt-green/25 py-6">
     <p class="font-pixel text-xs tracking-widest text-crt-green/75">{featureCopies.eyebrow}</p>
-    <div class="mt-5 grid gap-5 md:grid-cols-2">
+    <div class="mt-5 grid gap-5 md:grid-cols-3">
       {featureCopies.items.map((feature) => (
         <a href={localizedPath(lang, feature.href)} class="group grid gap-5 border border-crt-dim/45 bg-crt-panel/25 p-5 transition hover:border-crt-amber/60 hover:bg-crt-panel/45">
           <div class="grid grid-cols-2 overflow-hidden border border-crt-dim/45 bg-crt-panel/35">

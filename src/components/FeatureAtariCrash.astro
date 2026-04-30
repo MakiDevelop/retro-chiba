@@ -1,0 +1,382 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  'zh-tw': {
+    title: 'Atari 大崩潰',
+    kicker: '[ SPECIAL EXHIBITION · 1982-1985 ]',
+    intro:
+      '北美家用主機市場不是自然長大的。它曾經在 Atari 2600 盛世後快速崩塌：遊戲太多、品質太亂、零售商退貨、價格戰失控，最後整個「video game console」變成賣場不想碰的字眼。任天堂後來能用 NES 重新進場，正是因為它學會了要先修復信任。',
+    back: '回首頁',
+    atari2600: 'Atari 2600',
+    coleco: 'ColecoVision',
+    famicom: 'Famicom / NES',
+    viewAtari: '看 Atari 2600 展品',
+    viewColeco: '看 ColecoVision 展品',
+    viewFamicom: '看紅白機展品',
+    sections: [
+      {
+        title: 'E.T. 不是唯一兇手',
+        body:
+          'E.T. 因為開發時間極短、品質失控與大量退貨，成為崩潰的象徵；但真正的問題更大：市場塞滿品質參差的遊戲，零售端庫存爆炸，玩家和店家同時失去信任。',
+      },
+      {
+        title: '第三方失控',
+        body:
+          'Activision 證明第三方遊戲可以成功後，更多公司湧入 Atari 2600 市場。缺少授權控管與品質門檻，讓賣場裡出現大量粗製濫造作品，玩家不知道哪些遊戲值得買。',
+      },
+      {
+        title: '任天堂的答案是秩序',
+        body:
+          'NES 在北美不是單純賣「遊戲主機」，而是包裝成 Entertainment System，搭配 ROB、光線槍、Seal of Quality、授權制度與 lockout 晶片，把「可控、可信」賣給零售商。',
+      },
+    ],
+    takeaway:
+      'Atari 大崩潰真正留下的教訓是：主機平台不是只靠硬體和爆款遊戲活著，它需要品質控管、零售信任、第三方規則與品牌節制。任天堂的紅白機 / NES 崛起，某種程度就是對 Atari 時代失控的反設計。',
+  },
+  'zh-cn': {
+    title: 'Atari 大崩溃',
+    kicker: '[ SPECIAL EXHIBITION · 1982-1985 ]',
+    intro:
+      '北美家用主机市场不是自然长大的。它曾经在 Atari 2600 盛世后快速崩塌：游戏太多、品质太乱、零售商退货、价格战失控，最后整个「video game console」变成卖场不想碰的字眼。任天堂后来能用 NES 重新进场，正是因为它学会了要先修复信任。',
+    back: '回首页',
+    atari2600: 'Atari 2600',
+    coleco: 'ColecoVision',
+    famicom: 'Famicom / NES',
+    viewAtari: '看 Atari 2600 展品',
+    viewColeco: '看 ColecoVision 展品',
+    viewFamicom: '看红白机展品',
+    sections: [
+      {
+        title: 'E.T. 不是唯一凶手',
+        body:
+          'E.T. 因为开发时间极短、品质失控与大量退货，成为崩溃的象征；但真正的问题更大：市场塞满品质参差的游戏，零售端库存爆炸，玩家和店家同时失去信任。',
+      },
+      {
+        title: '第三方失控',
+        body:
+          'Activision 证明第三方游戏可以成功后，更多公司涌入 Atari 2600 市场。缺少授权控管与品质门槛，让卖场里出现大量粗制滥造作品，玩家不知道哪些游戏值得买。',
+      },
+      {
+        title: '任天堂的答案是秩序',
+        body:
+          'NES 在北美不是单纯卖「游戏主机」，而是包装成 Entertainment System，搭配 ROB、光线枪、Seal of Quality、授权制度与 lockout 芯片，把「可控、可信」卖给零售商。',
+      },
+    ],
+    takeaway:
+      'Atari 大崩溃真正留下的教训是：主机平台不是只靠硬件和爆款游戏活着，它需要品质控管、零售信任、第三方规则与品牌节制。任天堂的红白机 / NES 崛起，某种程度就是对 Atari 时代失控的反设计。',
+  },
+  en: {
+    title: 'The Atari Crash',
+    kicker: '[ SPECIAL EXHIBITION · 1982-1985 ]',
+    intro:
+      'The North American console market did not grow in a straight line. After the Atari 2600 boom, it collapsed under oversupply, weak quality control, retailer returns, and price pressure. Nintendo’s NES comeback worked because it first rebuilt trust.',
+    back: 'Back to home',
+    atari2600: 'Atari 2600',
+    coleco: 'ColecoVision',
+    famicom: 'Famicom / NES',
+    viewAtari: 'View Atari 2600 exhibit',
+    viewColeco: 'View ColecoVision exhibit',
+    viewFamicom: 'View Famicom / NES exhibit',
+    sections: [
+      {
+        title: 'E.T. was not the only cause',
+        body:
+          'E.T. became the symbol because of its rushed development and heavy returns, but the deeper problem was market trust: too many games, uneven quality, overloaded retailers, and confused customers.',
+      },
+      {
+        title: 'Third parties ran wild',
+        body:
+          'After Activision proved independent games could succeed, the Atari 2600 market filled with publishers. Without strong licensing or quality controls, shelves became hard to read and harder to trust.',
+      },
+      {
+        title: 'Nintendo sold order',
+        body:
+          'NES was framed as an Entertainment System, with ROB, the Zapper, the Seal of Quality, licensing rules, and lockout hardware. Nintendo was selling confidence as much as games.',
+      },
+    ],
+    takeaway:
+      'The crash showed that a console platform needs more than hardware and hits. It needs quality control, retailer confidence, third-party rules, and brand restraint. NES was, in part, an answer to Atari-era chaos.',
+  },
+  ja: {
+    title: 'Atari ショック',
+    kicker: '[ SPECIAL EXHIBITION · 1982-1985 ]',
+    intro:
+      '北米の家庭用ゲーム市場は一直線に成長したわけではない。Atari 2600 のブーム後、供給過多、品質管理不足、小売の返品、価格競争によって急速に崩れた。任天堂の NES は、まず信頼を作り直したから入ることができた。',
+    back: 'ホームへ',
+    atari2600: 'Atari 2600',
+    coleco: 'ColecoVision',
+    famicom: 'Famicom / NES',
+    viewAtari: 'Atari 2600 展示へ',
+    viewColeco: 'ColecoVision 展示へ',
+    viewFamicom: 'ファミコン展示へ',
+    sections: [
+      {
+        title: 'E.T. だけが原因ではない',
+        body:
+          'E.T. は短い開発期間と大量返品で象徴になった。しかし本当の問題は、ゲームが多すぎ、品質がばらばらで、小売とプレイヤーの信頼が崩れたことだった。',
+      },
+      {
+        title: 'サードパーティが制御不能になった',
+        body:
+          'Activision の成功後、多くの会社が Atari 2600 市場へ入った。強いライセンス管理や品質基準がなく、売り場は分かりにくくなった。',
+      },
+      {
+        title: '任天堂は秩序を売った',
+        body:
+          'NES は単なるゲーム機ではなく Entertainment System として売られた。ROB、光線銃、Seal of Quality、ライセンス制度、ロックアウトで信頼を作り直した。',
+      },
+    ],
+    takeaway:
+      'Atari ショックの教訓は、主機プラットフォームにはハードとヒット作だけでなく、品質管理、小売の信頼、サードパーティ規則、ブランドの節度が必要だということだった。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    anatomyTitle: '崩潰不是一顆隕石，是一串連鎖反應',
+    anatomy: [
+      {
+        label: '供給過剩',
+        body:
+          'Atari 2600 成功後，市場預期被拉得太高。發行商、玩具商、甚至非遊戲公司都想分一杯羹，卡帶數量暴增。貨架空間有限，玩家錢包有限，但供給像沒有煞車。',
+      },
+      {
+        label: '品質失真',
+        body:
+          '沒有清楚授權和品質控管時，玩家買到爛遊戲的機率變高。問題不只是某幾款很差，而是消費者逐漸不知道「Atari 遊戲」到底能不能信。',
+      },
+      {
+        label: '零售反噬',
+        body:
+          '賣不掉的卡帶變成退貨、折價、清倉與庫存壓力。當零售商被遊戲卡帶傷到，下一次新主機想進貨就會更難。這是任天堂進北美前最大的牆。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事實',
+    myths: [
+      {
+        myth: '迷思：E.T. 一款遊戲摧毀了整個產業。',
+        fact:
+          'E.T. 是絕佳象徵，但不是單一原因。崩潰來自供給過剩、品質不穩、零售退貨、消費者信任崩壞、家用電腦價格戰與 Atari 自身管理問題共同疊加。',
+      },
+      {
+        myth: '迷思：這是全球遊戲產業崩潰。',
+        fact:
+          '更準確說是北美家用主機市場崩潰。日本市場沒有同樣崩法，Famicom 反而在 1983 年上市後逐步擴大，為後來 NES 進北美打下基礎。',
+      },
+      {
+        myth: '迷思：任天堂只是靠 Mario 救市。',
+        fact:
+          'Super Mario Bros. 很重要，但 NES 早期成功還包含硬體包裝、零售說服、品質標章、授權限制、lockout 晶片與對第三方的強控制。',
+      },
+    ],
+    nintendoTitle: '任天堂怎麼把「遊戲機」重新賣出去',
+    nintendoMoves: [
+      {
+        title: '改名與偽裝',
+        body:
+          '北美市場對 game console 失去信心，所以 NES 被包裝成 Nintendo Entertainment System。外型像錄放影機，配件有 ROB 和光線槍，讓它看起來不像上一輪死掉的遊戲機。',
+      },
+      {
+        title: '品質標章',
+        body:
+          'Seal of Quality 不代表每款遊戲都好玩，但它傳達一件事：這不是任何公司亂塞進來的卡帶。任天堂要讓家長、玩家和零售商相信平台有人把關。',
+      },
+      {
+        title: '授權與 lockout',
+        body:
+          '10NES lockout 晶片和授權制度讓任天堂能控制誰能出遊戲、出多少、怎麼製造。這也帶來壟斷爭議，但在崩潰後的北美市場，它先解決了「失控」問題。',
+      },
+    ],
+    gamesTitle: '崩潰與復興的代表物',
+    gamePicks: [
+      {
+        platform: '崩潰側',
+        games: [
+          ['Pac-Man for Atari 2600', '銷量巨大，但畫面與體驗和街機期待落差太大，成為玩家信任動搖的早期象徵。'],
+          ['E.T. the Extra-Terrestrial', '趕工、難懂、退貨、掩埋傳說，讓它變成整場崩潰最容易被記住的圖像。'],
+          ['大量低品質授權外卡帶', '重點不是單一片，而是貨架被難以辨識品質的遊戲淹沒，玩家不知道該相信誰。'],
+          ['ColecoVision', '技術更強、街機移植亮眼，卻仍被整體市場崩壞拖進寒冬。'],
+          ['家用電腦價格戰', 'Commodore 64 等家用電腦降價，讓家長覺得「能寫作業的電腦」比單純遊戲機更值得。'],
+        ],
+      },
+      {
+        platform: '復興側',
+        games: [
+          ['Super Mario Bros.', '把 NES 的控制手感、關卡節奏與家庭娛樂形象綁在一起，成為復興敘事的核心作品。'],
+          ['Duck Hunt', '光線槍讓 NES 看起來像新玩具，也幫助它和上一輪 Atari 卡帶印象切開。'],
+          ['The Legend of Zelda', '電池記憶與長篇冒險，讓家用主機能承載更持久的遊玩目標。'],
+          ['Mega Man', '第三方在任天堂規則下成熟，形成 NES 後期「品質穩定、系列化」的印象。'],
+          ['Contra', '街機感與家用合作遊玩結合，讓玩家重新相信主機可以是客廳裡的主戰場。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: '不是沙漠埋了一個產業',
+        body:
+          'Atari 卡帶掩埋事件很有畫面，但它不是崩潰本身。真正恐怖的是賣場不想進貨、玩家不想相信、公司不敢押注。沙漠只是把信任崩壞變成一張照片。',
+      },
+      {
+        title: 'Pac-Man 的期待落差',
+        body:
+          '街機 Pac-Man 是流行文化怪物，Atari 2600 版卻讓很多玩家第一次感到「家用移植怎麼差這麼多」。期待被拉太高，落差就會變成反噬。',
+      },
+      {
+        title: 'ROB 的真正任務',
+        body:
+          'ROB 機器人本身沒有改變遊戲設計史，但它完成了市場任務：讓 NES 看起來不像一台舊式 game console。它賣的不是功能，是通過零售門口的理由。',
+      },
+      {
+        title: '任天堂的嚴格也是陰影',
+        body:
+          '任天堂重建了秩序，也帶來強硬授權、產量限制與平台權力集中。這套方法救了市場，也種下後來 Sega 攻擊「任天堂太保守、太小孩」的土壤。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources:
+      '本頁採主流遊戲史口徑：1983 crash 主要指北美家用主機市場崩潰，而非全球遊戲業消失；E.T. 與 Pac-Man 是代表性符號，不是單一因果。任天堂復興段落以 NES 北美上市策略、Seal of Quality、10NES lockout、授權制度與零售再定位為核心。若後續做註腳版，可補 Atari 財報與當年零售報導、Howard Scott Warshaw 訪談、Racing the Beam、Game Over、The Ultimate History of Video Games、任天堂官方硬體史等資料。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout title={copy.title} description={copy.intro}>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-3">
+      <a href={localizedPath(lang, '/consoles/atari-2600/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/atari-2600-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.atari2600}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewAtari}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/colecovision/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/colecovision-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.coleco}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewColeco}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/famicom/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/famicom-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.famicom}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewFamicom}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.anatomyTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.anatomy.map((item) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{item.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.mythTitle}</h2>
+          <div class="space-y-4">
+            {deepDive.myths.map((item) => (
+              <div class="grid gap-3 md:grid-cols-[16rem_minmax(0,1fr)]">
+                <div class="border-l-2 border-crt-amber/70 pl-4 text-sm leading-relaxed text-crt-amber-dim">{item.myth}</div>
+                <p class="text-sm leading-relaxed text-crt-text/82">{item.fact}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.nintendoTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.nintendoMoves.map((move) => (
+              <div class="border-l-2 border-crt-green/65 pl-4">
+                <h3 class="font-mono text-xs text-crt-amber-dim">{move.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{move.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-2">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storiesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>
