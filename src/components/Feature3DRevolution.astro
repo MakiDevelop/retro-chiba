@@ -1,0 +1,362 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  'zh-tw': {
+    title: '多邊形革命',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      '16-bit 戰爭結束後，主機戰場突然從像素、音源與卡帶容量，轉向 CD-ROM、3D 多邊形、讀取時間、記憶卡與類比操作。PlayStation 把遊戲變成流行文化，Saturn 守著街機血統，Nintendo 64 則用卡帶和類比搖桿押注另一種未來。',
+    back: '回首頁',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    n64: 'Nintendo 64',
+    viewPs1: '看 PlayStation 展品',
+    viewSaturn: '看 Saturn 展品',
+    viewN64: '看 Nintendo 64 展品',
+    sections: [
+      {
+        title: 'CD-ROM 改變了內容重量',
+        body:
+          'CD-ROM 讓容量從幾 MB 跨到數百 MB，CG 動畫、真人影片、語音、長篇 RPG 和大量音樂變成賣點。代價是讀取時間、刮片、盜版與資料流設計，主機第一次像一台媒體機。',
+      },
+      {
+        title: '3D 不是畫面升級而已',
+        body:
+          '多邊形讓遊戲設計開始處理鏡頭、空間感、鎖定、碰撞與深度判斷。很多早期 3D 今天看起來粗糙，但那正是開發者第一次摸索「玩家怎麼在立體世界裡移動」。',
+      },
+      {
+        title: '控制器也被重新發明',
+        body:
+          'N64 類比搖桿、PS1 Dual Analog / DualShock、Saturn 3D Control Pad，都在回答同一個問題：十字鍵不夠用了。從這代開始，控制器不只是輸入裝置，而是 3D 遊戲語法的一部分。',
+      },
+    ],
+    takeaway:
+      '第五世代真正的革命，不是誰的多邊形最多，而是遊戲產業從「玩具與卡帶」轉向「媒體、品牌、3D 空間與成人玩家」。這一代把現代遊戲的樣子先畫了一次草圖。',
+  },
+  'zh-cn': {
+    title: '多边形革命',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      '16-bit 战争结束后，主机战场突然从像素、音源与卡带容量，转向 CD-ROM、3D 多边形、读取时间、记忆卡与模拟操作。PlayStation 把游戏变成流行文化，Saturn 守着街机血统，Nintendo 64 则用卡带和模拟摇杆押注另一种未来。',
+    back: '回首页',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    n64: 'Nintendo 64',
+    viewPs1: '看 PlayStation 展品',
+    viewSaturn: '看 Saturn 展品',
+    viewN64: '看 Nintendo 64 展品',
+    sections: [
+      {
+        title: 'CD-ROM 改变了内容重量',
+        body:
+          'CD-ROM 让容量从几 MB 跨到数百 MB，CG 动画、真人影片、语音、长篇 RPG 和大量音乐变成卖点。代价是读取时间、刮片、盗版与资料流设计，主机第一次像一台媒体机。',
+      },
+      {
+        title: '3D 不只是画面升级',
+        body:
+          '多边形让游戏设计开始处理镜头、空间感、锁定、碰撞与深度判断。很多早期 3D 今天看起来粗糙，但那正是开发者第一次摸索「玩家怎么在立体世界里移动」。',
+      },
+      {
+        title: '控制器也被重新发明',
+        body:
+          'N64 模拟摇杆、PS1 Dual Analog / DualShock、Saturn 3D Control Pad，都在回答同一个问题：十字键不够用了。从这代开始，控制器不只是输入装置，而是 3D 游戏语法的一部分。',
+      },
+    ],
+    takeaway:
+      '第五世代真正的革命，不是谁的多边形最多，而是游戏产业从「玩具与卡带」转向「媒体、品牌、3D 空间与成人玩家」。这一代把现代游戏的样子先画了一次草图。',
+  },
+  en: {
+    title: 'The Polygon Revolution',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      'After the 16-bit war, console competition shifted from sprites, sound chips, and cartridges to CD-ROMs, 3D polygons, loading screens, memory cards, and analog control. PlayStation made games feel like pop culture, Saturn held the arcade line, and Nintendo 64 bet on cartridges and a different 3D future.',
+    back: 'Back to home',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    n64: 'Nintendo 64',
+    viewPs1: 'View PlayStation exhibit',
+    viewSaturn: 'View Saturn exhibit',
+    viewN64: 'View Nintendo 64 exhibit',
+    sections: [
+      {
+        title: 'CD-ROM changed scale',
+        body:
+          'CD-ROM pushed console content from a few megabytes into hundreds. CG movies, voice, full soundtracks, and longer RPGs became selling points, while loading, disc durability, piracy, and data streaming became new design problems.',
+      },
+      {
+        title: '3D rewrote design',
+        body:
+          'Polygons forced designers to solve cameras, targeting, collision, depth, and player orientation. Early 3D can look rough now, but it records the moment games learned how bodies move through virtual space.',
+      },
+      {
+        title: 'Controllers changed too',
+        body:
+          'N64 analog, PlayStation Dual Analog / DualShock, and Saturn 3D Control Pad all answered the same pressure: the D-pad was no longer enough. From here, controllers became part of 3D grammar.',
+      },
+    ],
+    takeaway:
+      'The fifth generation was not just about polygon counts. It moved console games from toys and cartridges toward media, brands, 3D space, and older players. Modern games were sketched here first.',
+  },
+  ja: {
+    title: 'ポリゴン革命',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      '16ビット戦争の後、競争軸はドット、音源、カートリッジ容量から、CD-ROM、3Dポリゴン、ロード時間、メモリーカード、アナログ操作へ移った。PlayStation はゲームをポップカルチャーにし、Saturn はアーケードの血統を守り、Nintendo 64 はカートリッジとアナログスティックで別の未来に賭けた。',
+    back: 'ホームへ',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    n64: 'Nintendo 64',
+    viewPs1: 'PlayStation 展示へ',
+    viewSaturn: 'Saturn 展示へ',
+    viewN64: 'Nintendo 64 展示へ',
+    sections: [
+      {
+        title: 'CD-ROM が内容量を変えた',
+        body:
+          'CD-ROM によって、CG ムービー、音声、長い RPG、大量の音楽が家庭用ゲームの売りになった。同時にロード、ディスクの扱い、コピー、データストリーミングが新しい課題になった。',
+      },
+      {
+        title: '3D は設計を変えた',
+        body:
+          'ポリゴンはカメラ、空間感覚、ロックオン、当たり判定、奥行き判断をゲームデザインの中心に押し出した。粗い初期 3D は、立体世界を学び始めた記録でもある。',
+      },
+      {
+        title: 'コントローラーも変わった',
+        body:
+          'N64 のアナログスティック、PS1 の Dual Analog / DualShock、Saturn 3D Control Pad は、十字キーだけでは足りない時代への答えだった。',
+      },
+    ],
+    takeaway:
+      '第五世代の本当の革命は、ポリゴン数だけではない。ゲームを玩具とカートリッジから、メディア、ブランド、3D 空間、大人のプレイヤーへ広げたことだった。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    lanesTitle: '三台主機，三條路線',
+    lanes: [
+      {
+        label: 'PlayStation：夜店、CD、記憶卡',
+        body:
+          'Sony 沒有把 PlayStation 包裝成兒童玩具，而是把它放進音樂、雜誌、夜生活與更成熟的廣告語境。CD 便宜、開發友善、第三方願意上車，讓 Square、Namco、Capcom、Konami 等作品把 PS1 推成第五世代主流。',
+      },
+      {
+        label: 'Saturn：2D 很強，3D 轉身很痛',
+        body:
+          'Saturn 的多處理器架構與 2D 能力很有 Sega 味，移植格鬥、射擊、街機作品表現精彩；但面對市場突然全面轉向 3D，多 CPU 開發門檻、海外策略與 Sonic 缺席讓它很難跟 PS1 正面競爭。',
+      },
+      {
+        label: 'Nintendo 64：卡帶孤島與類比未來',
+        body:
+          'N64 堅持卡帶，換來低讀取與耐用，也失去 CD 容量與大量第三方。它用 Super Mario 64、Zelda: Ocarina of Time、GoldenEye 007 證明 3D 設計可以非常成熟，但軟體陣容變得更集中。',
+      },
+    ],
+    shiftTitle: '從卡帶時代到光碟時代',
+    shifts: [
+      {
+        title: '容量暴增',
+        body:
+          'RPG 可以塞進動畫、語音、長過場與多片光碟。Final Fantasy VII 的衝擊，不只來自 3D，而是整個敘事包裝突然像電影與唱片一起進了客廳。',
+      },
+      {
+        title: '成本下降',
+        body:
+          'CD 壓片成本比卡帶低很多，庫存風險也不同。這讓第三方更願意嘗試新 IP、較長敘事與大量內容，也讓 PlayStation 形成「遊戲很多、什麼都有」的印象。',
+      },
+      {
+        title: '盜版擴散',
+        body:
+          '華人圈的 PS1 記憶常和改機、燒片、光華商場、遊戲店清單綁在一起。它加速普及，也讓正版、代理、灰色市場的界線變得更複雜。',
+      },
+    ],
+    gamesTitle: '代表作怎麼看',
+    gamePicks: [
+      {
+        platform: 'PlayStation',
+        games: [
+          ['Final Fantasy VII', '把 JRPG 推到全球流行文化中心，CG、音樂、角色與多片光碟共同塑造「電影化 RPG」印象。'],
+          ['Metal Gear Solid', '用語音、鏡頭、潛入節奏與後設演出，證明 3D 主機可以承載更像電影的敘事。'],
+          ['Resident Evil', '固定鏡頭、預算限制與恐怖節奏合成 survival horror 的主流語法。'],
+          ['Gran Turismo', '用真實車款、駕照、調校與長期養成，把賽車從街機爽感推向汽車文化。'],
+          ['Tekken 3', '代表 PS1 晚期 3D 格鬥的成熟度，也證明 Namco 對 PlayStation 的支援有多關鍵。'],
+        ],
+      },
+      {
+        platform: 'Sega Saturn',
+        games: [
+          ['Virtua Fighter 2', '街機 3D 格鬥在家用機上的標誌性移植，保住 Sega 技術信仰。'],
+          ['Sega Rally Championship', '用不同路面手感與街機節奏，留下 Saturn 最鮮明的競速記憶。'],
+          ['NiGHTS into Dreams', '配合 3D Control Pad，做出介於飛行、軌道與夢境演出的 Sega 式異色作品。'],
+          ['Radiant Silvergun', '讓 Saturn 在射擊遊戲收藏圈變成神主機之一。'],
+          ['Guardian Heroes', 'Treasure 把清版動作、分歧路線與 RPG 成長混在一起，成為 2D 強項代表。'],
+        ],
+      },
+      {
+        platform: 'Nintendo 64',
+        games: [
+          ['Super Mario 64', '教會玩家在 3D 空間裡跑、跳、轉鏡頭，是現代 3D 動作遊戲的起點之一。'],
+          ['The Legend of Zelda: Ocarina of Time', 'Z-targeting、場景節奏與 3D 冒險結構，讓動作冒險類型完成關鍵轉譯。'],
+          ['GoldenEye 007', '把分割畫面多人 FPS 帶進客廳，是很多玩家第一次在家裡打「槍戰派對」。'],
+          ['Mario Kart 64', '四人同樂、道具混戰與 3D 賽道，讓派對型賽車成為長期公式。'],
+          ['Star Fox 64', '語音、震動包與軌道射擊節奏，展示 N64 的另一種爽快感。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: '第一次看到 FFVII 片頭',
+        body:
+          '火車進站、鏡頭拉遠、Midgar 亮起。很多玩家第一次覺得 RPG 不只是角色在格子地圖上走，而是可以像電影一樣開場。這一刻，CD-ROM 的容量變成情緒。',
+      },
+      {
+        title: '三叉戟手把的困惑',
+        body:
+          'N64 手把第一次拿起來很怪：到底要握哪兩支？但類比搖桿一推，Mario 在 3D 空間裡慢走、奔跑、轉圈，玩家才發現這不是怪，是新的操作語言。',
+      },
+      {
+        title: 'Saturn 玩家守著街機味',
+        body:
+          '當同學都在聊 PS1 RPG 和 CG 動畫，Saturn 玩家可能在打 Virtua Fighter 2、格鬥移植或射擊神作。它不是最大眾的選擇，但很像 Sega 最後一次把街機魂塞進家用主機。',
+      },
+      {
+        title: '改機店的清單',
+        body:
+          '台灣 90 年代末的 PS1 記憶，常是遊戲店櫃台、燒片目錄、手寫編號和透明光碟盒。灰色市場讓遊戲大量流動，也留下很複雜的青春味道。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources:
+      '本頁以第五世代主機史、各平台代表作與玩家記憶為策展素材；銷量與市場敘事採常見歷史口徑：PlayStation 全球破億並成為主流，Nintendo 64 約三千萬級且第一方強勢，Saturn 約千萬級且日本相對較強、海外失利。若後續要做正式註腳版，可再補 Sony / Nintendo 官方數字、SegaRetro、Edge / Next Generation 當年報導與各平台開發者訪談。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout title={copy.title} description={copy.intro}>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-3">
+      <a href={localizedPath(lang, '/consoles/ps1/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/ps1-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.ps1}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewPs1}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/saturn/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/saturn-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.saturn}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewSaturn}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/n64/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/n64-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.n64}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewN64}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.lanesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.lanes.map((lane) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{lane.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{lane.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.shiftTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.shifts.map((shift) => (
+              <div class="border-l-2 border-crt-green/65 pl-4">
+                <h3 class="font-mono text-xs text-crt-amber-dim">{shift.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{shift.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-3">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storiesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>
