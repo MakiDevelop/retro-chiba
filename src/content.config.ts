@@ -33,6 +33,14 @@ const relatedConsole = z.object({
   note: z.string(),
 });
 
+const hardwareVariant = z.object({
+  name: z.string(),
+  release: z.string().optional(),
+  type: z.string(),
+  note: z.string(),
+  slug: z.string().optional(),
+});
+
 const mythFact = z.object({
   myth: z.string(),
   fact: z.string(),
@@ -82,6 +90,7 @@ export const consoles = defineCollection({
     }).default({}),
     curated_games: z.array(curatedGame).default([]),
     related_consoles: z.array(relatedConsole).default([]),
+    hardware_variants: z.array(hardwareVariant).default([]),
     legacy: legacyDeepDive,
   }),
 });
