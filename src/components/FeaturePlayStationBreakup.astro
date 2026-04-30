@@ -1,0 +1,378 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  'zh-tw': {
+    title: 'PlayStation 誕生前夜',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro:
+      'PlayStation 一開始不是 Sony 要打倒任天堂的主機，而是任天堂 Super Famicom CD-ROM 計畫的影子。合作破局、合約翻臉、Philips 插隊、Sony 內部反覆爭論，最後讓原本的周邊計畫變成一台獨立主機。這是遊戲史上最有名的商業分手之一。',
+    back: '回首頁',
+    sfc: 'Super Famicom',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    viewSfc: '看 Super Famicom 展品',
+    viewPs1: '看 PlayStation 展品',
+    viewSaturn: '看 Saturn 展品',
+    sections: [
+      {
+        title: '任天堂想要 CD，但不想失去控制',
+        body:
+          '任天堂知道卡帶容量會遇到天花板，也需要光碟來面對 PC Engine CD-ROM 等競爭。但它最在意的是授權、製造與平台控制權，這正是和 Sony 合作最危險的地方。',
+      },
+      {
+        title: 'Sony 想從音源走進平台',
+        body:
+          'Sony 已經替 Super Famicom 做了 SPC700 音源系統。Ken Kutaragi 看到的是更大的機會：不只是做零件，而是讓 Sony 進入家用互動娛樂平台。',
+      },
+      {
+        title: '破局創造了新玩家',
+        body:
+          '當任天堂轉向 Philips，Sony 原本可能吞下失敗；但內部最後決定把 PlayStation 做成獨立主機。任天堂想守住控制權，結果創造了最強的新對手。',
+      },
+    ],
+    takeaway:
+      'PlayStation 的誕生不是單純技術進步，而是平台權力、授權利益與企業自尊一起爆炸的結果。它也說明：主機戰常常不是從市場開始，而是從會議室裡一份合約開始。',
+  },
+  'zh-cn': {
+    title: 'PlayStation 诞生前夜',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro:
+      'PlayStation 一开始不是 Sony 要打倒任天堂的主机，而是任天堂 Super Famicom CD-ROM 计划的影子。合作破局、合约翻脸、Philips 插队、Sony 内部反复争论，最后让原本的周边计划变成一台独立主机。',
+    back: '回首页',
+    sfc: 'Super Famicom',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    viewSfc: '看 Super Famicom 展品',
+    viewPs1: '看 PlayStation 展品',
+    viewSaturn: '看 Saturn 展品',
+    sections: [
+      {
+        title: '任天堂想要 CD，但不想失去控制',
+        body:
+          '任天堂知道卡带容量会遇到天花板，也需要光盘来面对 PC Engine CD-ROM 等竞争。但它最在意的是授权、制造与平台控制权，这正是和 Sony 合作最危险的地方。',
+      },
+      {
+        title: 'Sony 想从音源走进平台',
+        body:
+          'Sony 已经替 Super Famicom 做了 SPC700 音源系统。Ken Kutaragi 看到的是更大的机会：不只是做零件，而是让 Sony 进入家用互动娱乐平台。',
+      },
+      {
+        title: '破局创造了新玩家',
+        body:
+          '当任天堂转向 Philips，Sony 原本可能吞下失败；但内部最后决定把 PlayStation 做成独立主机。任天堂想守住控制权，结果创造了最强的新对手。',
+      },
+    ],
+    takeaway:
+      'PlayStation 的诞生不是单纯技术进步，而是平台权力、授权利益与企业自尊一起爆炸的结果。它也说明：主机战常常不是从市场开始，而是从会议室里一份合约开始。',
+  },
+  en: {
+    title: 'Before PlayStation',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro:
+      'PlayStation did not begin as Sony’s Nintendo killer. It began in the shadow of a Super Famicom CD-ROM project. A broken partnership, a Philips pivot, and internal Sony arguments turned an accessory plan into an independent console.',
+    back: 'Back to home',
+    sfc: 'Super Famicom / SNES',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    viewSfc: 'View Super Famicom exhibit',
+    viewPs1: 'View PlayStation exhibit',
+    viewSaturn: 'View Saturn exhibit',
+    sections: [
+      {
+        title: 'Nintendo wanted CD without losing control',
+        body:
+          'Nintendo knew cartridges had limits and CD-ROM was becoming strategically important. But licensing, manufacturing, and platform control mattered more than capacity alone.',
+      },
+      {
+        title: 'Sony wanted a platform',
+        body:
+          'Sony had already built the SPC700 sound system for Super Famicom. Ken Kutaragi saw a larger path: not only components, but a Sony place in interactive entertainment.',
+      },
+      {
+        title: 'The breakup created a rival',
+        body:
+          'Nintendo’s Philips pivot could have ended the project. Instead, Sony chose to turn PlayStation into an independent console. Nintendo protected control and created its strongest challenger.',
+      },
+    ],
+    takeaway:
+      'PlayStation was born from platform power, licensing money, and corporate pride as much as technology. Console wars often start in contracts before they reach store shelves.',
+  },
+  ja: {
+    title: 'PlayStation 前夜',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro:
+      'PlayStation は最初から任天堂を倒すための主機ではなかった。始まりは Super Famicom CD-ROM 計画の影だった。提携破綻、Philips への転換、Sony 社内の議論が、周辺機器計画を独立した主機へ変えた。',
+    back: 'ホームへ',
+    sfc: 'Super Famicom',
+    ps1: 'PlayStation',
+    saturn: 'Sega Saturn',
+    viewSfc: 'Super Famicom 展示へ',
+    viewPs1: 'PlayStation 展示へ',
+    viewSaturn: 'Saturn 展示へ',
+    sections: [
+      {
+        title: '任天堂は CD が欲しかったが支配権は渡したくなかった',
+        body:
+          'カートリッジ容量の限界と CD-ROM の重要性は明らかだった。しかし任天堂にとって、ライセンス、製造、プラットフォーム支配は容量以上に重要だった。',
+      },
+      {
+        title: 'Sony は部品から平台へ進みたかった',
+        body:
+          'Sony は Super Famicom の SPC700 音源を担当していた。久夛良木健が見たのは、部品供給ではなくインタラクティブエンタテインメント平台への入口だった。',
+      },
+      {
+        title: '破局がライバルを生んだ',
+        body:
+          '任天堂が Philips へ向かったことで計画は終わる可能性もあった。しかし Sony は PlayStation を独立主機として進めた。支配権を守る判断が最大のライバルを作った。',
+      },
+    ],
+    takeaway:
+      'PlayStation の誕生は技術だけでなく、平台支配、ライセンス収益、企業の自尊心が絡んだ事件だった。主機戦争は店頭より先に契約書から始まる。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    timelineTitle: '這場分手怎麼發生',
+    timeline: [
+      {
+        label: '音源合作打開門',
+        body:
+          'Sony 與任天堂的關係不是突然出現。Super Famicom 的聲音系統由 Sony 技術支援，Ken Kutaragi 在內部推動這件事時本來就冒著風險。成功之後，光碟合作看起來像下一步。',
+      },
+      {
+        label: 'SFC CD-ROM 的利益衝突',
+        body:
+          'CD-ROM 不只是容量問題，也牽涉誰控制光碟格式、誰收授權費、誰掌握軟體發行。任天堂擔心 Sony 藉由光碟規格拿走平台收益與第三方關係。',
+      },
+      {
+        label: 'CES 破局成為傳說',
+        body:
+          '最戲劇化的版本是：Sony 公開展示合作願景後，任天堂在展會上宣布轉向 Philips。細節有不同說法，但這個事件成為「商業背叛催生 PlayStation」的核心場景。',
+      },
+    ],
+    stakesTitle: '雙方到底在爭什麼',
+    stakes: [
+      {
+        title: '授權費',
+        body:
+          '任天堂的核心商業模式是控制卡帶製造與授權。CD 如果由 Sony 掌握，軟體發行與授權收益可能不再完全由任天堂主導。',
+      },
+      {
+        title: '第三方關係',
+        body:
+          '誰控制媒體格式，誰就更接近第三方發行商。Sony 後來能快速吸引開發商，正是因為它把光碟成本、開發環境和授權條件變成武器。',
+      },
+      {
+        title: '品牌主導權',
+        body:
+          '任天堂不是不懂 CD，而是不願讓主機平台的入口被別人控制。Sony 也不是只想做外包零件，而是想站到客廳娛樂的正中央。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事實',
+    myths: [
+      {
+        myth: '迷思：Sony 被背叛後立刻決定復仇。',
+        fact:
+          '故事沒有那麼漫畫化。Sony 內部也曾質疑是否要繼續做遊戲主機，PlayStation 能留下來，和 Kutaragi 的堅持、公司對多媒體未來的判斷都有關。',
+      },
+      {
+        myth: '迷思：任天堂完全看不到光碟未來。',
+        fact:
+          '任天堂看得到，只是不想用失去控制權的方式進入。它後來仍與 Philips 有合作影子，也嘗試過不同形式的擴充，但策略保守讓它在第五世代付出代價。',
+      },
+      {
+        myth: '迷思：PlayStation 成功只是因為 CD 容量大。',
+        fact:
+          '容量很重要，但更關鍵的是低壓片成本、友善開發環境、第三方政策、成熟品牌行銷，以及 Sony 把遊戲包裝成青年文化和音樂文化的一部分。',
+      },
+    ],
+    gamesTitle: '破局後的歷史回聲',
+    gamePicks: [
+      {
+        platform: '任天堂留下的路',
+        games: [
+          ['Super Famicom', '證明任天堂仍能靠卡帶、第一方和第三方品質統治 16-bit 時代，但 CD 問題沒有消失。'],
+          ['Star Fox', 'Super FX 晶片展示任天堂用卡帶加晶片硬撐技術前沿的能力，也暗示卡帶擴充成本會越來越高。'],
+          ['Nintendo 64', '低讀取和強第一方換來容量限制與第三方流失，Square 轉向 PlayStation 是最具象徵性的代價。'],
+        ],
+      },
+      {
+        platform: 'Sony 開出的路',
+        games: [
+          ['Ridge Racer', 'Namco 街機移植讓 PlayStation 一開始就有成熟 3D 與流行感。'],
+          ['Final Fantasy VII', 'Square 的轉向把 PlayStation 推進全球 RPG 主流，也讓任天堂卡帶策略的代價被看見。'],
+          ['Metal Gear Solid', '語音、光碟容量、電影化演出與成人向包裝，共同證明 Sony 的平台方向成立。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: '一台不存在的 Nintendo PlayStation',
+        body:
+          '後來流出的原型機讓這段歷史變得像平行宇宙：如果任天堂和 Sony 沒有分手，PlayStation 也許只是 Super Famicom 的光碟周邊，而不是改寫產業的主機。',
+      },
+      {
+        title: 'Philips 不是勝利者',
+        body:
+          '任天堂轉向 Philips 是為了重新談控制權，但 Philips CD-i 上那些任天堂授權作品反而成為尷尬旁支。真正撿到歷史機會的人，是沒有放棄的 Sony。',
+      },
+      {
+        title: 'Square 的出走',
+        body:
+          'FFVII 需要更大容量、更低成本和大量影像演出。當 Square 選擇 PlayStation，那不只是遊戲換平台，而是第三方重心從任天堂秩序滑向 Sony 秩序。',
+      },
+      {
+        title: '從合作夥伴到世代冠軍',
+        body:
+          'Sony 本來在任天堂背後提供聲音技術，幾年後卻站到市場正中央。這種逆轉，是 90 年代主機戰最戲劇化的商業故事之一。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources:
+      '本頁採遊戲史常見敘事：Sony 與任天堂曾合作 Super Famicom CD-ROM / Play Station 計畫，後因光碟授權與控制權分歧破局，任天堂轉向 Philips，Sony 最終將 PlayStation 發展為獨立主機。細節在不同訪談和史書中有差異，因此本頁以「商業分手與平台權力衝突」為主軸，不把單一戲劇化場景當成完整因果。後續註腳版可補 Ken Kutaragi / 久夛良木健訪談、Game Over、The Ultimate History of Video Games、Polygon / IGN / Eurogamer 對原型機與合作破局的回顧。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout title={copy.title} description={copy.intro}>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-3">
+      <a href={localizedPath(lang, '/consoles/super-famicom/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/super-famicom-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.sfc}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewSfc}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/ps1/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/ps1-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.ps1}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewPs1}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/saturn/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/saturn-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.saturn}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewSaturn}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.timelineTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.timeline.map((item) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{item.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.stakesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.stakes.map((stake) => (
+              <div class="border-l-2 border-crt-green/65 pl-4">
+                <h3 class="font-mono text-xs text-crt-amber-dim">{stake.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{stake.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.mythTitle}</h2>
+          <div class="space-y-4">
+            {deepDive.myths.map((item) => (
+              <div class="grid gap-3 md:grid-cols-[16rem_minmax(0,1fr)]">
+                <div class="border-l-2 border-crt-amber/70 pl-4 text-sm leading-relaxed text-crt-amber-dim">{item.myth}</div>
+                <p class="text-sm leading-relaxed text-crt-text/82">{item.fact}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-2">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storiesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>

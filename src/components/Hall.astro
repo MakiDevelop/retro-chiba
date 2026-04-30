@@ -58,6 +58,12 @@ const featureCopies = {
         images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/mega-drive-hero-320.webp'],
       },
       {
+        href: '/features/playstation-breakup/',
+        title: 'PlayStation 誕生前夜',
+        body: '任天堂與 Sony 的 SFC CD-ROM 合作破局，讓原本的周邊計畫變成獨立主機。主機戰有時不是從店頭開始，而是從合約翻臉開始。',
+        images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/ps1-hero-320.webp'],
+      },
+      {
         href: '/features/polygon-revolution/',
         title: '多邊形革命',
         body: 'PlayStation、Saturn、Nintendo 64 把主機戰推進 CD-ROM、3D 空間、記憶卡與類比操作。現代遊戲的輪廓在這代第一次成形。',
@@ -80,6 +86,12 @@ const featureCopies = {
         title: '16-bit 战争',
         body: 'Mega Drive 用速度与攻击型广告挑战任天堂；Super Famicom 用色彩、声音与 RPG 阵容守住主流。从这里开始，主机战不再只是规格表。',
         images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/mega-drive-hero-320.webp'],
+      },
+      {
+        href: '/features/playstation-breakup/',
+        title: 'PlayStation 诞生前夜',
+        body: '任天堂与 Sony 的 SFC CD-ROM 合作破局，让原本的周边计划变成独立主机。主机战有时不是从店头开始，而是从合约翻脸开始。',
+        images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/ps1-hero-320.webp'],
       },
       {
         href: '/features/polygon-revolution/',
@@ -106,6 +118,12 @@ const featureCopies = {
         images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/mega-drive-hero-320.webp'],
       },
       {
+        href: '/features/playstation-breakup/',
+        title: 'Before PlayStation',
+        body: 'Nintendo and Sony’s SFC CD-ROM partnership collapsed, turning an accessory plan into an independent console. Sometimes console wars begin in contracts.',
+        images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/ps1-hero-320.webp'],
+      },
+      {
         href: '/features/polygon-revolution/',
         title: 'The Polygon Revolution',
         body: 'PlayStation, Saturn, and Nintendo 64 moved console competition into CD-ROM, 3D space, memory cards, and analog control. Modern games took shape here first.',
@@ -128,6 +146,12 @@ const featureCopies = {
         title: '16ビット戦争',
         body: 'メガドライブはスピードと攻撃的な広告で任天堂に挑み、スーパーファミコンは色彩、音、RPG の厚みで主流を守った。ここから主機戦争はスペック表だけではなくなった。',
         images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/mega-drive-hero-320.webp'],
+      },
+      {
+        href: '/features/playstation-breakup/',
+        title: 'PlayStation 前夜',
+        body: '任天堂と Sony の SFC CD-ROM 提携が破綻し、周辺機器計画は独立主機へ変わった。主機戦争は契約書から始まることもある。',
+        images: ['/img/consoles/thumbs/super-famicom-hero-320.webp', '/img/consoles/thumbs/ps1-hero-320.webp'],
       },
       {
         href: '/features/polygon-revolution/',
@@ -223,7 +247,7 @@ const featureCopies = {
 
   <section class="mt-14 border-y border-crt-green/25 py-6">
     <p class="font-pixel text-xs tracking-widest text-crt-green/75">{featureCopies.eyebrow}</p>
-    <div class="mt-5 grid gap-5 md:grid-cols-3">
+    <div class="mt-5 grid gap-5 md:grid-cols-2">
       {featureCopies.items.map((feature) => (
         <a href={localizedPath(lang, feature.href)} class="group grid gap-5 border border-crt-dim/45 bg-crt-panel/25 p-5 transition hover:border-crt-amber/60 hover:bg-crt-panel/45">
           <div class="grid grid-cols-2 overflow-hidden border border-crt-dim/45 bg-crt-panel/35">
