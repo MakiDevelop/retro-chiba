@@ -30,6 +30,43 @@ const specsI18n = {
   official: t('console.official'),
   community: t('console.community'),
 };
+
+const curationLabels = {
+  'zh-tw': {
+    title: '策展筆記',
+    thesis: '這台機器代表什麼',
+    turningPoint: '歷史轉折',
+    localMemory: '中文圈記憶',
+    curatedGames: '策展推薦',
+    related: '延伸展品',
+  },
+  'zh-cn': {
+    title: '策展笔记',
+    thesis: '这台机器代表什么',
+    turningPoint: '历史转折',
+    localMemory: '中文圈记忆',
+    curatedGames: '策展推荐',
+    related: '延伸展品',
+  },
+  en: {
+    title: 'Curator Notes',
+    thesis: 'What this machine stands for',
+    turningPoint: 'Turning point',
+    localMemory: 'Regional memory',
+    curatedGames: 'Curated picks',
+    related: 'Related exhibits',
+  },
+  ja: {
+    title: 'キュレーターズノート',
+    thesis: 'この機種が象徴するもの',
+    turningPoint: '歴史の転換点',
+    localMemory: '地域の記憶',
+    curatedGames: 'キュレーション選',
+    related: '関連展示',
+  },
+}[lang];
+
+const hasCuration = Boolean(d.curation.thesis || d.curation.turning_point || d.curation.local_memory);
 ---
 
 <BaseLayout title={d.title}>
@@ -190,6 +227,48 @@ const specsI18n = {
       i18n={specsI18n}
     />
 
+    {(hasCuration || d.curated_games.length > 0) && (
+      <section class="my-12 border-y border-crt-amber/25 bg-crt-panel/25 py-6">
+        <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{curationLabels.title}</h2>
+        {hasCuration && (
+          <div class="mt-5 grid gap-4 md:grid-cols-3">
+            {d.curation.thesis && (
+              <div class="border-l-2 border-crt-amber/70 pl-4">
+                <h3 class="font-mono text-[11px] uppercase tracking-[0.22em] text-crt-amber-dim">{curationLabels.thesis}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{d.curation.thesis}</p>
+              </div>
+            )}
+            {d.curation.turning_point && (
+              <div class="border-l-2 border-crt-green/70 pl-4">
+                <h3 class="font-mono text-[11px] uppercase tracking-[0.22em] text-crt-green/80">{curationLabels.turningPoint}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{d.curation.turning_point}</p>
+              </div>
+            )}
+            {d.curation.local_memory && (
+              <div class="border-l-2 border-crt-dim pl-4">
+                <h3 class="font-mono text-[11px] uppercase tracking-[0.22em] text-crt-text/55">{curationLabels.localMemory}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{d.curation.local_memory}</p>
+              </div>
+            )}
+          </div>
+        )}
+
+        {d.curated_games.length > 0 && (
+          <div class="mt-8">
+            <h3 class="mb-3 font-pixel text-xs uppercase tracking-wider text-crt-amber">{curationLabels.curatedGames}</h3>
+            <ol class="grid gap-3 md:grid-cols-3">
+              {d.curated_games.map((g) => (
+                <li class="border border-crt-dim/35 bg-crt-bg/35 p-4">
+                  <div class="font-pixel text-xs leading-relaxed text-crt-amber">{g.title}</div>
+                  <p class="mt-2 text-sm leading-relaxed text-crt-text/78">{g.reason}</p>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+      </section>
+    )}
+
     <div class="prose prose-invert prose-crt max-w-none">
       <Content />
     </div>
@@ -200,6 +279,25 @@ const specsI18n = {
         <ul class="grid gap-2 text-sm md:grid-cols-2">
           {d.notable_games.map((g) => (
             <li class="border-l-2 border-crt-amber-dim/60 pl-3 text-crt-text/85">{g}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {d.related_consoles.length > 0 && (
+      <section class="my-12">
+        <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{curationLabels.related}</h2>
+        <ul class="grid gap-3 md:grid-cols-3">
+          {d.related_consoles.map((item) => (
+            <li>
+              <a
+                href={localizedPath(lang, `/consoles/${item.slug}/`)}
+                class="block h-full border border-crt-dim/40 bg-crt-panel/35 p-4 transition hover:border-crt-amber/65 hover:bg-crt-panel/60"
+              >
+                <div class="font-pixel text-xs leading-relaxed text-crt-amber">{item.label}</div>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/72">{item.note}</p>
+              </a>
+            </li>
           ))}
         </ul>
       </section>

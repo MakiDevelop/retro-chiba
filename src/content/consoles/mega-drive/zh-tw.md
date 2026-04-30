@@ -10,7 +10,7 @@ release:
   na: "1989-08-14"
   eu: "1990-09-30"
 sales:
-  official: "約 3,075 萬台（Sega 累計，含含 Tectoy 巴西版）"
+  official: "約 3,075 萬台（Sega 累計，含 Tectoy 巴西版）"
   community: "北美 1,800 萬 / 歐洲 800 萬 / 日本 358 萬 / 巴西超 200 萬"
   source: "Sega 公開財報及 Tectoy 巴西本地數據"
 specs:
@@ -47,6 +47,31 @@ notable_games:
   - "Phantasy Star IV（Sega，1993）"
   - "Gunstar Heroes（Treasure，1993）"
   - "Shining Force II（Sega，1993）"
+curation:
+  thesis: "Mega Drive 是 Sega 最接近改寫家用機秩序的一次。它把街機速度、FM 音源、黑色硬體與攻擊型廣告包成一套「不是給小孩」的品牌性格。"
+  turning_point: "北美 Genesis 靠 Sonic bundle 與 Nintendon't 行銷短暫壓過 SNES，證明任天堂的壟斷不是自然法則；但 Mega-CD、32X 與 Saturn 的路線混亂，也從這一代開始露出。"
+  local_memory: "在台灣，Mega Drive 比紅白機與超任更像水貨櫃台裡的酷東西：不是每個人家裡都有，但電玩雜誌、音速小子廣告與街機移植讓它一直很有存在感。"
+curated_games:
+  - title: "音速小子"
+    reason: "Sonic 不是單純的吉祥物，它是 Sega 用速度、藍色、叛逆態度包裝出的品牌宣言。沒有它，Genesis 很難在北美打開缺口。"
+  - title: "Streets of Rage 2"
+    reason: "把大型電玩 beat 'em up 的手感、音樂與都會夜色搬回客廳，是 Mega Drive 最能展示街機 DNA 的作品之一。"
+  - title: "Golden Axe"
+    reason: "早期最直覺的街機移植招牌，即使家用版有取捨，也把「Sega arcade at home」的承諾講得很清楚。"
+  - title: "Madden NFL"
+    reason: "北美 Genesis 文化不能只看 Sonic。運動遊戲、尤其美式足球，讓這台主機成為許多玩家客廳裡的球場。"
+  - title: "Gunstar Heroes"
+    reason: "Treasure 用滿版爆炸、雙人合作與誇張 boss 設計，把 68000 的動作遊戲潛力壓到極限。"
+related_consoles:
+  - slug: "super-famicom"
+    label: "超級任天堂"
+    note: "Mega Drive 的主戰場與最大對手；兩者共同定義 16-bit 戰爭。"
+  - slug: "sega-cd"
+    label: "Sega CD / Mega-CD"
+    note: "Mega Drive 成功後的擴充野心，也是 Sega 後續硬體策略分裂的起點。"
+  - slug: "saturn"
+    label: "Sega Saturn"
+    note: "Sega 想把街機與 2D/3D 都帶回家，卻在架構與上市節奏上付出代價。"
 ---
 
 1988 年 10 月 29 日，Sega 在日本推出 Mega Drive。售價 21,000 円，正面**大字印著「16-BIT」**——這是家用主機史上第一次把規格本身當作行銷文案直接刻在外殼上。Sega 押的策略很清楚：早超任兩年上市、CPU 是對手兩倍速，**用工程強度開出時間差**。

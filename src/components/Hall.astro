@@ -39,6 +39,33 @@ const timelineEntries = [
     info: generations.h,
   },
 ];
+
+const featureCopy = {
+  'zh-tw': {
+    eyebrow: '[ SPECIAL EXHIBITION ]',
+    title: '16-bit 戰爭',
+    body: 'Mega Drive 用速度與攻擊型廣告挑戰任天堂；Super Famicom 用色彩、聲音與 RPG 陣容守住主流。從這裡開始，主機戰不再只是規格表。',
+    cta: '進入專題展',
+  },
+  'zh-cn': {
+    eyebrow: '[ SPECIAL EXHIBITION ]',
+    title: '16-bit 战争',
+    body: 'Mega Drive 用速度与攻击型广告挑战任天堂；Super Famicom 用色彩、声音与 RPG 阵容守住主流。从这里开始，主机战不再只是规格表。',
+    cta: '进入专题展',
+  },
+  en: {
+    eyebrow: '[ SPECIAL EXHIBITION ]',
+    title: 'The 16-bit War',
+    body: 'Mega Drive challenged Nintendo with speed and attack advertising; Super Famicom answered with color, sound, and RPG gravity. From here on, console wars were no longer just spec sheets.',
+    cta: 'Enter exhibit',
+  },
+  ja: {
+    eyebrow: '[ SPECIAL EXHIBITION ]',
+    title: '16ビット戦争',
+    body: 'メガドライブはスピードと攻撃的な広告で任天堂に挑み、スーパーファミコンは色彩、音、RPG の厚みで主流を守った。ここから主機戦争はスペック表だけではなくなった。',
+    cta: '展示へ',
+  },
+}[lang];
 ---
 
 <section class="py-12">
@@ -121,6 +148,23 @@ const timelineEntries = [
       );
     })}
   </ol>
+
+  <section class="mt-14 border-y border-crt-green/25 py-6">
+    <a href={localizedPath(lang, '/features/16-bit-war/')} class="group grid gap-5 md:grid-cols-[1fr_16rem] md:items-center">
+      <div>
+        <p class="font-pixel text-xs tracking-widest text-crt-green/75">{featureCopy.eyebrow}</p>
+        <h2 class="mt-3 font-pixel text-xl text-crt-amber crt-glow md:text-2xl">{featureCopy.title}</h2>
+        <p class="mt-4 max-w-2xl text-sm leading-relaxed text-crt-text/78">{featureCopy.body}</p>
+        <p class="mt-4 font-mono text-xs uppercase tracking-[0.22em] text-crt-amber-dim group-hover:text-crt-amber">
+          {featureCopy.cta} →
+        </p>
+      </div>
+      <div class="grid grid-cols-2 overflow-hidden border border-crt-dim/45 bg-crt-panel/35">
+        <img src="/img/consoles/thumbs/super-famicom-hero-320.webp" alt="" class="aspect-video h-full w-full object-cover opacity-85 transition group-hover:opacity-100" loading="lazy" />
+        <img src="/img/consoles/thumbs/mega-drive-hero-320.webp" alt="" class="aspect-video h-full w-full object-cover opacity-85 transition group-hover:opacity-100" loading="lazy" />
+      </div>
+    </a>
+  </section>
 
   <p class="mt-12 text-center text-xs text-crt-text/40">— 千葉熊</p>
 </section>

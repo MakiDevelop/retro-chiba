@@ -42,6 +42,27 @@ notable_games:
   - "ロックマン（Capcom，1987）"
   - "Final Fantasy（Square，1987）"
   - "Metroid（任天堂，1986）"
+curation:
+  thesis: "紅白機不是第一台家用主機，但它重新定義了「家用主機可以是什麼」：不是電視附屬玩具，而是一個由主機、卡帶、授權、品管與角色 IP 組成的平台。"
+  turning_point: "1985 年《Super Mario Bros.》把橫向捲軸、物理手感與關卡節奏做成可複製範式；NES 在北美則用重新包裝與授權制度，讓崩盤後的零售通路重新相信電玩。"
+  local_memory: "在台灣與華人圈，紅白機的記憶常常不是正版任天堂，而是相容機、黃卡、磁碟機、夜市卡帶與中華商場玻璃櫃。這條灰色流通路徑，反而讓 FC 成為最多人真正碰過的第一台遊戲機。"
+curated_games:
+  - title: "Super Mario Bros."
+    reason: "它把「跑、跳、加速、秘密通道」變成平台動作遊戲的共同語言；紅白機的全球神話，從這片卡帶開始真正成立。"
+  - title: "勇者鬥惡龍"
+    reason: "把電腦 RPG 的複雜度壓縮成客廳也能理解的冒險，建立日本國民 RPG 的文法，也讓 Famicom 從動作機變成敘事機。"
+  - title: "Metroid"
+    reason: "用密閉地圖、能力解鎖與孤獨氣氛證明 8-bit 不只能做分數挑戰，也能做探索、懸疑與世界感。"
+related_consoles:
+  - slug: "master-system"
+    label: "Sega Master System"
+    note: "同世代真正的技術對手，硬體色彩與歐洲市場表現都比日本存在感更強。"
+  - slug: "super-famicom"
+    label: "超級任天堂"
+    note: "任天堂把 FC 的平台控制力延伸到 16-bit，並在第三方軟體上維持霸權。"
+  - slug: "atari-2600"
+    label: "Atari 2600"
+    note: "FC/NES 的授權制度，很大一部分是在回應 Atari 時代失控的軟體品質。"
 videos:
   - youtube: "TXdYwQ6yAiU"
     caption: "ファミコン 1983 年發售當時の TV-CM"

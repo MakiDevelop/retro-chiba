@@ -22,6 +22,17 @@ const videoRef = z.object({
   source: z.string(),
 });
 
+const curatedGame = z.object({
+  title: z.string(),
+  reason: z.string(),
+});
+
+const relatedConsole = z.object({
+  slug: z.string(),
+  label: z.string(),
+  note: z.string(),
+});
+
 export const consoles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/consoles' }),
   schema: z.object({
@@ -48,6 +59,13 @@ export const consoles = defineCollection({
     }).default({}),
     videos: z.array(videoRef).default([]),
     notable_games: z.array(z.string()).default([]),
+    curation: z.object({
+      thesis: z.string().optional(),
+      turning_point: z.string().optional(),
+      local_memory: z.string().optional(),
+    }).default({}),
+    curated_games: z.array(curatedGame).default([]),
+    related_consoles: z.array(relatedConsole).default([]),
   }),
 });
 

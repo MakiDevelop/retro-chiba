@@ -1,0 +1,321 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  'zh-tw': {
+    title: '16-bit 戰爭',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro: '這不是單純的規格戰。Mega Drive 用速度、街機感與攻擊型廣告打破任天堂壟斷；Super Famicom 用色彩、聲音、RPG 與第三方陣容把主流市場拉回自己身邊。',
+    back: '回首頁',
+    sfc: '超級任天堂',
+    md: 'Mega Drive / Genesis',
+    viewSfc: '看超級任天堂展品',
+    viewMd: '看 Mega Drive 展品',
+    sections: [
+      {
+        title: '速度 vs. 表現力',
+        body: 'Mega Drive 的 Motorola 68000 讓動作遊戲更快、更接近 Sega 街機節奏；SFC 的 Mode 7、色彩與 Sony SPC700 音源，則把畫面演出與音樂層次拉高。兩邊不是誰完全更強，而是把「16-bit」拆成兩種美學。',
+      },
+      {
+        title: '行銷第一次變成武器',
+        body: 'Genesis Does What Nintendon’t 把主機戰從規格表推到品牌人格。Sega of America 直接攻擊任天堂「給小孩」的形象，讓遊戲主機第一次有了青少年叛逆感。',
+      },
+      {
+        title: '第三方與地區差異',
+        body: '日本市場的 Square、Enix 與多數 RPG 陣容牢牢站在 SFC；北美與歐洲則讓 Genesis 靠運動、動作、街機移植與更成熟的廣告語氣打出勝場。這也是同一世代在不同地區記憶完全不同的原因。',
+      },
+    ],
+    takeaway: '這場戰爭真正留下的不是勝負，而是現代主機競爭的基本語法：硬體性能、獨佔軟體、品牌人格、區域市場與第三方關係，必須同時被經營。',
+  },
+  'zh-cn': {
+    title: '16-bit 战争',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro: '这不是单纯的规格战。Mega Drive 用速度、街机感与攻击型广告打破任天堂垄断；Super Famicom 用色彩、声音、RPG 与第三方阵容把主流市场拉回自己身边。',
+    back: '回首页',
+    sfc: '超级任天堂',
+    md: 'Mega Drive / Genesis',
+    viewSfc: '看超级任天堂展品',
+    viewMd: '看 Mega Drive 展品',
+    sections: [
+      {
+        title: '速度 vs. 表现力',
+        body: 'Mega Drive 的 Motorola 68000 让动作游戏更快、更接近 Sega 街机节奏；SFC 的 Mode 7、色彩与 Sony SPC700 音源，则把画面演出与音乐层次拉高。两边不是谁完全更强，而是把「16-bit」拆成两种美学。',
+      },
+      {
+        title: '营销第一次变成武器',
+        body: 'Genesis Does What Nintendon’t 把主机战从规格表推到品牌人格。Sega of America 直接攻击任天堂「给小孩」的形象，让游戏主机第一次有了青少年叛逆感。',
+      },
+      {
+        title: '第三方与地区差异',
+        body: '日本市场的 Square、Enix 与多数 RPG 阵容牢牢站在 SFC；北美与欧洲则让 Genesis 靠运动、动作、街机移植与更成熟的广告语气打出胜场。这也是同一世代在不同地区记忆完全不同的原因。',
+      },
+    ],
+    takeaway: '这场战争真正留下的不是胜负，而是现代主机竞争的基本语法：硬件性能、独占软件、品牌人格、区域市场与第三方关系，必须同时被经营。',
+  },
+  en: {
+    title: 'The 16-bit War',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro: 'This was never only a spec fight. Mega Drive used speed, arcade energy, and attack advertising to break Nintendo’s monopoly; Super Famicom answered with color, sound, RPGs, and third-party gravity.',
+    back: 'Back to home',
+    sfc: 'Super Famicom / SNES',
+    md: 'Mega Drive / Genesis',
+    viewSfc: 'View Super Famicom exhibit',
+    viewMd: 'View Mega Drive exhibit',
+    sections: [
+      {
+        title: 'Speed vs. expression',
+        body: 'Mega Drive’s Motorola 68000 pushed action games closer to Sega’s arcade tempo. SFC answered with Mode 7, richer color, and Sony’s SPC700 sound. “16-bit” became two different aesthetics rather than one clean hierarchy.',
+      },
+      {
+        title: 'Marketing became a weapon',
+        body: 'Genesis Does What Nintendon’t moved the console war from spec sheets into brand identity. Sega of America attacked Nintendo’s childlike image and gave console gaming a sharper teenage posture.',
+      },
+      {
+        title: 'Third parties and regional memory',
+        body: 'Japan’s RPG ecosystem stayed heavily with SFC, while North America and Europe gave Genesis room through sports, action, arcade ports, and a more adult advertising voice. The same generation left different memories in different regions.',
+      },
+    ],
+    takeaway: 'The real legacy was not the winner. It was the modern console playbook: hardware, exclusives, brand personality, regional strategy, and third-party relations all mattered at once.',
+  },
+  ja: {
+    title: '16ビット戦争',
+    kicker: '[ SPECIAL EXHIBITION · 1988-1995 ]',
+    intro: 'これは単なるスペック競争ではなかった。メガドライブはスピード、アーケード感、攻撃的な広告で任天堂の独占に切り込み、スーパーファミコンは色彩、音、RPG、サードパーティの厚みで主流を取り戻した。',
+    back: 'ホームへ',
+    sfc: 'スーパーファミコン',
+    md: 'メガドライブ / Genesis',
+    viewSfc: 'スーパーファミコン展示へ',
+    viewMd: 'メガドライブ展示へ',
+    sections: [
+      {
+        title: '速度 vs. 表現力',
+        body: 'メガドライブの Motorola 68000 はアクションゲームをセガのアーケード的なテンポへ近づけた。一方 SFC は Mode 7、色彩、Sony SPC700 音源で演出と音楽の層を広げた。',
+      },
+      {
+        title: '広告が武器になった',
+        body: 'Genesis Does What Nintendon’t は、ゲーム機戦争をスペック表からブランド人格へ移した。Sega of America は任天堂の子供向けイメージを攻撃し、家庭用ゲーム機に反抗的な若者感を与えた。',
+      },
+      {
+        title: 'サードパーティと地域差',
+        body: '日本では Square、Enix を中心とする RPG 陣営が SFC に厚く、北米と欧州では Genesis がスポーツ、アクション、アーケード移植、成熟した広告で勝ち場を作った。',
+      },
+    ],
+    takeaway: 'この戦争が残したものは勝敗ではない。性能、独占ソフト、ブランド人格、地域戦略、サードパーティ関係を同時に扱う現代的な主機競争の文法だった。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    regionalTitle: '三個地區，三種戰爭',
+    regions: [
+      {
+        label: '北美 / 歐洲',
+        body: 'Genesis / Mega Drive 被記成「酷、快、比較像大孩子玩的機器」。Sonic、運動遊戲、街機移植與攻擊型廣告，讓 Sega 派像校園裡比較叛逆的一群。歐洲尤其把 Mega Drive 當成價格更親民、運動遊戲更多的 16-bit 入門機。',
+      },
+      {
+        label: '日本',
+        body: '日本記憶幾乎相反。Super Famicom 是國民機，FF、DQ、Street Fighter II、Chrono Trigger 與 Mode 7 直接壓住主流市場。Mega Drive 變成硬派、街機迷、射擊玩家懂的機器：很強，但不是大眾童年。',
+      },
+      {
+        label: '台港華人圈',
+        body: '這裡的 16-bit 記憶永遠跟水貨、雜誌、盜版卡帶與磁碟機綁在一起。光華商場、旺角電玩店、電玩雜誌秘技欄、超任博士廣告，把這場戰爭變成很生活化的灰色童年。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事實',
+    myths: [
+      {
+        myth: 'Blast Processing 是神秘晶片。',
+        fact: '它主要是 Sega 的行銷語言。Genesis 的 68000 CPU 確實比 SFC 主 CPU 快，適合高速捲軸與動作遊戲，但不是一顆會讓所有遊戲自動變快的魔法晶片。',
+      },
+      {
+        myth: 'SFC 畫面一定比 Genesis 強。',
+        fact: 'SFC 在色彩、Mode 7、取樣音源與 RPG 表現力上更強；Genesis 則在高速動作、街機節奏、運動遊戲和部分射擊遊戲上更有銳利感。兩台是不同美學，不是單向碾壓。',
+      },
+      {
+        myth: '這場戰爭有絕對勝負。',
+        fact: '日本是 SFC 完勝，歐洲與北美早中期 Genesis 很強，全球終局則 SNES 略勝。真正的結論是 Sega 贏了態度與攻勢，Nintendo 贏了軟體厚度與長尾。',
+      },
+    ],
+    marketTitle: '市場數字怎麼看',
+    marketNotes: [
+      'Super Famicom / SNES 的全球 4,910 萬台、日本 1,717 萬、北美 2,335 萬，屬於任天堂官方長期重複揭露的高可信度口徑。',
+      'Mega Drive / Genesis 常見全球數字約 3,075 萬台，但 Sega 沒有像任天堂一樣留下完整統一的後年官方表；北美約 1,850-2,000 萬台、歐洲強勢、日本約 350 萬台，是比較穩妥的寫法。',
+      '「Genesis 一度拿下美國 16-bit 市場 65%」適合寫成當年報導、訪談與內部估計反覆出現的時期性現象，而不是整個世代的最終審計結果。',
+    ],
+    gamesTitle: '5 + 5 代表作',
+    gamePicks: [
+      {
+        platform: 'Super Famicom / SNES',
+        games: [
+          ['Super Mario World', '任天堂用它示範 16-bit 馬力歐的節奏、地圖與隱藏路線，讓 SFC 一上市就有完整的世代答案。'],
+          ['A Link to the Past', '把薩爾達的世界設計、音樂與雙世界結構推到成熟，成為動作冒險類型的長期模板。'],
+          ['Final Fantasy VI', '用群像劇、歌劇橋段與 SPC700 音樂，把 SFC 的 RPG 王國形象推到高峰。'],
+          ['Chrono Trigger', 'Square、堀井雄二、鳥山明的夢幻合作，代表 SFC 後期仍能端出頂級敘事與系統設計。'],
+          ['Super Metroid', '用孤獨氣氛、地圖探索與能力門檻定義後來 Metroidvania 的半邊語法。'],
+        ],
+      },
+      {
+        platform: 'Mega Drive / Genesis',
+        games: [
+          ['Sonic the Hedgehog', '速度、藍色、斜坡、彈簧與廣告人格全部綁在一起，幾乎等於 Genesis 的品牌本體。'],
+          ['Streets of Rage 2', '把街機清版動作、雙人合作與 Yuzo Koshiro 的電子音樂變成最有 Sega 氣味的客廳夜色。'],
+          ['Golden Axe', '早期最直接的「把 Sega 街機搬回家」樣板，即使移植有取捨，定位非常清楚。'],
+          ['Madden NFL', '北美運動遊戲文化的關鍵支柱，讓 Genesis 成為許多玩家心中打球賽的首選。'],
+          ['Phantasy Star IV', '證明 Genesis 不是沒有 RPG，只是它的 RPG 陣容更硬派、更小眾，也更像 Sega 自己的宇宙。'],
+        ],
+      },
+    ],
+    storyTitle: '策展小框',
+    stories: [
+      {
+        title: 'Sonic 跑得比光還快',
+        body: '1991 年的孩子看到藍色刺蝟在廣告裡衝刺，開始把 Mario 叫成慢烏龜。Sega 用一句 Genesis Does What Nintendon’t，把任天堂從產業標準打成老派玩具。',
+      },
+      {
+        title: 'Mortal Kombat 的血案',
+        body: 'Genesis 版可以開血，SNES 版被任天堂審查到變成比較乾淨的版本。美國小孩為了「真血」吵翻天，這一局 Sega 贏的不是畫面，而是態度。',
+      },
+      {
+        title: '超任博士的玻璃球',
+        body: '香港 90 年代的超任博士廣告，把盜版磁碟機包成童年神器。無限復活、慢動作、抄碟，黑色幽默地說明了華人圈怎麼消化昂貴的 16-bit 遊戲。',
+      },
+      {
+        title: '雜誌翻爛的夜晚',
+        body: '沒有 YouTube 的年代，玩家靠電玩雜誌抄秘技、看評測、比較 MD 和超任畫面。雜誌頁角被翻到毛邊，就是那一代人的攻略資料庫。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources: '本頁素材綜合自任天堂官方銷量口徑、New York Times 1990 年 Sega 廣告報導、Tom Kalinske 訪談、Console Wars 相關口述史、SegaRetro / Den of Geek / Digital Foundry 等回顧與技術分析；玩家記憶段落則參考台港論壇、HK01 超任博士回顧與 retro 社群常見敘事。市場百分比採「時期性估計」而非最終審計數字。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout title={copy.title} description={copy.intro}>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-2">
+      <a href={localizedPath(lang, '/consoles/super-famicom/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/super-famicom-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.sfc}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewSfc}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/mega-drive/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/mega-drive-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.md}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewMd}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.regionalTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.regions.map((region) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{region.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{region.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.mythTitle}</h2>
+          <div class="space-y-4">
+            {deepDive.myths.map((item) => (
+              <div class="grid gap-3 md:grid-cols-[16rem_minmax(0,1fr)]">
+                <div class="border-l-2 border-crt-amber/70 pl-4 text-sm leading-relaxed text-crt-amber-dim">{item.myth}</div>
+                <p class="text-sm leading-relaxed text-crt-text/82">{item.fact}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.marketTitle}</h2>
+          <div class="space-y-3">
+            {deepDive.marketNotes.map((note) => (
+              <p class="border-l-2 border-crt-green/65 pl-4 text-sm leading-relaxed text-crt-text/82">{note}</p>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-2">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storyTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>

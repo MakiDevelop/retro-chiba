@@ -34,6 +34,27 @@ notable_games:
   - "惡靈古堡 2（Capcom，1998）"
   - "Gran Turismo（Polyphony，1997）"
   - "Crash Bandicoot（Naughty Dog，1996）"
+curation:
+  thesis: "PlayStation 把家用主機從玩具櫃搬進青年文化：灰色工業設計、CD-ROM、低授權成本與第三方友善開發環境，共同打造了 1990 年代後半的新主流。"
+  turning_point: "Square 宣布《Final Fantasy VII》離開任天堂，是第五世代真正的分水嶺。從那一刻開始，容量、影片、音樂與量產成本壓過卡帶讀取速度，產業重心轉向 Sony。"
+  local_memory: "台灣玩家的 PS1 記憶常和光華商場、改機、燒錄片與厚厚的遊戲目錄綁在一起。這不只是盜版問題，而是 CD-ROM 讓遊戲流通速度突然失控的時代現象。"
+curated_games:
+  - title: "Final Fantasy VII"
+    reason: "它讓 RPG 第一次像大片電影一樣被全球行銷，也讓第三方集體倒向光碟陣營。PS1 的勝利，很大一部分寫在這三片光碟裡。"
+  - title: "Metal Gear Solid"
+    reason: "把潛行、分鏡、配音、玩家心理與 meta 演出揉成一體，證明 3D 主機可以承載電影語言而不只是顯示多邊形。"
+  - title: "Gran Turismo"
+    reason: "用真實車款、駕照考試與調校系統建立擬真駕駛文化，讓 PS1 同時吸引遊戲玩家和汽車迷。"
+related_consoles:
+  - slug: "saturn"
+    label: "Sega Saturn"
+    note: "第五世代初期最直接的日本市場對手，也是 2D 強項與 3D 轉型痛苦的對照組。"
+  - slug: "n64"
+    label: "Nintendo 64"
+    note: "任天堂堅持卡帶路線，換來讀取速度與失去容量、成本、第三方支持的代價。"
+  - slug: "ps2"
+    label: "PlayStation 2"
+    note: "PS1 把 Sony 帶進客廳；PS2 則用 DVD 與向下相容把這個入口擴成史上最大平台。"
 ---
 
 PlayStation 的故事不是從 1994 年開始的，是從**任天堂的背叛**開始的。1988-1991 年間，Sony 與任天堂合作開發「Play Station」——超任的 CD-ROM 擴充器，由 Sony 內部的久夛良木健（SFC 音源晶片 SPC700 設計者）主導。1991 年 6 月 CES 展上，Sony 已經對外公布合作。**結果隔天，任天堂在同個展場宣布改與 Philips 合作**，把 Sony 公開羞辱在台上。Sony 內部高層原本要砍掉這個案子，是大賀典雄（時任社長）拍板讓久夛良木自己一支團隊把它做完——這台機器從一開始就帶著復仇的氣味。
