@@ -89,9 +89,9 @@ related_consoles:
     label: "Atari 2600"
     note: "FC/NES 的授權制度，很大一部分是在回應 Atari 時代失控的軟體品質。"
 videos:
-  - youtube: "TXdYwQ6yAiU"
-    caption: "ファミコン 1983 年發售當時の TV-CM"
-    source: "Nintendo Japan 官方頻道"
+  - youtube: "C0TvTEcuhuc"
+    caption: "ファミコン CM 集（1983-1985）— 含發售首年廣告與《超級瑪利歐兄弟》上市 CM"
+    source: "YouTube 復刻檔案"
 ---
 
 1983 年 7 月 15 日，任天堂在玩具零售線推出「ファミリーコンピュータ」——5,500 円，比競品 Sega SG-1000 貴一點，但塞了一片定製 PPU、把家用電視變成可運作的點陣畫布。**那一年的孩子，看到的是他們第一台會動的紅白色塑膠盒。**

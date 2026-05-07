@@ -68,9 +68,9 @@ notable_games:
   - "最终幻想（Square，1987）"
   - "银河战士（任天堂，1986）"
 videos:
-  - youtube: "TXdYwQ6yAiU"
-    caption: "ファミコン 1983 年发售当时の TV-CM"
-    source: "Nintendo Japan 官方频道"
+  - youtube: "C0TvTEcuhuc"
+    caption: "ファミコン CM 集（1983-1985）— 含发售首年广告与《超级马里奥兄弟》上市 CM"
+    source: "YouTube 复刻档案"
 ---
 
 1983 年 7 月 15 日，任天堂在玩具零售线推出「ファミリーコンピュータ」——5,500 日元，比竞品 Sega SG-1000 贵一点，但塞了一片定制 PPU、把家用电视变成可运作的点阵画布。**那一年的孩子，看到的是他们第一台会动的红白色塑料盒。**

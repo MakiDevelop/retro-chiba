@@ -68,9 +68,9 @@ notable_games:
   - "Final Fantasy (Square, 1987)"
   - "Metroid (Nintendo, 1986)"
 videos:
-  - youtube: "TXdYwQ6yAiU"
-    caption: "Famicom launch TV commercial, 1983"
-    source: "Nintendo Japan official channel"
+  - youtube: "C0TvTEcuhuc"
+    caption: "Famicom TV commercial reel (1983-1985) — including launch-year ads and the Super Mario Bros. release campaign"
+    source: "YouTube archival upload"
 ---
 
 On 15 July 1983, Nintendo released the Family Computer through Japan's toy retail channel for ¥5,500 — slightly more expensive than Sega's SG-1000, but with a custom Picture Processing Unit that turned a household television into a functional sprite canvas. **For the children who saw it that summer, it was the first red-and-white plastic box that moved.**
