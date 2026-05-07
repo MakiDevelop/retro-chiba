@@ -53,6 +53,10 @@ notable_games:
   - "Tennis (built-in)"
   - "Roulette (built-in — shipped with plastic dice and play money)"
   - "Ski (built-in)"
+videos:
+  - youtube: "JKar6QzUxPU"
+    caption: "Magnavox Odyssey 1972 TV commercial (**the first home console TV ad in history**)"
+    source: "YouTube archival upload"
 ---
 
 The Magnavox Odyssey is **the first home video game console in human history** — launched in North America in September 1972 at $99 USD (roughly $750 in 2026 dollars), a full three years before Atari Pong. The designer was **Ralph Baer** (1922–2014), a German-American engineer who, while working at the defense-electronics firm Sanders Associates in 1966, proposed the idea of **turning the television set from a signal receiver into an interactive device**. By 1968 Baer had completed the **"Brown Box"** prototype (the wooden-grain vinyl-wrapped chassis hiding transistor circuitry inside); in 1971 he licensed it to the consumer-electronics manufacturer Magnavox for production.

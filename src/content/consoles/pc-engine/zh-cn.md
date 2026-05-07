@@ -69,6 +69,10 @@ hardware_variants:
     type: "北美版本与掌机化"
     slug: "turbo-express"
     note: "1989 年 8 月以 TurboGrafx-16 之名登陆北美——NEC-HE 重新设计成丑陋黑色大盒、CD-ROM 周边天价、营销被 Genesis「Does What Nintendon't」压制。1992 年 TurboDuo（合并 HuCard + CD）试图救援已经太迟。1990 年的 TurboExpress / PC Engine GT 是**完整执行 HuCard 的彩色 LCD 掌机**（249 美元、6 颗三号电池仅 3 小时），LCD 良率与电池寿命让它停在收藏圈。"
+videos:
+  - youtube: "TZuPufvXUac"
+    caption: "PC Engine CM 集（1987-1989）— NEC + Hudson 上市第一波广告"
+    source: "YouTube 复刻档案"
 ---
 
 1987 年 10 月 30 日，NEC Home Electronics 与 Hudson Soft 在日本联手推出 PC Engine。售价 24,800 日元，**发售当下是世界最小的家用主机**——机身只有 14 公分见方，名片大小的 HuCard 卡带从侧边插入。架构奇特：8 位 CPU 配 16 位 GPU，**这是 Hudson 半导体设计团队（HuC6280 系列）的工程实验**，混血设计让 PC Engine 在 8 位 CPU 跑速度的同时，画面同屏 482 色，开机就是另一个世代的视觉密度。

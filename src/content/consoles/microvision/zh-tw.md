@@ -62,6 +62,10 @@ notable_games:
   - "Bowling（Milton Bradley，1980）"
   - "Star Trek Phaser Strike（Milton Bradley，1979，Star Trek 授權）"
   - "Connect Four（Milton Bradley，1979）"
+videos:
+  - youtube: "99YqJ8pmvZI"
+    caption: "Milton Bradley Microvision 1979 復古廣告（**史上第一台可換卡帶掌機**）"
+    source: "YouTube 復刻檔案"
 ---
 
 1979 年 11 月 1 日，Milton Bradley 在北美推出 Microvision，售價 $49.95 美元。**這是史上第一台可更換卡帶的掌機**——**比初代 Game Boy（1989）早整整 10 年**。設計者 **Jay Smith**（他後來在 1982 年又設計了向量螢幕家用機 Vectrex）面對的是 1979 年那個還沒有「掌機」這個產品類別存在的世界——當時掌機只有 Mattel Electronics Football 那種「一台機器一個遊戲」的單機 LCD 玩具，**「家用機式可換卡帶」這個概念是 Microvision 第一個提出的**。

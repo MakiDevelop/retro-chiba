@@ -56,6 +56,10 @@ notable_games:
   - "Cosmic Avenger (Coleco, 1982)"
   - "Zaxxon (Coleco, 1982)"
   - "Carnival (Coleco, 1982)"
+videos:
+  - youtube: "yEaCgww5tI4"
+    caption: "ColecoVision Donkey Kong pack-in commercial (1982) — 'an arcade in your living room'"
+    source: "YouTube archival upload"
 ---
 
 The ColecoVision is the standout of 1982's **second-wave high-spec home consoles** — Coleco's true second-generation machine, building on six years of accumulated experience from the 1976 Telstar Pong line. It launched in North America in August 1982 at $175, positioned as "**bringing the arcade home**." A Zilog Z80A CPU paired with a TI TMS9928A GPU put it well ahead of every competitor on the 1982 market — **graphical performance the Atari 2600 and Intellivision could not match**.

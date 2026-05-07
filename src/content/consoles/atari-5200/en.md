@@ -55,6 +55,10 @@ notable_games:
   - "Pole Position (Atari, 1983)"
   - "Centipede (Atari, 1983)"
   - "Star Raiders (Atari, 1982)"
+videos:
+  - youtube: "9ZouQjcx8yc"
+    caption: "NEW Atari 5200 SuperSystem TV commercial (1983)"
+    source: "YouTube archival upload"
 ---
 
 The Atari 5200 SuperSystem was Atari's 1982 attempt at a successor to the Atari 2600 — and **the fastest commercial failure in Atari's history**. It launched in North America on 1 November 1982 at $269.95, marketed as the high-end "**SuperSystem**." Architecturally, it was a reskinned **Atari 8-bit home computer** (the 400/800 line) repackaged for the games-only market — a MOS 6502C CPU, the ANTIC + GTIA + POKEY chipset that delivered the era's best 2D graphics (256 simultaneous colors, far above Intellivision's 16 or the 2600's four background colors), and 16 KB of RAM. **On raw specs, the 5200 outclassed every competitor in the market.**

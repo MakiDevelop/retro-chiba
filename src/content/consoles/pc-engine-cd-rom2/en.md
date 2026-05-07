@@ -83,6 +83,10 @@ related_consoles:
   - slug: "ps1"
     label: "PlayStation"
     note: "The system that finally made CD-ROM the global console default."
+videos:
+  - youtube: "Z7rnzod2Xk0"
+    caption: "PC Engine CD-ROM² TV commercial reel (1988-1991) — including Ys I&II and the CD-ROM² launch year"
+    source: "YouTube archival upload"
 ---
 
 PC Engine CD-ROM² is easy to underrate. It was not just another accessory; it was the first broadly commercialized CD-ROM game environment for a home console. By late 1988, Japanese players could dock a white PC Engine into an Interface Unit, attach a CD drive, and play games with CD audio, voice clips, and animated presentation.

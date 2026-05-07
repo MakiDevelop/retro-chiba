@@ -55,6 +55,10 @@ notable_games:
   - "Centipede (Atari, 1987)"
   - "Ms. Pac-Man (Atari, 1987)"
   - "Choplifter! (Atari, 1989)"
+videos:
+  - youtube: "Oxfsb1wvWb8"
+    caption: "Atari 7800 1986 TV commercial (Atari's post-crash comeback console)"
+    source: "YouTube archival upload"
 ---
 
 The Atari 7800 was a console that **died two years too early and was born two years too late**.

@@ -63,6 +63,10 @@ notable_games:
   - "Sonic the Hedgehog Pocket Adventure（SNK/Sega，1999，跨家庭友好對戰）"
   - "Samurai Shodown!（SNK，1999）"
   - "Cool Boarders Pocket（Sunsoft，2000）"
+videos:
+  - youtube: "hlkSOSPsb4A"
+    caption: "Neo Geo Pocket Color SNK 1999 廣告"
+    source: "YouTube 復刻檔案"
 ---
 
 1999 年 3 月 16 日，SNK 在日本推出 Neo Geo Pocket Color，售價 8,900 円——這是 1998 年原版黑白 Neo Geo Pocket 一年後的彩色升級版。**SNK 想做的是「把街機 Neo Geo MVS 的格鬥血統壓縮進掌機」**——畢竟 Neo Geo（1990 街機 + 家用機）讓 SNK 在 KOF / Samurai Shodown / Fatal Fury / Metal Slug 系列裡建立了「街機格鬥之王」的地位，這個 IP 庫往掌機搬是合理的延伸。

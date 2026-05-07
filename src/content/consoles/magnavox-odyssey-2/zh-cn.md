@@ -56,6 +56,10 @@ notable_games:
   - "Pick Axe Pete（Magnavox，1982）"
   - "UFO!（Magnavox，1981）"
   - "The Voice（语音合成模块，1982）"
+videos:
+  - youtube: "HWHAM-W8EPU"
+    caption: "Magnavox Odyssey 2 广告集（1978-1983，含 Leonard Nimoy 配音版）"
+    source: "YouTube 复刻档案"
 ---
 
 Magnavox Odyssey²（欧洲日本作 **Philips Videopac G7000**）是 Magnavox 在 1972 年初代 Odyssey 之后的真正第二代——1978 年 9 月北美上市，售价 $179 美元。技术上是**真正的可换卡带机**：Intel 8048 CPU、ROM 卡带、上百款游戏库存。但**最 distinctive 的特色是内建薄膜式 49 键键盘**——这是**家用主机产业史上第一台内建实体键盘的主机**。Magnavox 用这个键盘把 Odyssey² 定位成「**教育 + 游戏**」双用机，希望吸引同时想要电脑学习功能的家庭。

@@ -83,6 +83,10 @@ related_consoles:
   - slug: "ps1"
     label: "PlayStation"
     note: "CD-ROMを世界的な標準メディアにした後継世代の主役。"
+videos:
+  - youtube: "Z7rnzod2Xk0"
+    caption: "PC エンジン CD-ROM² CM 集（1988-1991 年）—— Ys I&II と CD-ROM² 立ち上げ期 CM 収録"
+    source: "YouTube アーカイブ投稿"
 ---
 
 PCエンジンCD-ROM²は、単なる周辺機器として片づけるには重要すぎる存在である。1988年末、日本のプレイヤーはPCエンジンをインターフェイスユニットに接続し、外付けCD-ROMドライブでCD音楽、音声、アニメーション演出を含むゲームを遊べるようになった。

@@ -55,6 +55,10 @@ notable_games:
   - "Super Marathon（Bungie，1996）"
   - "Yamaha Hello! Macintosh（教育向）"
   - "X-Files Unrestricted Access（Bandai，1997）"
+videos:
+  - youtube: "RTkzfK-N1oQ"
+    caption: "Apple Bandai Pippin Atmark 1996 日本 CM（含閃光警告）"
+    source: "YouTube 復刻檔案"
 ---
 
 Pippin 是 Apple 史上最詭異的產品決策。1990 年代中期，Apple 在 Steve Jobs 離開後（1985-1997 之間）持續做各種「Mac OS 衍生授權」實驗——把 Mac OS 7 改造成精簡版、PowerPC 603e 為核心、目標切入家用機與多媒體市場。1995 年 Apple 與**萬代**（Bandai）簽訂授權協議：Apple 設計規格、Bandai 製造販售。1996 年 3 月 28 日，**ピピン アットマーク**（Pippin Atmark）在日本上市，**售價 64,800 円**。

@@ -55,6 +55,10 @@ notable_games:
   - "Doom（id Software，1994）"
   - "Cybermorph（Attention to Detail，1993，附赠）"
   - "Iron Soldier（Eclipse Software，1994）"
+videos:
+  - youtube: "XsQY0YEqzYo"
+    caption: "Do The Math — Atari Jaguar 完整故事（含 1993 'Do the Math' 64-bit 广告原片）"
+    source: "YouTube 纪录片"
 ---
 
 Jaguar 是 Atari 在家用主机产业的最后一搏。经历过 1983 年 Atari 大崩盘、Atari 7800 失败、Lynx 掌机惨赔后，1993 年 Atari Corporation（Tramiel 家族控股）把所有资源赌在 Jaguar 上——**目标是用「64 位」的营销标签跨过 SNES / Genesis 16 位世代，抢在 PS1 / Saturn 之前占领市场**。1993 年 11 月 23 日北美上市，售价 $249.95。

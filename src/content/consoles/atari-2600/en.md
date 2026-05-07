@@ -56,6 +56,10 @@ notable_games:
   - "Adventure (Atari, 1980 — the first Easter egg)"
   - "Pac-Man (Atari, 1982 — port disaster, credibility crisis)"
   - "E.T. (Atari, 1982 — **the trigger of the 1983 crash**)"
+videos:
+  - youtube: "1daLiiG_7eA"
+    caption: "Original Atari 2600 TV commercial (1977) — opening of the 'Have You Played Atari Today?' era"
+    source: "YouTube archival upload"
 ---
 
 The Atari 2600 (codenamed Stella in development, officially the Video Computer System / VCS) **is the true foundation of the home-console industry**. Launched in North America on 11 September 1977 at $199, it is **the first widely successful cartridge-based home console in human history** — predating the Magnavox Odyssey² (1978) by a year and the Mattel Intellivision (1979) by two. The hardware is extreme in its primitivity: **128 bytes of RAM** (not a typo — one hundred and twenty-eight bytes, shorter than this paragraph's headline), 4 KB cartridges (later bank-switching extended this to 32 KB), and a single TIA (Television Interface Adapter) chip handling display, audio, and I/O all at once. **The platform's constraints defined the engineering aesthetics of the entire 8-bit era** — programmers had to learn to do everything within 128 bytes, and the "**less is more**" engineering philosophy that still dominates console programming was forged here.

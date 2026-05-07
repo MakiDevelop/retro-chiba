@@ -69,6 +69,10 @@ hardware_variants:
     type: "北米版と携帯機化"
     slug: "turbo-express"
     note: "1989 年 8 月に TurboGrafx-16 として北米上陸——NEC-HE が可愛らしい白筐体を醜い黒色の大型筐体に再設計、CD-ROM 周辺機器が高額、Genesis の「Does What Nintendon't」マーケティングに完敗。1992 年の TurboDuo（HuCard + CD 統合版）は救済を試みたが既に手遅れ。1990 年の TurboExpress / PC Engine GT は**HuCard をそのまま動かすカラー LCD 携帯機**（249 ドル、単三電池 6 本でわずか 3 時間）、LCD 良率と電池寿命が普及を阻んだ。"
+videos:
+  - youtube: "TZuPufvXUac"
+    caption: "PC エンジン CM 集（1987-1989 年）—— NEC ＋ ハドソン 発売第一波 CM"
+    source: "YouTube アーカイブ投稿"
 ---
 
 1987 年 10 月 30 日、NEC ホームエレクトロニクスとハドソンが共同で PC エンジンを日本で発売した。価格 24,800 円——**発売当時、世界最小の家庭用ゲーム機**。本体は 14 cm 角の立方体で、名刺サイズの **HuCard** カートリッジを側面から挿入する設計。アーキテクチャは異色だった：8 ビット CPU に 16 ビット GPU を組み合わせるハイブリッド構成。これはハドソンの半導体設計チーム（HuC6280 系列）の工学的実験で、CPU は 8 ビット相当の速度を保ったまま画面同時 482 色を実現し、起動した瞬間にひとつ上の世代の視覚密度に到達した。

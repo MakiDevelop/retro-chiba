@@ -56,6 +56,10 @@ notable_games:
   - "Berzerk (GCE, 1983 port)"
   - "Scramble (GCE, 1982)"
   - "Pole Position (GCE, 1982)"
+videos:
+  - youtube: "Bc3njOEqC1o"
+    caption: "Vectrex 'You Bet Your Asteroids!' 1982 commercial (the only vector-display home console ever)"
+    source: "YouTube archival upload"
 ---
 
 The GCE Vectrex is **the most unusual and most precious single product in home-console industry history**. It launched in North America in November 1982 at $199. **It is the only home console ever sold with an integrated display** — a 9-inch vector CRT was welded directly into the chassis. Players placed the entire console upright on a desk, and required no external television at all. The form factor resembled a miniaturized arcade cabinet (in the Asteroids / Tempest tradition), with controllers stowed in a foldout drawer. **It was the most audacious engineering experiment in 1980s home consoles.**

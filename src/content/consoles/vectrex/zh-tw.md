@@ -56,6 +56,10 @@ notable_games:
   - "Berzerk（GCE，1983 移植）"
   - "Scramble（GCE，1982）"
   - "Pole Position（GCE，1982）"
+videos:
+  - youtube: "Bc3njOEqC1o"
+    caption: "Vectrex 'You Bet Your Asteroids!' 1982 廣告（**史上唯一向量螢幕家用機**）"
+    source: "YouTube 復刻檔案"
 ---
 
 GCE Vectrex 是**家用主機產業史上最詭異也最珍貴的單品**——1982 年 11 月北美上市，售價 $199 美元。**它是史上唯一內建螢幕的家用主機**：9 吋向量 CRT 直接焊在主機上，玩家把整台主機立在桌上，不需要外接電視。整體設計像一台縮小版街機（Asteroids、Tempest 那種類型），縱向擺放、控制器是內建翻蓋設計。**這是 1980 年代家用機產業最大膽的工程實驗。**

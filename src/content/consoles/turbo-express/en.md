@@ -61,6 +61,10 @@ notable_games:
   - "R-Type (Irem, 1988)"
   - "Bomberman (Hudson, 1990)"
   - "Splatterhouse (Namco, 1990)"
+videos:
+  - youtube: "OJaIjtr0oaw"
+    caption: "The Nintendo Switch of the '90s: PC Engine GT and TurboExpress full review"
+    source: "YouTube review video"
 ---
 
 In December 1990, NEC and Hudson Soft launched the platform simultaneously in Japan (as the PC Engine GT) and North America (as the TurboExpress) at ¥44,800 / $249.99. **It was the first handheld able to run the full home-console cartridge library natively** — slot a PC Engine HuCard (a credit-card-sized cartridge) into the TurboExpress and the entire PC Engine catalog ran on the handheld without modification. NEC and Hudson took the original 1987 PC Engine philosophy (a console deliberately miniaturised to share its tiny HuCard format) to its logical conclusion: **the "handheld equals console" concept that the Switch would commercialise in 2017 was first instantiated in hardware in 1990 by the TurboExpress**.

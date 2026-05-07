@@ -56,6 +56,10 @@ notable_games:
   - "Pick Axe Pete (Magnavox, 1982)"
   - "UFO! (Magnavox, 1981)"
   - "The Voice (speech synthesis add-on, 1982)"
+videos:
+  - youtube: "HWHAM-W8EPU"
+    caption: "Magnavox Odyssey 2 commercial reel (1978-1983, including the Leonard Nimoy narration)"
+    source: "YouTube archival upload"
 ---
 
 The Magnavox Odyssey² (sold in Europe and Japan by Philips as the **Videopac G7000**) was Magnavox's true second generation, six years after the 1972 original Odyssey. It launched in North America in September 1978 at $179. Technically it was a **proper cartridge-based home console** — Intel 8048 CPU, ROM cartridges, a library of more than a hundred titles. But the most distinctive feature was the **built-in 49-key membrane keyboard** — making the Odyssey² **the first home console in history with an integrated physical keyboard**. Magnavox used the keyboard to position the system as an "**education-plus-games**" hybrid, hoping to attract households that wanted both computing and entertainment.

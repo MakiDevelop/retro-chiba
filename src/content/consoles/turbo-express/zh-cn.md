@@ -61,6 +61,10 @@ notable_games:
   - "R-Type（Irem，1988）"
   - "Bomberman（Hudson，1990）"
   - "Splatterhouse（Namco，1990）"
+videos:
+  - youtube: "OJaIjtr0oaw"
+    caption: "PC Engine GT / TurboExpress 完整介绍（'90 年代的 Switch'）"
+    source: "YouTube 介绍影片"
 ---
 
 1990 年 12 月，NEC 与 Hudson Soft 在日本（PC Engine GT）与北美（TurboExpress）同步推出，售价 44,800 日元 / $249.99 美元。**这是史上第一台能完整跑家用主机卡带的掌机**——只要把 PC Engine 主机用的 HuCard（信用卡大小的薄卡）直接插进 TurboExpress，**整个 PC Engine 软件库就在掌机上原生执行**。设计者 NEC + Hudson 把 1987 年 PC Engine 主机原本就「卡带 + 主机都做小」的设计（HuCard 比 SFC 卡带薄一个量级）做到了极致——**「家用机 = 掌机」这个 25 年后 Switch 才成功的概念，1990 年就在 TurboExpress 上具现了**。

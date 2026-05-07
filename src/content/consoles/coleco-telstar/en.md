@@ -52,6 +52,10 @@ notable_games:
   - "Hockey (built-in)"
   - "Handball (built-in)"
   - "Practice (built-in single-player mode)"
+videos:
+  - youtube: "CLruj8MRDUo"
+    caption: "Coleco Telstar 1976 Pong system TV commercial (defining ad of the Pong-on-a-chip era)"
+    source: "YouTube archival upload"
 ---
 
 The Coleco Telstar represents the **first wave of "console clones"** in 1976 — but the story is stranger than it looks. In early 1976, the semiconductor company **General Instrument** released the **AY-3-8500** — the first commercially distributed "**Pong-on-a-chip**" IC in human history. This chip compressed the entire logic of Pong-family gameplay into a single ASIC, **and GI made the part available for purchase to any consumer-electronics manufacturer**. At $5–$8 wholesale per chip, with a development cycle of months and no need to understand game design at all, **any home-appliance company could become a console maker overnight**.

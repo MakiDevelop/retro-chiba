@@ -83,6 +83,10 @@ related_consoles:
   - slug: "ps1"
     label: "PlayStation"
     note: "让 CD-ROM 真正成为全球主流家用主机媒介的后继者。"
+videos:
+  - youtube: "Z7rnzod2Xk0"
+    caption: "PC Engine CD-ROM² CM 集（1988-1991）— 含 Ys I&II、CD-ROM² 启动年广告"
+    source: "YouTube 复刻档案"
 ---
 
 PC Engine CD-ROM² 是一个很容易被低估的节点。它不是“PC Engine 的外设”那么简单，而是家用主机第一次大规模商品化 CD-ROM 游戏环境。1988 年底，日本玩家已经可以把白色 PC Engine 接进 Interface Unit，再接上外接光驱，播放 CD 音轨、语音与动画过场。

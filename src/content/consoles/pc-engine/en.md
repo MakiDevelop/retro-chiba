@@ -69,6 +69,10 @@ hardware_variants:
     type: "North American versions and handheld"
     slug: "turbo-express"
     note: "The North American TurboGrafx-16 of August 1989 redesigned NEC's cute white cube into an ugly black slab, priced the CD-ROM peripheral out of reach, and was outmarketed by Genesis's \"Does What Nintendon't.\" The 1992 TurboDuo (HuCard + CD integrated, $299) tried to rescue the line too late. The 1990 TurboExpress / PC Engine GT was a **fully native HuCard color LCD handheld** ($249, six AA batteries lasting only three hours) — LCD yield and battery life kept it firmly in collector territory."
+videos:
+  - youtube: "TZuPufvXUac"
+    caption: "PC Engine TV commercial reel (1987-1989) — NEC + Hudson's first wave of launch ads"
+    source: "YouTube archival upload"
 ---
 
 On 30 October 1987, NEC Home Electronics and Hudson Soft launched the PC Engine in Japan at ¥24,800. It was, at launch, **the smallest home console in the world** — a 14 cm cube fed by credit-card-sized **HuCard** cartridges that slid in from the side. The architecture was odd: an 8-bit CPU paired with a 16-bit GPU. This was Hudson's semiconductor team flexing — the HuC6280 family let the system push 482 simultaneous colors while the CPU ran 8-bit-fast, and from boot the visual density jumped a clear generation.

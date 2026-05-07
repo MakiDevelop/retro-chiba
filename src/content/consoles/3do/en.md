@@ -61,6 +61,10 @@ notable_games:
   - "Way of the Warrior (Naughty Dog, 1994)"
   - "Gex (Crystal Dynamics, 1995)"
   - "Crash 'n Burn (Crystal Dynamics, 1993 — pack-in)"
+videos:
+  - youtube: "3a2YfUPyX_w"
+    caption: "Panasonic REAL 3DO 1993 commercial (TV ad at  launch)"
+    source: "YouTube archival upload"
 ---
 
 3DO was the most ambitious — and most physically unworkable — home-console experiment of the early 1990s. **Trip Hawkins**, who built Electronic Arts from nothing into the leading third-party publisher of the 1980s, left EA in 1991 to found The 3DO Company. The pitch was bold: **break the closed-hardware logic of the console industry by importing the PC industry's open-standards model.** The 3DO Company would design only the spec, license it to consumer-electronics OEMs, and let Panasonic, GoldStar (Korea, later renamed LG), Sanyo, and Creative Labs each ship their own compliant variants. Software written for one would run on all.

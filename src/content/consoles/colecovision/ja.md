@@ -56,6 +56,10 @@ notable_games:
   - "Cosmic Avenger（コレコ、1982）"
   - "Zaxxon（コレコ、1982）"
   - "Carnival（コレコ、1982）"
+videos:
+  - youtube: "yEaCgww5tI4"
+    caption: "ColecoVision ドンキーコング 同梱 CM（1982 年）— 「リビングのアーケード」"
+    source: "YouTube アーカイブ投稿"
 ---
 
 ColecoVision は 1982 年家庭用ゲーム機産業における「**Wave 2 高性能機**」を代表する 1 機種——コレコにとっては 1976 年テルスター Pong 機からの 6 年に及ぶ経験蓄積の上に立つ真の第 2 世代機である。1982 年 8 月に北米で $175 米ドルで発売、「**アーケードを家庭へ**」というポジショニングで投入された。Zilog Z80A CPU と TI TMS9928A GPU の組み合わせは、1982 年家庭用機市場で全方位的に競合を上回り——**Atari 2600・Intellivision の双方では実現不可能なグラフィック表現**を達成した。

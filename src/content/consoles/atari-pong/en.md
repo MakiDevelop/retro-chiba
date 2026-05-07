@@ -50,6 +50,10 @@ hardware_variants:
 notable_games:
   - "Pong (the only game)"
   - "Super Pong / Ultra Pong / Pong Doubles (variant standalone consoles)"
+videos:
+  - youtube: "9d5Ex-dJDtQ"
+    caption: "Atari Pong 1975 TV commercial (Sears Tele-Games exclusive launch)"
+    source: "YouTube archival upload"
 ---
 
 The Atari Home Pong story does not start in 1975. It starts at the 1972 Magnavox dealer demo where **Nolan Bushnell** (Atari's founder) watched the Odyssey's Table Tennis. Bushnell returned to Atari and gave engineer **Allan Alcorn** what he called "a simple practice exercise" — build the same idea as a coin-operated arcade game. Alcorn finished the prototype in three months and installed it at Andy Capp's bar in Sunnyvale, California. **On the first night the cabinet broke — not from a circuit fault, but because the coin slot had been jammed completely full of quarters.** Arcade Pong (1972) was Atari's first major commercial success, selling 19,000 cabinets over three years.

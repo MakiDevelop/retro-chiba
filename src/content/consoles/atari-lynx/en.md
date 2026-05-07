@@ -63,6 +63,10 @@ notable_games:
   - "Blue Lightning (Epyx, 1989)"
   - "Battlewheels (Beyond Games, 1993)"
   - "Lemmings (Atari, 1994)"
+videos:
+  - youtube: "y69M3Zbhaqg"
+    caption: "Atari Lynx California Games TV commercial (1989/1990, featuring a young Tobey Maguire)"
+    source: "YouTube archival upload"
 ---
 
 In September 1989, Atari launched the Lynx in North America at $179.95. **It was the first color handheld** — shipping the same month as the original Game Boy and a full year ahead of the Sega Game Gear. The system was designed by **Epyx**, the studio behind *California Games* and *Summer Games*, then a top-tier sports-and-arcade developer. The prototype carried the codename *Handy*; after Epyx's 1989 financial collapse, Atari took over manufacturing.

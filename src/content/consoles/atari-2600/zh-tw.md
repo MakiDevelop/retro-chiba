@@ -56,6 +56,10 @@ notable_games:
   - "Adventure（Atari，1980，史上第一個 Easter Egg）"
   - "Pac-Man（Atari，1982，移植災難引發信任危機）"
   - "E.T.（Atari，1982，**1983 大崩盤的觸發點**）"
+videos:
+  - youtube: "1daLiiG_7eA"
+    caption: "Atari 2600 原始 TV 廣告（1977）— 'Have You Played Atari Today?' 時代開幕作"
+    source: "YouTube 復刻檔案"
 ---
 
 Atari 2600（最初代號 Stella，正式名稱 Video Computer System / VCS）是**家用主機產業的真正奠基者**——1977 年 9 月 11 日北美上市，售價 $199 美元，是**人類史上第一台真正廣為流行的可換卡帶家用主機**。比 Magnavox Odyssey²（1978）早一年、比 Mattel Intellivision（1979）早兩年。技術上極端簡陋——**128 位元組 RAM**（沒寫錯，128 個位元組，比這份條目的標題還短）、4 KB 卡帶（後期靠 bank-switching 擴展到 32 KB）、TIA（Television Interface Adapter）一顆晶片包辦顯示、音源、I/O。**這台機器的限制制約了整個 8 位元時代的工程美學**——程式設計師必須學會在 128 bytes 內完成所有事，「**少即是多**」這個工程哲學就是從這裡長出來的。

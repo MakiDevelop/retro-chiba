@@ -62,6 +62,10 @@ notable_games:
   - "Bowling (Milton Bradley, 1980)"
   - "Star Trek Phaser Strike (Milton Bradley, 1979 — Star Trek licensed)"
   - "Connect Four (Milton Bradley, 1979)"
+videos:
+  - youtube: "99YqJ8pmvZI"
+    caption: "Milton Bradley Microvision 1979 vintage commercial (the first handheld with interchangeable cartridges)"
+    source: "YouTube archival upload"
 ---
 
 On November 1, 1979, Milton Bradley launched the Microvision in North America at $49.95. **It is the first handheld with interchangeable cartridges** — **a full decade before the original Game Boy in 1989**. The designer was **Jay Smith** (who would go on to design the vector-graphics home console Vectrex in 1982), working in a 1979 in which the "dedicated handheld" product category did not yet exist as such. The closest precedents were single-game LCD toys like Mattel Electronics Football — one device, one game, no swappable software. **The "console-style swappable cartridges in handheld form" concept was Microvision's original contribution to the field.**

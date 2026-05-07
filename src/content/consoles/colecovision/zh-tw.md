@@ -56,6 +56,10 @@ notable_games:
   - "Cosmic Avenger（Coleco，1982）"
   - "Zaxxon（Coleco，1982）"
   - "Carnival（Coleco，1982）"
+videos:
+  - youtube: "yEaCgww5tI4"
+    caption: "ColecoVision Donkey Kong 同捆廣告（1982）— '客廳裡放了一台街機'"
+    source: "YouTube 復刻檔案"
 ---
 
 ColecoVision 是 1982 年家用主機產業「**Wave 2 高規格機**」的代表作——也是 Coleco 從 1976 年 Telstar Pong 機累積 6 年經驗後的真正第二代主機。1982 年 8 月北美上市，售價 $175 美元，定位為「**把街機帶回家**」。Zilog Z80A CPU + TI TMS9928A GPU 在 1982 年的家用機市場上規格全面領先，**畫面表現是 Atari 2600 與 Intellivision 都做不到的層次**。

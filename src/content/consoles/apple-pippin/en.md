@@ -55,6 +55,10 @@ notable_games:
   - "Super Marathon (Bungie, 1996)"
   - "Yamaha Hello! Macintosh (educational)"
   - "X-Files Unrestricted Access (Bandai, 1997)"
+videos:
+  - youtube: "RTkzfK-N1oQ"
+    caption: "Apple Bandai Pippin Atmark 1996 Japanese commercial (contains flashing-image warning)"
+    source: "YouTube archival upload"
 ---
 
 The Pippin is the strangest product decision in Apple's entire history. During the Steve Jobs interregnum (1985–1997), Apple ran a long series of "Mac OS derivative" licensing experiments — strip Mac OS 7 down to a subset, run it on a PowerPC 603e, aim it at the home console and multimedia markets. In 1995, Apple signed a licensing deal with **Bandai**: Apple designed the spec, Bandai manufactured and sold the hardware. On 28 March 1996, the **Pippin Atmark** launched in Japan at **¥64,800**.

@@ -57,6 +57,10 @@ notable_games:
   - "BurgerTime（Mattel，1983 移植）"
   - "Utopia（Mattel，1981，史上首批城市建设游戏）"
   - "Advanced Dungeons & Dragons（Mattel，1982，AD&D 首见家用机）"
+videos:
+  - youtube: "dSUBO95Z2gg"
+    caption: "George Plimpton 主演 Mattel Intellivision 广告（1981）— 史上首次主机正面对战营销"
+    source: "YouTube 复刻档案"
 ---
 
 **Mattel**——美国最大玩具集团（旗下品牌包括 Barbie、Hot Wheels）——在 1980 年代初对 Atari 2600 发起最强挑战。1979 年 Mattel 成立 **Mattel Electronics** 子公司，项目经理 Don Daglow（后来成为 Electronic Arts 名制作人）主导 Intellivision 的开发。1980 年 9 月北美上市，售价 $299 美元，比 Atari 2600 的 $199 高出 50%——但**规格全面超越 2600**：16 位方向 CPU（General Instrument CP1610）、16 色同屏（2600 是 4 色背景）、3 通道 PSG 音源（2600 是 2 通道方波）。

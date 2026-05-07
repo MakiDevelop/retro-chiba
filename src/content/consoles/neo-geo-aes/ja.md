@@ -54,6 +54,10 @@ notable_games:
   - "サムライスピリッツ（SNK、1993）"
   - "餓狼伝説（SNK、1991）"
   - "餓狼 MARK OF THE WOLVES（SNK、1999）"
+videos:
+  - youtube: "HPJRXCYlRIw"
+    caption: "Neo Geo AES 完全レビュー（1990 年 24-bit 高級志向ポジション回顧）"
+    source: "Player One Start YouTube チャンネル"
 ---
 
 1990 年 4 月 26 日、SNK は大阪本社からネオジオ AES（Advanced Entertainment System）を日本で発売した。**史上初めて「アーケード基板そのものを家庭に持ち込む」ことを実現した家庭用機である**——家庭用 AES とアーケード MVS は完全に同一のハードウェアおよびカートリッジ仕様を共有し、違うのは外装プラスチックだけだった。代償は価格に現れた——本体 58,000 円（北米 $649、2026 年換算で約 $1,500）、ソフト 1 本 25,000–35,000 円。**本体＋ソフト 1 本でスーファミ 1 台を超える。**

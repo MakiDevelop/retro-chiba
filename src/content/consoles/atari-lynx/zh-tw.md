@@ -63,6 +63,10 @@ notable_games:
   - "Blue Lightning（Epyx，1989）"
   - "Battlewheels（Beyond Games，1993）"
   - "Lemmings（Atari，1994）"
+videos:
+  - youtube: "y69M3Zbhaqg"
+    caption: "Atari Lynx California Games TV 廣告（1989/1990，年輕 Tobey Maguire 主演）"
+    source: "YouTube 復刻檔案"
 ---
 
 1989 年 9 月，Atari 在北美推出 Lynx，售價 $179.95 美元。**這是史上第一台彩色掌機**——與初代 Game Boy 同月發行、比 Sega Game Gear 早一年。原始設計來自 **Epyx**（《California Games》《Summer Games》系列開發商，當時的運動模擬遊戲一線廠），原型機代號 *Handy*，1989 年 Epyx 財務危機後 Atari 接手量產。

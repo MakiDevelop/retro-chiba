@@ -55,6 +55,10 @@ notable_games:
   - "Doom（id Software、1994）"
   - "Cybermorph（Attention to Detail、1993、本体同梱）"
   - "Iron Soldier（Eclipse Software、1994）"
+videos:
+  - youtube: "XsQY0YEqzYo"
+    caption: "Do The Math — Atari Jaguar 完全ストーリー（1993 年『Do the Math』64-bit CM 原版収録）"
+    source: "YouTube ドキュメンタリー"
 ---
 
 ジャガーはアタリの家庭用ゲーム機事業における最後の賭けだった。1983 年のアタリショック、Atari 7800 の不振、Lynx 携帯機での重い赤字を経て、1993 年、トラミエル一族支配下のアタリコーポレーションは全リソースをジャガーに投入した——**狙いは「64 ビット」というマーケティングラベルでスーパーファミコンとメガドライブの 16 ビット世代を一気に飛び越し、プレイステーションとサターンより先に市場を確保することだった**。1993 年 11 月 23 日に北米で発売、価格 $249.95。

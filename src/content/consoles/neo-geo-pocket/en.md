@@ -63,6 +63,10 @@ notable_games:
   - "Sonic the Hedgehog Pocket Adventure (SNK/Sega, 1999 — friendly cross-company collaboration)"
   - "Samurai Shodown! (SNK, 1999)"
   - "Cool Boarders Pocket (Sunsoft, 2000)"
+videos:
+  - youtube: "hlkSOSPsb4A"
+    caption: "Neo Geo Pocket Color SNK 1999 commercial"
+    source: "YouTube archival upload"
 ---
 
 On March 16, 1999, SNK launched the Neo Geo Pocket Color in Japan at ¥8,900 — the color upgrade of the original 1998 monochrome Neo Geo Pocket. **SNK's design intent was to compress the arcade Neo Geo MVS's fighting-game heritage into a handheld** — a logical extension, given that the 1990 Neo Geo arcade and home system had built SNK's identity as the "arcade king of fighters" through *KOF*, *Samurai Shodown*, *Fatal Fury*, and *Metal Slug*.

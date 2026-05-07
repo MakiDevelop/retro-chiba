@@ -61,6 +61,10 @@ notable_games:
   - "Madden NFL 2004（EA、2003）"
   - "Stuntcar Extreme（Climax、2004）"
   - "（Palm OS 全アプリケーション + 約 50 タイトルの専用ゲーム）"
+videos:
+  - youtube: "Mz3nNKQRnNQ"
+    caption: "Tapwave Zodiac: The Failed 2003 Gaming PDA — 完全紹介と失敗回顧"
+    source: "YouTube ドキュメンタリー"
 ---
 
 2003 年 10 月、Tapwave は Zodiac を北米で発売した。価格 $299（32 MB 版）／$399（128 MB 版）。**Tapwave は元 Palm Inc. の数名の技術者により設立されたスタートアップ**であり——彼らは Palm 社内から 1999-2003 年の PDA 市場の急成長を目の当たりにし、次の製品カテゴリは「**ゲームとマルチメディアに最適化された Palm OS 携帯機**」だと確信していた——Palm OS 5 の完全アプリケーション互換性に、ゲーム特化型ハードウェア（デュアルアナログスティック、カラー TFT、ステレオオーディオ）を組み合わせ、PDA と携帯機を真に統合した製品を実現する構想だった。**この発想は同時期の Nokia N-Gage と異なる角度から、しかし同じ「コンバージェンス」という 2003-04 年業界の必須命題に到達していた**。

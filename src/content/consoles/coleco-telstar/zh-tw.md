@@ -52,6 +52,10 @@ notable_games:
   - "Hockey（內建）"
   - "Handball（內建）"
   - "Practice（內建單人模式）"
+videos:
+  - youtube: "CLruj8MRDUo"
+    caption: "Coleco Telstar 1976 Pong 主機 TV 廣告（**Pong-on-a-chip 時代代表作**）"
+    source: "YouTube 復刻檔案"
 ---
 
 Coleco Telstar 是 1976 年家用主機產業**第一波「山寨潮」**的代表作——但這個故事比表面看起來複雜。1976 年初，半導體大廠 **General Instrument**（GI）發表了 **AY-3-8500**——人類史上第一顆「**Pong-on-a-chip**」消費級 IC。這顆晶片把 Pong 系列遊戲的整個邏輯壓縮進單一 ASIC，**並且 GI 對任何家電廠商開放購買**。零售價約 $5-8 美元、開發週期幾個月、不需要懂遊戲設計——**任何家電廠都能變成主機廠**。

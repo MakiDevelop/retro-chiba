@@ -50,6 +50,10 @@ hardware_variants:
 notable_games:
   - "Pong（主机唯一游戏）"
   - "Super Pong / Ultra Pong / Pong Doubles（变种主机系列）"
+videos:
+  - youtube: "9d5Ex-dJDtQ"
+    caption: "Atari Pong 1975 TV 广告（Sears Tele-Games 限定发行版）"
+    source: "YouTube 复刻档案"
 ---
 
 Atari Home Pong 的故事不是从 1975 年开始的，是从 1972 年那场 Magnavox 经销商 demo 开始的。**Nolan Bushnell**（Atari 创办人）在 1972 年 5 月看完 Magnavox Odyssey 的 Table Tennis 后，回到 Atari 命令工程师 **Allan Alcorn** 做一个「**简化练习**」——把这个概念做成街机版。Alcorn 三个月内完成原型，安装在加州 Sunnyvale 的 Andy Capp's 酒吧。**第一晚机台就坏了——不是电路问题，是投币口被塞满 25 美分硬币**。1972 年街机版 Pong 是 Atari 的第一笔大钱，三年内卖出 19,000 台街机。

@@ -55,6 +55,10 @@ notable_games:
   - "Super Marathon（バンジー、1996）"
   - "Yamaha Hello! Macintosh（教育用）"
   - "X-Files Unrestricted Access（バンダイ、1997）"
+videos:
+  - youtube: "RTkzfK-N1oQ"
+    caption: "アップル バンダイ ピピン アットマーク 1996 年 日本 CM（点滅注意）"
+    source: "YouTube アーカイブ投稿"
 ---
 
 ピピンは Apple 史上最も奇妙な製品決定である。1990 年代中盤、Steve Jobs 不在期（1985–1997）の Apple は、Mac OS 派生品のライセンス供与実験を断続的に展開していた——Mac OS 7 を簡易版に削ぎ落とし、PowerPC 603e を中核に据え、家庭用機・マルチメディア市場を狙う構想だった。1995 年、Apple は**バンダイ**とライセンス契約を締結——Apple が仕様を設計し、バンダイが製造・販売を担当する。1996 年 3 月 28 日、**ピピン アットマーク**が日本で発売された。価格は **64,800 円**。

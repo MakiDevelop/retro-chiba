@@ -57,6 +57,10 @@ notable_games:
   - "BurgerTime (Mattel, 1983 port)"
   - "Utopia (Mattel, 1981 — among the first city-building games)"
   - "Advanced Dungeons & Dragons (Mattel, 1982 — first AD&D-licensed home title)"
+videos:
+  - youtube: "dSUBO95Z2gg"
+    caption: "George Plimpton's 1981 Mattel Intellivision commercial — the first head-on console marketing war ever"
+    source: "YouTube archival upload"
 ---
 
 **Mattel** — America's largest toy conglomerate (Barbie, Hot Wheels) — mounted the most credible challenge to the Atari 2600 in the early 1980s. In 1979 Mattel established the **Mattel Electronics** subsidiary; project manager Don Daglow (later a famous producer at Electronic Arts) led Intellivision's development. The North American launch came in September 1980 at $299, 50% above the Atari 2600's $199 — but **the hardware out-spec'd the 2600 across the board**: a 16-bit-class CPU (General Instrument CP1610), 16 simultaneous colors (vs the 2600's four background colors), and a 3-channel PSG audio synthesizer (vs the 2600's two-channel square waves).

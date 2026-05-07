@@ -55,6 +55,10 @@ notable_games:
   - "Pole Position（アタリ、1983）"
   - "Centipede（アタリ、1983）"
   - "Star Raiders（アタリ、1982）"
+videos:
+  - youtube: "9ZouQjcx8yc"
+    caption: "Atari 5200 SuperSystem 1983 年 TV CM"
+    source: "YouTube アーカイブ投稿"
 ---
 
 Atari 5200 SuperSystem は 1982 年にアタリが Atari 2600 の後継機として投入した試みであり——**アタリ史上最速の商業失敗**でもある。1982 年 11 月 1 日に北米で $269.95 米ドルで発売、「**SuperSystem**」というハイエンドポジションで市場展開された。アーキテクチャ的には、**Atari 8 ビット家庭用コンピュータ**（Atari 400/800 ライン）をゲーム機専用にリパッケージしたもの——MOS 6502C CPU、ANTIC + GTIA + POKEY のチップセットで同時期最高の 2D グラフィック性能（同時 256 色、Intellivision の 16 色や 2600 の背景 4 色を遥かに凌駕）、16 KB の RAM。**スペック面では 5200 は市場のすべての競合を上回っていた。**

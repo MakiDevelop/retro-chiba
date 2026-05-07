@@ -54,6 +54,10 @@ notable_games:
   - "Samurai Shodown（SNK，1993）"
   - "Fatal Fury（SNK，1991）"
   - "Garou: Mark of the Wolves（SNK，1999）"
+videos:
+  - youtube: "HPJRXCYlRIw"
+    caption: "Neo Geo AES 完整評論（含 1990 年 24-bit 高級志向定位回顧）"
+    source: "Player One Start YouTube 頻道"
 ---
 
 1990 年 4 月 26 日，SNK 在日本推出 Neo Geo AES（Advanced Entertainment System）。**這是史上第一台「街機基板原封不動搬到家裡」的家用主機**——AES 與街機 MVS 共用完全相同的硬體、完全相同的卡帶（差別只在外殼塑膠）。代價是天價：主機售價 58,000 円（北美 $649 美元，2026 年幣值約 $1,500），單片卡帶 25,000-35,000 円。**主機加一片遊戲超過一台超任的價錢。**

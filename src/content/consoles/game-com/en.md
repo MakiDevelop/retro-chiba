@@ -61,6 +61,10 @@ notable_games:
   - "Sonic Jam (Sega, 1998 port)"
   - "Mortal Kombat Trilogy (Tiger, 1998 port)"
   - "Solitaire (Tiger, 1997 — pack-in)"
+videos:
+  - youtube: "y-ON6wxHtUE"
+    caption: "Tiger Game.com 1997 commercial (240p to 480p restoration) — controversial ad for the first touchscreen handheld in history"
+    source: "YouTube archival upload"
 ---
 
 On August 21, 1997, Tiger Electronics launched the Game.com in North America at $69 (later cleared at $29). **It was the first home or handheld console to ship with a stylus, a touch overlay, and a dial-up modem cartridge** — **seven years ahead of the Nintendo DS on touchscreen input and eight years ahead of the PSP on built-in networking**. At the level of pure concept, the Game.com correctly anticipated every major direction handheld design would take over the subsequent twenty-five years, **but it was delivered by the wrong company, with the wrong technology, at the wrong moment, and accompanied by the wrong software** — the most complete textbook example of "right ideas given to entirely wrong execution" in handheld history.

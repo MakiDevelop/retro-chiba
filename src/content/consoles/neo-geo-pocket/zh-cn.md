@@ -63,6 +63,10 @@ notable_games:
   - "Sonic the Hedgehog Pocket Adventure（SNK/Sega，1999，跨公司友好对战）"
   - "侍魂 Pocket（SNK，1999）"
   - "Cool Boarders Pocket（Sunsoft，2000）"
+videos:
+  - youtube: "hlkSOSPsb4A"
+    caption: "Neo Geo Pocket Color SNK 1999 广告"
+    source: "YouTube 复刻档案"
 ---
 
 1999 年 3 月 16 日，SNK 在日本推出 Neo Geo Pocket Color，售价 8,900 日元——这是 1998 年原版黑白 Neo Geo Pocket 一年后的彩色升级版。**SNK 想做的是「把街机 Neo Geo MVS 的格斗血统压缩进掌机」**——毕竟 Neo Geo（1990 街机 + 家用机）让 SNK 在 KOF / 侍魂 / 饿狼传说 / 合金弹头系列里建立了「街机格斗之王」的地位，这个 IP 库往掌机搬是合理的延伸。

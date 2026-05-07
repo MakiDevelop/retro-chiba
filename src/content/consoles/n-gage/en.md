@@ -63,6 +63,10 @@ notable_games:
   - "FIFA 2004 (EA, 2003)"
   - "Pathway to Glory (RedLynx, 2004)"
   - "Pocket Kingdom (Nokia, 2003 — early MMO experiment)"
+videos:
+  - youtube: "T4e54rqpb5I"
+    caption: "Nokia N-Gage TV commercial (2003) — witnessing the Sidetalking design disaster"
+    source: "YouTube archival upload"
 ---
 
 On October 7, 2003, Nokia launched the N-Gage in a simultaneous worldwide release at $299 ($199 with carrier subsidies). **It was Nokia's attempt to invent a "phone + handheld" combined product category** — at the time Nokia was the largest mobile-phone manufacturer in the world (35–40% global market share in 2003, larger than Motorola, Sony Ericsson, and Samsung combined), and the company believed that the next product category was a "**handheld game console that places phone calls / a phone that runs console-grade games**." As a product vision the N-Gage was correct — Apple's iPhone proved exactly the same vision four years later, in 2007 — but Nokia executed the correct concept through a cascade of catastrophic design choices.

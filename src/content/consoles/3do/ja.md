@@ -61,6 +61,10 @@ notable_games:
   - "Way of the Warrior（ノーティドッグ、1994）"
   - "Gex（Crystal Dynamics、1995）"
   - "Crash 'n Burn（Crystal Dynamics、1993、本体同梱）"
+videos:
+  - youtube: "3a2YfUPyX_w"
+    caption: "Panasonic REAL 3DO 1993 年 CM（ 発売時 TV CM）"
+    source: "YouTube アーカイブ投稿"
 ---
 
 3DO は 1990 年代初期、最も野心的かつ最も物理的に成立しなかった家庭用ゲーム機実験である。**Trip Hawkins**——1980 年代にエレクトロニック・アーツをゼロから業界トップのサードパーティパブリッシャーへと育て上げた創業者——は 1991 年に EA を離れ、The 3DO Company を設立した。提案は大胆だった——**家庭用機産業のクローズドハードウェア論理を、PC 産業のオープン標準モデルで打ち破る**。3DO Company は仕様のみを設計し、家電 OEM にライセンス供与する。Panasonic、GoldStar（韓国、後の LG）、Sanyo、Creative Labs の各社が独自の準拠版を出荷し、いずれも同じソフトが動く——という構想だった。

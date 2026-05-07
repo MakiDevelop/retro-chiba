@@ -61,6 +61,10 @@ notable_games:
   - "Way of the Warrior（Naughty Dog，1994）"
   - "Gex（Crystal Dynamics，1995）"
   - "Crash 'n Burn（Crystal Dynamics，1993，附赠）"
+videos:
+  - youtube: "3a2YfUPyX_w"
+    caption: "Panasonic REAL 3DO 1993 广告（ 上市时 TV CM）"
+    source: "YouTube 复刻档案"
 ---
 
 3DO 是 1990 年代初期最野心也最不切实际的家用主机实验。**Electronic Arts 创办人 Trip Hawkins**（曾在 1980 年代把 EA 从零打造成第三方发行商龙头）1991 年离开 EA，成立 The 3DO Company，目标是**用 PC 产业的「开放标准」模式打破家用主机产业**——3DO 公司只设计硬件规格与授权标准，**不自己生产主机**，而是把规格授权给 Panasonic、GoldStar（韩国，后改名 LG）、Sanyo、Creative Labs 等家电厂商生产。每家做自己版本的 3DO 主机，规格兼容，第三方软件一份适配所有主机。

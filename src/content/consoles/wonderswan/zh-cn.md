@@ -66,6 +66,10 @@ notable_games:
   - "GunPey（Koto，1999，横井军平最后设计的游戏）"
   - "Star Hearts（Bandai，2003）"
   - "魔界塔士 Sa·Ga（Square，2002 重制）"
+videos:
+  - youtube: "3YCdzwmRK3c"
+    caption: "WonderSwan CM 集（1999-2001）— 含黑白原版、Color、SwanCrystal 三代 Bandai TV 广告"
+    source: "YouTube 复刻档案"
 ---
 
 1999 年 3 月 4 日，Bandai 在日本推出 WonderSwan，售价 4,800 日元——比同期 Game Boy Color（9,800 日元）便宜近半。**这是横井军平（Game Boy 设计者）在离开任天堂后设计的最后一台掌机**——他 1996 年离任后创立 **Koto Laboratory**，1997 年完成 WonderSwan 原型，**同年 10 月车祸过世**。Bandai 接手量产、1999 年上市，所以 WonderSwan 对日本玩家而言有特殊情感意义：**横井军平的遗作**。

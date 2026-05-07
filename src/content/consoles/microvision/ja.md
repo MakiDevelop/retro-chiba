@@ -62,6 +62,10 @@ notable_games:
   - "Bowling（Milton Bradley、1980）"
   - "Star Trek Phaser Strike（Milton Bradley、1979、スタートレック ライセンス）"
   - "Connect Four（Milton Bradley、1979）"
+videos:
+  - youtube: "99YqJ8pmvZI"
+    caption: "Milton Bradley Microvision 1979 年 ヴィンテージ CM（史上初のカートリッジ交換式携帯機）"
+    source: "YouTube アーカイブ投稿"
 ---
 
 1979 年 11 月 1 日、Milton Bradley は Microvision を北米で発売した。価格 $49.95 米ドル。**史上初のカートリッジ交換式携帯機**——**初代ゲームボーイ（1989）の 10 年前**である。設計者は **Jay Smith**（後に 1982 年にベクター画面式家庭用機 Vectrex を設計する人物）で、1979 年時点では「専用携帯機」というジャンルがまだ業界として確立していなかった。当時の携帯機といえば Mattel Electronics Football のような「1 機種 1 ソフト」の単機能 LCD 玩具のみであり、**「家庭用機式カートリッジ交換」というコンセプトを携帯機に持ち込んだのは Microvision が史上初**だった。

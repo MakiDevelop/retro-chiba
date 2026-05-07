@@ -55,6 +55,10 @@ notable_games:
   - "Centipede（アタリ、1987）"
   - "Ms. Pac-Man（アタリ、1987）"
   - "Choplifter!（アタリ、1989）"
+videos:
+  - youtube: "Oxfsb1wvWb8"
+    caption: "Atari 7800 1986 年 TV CM（アタリショック後の復活機）"
+    source: "YouTube アーカイブ投稿"
 ---
 
 Atari 7800 は**2 年早く死に、2 年遅く生まれた**ゲーム機である。

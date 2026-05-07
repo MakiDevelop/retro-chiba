@@ -54,6 +54,10 @@ notable_games:
   - "侍魂（SNK，1993）"
   - "饿狼传说（SNK，1991）"
   - "饿狼 Mark of the Wolves（SNK，1999）"
+videos:
+  - youtube: "HPJRXCYlRIw"
+    caption: "Neo Geo AES 完整评论（含 1990 年 24-bit 高级志向定位回顾）"
+    source: "Player One Start YouTube 频道"
 ---
 
 1990 年 4 月 26 日，SNK 在日本推出 Neo Geo AES（Advanced Entertainment System）。**这是史上第一台「街机基板原封不动搬回家」的家用主机**——AES 与街机 MVS 共用完全相同的硬件、完全相同的卡带（差别只在外壳塑料）。代价是天价：主机售价 58,000 日元（北美 $649 美元，约 2026 年币值 $1,500），单片卡带 25,000-35,000 日元。**主机加一片游戏超过一台超任的价钱。**

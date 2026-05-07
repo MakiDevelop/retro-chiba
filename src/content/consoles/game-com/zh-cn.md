@@ -61,6 +61,10 @@ notable_games:
   - "Sonic Jam（Sega，1998 移植）"
   - "真人快打 Trilogy（Tiger，1998 移植）"
   - "Solitaire（Tiger，1997，附赠）"
+videos:
+  - youtube: "y-ON6wxHtUE"
+    caption: "Tiger Game.com 1997 广告（修复版）— 史上首台触控屏幕掌机的争议广告"
+    source: "YouTube 复刻档案"
 ---
 
 1997 年 8 月 21 日，Tiger Electronics 在北美推出 Game.com，售价 $69 美元（后降至 $29 清仓）。**这是史上第一台内建触控笔 + 拨接调制解调器的家用 / 掌机**——**比 Nintendo DS（2004）早 7 年提出触控界面、比 PSP（2004）早 8 年提出内建网络**。从概念来说 Game.com 命中了后续 25 年所有正确的方向，**但它由错的公司、用错的技术、在错的时机、以错的软件交付了**——是技术史上「对的概念全错给」的最完整教科书案例。

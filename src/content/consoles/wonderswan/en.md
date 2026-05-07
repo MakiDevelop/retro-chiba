@@ -66,6 +66,10 @@ notable_games:
   - "GunPey (Koto, 1999 — the last game design Yokoi worked on)"
   - "Star Hearts (Bandai, 2003)"
   - "Makaitoushi SaGa (Square, 2002 remake)"
+videos:
+  - youtube: "3YCdzwmRK3c"
+    caption: "WonderSwan TV commercial reel (1999-2001) — featuring the monochrome original, Color, and SwanCrystal Bandai ads"
+    source: "YouTube archival upload"
 ---
 
 On March 4, 1999, Bandai launched the WonderSwan in Japan at ¥4,800 — about half the contemporaneous Game Boy Color's ¥9,800. **It was the last handheld designed by Gunpei Yokoi**, the creator of the original Game Boy. After leaving Nintendo in 1996, Yokoi founded **Koto Laboratory** and completed the WonderSwan prototype in 1997 before **dying in a traffic accident in October that same year**. Bandai picked up mass production and shipped the system in 1999, which is why the WonderSwan carries a particular emotional weight in Japanese collector culture: **it is Yokoi's last design work**.

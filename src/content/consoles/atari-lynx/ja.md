@@ -63,6 +63,10 @@ notable_games:
   - "Blue Lightning（Epyx、1989）"
   - "Battlewheels（Beyond Games、1993）"
   - "Lemmings（アタリ、1994）"
+videos:
+  - youtube: "y69M3Zbhaqg"
+    caption: "Atari Lynx California Games TV CM（1989/1990 年、若き日のトビー・マグワイア 主演）"
+    source: "YouTube アーカイブ投稿"
 ---
 
 1989 年 9 月、アタリは Lynx を北米で発売した。価格 $179.95 米ドル。**史上初のカラー携帯機**——初代ゲームボーイと同月発売、セガ・ゲームギアより 1 年早い登場である。本体設計は **Epyx**——『California Games』『Summer Games』シリーズで知られる、当時のスポーツ／アーケードソフト一線級デベロッパが手がけた。プロトタイプ機の開発コード名は *Handy*、1989 年に Epyx が経営危機に陥った後、アタリが量産を引き継いだ。

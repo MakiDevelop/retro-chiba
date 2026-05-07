@@ -50,6 +50,10 @@ hardware_variants:
 notable_games:
   - "Pong（本機唯一のゲーム）"
   - "Super Pong / Ultra Pong / Pong Doubles（派生独立機シリーズ）"
+videos:
+  - youtube: "9d5Ex-dJDtQ"
+    caption: "Atari Pong 1975 年 TV CM（シアーズ Tele-Games 限定版）"
+    source: "YouTube アーカイブ投稿"
 ---
 
 アタリ ホーム Pong の物語は 1975 年からではなく、1972 年のマグナボックス代理店デモから始まる。**Nolan Bushnell**（アタリ創業者）は 1972 年 5 月にオデッセイの Table Tennis を見た後、アタリへ戻り、エンジニアの **Allan Alcorn** に「**単純な練習問題**」と称してアーケード版を作らせた。Alcorn は 3 ヶ月で試作機を完成させ、カリフォルニア州サニーベールの Andy Capp's という酒場に設置した。**初日に筐体が故障した——回路の不具合ではなく、コイン投入口が 25 セント硬貨で完全に詰まっていたため**だった。1972 年のアーケード版 Pong はアタリ初の大ヒットとなり、3 年で 19,000 台を販売した。

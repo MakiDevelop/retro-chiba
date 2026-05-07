@@ -55,6 +55,10 @@ notable_games:
   - "Doom (id Software, 1994)"
   - "Cybermorph (Attention to Detail, 1993 — pack-in)"
   - "Iron Soldier (Eclipse Software, 1994)"
+videos:
+  - youtube: "XsQY0YEqzYo"
+    caption: "Do The Math — The Story of the Atari Jaguar (including the 1993 64-bit 'Do the Math' commercial)"
+    source: "YouTube documentary"
 ---
 
 The Jaguar was Atari's last stand in the home-console industry. After the 1983 video-game crash, the failure of the Atari 7800, and the punishing losses on the Lynx handheld, the Tramiel-family-controlled Atari Corporation bet the company on the Jaguar in 1993. **The strategy was to leapfrog the 16-bit SNES/Genesis generation with the marketing label "64-bit," and to ship before PlayStation and Saturn.** Launched in North America on 23 November 1993 at $249.95.

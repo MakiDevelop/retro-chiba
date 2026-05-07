@@ -63,6 +63,10 @@ notable_games:
   - "FIFA 2004（EA，2003）"
   - "Pathway to Glory（RedLynx，2004）"
   - "Pocket Kingdom（Nokia，2003，online MMO 嘗試）"
+videos:
+  - youtube: "T4e54rqpb5I"
+    caption: "Nokia N-Gage TV 廣告（2003）— Sidetalking 設計災難的見證影片"
+    source: "YouTube 復刻檔案"
 ---
 
 2003 年 10 月 7 日，Nokia 在全球同步推出 N-Gage，售價 $299 美元（綁約後 $199）。**這是 Nokia 試圖創造「手機 + 掌機合一」全新類別的嘗試**——當時 Nokia 是全世界最大手機廠（2003 年全球手機市佔率 35-40%、超過 Motorola + Sony Ericsson + Samsung 加起來），他們相信下一個產品類別就是「**會打電話的掌機 / 會玩主機級遊戲的手機**」。從產品願景來說 N-Gage 對的——4 年後 iPhone（2007）就把這個願景做成了 — 但 Nokia 自己用最災難的設計把這個對的概念交付了。

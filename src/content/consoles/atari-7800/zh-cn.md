@@ -55,6 +55,10 @@ notable_games:
   - "Centipede（Atari，1987）"
   - "Ms. Pac-Man（Atari，1987）"
   - "Choplifter!（Atari，1989）"
+videos:
+  - youtube: "Oxfsb1wvWb8"
+    caption: "Atari 7800 1986 TV 广告（Atari 大崩盘后复出机种）"
+    source: "YouTube 复刻档案"
 ---
 
 Atari 7800 是一台**早死两年又晚生两年**的主机。

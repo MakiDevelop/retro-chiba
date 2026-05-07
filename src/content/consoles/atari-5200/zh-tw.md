@@ -55,6 +55,10 @@ notable_games:
   - "Pole Position（Atari，1983）"
   - "Centipede（Atari，1983）"
   - "Star Raiders（Atari，1982）"
+videos:
+  - youtube: "9ZouQjcx8yc"
+    caption: "Atari 5200 SuperSystem 1983 TV 廣告"
+    source: "YouTube 復刻檔案"
 ---
 
 Atari 5200 SuperSystem 是 Atari 在 1982 年對 Atari 2600 後繼者的嘗試——也是 Atari 史上**最快失敗的主機**。1982 年 11 月北美上市，售價 $269.95 美元，定位為「**SuperSystem**」（高階系統）。技術上是 **Atari 8-bit 家用電腦**（Atari 400/800 系列）的家用機重新包裝——MOS 6502C CPU、ANTIC + GTIA + POKEY 三晶片組合提供同期最強 2D 圖形（256 同屏色，比 Intellivision 16 色與 2600 4 色背景強太多）、16 KB RAM。**規格上 5200 完勝同期所有對手。**

@@ -54,6 +54,10 @@ notable_games:
   - "Samurai Shodown (SNK, 1993)"
   - "Fatal Fury (SNK, 1991)"
   - "Garou: Mark of the Wolves (SNK, 1999)"
+videos:
+  - youtube: "HPJRXCYlRIw"
+    caption: "The Ultimate Neo Geo AES Review (covering the 1990 24-bit luxury positioning)"
+    source: "Player One Start YouTube channel"
 ---
 
 On 26 April 1990, SNK launched the Neo Geo Advanced Entertainment System in Japan. **It was the first console in history that delivered the arcade, unaltered, into a living room** — the home AES and the arcade MVS shared identical silicon, identical cartridges; the only difference was the plastic shell. The price tracked the proposition: ¥58,000 for the system in Japan ($649 USD in North America, roughly $1,500 in 2026 dollars), with cartridges retailing at $200–$300 each. **A console and one game cost more than an entire SNES.**

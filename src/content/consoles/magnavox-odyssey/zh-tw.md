@@ -53,6 +53,10 @@ notable_games:
   - "Tennis（內建）"
   - "Roulette（內建，附塑膠骰子與紙鈔）"
   - "Ski（內建）"
+videos:
+  - youtube: "JKar6QzUxPU"
+    caption: "Magnavox Odyssey 1972 TV 廣告（**史上第一台家用主機的廣告**）"
+    source: "YouTube 復刻檔案"
 ---
 
 Magnavox Odyssey 是**人類史上第一台家用電視遊戲機**——1972 年 9 月在北美上市，售價 $99 美元（2026 年幣值約 $750）。比 Atari Pong 早整整 3 年。設計者是 **Ralph Baer**（1922-2014），一位德裔美籍工程師，1966 年在國防電子公司 Sanders Associates 上班時提出「**讓電視機從接收訊號變成互動裝置**」的想法。1968 年 Baer 完成「**Brown Box**」原型機（外殼貼木紋膠布，內部是電晶體電路），1971 年授權給家電廠 Magnavox 量產。
