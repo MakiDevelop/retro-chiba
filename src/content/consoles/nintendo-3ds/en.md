@@ -72,6 +72,10 @@ notable_games:
   - "The Legend of Zelda: Ocarina of Time 3D (Nintendo, 2011)"
   - "Fire Emblem Awakening (Intelligent Systems, 2012 — series rescue)"
   - "Monster Hunter 4 (Capcom, 2013 — Asia mega-hit)"
+videos:
+  - youtube: "ksgFDNKbdts"
+    caption: "Nintendo 3DS Product Features (March 2011) — glasses-free 3D and StreetPass overview"
+    source: "Nintendo official channel"
 ---
 
 On 26 February 2011, Nintendo launched the Nintendo 3DS in Japan at ¥25,000. **It is the first mass-produced glasses-free 3D handheld in any console industry context.** The top screen used parallax-barrier technology to render stereoscopic 3D without requiring 3D glasses. **The 3DS was Nintendo's response to the 3D wave that had swept Hollywood after Avatar (2009) and the LG/Samsung 3D-TV launches of 2010** — but the timing turned out to be a strategic miscalculation.

@@ -64,6 +64,10 @@ notable_games:
   - "Animal Crossing: New Horizons (Nintendo, 2020 — pandemic-era phenomenon)"
   - "Mario Kart 8 Deluxe (Nintendo, 2017 — best-selling racing game ever)"
   - "The Legend of Zelda: Tears of the Kingdom (Nintendo, 2023)"
+videos:
+  - youtube: "iS-1tDfLxRQ"
+    caption: "Nintendo Switch reveal trailer (October 2016 — first public look at the hybrid console concept)"
+    source: "Nintendo official channel"
 ---
 
 The Nintendo Switch is Nintendo's **rebirth from the Wii U disaster** — and arguably the most important hardware innovation of the second decade of the 21st-century console industry. **The Switch's core design philosophy was to redefine the hardware category itself**: rather than chase Sony and Microsoft on 4K compute and AAA-tentpole spec races, Nintendo created an entirely new console class — **a hybrid device that worked as both a home console and a handheld**. Undock it and the 6.2-inch screen goes with you; dock it and the image appears on the TV; the Joy-Cons detach for two-player sharing or snap together as a traditional gamepad. **This was Nintendo's most audacious hardware-form-factor reinvention since the original Game Boy in 1989.**

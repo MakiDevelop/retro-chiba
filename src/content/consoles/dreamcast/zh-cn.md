@@ -56,6 +56,10 @@ notable_games:
   - "Phantasy Star Online（Sonic Team，2000）"
   - "Soulcalibur（Namco，1999）"
   - "Jet Set Radio（Smilebit，2000）"
+videos:
+  - youtube: "7m9fOA-qUFA"
+    caption: "Sega Dreamcast 1999 'It's Thinking' TV 广告（9.9.99 launch 主题曲）"
+    source: "YouTube 复刻档案"
 ---
 
 Dreamcast 是 Sega 在家用主机产业的最后一搏，**也是史上最被低估的失败主机**。1990 年代后期 Sega 经历 Mega-CD、32X、Saturn 连续失败后，内部 1996 年启动「**黑带计划**」（Project Blackbelt，后改名 Katana），决定全部归零、放弃 Saturn 的双 CPU 噩梦架构，从零打造下一代。1998 年 11 月 27 日，Dreamcast 在日本上市，售价 29,800 日元。**这是家用主机史上第一台内建调制解调器的机种**——Sega 把 56k modem（日本 33.6k）直接焊在主板上，要把在线对战送进客厅。**比 Xbox Live 早 4 年、比 PS3 标准宽带早 8 年。**

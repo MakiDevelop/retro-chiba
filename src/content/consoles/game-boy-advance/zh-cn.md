@@ -81,6 +81,10 @@ notable_games:
   - "银河战士 Fusion（任天堂，2002）"
   - "最终幻想战略版 Advance（Square，2003）"
   - "高级战争（Intelligent Systems，2001）"
+videos:
+  - youtube: "EvK4HA9qKzc"
+    caption: "Game Boy Advance launch 广告（2001）"
+    source: "YouTube 复刻档案"
 ---
 
 2001 年 3 月 21 日，任天堂在日本推出 Game Boy Advance（GBA），售价 9,800 日元。**这是横井军平 1997 年离世后，任天堂掌机部门的第一个世代**——由横井派传承的 R&D1 部门主导，冈田智继任。GBA 是任天堂掌机架构的历史性转折——**从 1989 年起的 8-bit Sharp CPU 系谱全面换成 32-bit ARM**，但仍保留横井「水平思考」的核心精神（成熟技术、长电池、轻薄外型）。

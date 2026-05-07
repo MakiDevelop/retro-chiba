@@ -89,6 +89,10 @@ related_consoles:
   - slug: "ps1"
     label: "PlayStation"
     note: "SFC 的第三方王國在下一世代被 Sony 用 CD-ROM 與低授權成本撬開。"
+videos:
+  - youtube: "Clv9wmXi7g4"
+    caption: "スーパーファミコン CM 集（1990-1991）— 含本體上市與《超級瑪利歐世界》同捆 CM"
+    source: "YouTube 復刻檔案"
 ---
 
 1990 年 11 月 21 日，Super Famicom 在日本上市。**首批 30 萬台 30 分鐘內賣完**，運送過程中發生了至少一起運鈔車式劫案——日本警方為此正式發函呼籲零售商加強保全。這台機器從第一天起就不是純粹的玩具。

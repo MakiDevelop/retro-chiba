@@ -55,6 +55,10 @@ notable_games:
   - "LUNAR THE SILVER STAR（ゲームアーツ、1992）"
   - "Night Trap（Digital Pictures、1992、FMV 騒動）"
   - "Sewer Shark（Digital Pictures、1992、FMV）"
+videos:
+  - youtube: "RjFb1WNrCAg"
+    caption: "セガ CD 1992 年 10 月 15 日 launch 記録と当時の広告"
+    source: "YouTube アーカイブ投稿"
 ---
 
 1991 年 12 月 12 日、セガはメガ CD を日本で発売した。価格 49,800 円——**これは独立した家庭用ゲーム機ではなく、メガドライブに装着する CD-ROM 拡張機器**であり、本体と接続しなければ動作しない。1992 年 10 月に北米で Sega CD として $299 で発売され、メガドライブ本体（$129）と合算すれば一式でスーパーファミコンを超える価格となった。セガの賭けは大きかった——スーファミ発売直後の 1991 年に、CD メディアで世代差を開き、メガドライブを「**マルチメディアゲーム機**」の領域へ押し出すという戦略だった。

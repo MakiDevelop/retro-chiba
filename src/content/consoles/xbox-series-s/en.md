@@ -57,6 +57,10 @@ notable_games:
   - "Forza Horizon 5 (Playground, 2021)"
   - "Hi-Fi Rush (Tango Gameworks, 2023)"
   - "Game Pass cross-platform library"
+videos:
+  - youtube: "4iPjO1MW85U"
+    caption: "Xbox Series X|S 'Us Dreamers' TV commercial (2020) — featuring both Series X and S launch"
+    source: "Xbox official channel"
 ---
 
 The Xbox Series S is **the most controversial single product of the entire ninth generation in the console industry** — and Phil Spencer's boldest (and riskiest) bet on his "platform-beyond-console" philosophy. It launched alongside the Series X on 10 November 2020 at $299 — **$100 below the PS5 Digital Edition ($399), and $200 below the Series X / PS5 Standard ($499)**. The chassis is a small white box, **one-third the volume of the Series X** (13.5 cm × 6.5 cm × 27.5 cm vertical), with **one-third the GPU compute** (4 TFLOPS vs the X's 12), **no optical drive at all** (all-digital), targeting 1440p / 60 Hz instead of the X's 4K.

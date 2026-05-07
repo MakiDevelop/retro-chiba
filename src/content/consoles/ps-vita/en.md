@@ -63,6 +63,10 @@ notable_games:
   - "Gravity Rush (SCE Japan, 2012)"
   - "Soul Sacrifice (Marvelous, 2013)"
   - "Danganronpa series (Spike Chunsoft, from 2014)"
+videos:
+  - youtube: "Qt0KFeoDwtI"
+    caption: "PS Vita 'Never Stop Playing' North American TV ad (2012)"
+    source: "Sony official channel"
 ---
 
 On December 17, 2011, Sony launched the PlayStation Vita in Japan at ¥24,980 (Wi-Fi) and ¥29,980 (3G + Wi-Fi). **It is the successor to the PSP and, to date, Sony's last dedicated handheld** — the development codename NGP ("Next Generation Portable") signaled clearly that the actual target was the Nintendo 3DS. The brief was familiar: **fit PS3-class graphics into a handheld**, the same downsizing-of-the-current-home-console logic that produced the original PSP.

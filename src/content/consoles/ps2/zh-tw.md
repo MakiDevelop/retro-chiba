@@ -70,6 +70,10 @@ hardware_variants:
     release: "2010 EU"
     type: "電視整合機"
     note: "Sony Bravia KDL-22PX300 把 PS2 直接塞進 22 吋電視底座，是 PS2 晚期最奇特的整合產品。它證明這台主機生命週期長到足以被重新包裝成家電。"
+videos:
+  - youtube: "Laf9vpJMDjA"
+    caption: "PlayStation 2 'Welcome To The Third Place'（2000，David Lynch 執導）"
+    source: "Sony 官方 #20YearsOfPlay"
 ---
 
 2000 年 3 月 4 日，PS2 在日本上市，售價 39,800 円。**這台主機真正的殺手級功能不是遊戲，是 DVD 播放器**。1999 年單買一台 DVD 播放器要 50,000-80,000 円，PS2 把 DVD 影音播放硬體直接塞進主機。**結果日本首批 PS2 賣到一機難求——但買家很多不是玩家，是想要便宜 DVD 播放器的家庭主婦與單身上班族**。Sony 內部稱這個策略為「**特洛伊木馬**」：用 DVD 把主機運進不玩遊戲的家庭，再用裝機量逼第三方湧入。這個跨類別槓桿是 PS2 史上最高銷量的真正源頭。

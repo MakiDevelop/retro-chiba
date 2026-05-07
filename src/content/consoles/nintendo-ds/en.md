@@ -82,6 +82,10 @@ notable_games:
   - "Mario Kart DS (Nintendo, 2005 — Nintendo's first free Wi-Fi multiplayer)"
   - "Pokémon Diamond/Pearl (GameFreak, 2006)"
   - "The Legend of Zelda: Phantom Hourglass (Nintendo, 2007)"
+videos:
+  - youtube: "4KBzFXH5eyo"
+    caption: "Nintendo DS Touch commercial (2004) — opening of the 'Touching is Good' campaign"
+    source: "YouTube archival upload"
 ---
 
 On 21 November 2004, Nintendo launched the Nintendo DS in North America at $149.99. **This is the core product of Nintendo's reflection on the GameCube generation's commercial defeat.** Iwata Satoru, who had taken over as president in 2002, gave R&D a clear directive: "**we cannot win the spec war against the Sony PSP — we have to change battlefield**." (Sony's PSP, also launching in 2004, was a 32-bit multimedia handheld with vastly superior raw specs.) **Dual screens + touch + microphone** was Nintendo's chosen battlefield — **and the same "blue ocean" thinking that two years later became the Wii's motion controls began here**.

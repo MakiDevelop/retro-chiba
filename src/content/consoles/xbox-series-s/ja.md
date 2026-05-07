@@ -57,6 +57,10 @@ notable_games:
   - "Forza Horizon 5（Playground、2021）"
   - "Hi-Fi Rush（Tango Gameworks、2023）"
   - "Game Pass クロスプラットフォーム ライブラリ"
+videos:
+  - youtube: "4iPjO1MW85U"
+    caption: "Xbox Series X|S『Us Dreamers』TV CM（2020 年）— X と S 同時 launch CM"
+    source: "Xbox 公式チャンネル"
 ---
 
 Xbox Series S は**家庭用機産業 第 9 世代における最も議論を呼んだ単一製品**——そして Phil Spencer の「プラットフォーム超越主機」哲学における最も大胆（かつ最もリスクの大きい）賭けである。2020 年 11 月 10 日に Series X と同時発売、価格 $299——**PS5 Digital Edition（$399）より $100 安く、Series X / PS5 通常版（$499）より $200 安い**。筐体は小型白色ボックス、**Series X の 3 分の 1 のサイズ**（13.5 cm × 6.5 cm × 27.5 cm 縦置き）、**GPU 演算性能も 3 分の 1**（4 TFLOPS、X の 12 TFLOPS に対し）、**光ディスク・ドライブなし**（完全デジタル）、目標解像度は X の 4K ではなく 1440p / 60 Hz。

@@ -64,6 +64,10 @@ notable_games:
   - "Mass Effect 2（BioWare、2010）"
   - "Grand Theft Auto IV（ロックスター、2008）"
   - "Forza Motorsport 4（Turn 10、2011）"
+videos:
+  - youtube: "GFATqCfmgDM"
+    caption: "Xbox 360『Jump In』CM（2005 年）— Microsoft 世代越え launch キャンペーン"
+    source: "YouTube アーカイブ投稿"
 ---
 
 2005 年 11 月 22 日、マイクロソフトは Xbox 360 を北米で発売した——**PS3 より丸 1 年早い**。この時間差はマイクロソフトの家庭用機戦略全体で最も重要な決断だった。初代 Xbox の日本失敗から得た教訓は明確だった——**家庭用機戦争では 1 年の先行が、世代全体のコアゲーマー層を確保することに等しい**。PS3 が 2006 年 11 月に $599 で発売される頃には、Xbox 360（$399）はすでに 1,000 万台を超える普及台数を築き、『Halo 3』は開発終盤、Xbox Live は稼働 3 年目に入っていた。

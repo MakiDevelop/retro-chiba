@@ -57,6 +57,10 @@ notable_games:
   - "Marvel's Spider-Man 2（Insomniac、2023）"
   - "Astro Bot（Team Asobi、2024、Game of the Year）"
   - "ファイナルファンタジー XVI（スクウェア・エニックス、2023）"
+videos:
+  - youtube: "Ja-N_oHU3Io"
+    caption: "PS5 Official Launch Trailer（2020 年 11 月）— トラヴィス・スコット ナレーション版"
+    source: "Sony 公式チャンネル"
 ---
 
 PS5 は PS4 の商業的大勝（1 億 1,750 万台）を承けたソニーの次世代旗艦機であり、**家庭用ゲーム機産業 第 9 世代の幕開け**を象徴する機種である。2020 年 11 月 12 日に世界同時発売、通常版 $499 / Digital Edition $399。**設計の課題は明確だった**——次世代らしいハードウェアの飛躍を示しつつ、PS4 が築いた 1 億ユーザー基盤との連続性も維持する、その精密なバランス。

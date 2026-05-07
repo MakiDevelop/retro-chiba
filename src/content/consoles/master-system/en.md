@@ -63,6 +63,10 @@ notable_games:
   - "Wonder Boy III: The Dragon's Trap (Westone, 1989)"
   - "OutRun (Sega, 1987)"
   - "Sonic the Hedgehog (Sega, 1991 — Master System port)"
+videos:
+  - youtube: "mWWBnqH2EXM"
+    caption: "Sega Master System North American launch commercial (1986)"
+    source: "YouTube archival upload"
 ---
 
 In October 1985, Sega launched its third home console in Japan as the **Sega Mark III**. Two years and three months after the Famicom, with stronger specs — a faster Z80, 32 simultaneous colors, FM-synth audio that gave Japanese games a different sonic depth. None of it mattered. **In Japan, it could not beat Nintendo.** The Famicom had already claimed toy shops, convenience stores, and the cultural ambient of school playgrounds.

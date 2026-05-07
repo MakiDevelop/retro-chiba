@@ -57,6 +57,10 @@ notable_games:
   - "Fable（Lionhead，2004）"
   - "Star Wars: KOTOR（BioWare，2003）"
   - "Ninja Gaiden Black（Team Ninja，2005）"
+videos:
+  - youtube: "k0oeA1HynH4"
+    caption: "Xbox launch debut 廣告（2001）— It's Good to Play Together 主題（4K 復刻版）"
+    source: "YouTube 復刻檔案"
 ---
 
 Xbox 的故事是 Microsoft 對 Sony 入侵 PC 客廳市場的**戰略反擊**。1998-1999 年間，Sony 發表 PS2 規格時，Microsoft 內部高度警戒——Bill Gates 與 Steve Ballmer 認為 Sony 真正的目標不是遊戲機，是**用 PS2 取代 PC 成為家庭客廳的影音計算中心**。Microsoft 必須在客廳有自己的硬體據點，否則家用作業系統的長期主導地位會被 Sony 從電視這一端蠶食。**Xbox 是 Microsoft 史上唯一一次「為了防守而做的硬體」**——一個防守性的戰略產品，內部代號甚至直接叫「**DirectXBox**」（DirectX 是 Microsoft 的圖形 API），後來精簡為 Xbox。

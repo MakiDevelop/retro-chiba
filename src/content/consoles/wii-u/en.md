@@ -57,6 +57,10 @@ notable_games:
   - "The Legend of Zelda: Breath of the Wild (Nintendo, 2017 — simultaneous Switch launch)"
   - "Splatoon (Nintendo, 2015)"
   - "Bayonetta 2 (PlatinumGames, 2014)"
+videos:
+  - youtube: "_Ltj_uMygiQ"
+    caption: "First Wii U TV commercial (November 2012, 'How U Will Play Next' campaign)"
+    source: "Nintendo of America official channel"
 ---
 
 The Wii U is **the most painful generation in Nintendo's entire home-console history** — and the cautionary baseline against which the Switch's later runaway success is measured. It launched in Japan on 8 December 2012, with the Premium model at ¥31,500, as Nintendo's flagship successor to the Wii (which had sold 101.8 million units). But **the Wii U finished its lifetime at just 13.56 million units worldwide** — an **88% collapse** from the Wii, and the worst-selling home console in Nintendo's history. The drop was even steeper than the GameCube's previous low at 21.74 million.

@@ -91,6 +91,10 @@ legacy:
     - myth: "Saturn 輸只是因為 Sony 比較會行銷。"
       fact: "Sony 行銷很強，但 Saturn 的高價、提前上市、第三方工具、產品線混亂與 Sega 內部分歧都是真問題。行銷只是把差距放大。"
   afterlife: "今天 Saturn 的評價比當年溫和很多。它不是 PlayStation 那種主流勝利者，而是收藏家、格鬥迷、射擊迷、日系 ADV 玩家會回頭挖寶的主機。它也成為後來談平台設計時最常被引用的反例：硬體理論性能不等於開發者能用，也不等於市場會等你。"
+videos:
+  - youtube: "cyv6ZehQyTQ"
+    caption: "Sega Saturn 1995 launch 廣告 'It's Out There'（HD 復刻版）"
+    source: "YouTube 復刻檔案"
 ---
 
 1994 年 11 月 22 日，Sega 推出 Saturn，售價 44,800 円——**比 PS1 早 11 天**。Sega 內部認為這是反攻的開始：1990 年代初 Mega-CD、32X 接連失敗後，Saturn 是把所有資源賭上的旗艦機。架構選擇了**雙 Hitachi SH-2 + 雙 VDP（VDP1 多邊形/精靈 + VDP2 背景捲軸）**——同時並行兩顆 CPU、兩顆 GPU 各做不同任務，理論上能榨出比 PS1 更高的算力。

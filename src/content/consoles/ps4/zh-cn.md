@@ -64,6 +64,10 @@ notable_games:
   - "战神（Santa Monica Studio，2018）"
   - "地平线：零之曙光（Guerrilla，2017）"
   - "蜘蛛侠（Insomniac，2018）"
+videos:
+  - youtube: "sCbXn4W-IWQ"
+    caption: "PS4 'Greatness Awaits' E3 2013 launch trailer（Rupert Sanders 执导）"
+    source: "Sony 官方频道"
 ---
 
 PS4 是 Sony 拿 PS3 「**双重豪赌**」的学费换来的反攻代表作。2013 年 11 月 15 日北美上市，售价 $399 美元——比 PS3 上市的 $599 便宜 $200，比同期 Xbox One 便宜 $100。Sony 从 PS3 三个惨痛教训中彻底反思：**Cell 不能再来、价格不能再贵、不能再有任何让玩家觉得 hostile 的决策**。PS4 的设计纲领是**「给玩家想要的，不是 Sony 想 demo 的」**。

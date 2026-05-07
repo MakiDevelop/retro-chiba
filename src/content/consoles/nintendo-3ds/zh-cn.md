@@ -72,6 +72,10 @@ notable_games:
   - "塞尔达传说：时之笛 3D（任天堂，2011）"
   - "火焰之纹章 觉醒（Intelligent Systems，2012，挽救系列）"
   - "怪物猎人 4（Capcom，2013，亚洲超畅销）"
+videos:
+  - youtube: "ksgFDNKbdts"
+    caption: "Nintendo 3DS Product Features（2011 年 3 月）— 裸眼 3D 与 StreetPass 介绍"
+    source: "任天堂官方频道"
 ---
 
 2011 年 2 月 26 日，任天堂在日本推出 Nintendo 3DS，售价 25,000 日元。**这是第一台量产的「裸视 3D」家用 / 掌机**——上屏用视差屏障技术产生 3D 效果，玩家不需要戴 3D 眼镜就能看到立体画面。**3DS 是 2009 年 Avatar 电影掀起 3D 热潮、2010 年 LG/Samsung 推 3D 电视时代任天堂的回应**——但这个时机后来被证明是个策略误判。

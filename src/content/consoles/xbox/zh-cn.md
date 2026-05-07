@@ -57,6 +57,10 @@ notable_games:
   - "神鬼寓言（Lionhead，2004）"
   - "星球大战：旧共和国武士（BioWare，2003）"
   - "忍者外传 黑（Team Ninja，2005）"
+videos:
+  - youtube: "k0oeA1HynH4"
+    caption: "Xbox launch debut 广告（2001）— It's Good to Play Together 主题（4K 复刻版）"
+    source: "YouTube 复刻档案"
 ---
 
 Xbox 的故事是 Microsoft 对 Sony 入侵 PC 客厅市场的**战略反击**。1998-1999 年间，Sony 发表 PS2 规格时，Microsoft 内部高度警戒——Bill Gates 与 Steve Ballmer 认为 Sony 真正的目标不是游戏机，是**用 PS2 取代 PC 成为家庭客厅的影音计算中心**。Microsoft 必须在客厅有自己的硬件据点，否则家用操作系统的长期主导地位会被 Sony 从电视这一端蚕食。**Xbox 是 Microsoft 史上唯一一次「为了防守而做的硬件」**——一个防守性的战略产品，内部代号甚至直接叫「**DirectXBox**」（DirectX 是 Microsoft 的图形 API），后来精简为 Xbox。

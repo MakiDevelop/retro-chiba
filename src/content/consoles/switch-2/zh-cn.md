@@ -65,6 +65,10 @@ notable_games:
   - "塞尔达无双：禁锢的时代（KOEI Tecmo，2025）"
   - "Drag x Drive（任天堂，2025）"
   - "宝可梦传说 Z-A（Game Freak，2025，跨 Switch 1）"
+videos:
+  - youtube: "0QeqO0kFz-E"
+    caption: "Nintendo Switch 2 launch trailer（2025 年 6 月 5 日，Mario Kart World 同捆首发）"
+    source: "任天堂官方频道"
 ---
 
 Nintendo Switch 2 是任天堂 30 年家用机历史上**首次完整继承前代品牌的次世代机型**——FC→SFC、N64→GameCube、Wii→Wii U 都是品牌断裂式换代，**只有 Switch→Switch 2 是任天堂第一次「正面延续品牌」**。2025 年 6 月 5 日全球同步上市，售价 49,980 日元（约 $449 美元）。这个品牌延续决策的背景非常清晰——前代 Switch 卖 1.4665 亿台、是任天堂家用机史上最高销量、市场品牌资产破纪录强大，**没有理由不延续**。

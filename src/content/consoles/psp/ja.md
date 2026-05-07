@@ -68,6 +68,10 @@ notable_games:
   - "Lumines（Q Entertainment、2004、水口哲也）"
   - "GTA: Liberty City Stories（ロックスター、2005）"
   - "ペルソナ 3 ポータブル（アトラス、2009）"
+videos:
+  - youtube: "K1WSOSimvTI"
+    caption: "PSP launch CM『A Day In The Life』（2005 年）"
+    source: "Sony 公式 #20YearsOfPlay"
 ---
 
 2004 年 12 月 12 日、ソニー・コンピュータエンタテインメントは PlayStation Portable（PSP）を日本で発売した。価格 20,790 円。**ソニーにとって史上初の携帯ゲーム機である**——任天堂が 1989 年のゲームボーイ以降ほぼ独占してきた携帯機市場に、据置機で覇権を握っていた競合が初めて正面から挑んだ瞬間だった。設計の中心は**久夛良木健**（PS1／PS2 の生みの親、当時 PS3 の開発も主導）——PSP の命題は明快だった：**PS2 クラスの 3D グラフィックをポケットに収める**。

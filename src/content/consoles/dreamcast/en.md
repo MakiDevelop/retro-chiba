@@ -56,6 +56,10 @@ notable_games:
   - "Phantasy Star Online (Sonic Team, 2000)"
   - "Soulcalibur (Namco, 1999)"
   - "Jet Set Radio (Smilebit, 2000)"
+videos:
+  - youtube: "7m9fOA-qUFA"
+    caption: "Sega Dreamcast 1999 'It's Thinking' TV commercial (9.9.99 launch campaign)"
+    source: "YouTube archival upload"
 ---
 
 Dreamcast was Sega's final stand in the home-console industry — and **the most underrated failed console in the medium's history**. After the late-90s string of disasters (Mega-CD, 32X, Saturn), Sega launched **Project Blackbelt** (later renamed Katana) in 1996 — a complete reset that abandoned the Saturn's dual-CPU nightmare architecture and rebuilt the next-generation hardware from scratch. On 27 November 1998, Dreamcast launched in Japan at ¥29,800. **It was the first home console in history to ship with a built-in modem.** Sega soldered a 56k modem (33.6k for Japan) directly onto the motherboard, intent on bringing online multiplayer into the living room — **four years ahead of Xbox Live, eight years ahead of PS3's standard broadband**.

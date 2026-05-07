@@ -64,6 +64,10 @@ notable_games:
   - "God of War（Santa Monica Studio，2018）"
   - "Horizon Zero Dawn（Guerrilla，2017）"
   - "Spider-Man（Insomniac，2018）"
+videos:
+  - youtube: "sCbXn4W-IWQ"
+    caption: "PS4 'Greatness Awaits' E3 2013 launch trailer（Rupert Sanders 執導）"
+    source: "Sony 官方頻道"
 ---
 
 PS4 是 Sony 拿 PS3 「**雙重豪賭**」的學費換來的反攻代表作。2013 年 11 月 15 日北美上市，售價 $399 美元——比 PS3 上市的 $599 便宜 $200，比同期 Xbox One 便宜 $100。Sony 從 PS3 三個慘痛教訓中徹底反思：**Cell 不能再來、價格不能再貴、不能再有任何讓玩家覺得 hostile 的決策**。PS4 的設計綱領是**「給玩家想要的，不是 Sony 想 demo 的」**。

@@ -57,6 +57,10 @@ notable_games:
   - "Marvel's Spider-Man 2 (Insomniac, 2023)"
   - "Astro Bot (Team Asobi, 2024 — Game of the Year)"
   - "Final Fantasy XVI (Square Enix, 2023)"
+videos:
+  - youtube: "Ja-N_oHU3Io"
+    caption: "PS5 Official Launch Trailer (November 2020) — Travis Scott narration version"
+    source: "Sony official channel"
 ---
 
 The PS5 is Sony's next-generation flagship after the commercial triumph of the PS4 (117.5 million) — and **the opening act of the ninth console generation**. It launched globally on 12 November 2020: the Standard edition at $499, the Digital Edition at $399. **The design balancing act was specific** — Sony had to demonstrate clear next-generation hardware while preserving continuity with the PS4's 100-million-unit installed base.

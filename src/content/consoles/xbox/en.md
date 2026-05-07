@@ -57,6 +57,10 @@ notable_games:
   - "Fable (Lionhead, 2004)"
   - "Star Wars: Knights of the Old Republic (BioWare, 2003)"
   - "Ninja Gaiden Black (Team Ninja, 2005)"
+videos:
+  - youtube: "k0oeA1HynH4"
+    caption: "Xbox launch debut commercial (2001) — 'It's Good to Play Together' campaign (4K remaster)"
+    source: "YouTube archival upload"
 ---
 
 Xbox is Microsoft's **strategic counter-attack** against Sony's invasion of the PC's living-room turf. In 1998–1999, watching Sony reveal the PlayStation 2's specifications, Bill Gates and Steve Ballmer became convinced that Sony's actual ambition wasn't a gaming console — it was **using PS2 to replace the PC as the household's primary computing-and-media hub on the TV side**. Microsoft believed it had to plant its own hardware flag in the living room, or its long-term Windows monopoly would be eaten from the television end. **Xbox is the only product in Microsoft's history built primarily as a defensive strategic asset.** Its internal codename was, literally, **"DirectXBox"** (after Microsoft's DirectX graphics API); the marketing team eventually shortened it.

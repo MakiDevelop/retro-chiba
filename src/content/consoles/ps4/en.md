@@ -64,6 +64,10 @@ notable_games:
   - "God of War (Santa Monica Studio, 2018)"
   - "Horizon Zero Dawn (Guerrilla, 2017)"
   - "Spider-Man (Insomniac, 2018)"
+videos:
+  - youtube: "sCbXn4W-IWQ"
+    caption: "PS4 'Greatness Awaits' E3 2013 launch trailer (directed by Rupert Sanders)"
+    source: "Sony official channel"
 ---
 
 The PS4 is Sony's reversal-of-fortune masterpiece — built on the lessons (and tuition payments) of PS3's "**double bet**." Launched in North America on 15 November 2013 at $399 — $200 cheaper than PS3's launch price of $599, and $100 cheaper than the contemporary Xbox One. Sony took three painful lessons from PS3 and acted on every one: **no more Cell, no more high price, and no more decisions that felt hostile to players**. The design brief was simple: **"give players what they want, not what Sony wants to demo."**

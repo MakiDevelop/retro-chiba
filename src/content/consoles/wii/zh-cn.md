@@ -65,6 +65,10 @@ notable_games:
   - "塞尔达传说：黄昏公主（任天堂，2006）"
   - "马里奥卡丁车 Wii（任天堂，2008）"
   - "Wii Fit（任天堂，2007，全球瘦身运动）"
+videos:
+  - youtube: "ScBfI3odviQ"
+    caption: "Wii would like to play — 北美 launch 广告（2006）"
+    source: "任天堂北美官方广告"
 ---
 
 Wii 是任天堂在规格战时代的**革命性退场**——以及科技史上最成功的「蓝海策略」实践。经历 N64 与 GameCube 两代败给 PlayStation 的反思，2002 年接任社长的 **岩田聪**（Satoru Iwata，HAL 研究所出身的工程师社长）给研发团队下了一个明确的指令：「**不要试图打赢 Sony 的规格战，要把不玩游戏的人变成玩家**」。这个策略在内部称为「**蓝海战略**」（Blue Ocean Strategy，借自 W. Chan Kim 同名商业书）——避开血腥的红海竞争，去开拓没人做的市场。

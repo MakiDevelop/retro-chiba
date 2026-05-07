@@ -57,6 +57,10 @@ notable_games:
   - "薩爾達傳說：曠野之息（任天堂，2017，與 Switch 同時推出）"
   - "Splatoon（任天堂，2015）"
   - "Bayonetta 2（PlatinumGames，2014）"
+videos:
+  - youtube: "_Ltj_uMygiQ"
+    caption: "Wii U 首支北美電視廣告（2012 年 11 月，How U Will Play Next 主題）"
+    source: "任天堂北美官方頻道"
 ---
 
 Wii U 是任天堂家用機歷史上**最痛的失敗世代**——也是 Switch 後來大爆炸成功的反面教材。2012 年 12 月 8 日日本上市，Premium 版售價 31,500 円，是任天堂在 Wii 巨大成功（1.018 億台）後的下一代旗艦機。但**Wii U 累計只賣 1,356 萬台**——比 Wii 衰退 **88%**，是任天堂家用主機史上最差成績，差距甚至比 GameCube 的 2,174 萬還慘。

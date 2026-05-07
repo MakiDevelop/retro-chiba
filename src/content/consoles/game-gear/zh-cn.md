@@ -62,6 +62,10 @@ notable_games:
   - "Shining Force Gaiden（Sega，1993）"
   - "Sonic Drift（Sega，1994）"
   - "OutRun（Sega，1991 移植）"
+videos:
+  - youtube: "AuEaytdnONI"
+    caption: "Sega Game Gear vs Game Boy 90 年代 TV 广告（彩色 vs 黑白对战）"
+    source: "YouTube 复刻档案"
 ---
 
 1990 年 10 月 6 日，Sega 在日本推出 Game Gear，售价 19,800 日元。**这是 Sega 第一次正面挑战任天堂的掌机霸权**——也是 Sega 在主场（家用机）打不赢 Nintendo 后，把战场搬到掌机的尝试。设计策略很直接：**把 Master System 的硬件（Z80 + VDP + PSG）整个塞进掌机**——也是后续 Sony PSP 用 PS2 级规格、PS Vita 用 PS3 级规格的同一条「家用机小型化」逻辑。

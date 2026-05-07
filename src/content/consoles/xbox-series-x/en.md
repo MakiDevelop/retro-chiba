@@ -57,6 +57,10 @@ notable_games:
   - "Starfield (Bethesda, 2023)"
   - "Hi-Fi Rush (Tango Gameworks, 2023)"
   - "Indiana Jones and the Great Circle (MachineGames, 2024)"
+videos:
+  - youtube: "TuQLNd-Cp_g"
+    caption: "Xbox Series X|S 'Power Your Dreams' launch trailer (October 2020, Us Dreamers starring Daniel Kaluuya)"
+    source: "Xbox official channel"
 ---
 
 The Xbox Series X is Microsoft's ninth-generation flagship — and the most concrete expression of Phil Spencer's strategic shift, after taking over Xbox, **from "console" to "platform-beyond-console"**. It launched globally on 10 November 2020 (two days before the PS5), at $499 — same price, same generation, same window as the PS5 Standard. On raw specifications the Series X is **the compute leader of the generation** — an AMD Zen 2 + RDNA 2 GPU rated at 12 TFLOPS (**17% above the PS5's 10.28 TFLOPS**), 16 GB GDDR6 split-bandwidth memory, and a 1 TB custom NVMe SSD (4.8 GB/s compressed, slightly slower than PS5's 5.5 GB/s but with more capacity).

@@ -57,6 +57,10 @@ notable_games:
   - "漫威蜘蛛侠 2（Insomniac，2023）"
   - "Astro Bot（Team Asobi，2024，年度游戏）"
   - "最终幻想 XVI（Square Enix，2023）"
+videos:
+  - youtube: "Ja-N_oHU3Io"
+    caption: "PS5 Official Launch Trailer（2020 年 11 月）— Travis Scott 旁白版"
+    source: "Sony 官方频道"
 ---
 
 PS5 是 Sony 在 PS4 大胜（1.175 亿）之后的次世代旗舰——也是**主机产业第九世代的开幕主机**。2020 年 11 月 12 日全球同步上市，标准版 $499、Digital Edition $399。**这是 Sony 在 PS4 商业大胜后对下一代「规格升级」与「向下兼容延续」的精密平衡**——既要展现次世代力量，又不能丢掉 PS4 的 1 亿用户基础。

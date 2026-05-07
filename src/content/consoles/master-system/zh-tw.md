@@ -63,6 +63,10 @@ notable_games:
   - "Wonder Boy III: The Dragon's Trap（Westone，1989）"
   - "OutRun（Sega，1987）"
   - "Sonic the Hedgehog（Sega，1991，Master System 版）"
+videos:
+  - youtube: "mWWBnqH2EXM"
+    caption: "Sega Master System 北美 launch 廣告（1986）"
+    source: "YouTube 復刻檔案"
 ---
 
 1985 年 10 月，Sega 在日本推出第三代家用機「セガ・マークIII」。比紅白機晚兩年三個月、規格更強——Z80 跑得比 6502 更快、能同屏 32 色、加裝 FM 音源後音樂層次完全不同。但**它在日本永遠贏不了任天堂**。Famicom 已經先佔走玩具店、超商、補習班話題。

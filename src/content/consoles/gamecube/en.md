@@ -63,6 +63,10 @@ notable_games:
   - "The Legend of Zelda: The Wind Waker (Nintendo, 2002)"
   - "Metroid Prime (Retro Studios, 2002)"
   - "Pikmin (Nintendo, 2001)"
+videos:
+  - youtube: "8xCxqLk0v-Y"
+    caption: "GameCube North American launch commercial (2001)"
+    source: "YouTube archival upload"
 ---
 
 On 14 September 2001, Nintendo launched the GameCube in Japan at ¥25,000. After the failure of the cartridge-bound N64 generation (third-party defection, lifetime sales at one-third of the PlayStation), Nintendo finally **moved to optical media** — but chose a **proprietary 8 cm "mini-DVD" format with 1.5 GB capacity**, not the industry-standard DVD. The reasoning was twofold: (1) Nintendo wanted to retain strict licensing and anti-piracy control (mini-DVDs were not trivially readable or writable on PCs), and (2) **Nintendo's engineers genuinely believed that constrained capacity forced developers to design tighter games**. The logic held internally during the GameCube generation — but the cost, again, was pushing major third parties toward Sony.

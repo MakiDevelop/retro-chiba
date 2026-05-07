@@ -82,6 +82,10 @@ notable_games:
   - "马里奥卡丁车 DS（任天堂，2005，**首见家用 Wi-Fi 对战**）"
   - "口袋妖怪 钻石/珍珠（GameFreak，2006）"
   - "塞尔达传说：幻影沙漏（任天堂，2007）"
+videos:
+  - youtube: "4KBzFXH5eyo"
+    caption: "Nintendo DS Touch 广告（2004）— Touching is Good 时代开幕作"
+    source: "YouTube 复刻档案"
 ---
 
 2004 年 11 月 21 日，任天堂在北美推出 Nintendo DS，售价 $149.99 美元。**这是任天堂家用机 GameCube 惨败世代的核心反思产物**——岩田聪社长 2002 年就任后给研发团队的明确指令是「**规格战打不赢 Sony PSP，得换战场**」（PSP 是 Sony 同年也发行的 32-bit 多媒体掌机，规格远胜 DS）。**双屏 + 触控 + 麦克风**这个介面组合是任天堂的选择——**这套「蓝海」思维也是 2 年后 Wii 体感操控的雏型**。

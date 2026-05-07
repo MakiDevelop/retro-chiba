@@ -63,6 +63,10 @@ notable_games:
   - "GRAVITY DAZE（SCE ジャパン、2012）"
   - "ソウル・サクリファイス（マーベラス、2013）"
   - "ダンガンロンパ シリーズ（スパイク・チュンソフト、2014 〜）"
+videos:
+  - youtube: "Qt0KFeoDwtI"
+    caption: "PlayStation Vita『Never Stop Playing』北米 TV CM（2012 年）"
+    source: "Sony 公式チャンネル"
 ---
 
 2011 年 12 月 17 日、ソニー・コンピュータエンタテインメントは PlayStation Vita（PS Vita）を日本で発売した。価格 24,980 円（Wi-Fi 版）／ 29,980 円（3G+Wi-Fi 版）。**PSP の後継機にして、ソニーにとって現時点で最後の dedicated handheld**——開発コードネーム NGP（Next Generation Portable）の時点で、真の競合がニンテンドー 3DS であることは明確だった。設計目標は明快で、**PS3 級のグラフィックを携帯機に収める**——PSP と同じく、ソニー流の「現行据置機の小型化」アプローチである。

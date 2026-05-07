@@ -64,6 +64,10 @@ notable_games:
   - "Mass Effect 2（BioWare，2010）"
   - "GTA IV（Rockstar，2008）"
   - "Forza Motorsport 4（Turn 10，2011）"
+videos:
+  - youtube: "GFATqCfmgDM"
+    caption: "Xbox 360 'Jump In' 廣告（2005）— Microsoft 跨世代 launch campaign"
+    source: "YouTube 復刻檔案"
 ---
 
 2005 年 11 月 22 日，Microsoft 在北美推出 Xbox 360，**比 PS3 早一年上市**——這個時機差是 Microsoft 主機戰略中最關鍵的一刀。經歷初代 Xbox 在日本慘敗的教訓，Microsoft 學到：**主機戰場上一年的先發優勢，等於佔住整個世代的核心玩家**。當 PS3 在 2006 年 11 月以 $599 高價上市時，Xbox 360（$399）已經建立超過 1,000 萬台裝機量、Halo 3 已經進入製作末期、Xbox Live 線上服務已經運作三年。

@@ -62,6 +62,10 @@ notable_games:
   - "Shining Force Gaiden (Sega, 1993)"
   - "Sonic Drift (Sega, 1994)"
   - "OutRun (Sega, 1991 port)"
+videos:
+  - youtube: "AuEaytdnONI"
+    caption: "Sega Game Gear vs. Nintendo Game Boy 1990s TV commercial (color vs. monochrome head-on attack)"
+    source: "YouTube archival upload"
 ---
 
 On October 6, 1990, Sega launched the Game Gear in Japan at ¥19,800. **It was Sega's first serious frontal challenge to Nintendo's handheld dominance** — and also its attempt, after losing the home-console war to the NES, to relocate the fight to the handheld market. The strategy was unambiguous: **port the entire Master System hardware (Z80, VDP, PSG) into a portable form factor** — the same "downsize the current home console" logic Sony would later apply to the PSP (PS2-class) and the Vita (PS3-class).

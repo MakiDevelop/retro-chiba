@@ -65,6 +65,10 @@ notable_games:
   - "The Legend of Zelda: Twilight Princess (Nintendo, 2006)"
   - "Mario Kart Wii (Nintendo, 2008)"
   - "Wii Fit (Nintendo, 2007 — global fitness phenomenon)"
+videos:
+  - youtube: "ScBfI3odviQ"
+    caption: "Wii would like to play — North American launch commercial (2006)"
+    source: "Nintendo of America official ad"
 ---
 
 The Wii is Nintendo's **revolutionary refusal** of the spec war — and one of the most successful "Blue Ocean" implementations in technology industry history. After back-to-back home-console defeats by PlayStation (N64, GameCube), **Satoru Iwata** — Nintendo's HAL Lab-bred engineer-CEO who took over in 2002 — gave R&D a single explicit directive: **"do not try to beat Sony on specs; convert people who don't play video games into players."** Internally Nintendo named the strategy "**Blue Ocean Strategy**" (borrowed from W. Chan Kim's bestselling business book) — abandon the bloody spec-competition red ocean and open a market nobody else was contesting.

@@ -63,6 +63,10 @@ notable_games:
   - "薩爾達傳說：神諭系列（Capcom Flagship，2001）"
   - "Wario Land 3（任天堂，2000）"
   - "DragonQuest III（Enix，2000 移植）"
+videos:
+  - youtube: "cn3EAVpOdro"
+    caption: "Game Boy Color debut 廣告（1998）— It's Black and White... Until You Plug It In"
+    source: "YouTube 復刻檔案"
 ---
 
 1998 年 10 月 21 日，任天堂在日本推出 Game Boy Color（GBC），售價 8,900 円。**這是任天堂史上最 disciplined 的中期升級案**——CPU 雙倍速（4.19 MHz → 8 MHz）、56 色 STN-LCD（取代 4 灰階）、32 KB RAM（4 倍）、外型小型化。**但故意保留** Sharp 同系 CPU 架構與 Game Pak 卡帶物理規格——這個「保留」的決定是 GBC 整代成功的關鍵。

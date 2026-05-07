@@ -57,6 +57,10 @@ notable_games:
   - "Sea of Thieves (Rare, 2018)"
   - "Gears of War 4 (The Coalition, 2016)"
   - "Cuphead (StudioMDHR, 2017)"
+videos:
+  - youtube: "Spz5olq7K1A"
+    caption: "Xbox One: Revealed (May 2013) — first unveiling of the all-in-one entertainment platform"
+    source: "Microsoft official channel"
 ---
 
 The Xbox One is Microsoft's most painful console generation — and **the eighth generation's most complete "strategic-failure case study"** in the entire console industry. The accumulated advantages Microsoft had earned with the Xbox 360 (North American home turf, Halo culture, the Xbox Live online platform) were squandered in a single generation by a chain of executive misjudgments. The center of the story is the then-head of Xbox, **Don Mattrick**, and his strategic conviction that "**Xbox One is an all-media living-room hub, not just a gaming machine**."

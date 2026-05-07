@@ -64,6 +64,10 @@ notable_games:
   - "Chrono Trigger (Square, 1995)"
   - "Star Fox (Nintendo, 1993 — Super FX chip, the first 3D polygons in the home)"
   - "Donkey Kong Country (Rare, 1994)"
+videos:
+  - youtube: "Clv9wmXi7g4"
+    caption: "Super Famicom TV commercial reel (1990-1991) — including the launch and the Super Mario World pack-in CM"
+    source: "YouTube archival upload"
 ---
 
 On 21 November 1990, the Super Famicom went on sale in Japan. **The launch shipment of 300,000 units sold out in thirty minutes.** Trucks delivering them were robbed at least once. The Japanese police issued a formal advisory to retailers about transport security. From day one, this machine was not a toy.

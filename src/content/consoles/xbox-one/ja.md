@@ -57,6 +57,10 @@ notable_games:
   - "Sea of Thieves（Rare、2018）"
   - "Gears of War 4（The Coalition、2016）"
   - "Cuphead（StudioMDHR、2017）"
+videos:
+  - youtube: "Spz5olq7K1A"
+    caption: "Xbox One: Revealed（2013 年 5 月）— オールインワン娯楽機コンセプト初公開"
+    source: "Microsoft 公式チャンネル"
 ---
 
 Xbox One はマイクロソフトの家庭用機事業における最も痛々しい世代であり、**家庭用機産業 第 8 世代の最も完全な「戦略失敗のケーススタディ」**である。マイクロソフトが Xbox 360 で築き上げた優位性（北米のホームグラウンド、Halo の文化、Xbox Live のオンラインプラットフォーム）は、自社経営陣の判断ミスの連鎖により、わずか 1 世代で全て失われた。物語の中心にいるのが当時の Xbox 部門責任者 **Don Mattrick** と、彼の戦略的確信——「**Xbox One はゲーム機ではなく、リビングルームの全メディアハブである**」。

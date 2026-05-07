@@ -65,6 +65,10 @@ notable_games:
   - "Hyrule Warriors: Age of Imprisonment (KOEI Tecmo, 2025)"
   - "Drag x Drive (Nintendo, 2025)"
   - "Pokémon Legends Z-A (Game Freak, 2025 — cross-gen with Switch 1)"
+videos:
+  - youtube: "0QeqO0kFz-E"
+    caption: "Nintendo Switch 2 launch trailer (June 5, 2025 — Mario Kart World pack-in)"
+    source: "Nintendo official channel"
 ---
 
 The Nintendo Switch 2 is **the first next-generation Nintendo home console to completely inherit its predecessor's brand identity** in three decades of Nintendo home-console history. Famicom→SNES, N64→GameCube, Wii→Wii U — every previous Nintendo generation transition was a brand-discontinuity rebrand. **Only Switch → Switch 2 is the first time Nintendo has continued the brand directly forward**. It launched globally on 5 June 2025 at ¥49,980 (about $449 USD). The brand-continuation logic was unambiguous: the original Switch had reached 146.65 million units, the highest selling Nintendo home console ever, with record-strong brand equity. **There was no rational case for breaking continuity again.**

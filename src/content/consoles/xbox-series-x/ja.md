@@ -57,6 +57,10 @@ notable_games:
   - "Starfield（Bethesda、2023）"
   - "Hi-Fi Rush（Tango Gameworks、2023）"
   - "Indiana Jones and the Great Circle（MachineGames、2024）"
+videos:
+  - youtube: "TuQLNd-Cp_g"
+    caption: "Xbox Series X|S『Power Your Dreams』launch trailer（2020 年 10 月、Daniel Kaluuya 主演 Us Dreamers）"
+    source: "Xbox 公式チャンネル"
 ---
 
 Xbox Series X はマイクロソフト第 9 世代の旗艦機であり、Phil Spencer が Xbox 部門を引き継いで以降の**戦略思想の根本転換——「ハードウェア」から「ハードウェアを超えたプラットフォーム」へ**——の最も具体的な実装である。2020 年 11 月 10 日に世界同時発売（PS5 より 2 日早い）、価格 $499——PS5 通常版と同価格・同世代・同タイミング。仕様面では Series X はこの世代の**演算性能の頂点**を占める——AMD Zen 2 + RDNA 2 GPU の 12 TFLOPS（**PS5 の 10.28 TFLOPS を 17% 上回る**）、16 GB GDDR6 デュアルバンド帯メモリ、1 TB カスタム NVMe SSD（圧縮後 4.8 GB/s、PS5 の 5.5 GB/s を僅かに下回るが容量は大）。

@@ -64,6 +64,10 @@ notable_games:
   - "质量效应 2（BioWare，2010）"
   - "GTA IV（Rockstar，2008）"
   - "极限竞速 4（Turn 10，2011）"
+videos:
+  - youtube: "GFATqCfmgDM"
+    caption: "Xbox 360 'Jump In' 广告（2005）— Microsoft 跨世代 launch campaign"
+    source: "YouTube 复刻档案"
 ---
 
 2005 年 11 月 22 日，Microsoft 在北美推出 Xbox 360，**比 PS3 早一年上市**——这个时机差是 Microsoft 主机战略中最关键的一刀。经历初代 Xbox 在日本惨败的教训，Microsoft 学到：**主机战场上一年的先发优势，等于占住整个世代的核心玩家**。当 PS3 在 2006 年 11 月以 $599 高价上市时，Xbox 360（$399）已经建立超过 1,000 万台装机量、《光环 3》已经进入制作末期、Xbox Live 在线服务已经运作三年。

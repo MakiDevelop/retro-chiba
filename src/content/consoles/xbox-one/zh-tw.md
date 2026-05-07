@@ -57,6 +57,10 @@ notable_games:
   - "Sea of Thieves（Rare，2018）"
   - "Gears of War 4（The Coalition，2016）"
   - "Cuphead（StudioMDHR，2017）"
+videos:
+  - youtube: "Spz5olq7K1A"
+    caption: "Xbox One: Revealed（2013 年 5 月）— 全合一娛樂主機概念首次公開"
+    source: "Microsoft 官方頻道"
 ---
 
 Xbox One 是 Microsoft 主機歷史最痛的一代——也是**主機產業 Gen 8 最完整的「策略失誤教科書」**。Microsoft 從 Xbox 360 累積的優勢（北美主場、Halo 文化、Live 線上服務）在這一代被自家高層判斷失誤一手敗光。故事的中心是當時 Xbox 部門負責人 **Don Mattrick**，與其「**Xbox One 是客廳裡的全媒體中心，不只是遊戲機**」的戰略方向。

@@ -68,6 +68,10 @@ notable_games:
   - "Lumines (Q Entertainment, 2004 — Tetsuya Mizuguchi)"
   - "GTA: Liberty City Stories (Rockstar, 2005)"
   - "Persona 3 Portable (Atlus, 2009)"
+videos:
+  - youtube: "K1WSOSimvTI"
+    caption: "PSP launch ad 'A Day In The Life' (2005)"
+    source: "Sony Official #20YearsOfPlay"
 ---
 
 On December 12, 2004, Sony launched the PlayStation Portable (PSP) in Japan at ¥20,790. **It was Sony's first handheld** — the first time since the 1989 Game Boy that Nintendo's monopoly on the dedicated handheld market faced a frontal challenge from a rival with home-console pedigree. The architect was **Ken Kutaragi** (the father of PS1/PS2, simultaneously leading PS3 development), and the PSP's brief was unambiguous: **fit PS2-class 3D graphics into a pocket**.

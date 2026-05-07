@@ -62,6 +62,10 @@ notable_games:
   - "Galactic Pinball (Nintendo, 1995)"
   - "Teleroboxer (Nintendo, 1995)"
   - "Virtual Boy Wario Land (Nintendo, 1995)"
+videos:
+  - youtube: "LoCZ1tNOK_g"
+    caption: "Virtual Boy 1995 North American TV commercials (A 3D Game for a 3D World campaign)"
+    source: "YouTube archival upload"
 ---
 
 On July 21, 1995, Nintendo launched the Virtual Boy in Japan at ¥15,000. **It was Gunpei Yokoi's last system at Nintendo** — the engineer who had taken Nintendo through the Game & Watch era, the Game Boy, and the company's path to handheld dominance. Virtual Boy was Yokoi's final attempt at a genuinely new hardware category, and the design brief was unusually bold: **a stereoscopic 3D handheld**, well beyond what 1995 hardware could comfortably deliver.

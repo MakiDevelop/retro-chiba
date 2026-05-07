@@ -92,6 +92,10 @@ legacy:
     - myth: "Dreamcast 失敗代表 Sega 不會做主機。"
       fact: "Dreamcast 的硬體與軟體判斷其實很漂亮；它失敗更像是多年平台策略失誤、財務壓力與競爭時機累積後的總清算。"
   afterlife: "今天 Dreamcast 被懷舊社群記得，不只是因為它是 Sega 最後一台主機，而是因為它留下大量『後來才變主流』的想法：線上連線、街機級 3D、視覺風格化、社群服務、開發友善與怪但有靈魂的第一方實驗。它不像勝利者，反而像一份未完成的未來提案。"
+videos:
+  - youtube: "7m9fOA-qUFA"
+    caption: "Sega Dreamcast 1999 'It's Thinking' TV 廣告（9.9.99 launch 主題曲）"
+    source: "YouTube 復刻檔案"
 ---
 
 Dreamcast 是 Sega 在家用主機產業的最後一搏，**也是史上最被低估的失敗主機**。1990 年代後期 Sega 經歷 Mega-CD、32X、Saturn 連續失敗後，內部 1996 年啟動「**黑帶計畫**」（Project Blackbelt，後改名 Katana），決定全部歸零、放棄 Saturn 的雙 CPU 噩夢架構，從零打造下一代。1998 年 11 月 27 日，Dreamcast 在日本上市，售價 29,800 円。**這是家用主機史上第一台內建數據機的機種**——Sega 把 56k modem（日本 33.6k）直接焊在主板上，要把線上對戰送進客廳。**比 Xbox Live 早 4 年、比 PS3 標準寬頻早 8 年。**

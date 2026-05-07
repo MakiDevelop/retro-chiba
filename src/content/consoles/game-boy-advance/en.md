@@ -81,6 +81,10 @@ notable_games:
   - "Metroid Fusion (Nintendo, 2002)"
   - "Final Fantasy Tactics Advance (Square, 2003)"
   - "Advance Wars (Intelligent Systems, 2001)"
+videos:
+  - youtube: "EvK4HA9qKzc"
+    caption: "Game Boy Advance launch commercial (2001)"
+    source: "YouTube archival upload"
 ---
 
 On 21 March 2001, Nintendo launched the Game Boy Advance (GBA) in Japan at ¥9,800. **It was the first Nintendo handheld generation following Gunpei Yokoi's death in 1997** — the project was led by Nintendo R&D1 (Yokoi's lineage department) under Satoru Okada. The GBA marks a historical inflection in Nintendo handheld architecture — **a complete transition from the 8-bit Sharp CPU lineage that had run since 1989 to a 32-bit ARM core** — while still preserving the core spirit of Yokoi's "lateral thinking" philosophy (mature technology, long battery, slim form).

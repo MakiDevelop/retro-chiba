@@ -72,6 +72,10 @@ notable_games:
   - "薩爾達傳說：時之笛 3D（任天堂，2011）"
   - "Fire Emblem Awakening（Intelligent Systems，2012，挽救系列）"
   - "Monster Hunter 4（Capcom，2013，亞洲超暢銷）"
+videos:
+  - youtube: "ksgFDNKbdts"
+    caption: "Nintendo 3DS Product Features（2011 年 3 月）— 裸眼 3D 與 StreetPass 介紹"
+    source: "任天堂官方頻道"
 ---
 
 2011 年 2 月 26 日，任天堂在日本推出 Nintendo 3DS，售價 25,000 円。**這是第一台量產的「裸視 3D」家用 / 掌機**——上螢幕用視差屏障技術產生 3D 效果，玩家不需要戴 3D 眼鏡就能看到立體畫面。**3DS 是 2009 年 Avatar 電影掀起 3D 熱潮、2010 年 LG/Samsung 推 3D 電視時代任天堂的回應**——但這個時機後來被證明是個策略誤判。

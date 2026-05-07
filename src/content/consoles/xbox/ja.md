@@ -57,6 +57,10 @@ notable_games:
   - "Fable（Lionhead、2004）"
   - "Star Wars: Knights of the Old Republic（BioWare、2003）"
   - "Ninja Gaiden Black（Team Ninja、2005）"
+videos:
+  - youtube: "k0oeA1HynH4"
+    caption: "Xbox launch debut CM（2001 年）— It's Good to Play Together キャンペーン（4K リマスター版）"
+    source: "YouTube アーカイブ投稿"
 ---
 
 Xbox の物語は、ソニーによる「PC のリビング領域への侵攻」に対するマイクロソフトの**戦略的反撃**である。1998-1999 年にソニーが PS2 の仕様を公開した時、ビル・ゲイツとスティーブ・バルマーは社内で強い警戒感を抱いた——ソニーの本当の狙いはゲーム機ではなく、**PS2 で PC を置き換え、家庭リビングの映像・計算ハブを掌握すること**だ、という読みである。マイクロソフトはリビングに自前のハードウェア拠点を持たなければ、Windows の長期支配権がテレビ側から侵食される。**Xbox はマイクロソフト史上唯一、本質的に防衛のために作られたハードウェア**である。社内コードネームは文字通り「**DirectXBox**」（マイクロソフトのグラフィックス API、DirectX に由来）——マーケティングが後に短縮して Xbox にした。

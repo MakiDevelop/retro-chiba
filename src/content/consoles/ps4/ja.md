@@ -64,6 +64,10 @@ notable_games:
   - "ゴッド・オブ・ウォー（Santa Monica Studio、2018）"
   - "Horizon Zero Dawn（Guerrilla、2017）"
   - "Marvel's Spider-Man（Insomniac、2018）"
+videos:
+  - youtube: "sCbXn4W-IWQ"
+    caption: "PS4『Greatness Awaits』E3 2013 launch trailer（Rupert Sanders 監督）"
+    source: "Sony 公式チャンネル"
 ---
 
 PS4 はソニーが PS3 の「**二重の博打**」で支払った授業料を糧として作り上げた、反転攻勢の代表作である。2013 年 11 月 15 日に北米で $399 米ドルで発売——PS3 ローンチ価格 $599 より $200 安く、同時期 Xbox One より $100 安かった。ソニーは PS3 の 3 つの痛烈な教訓から徹底的に学び、すべて反転させた——**Cell は二度と使わない、価格は二度と高くしない、プレイヤーにとって敵対的に感じられる決断は二度としない**。PS4 の設計綱領は単純だった——**「ソニーがデモしたいものではなく、プレイヤーが欲しがっているものを作る」**。

@@ -57,6 +57,10 @@ notable_games:
   - "Marvel's Spider-Man 2（Insomniac，2023）"
   - "Astro Bot（Team Asobi，2024，年度遊戲）"
   - "Final Fantasy XVI（Square Enix，2023）"
+videos:
+  - youtube: "Ja-N_oHU3Io"
+    caption: "PS5 Official Launch Trailer（2020 年 11 月）— Travis Scott 旁白版"
+    source: "Sony 官方頻道"
 ---
 
 PS5 是 Sony 在 PS4 大勝（1.175 億）之後的次世代旗艦——也是**主機產業第九世代的開幕主機**。2020 年 11 月 12 日全球同步上市，標準版 $499、Digital Edition $399。**這是 Sony 在 PS4 商業大勝後對下一代「規格升級」與「向下相容延續」的精密平衡**——既要展現次世代力量，又不能丟掉 PS4 的 1 億用戶基礎。

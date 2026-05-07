@@ -59,6 +59,10 @@ hardware_variants:
     release: "2001"
     type: "Official display accessory"
     note: "Sony's official 5-inch screen attached directly to the back of the PS one, turning it into a semi-portable console for dorm rooms, cars, and small spaces."
+videos:
+  - youtube: "-OjBIhFOtgY"
+    caption: "PlayStation 'U R Not e' / '(e)NOS Lives' North American launch commercials (1995)"
+    source: "YouTube archival upload"
 ---
 
 The PlayStation story does not start in 1994. It starts with **Nintendo's betrayal**. From 1988 to 1991, Sony and Nintendo were jointly developing a CD-ROM add-on for the Super Famicom called the "Play Station," led inside Sony by **Ken Kutaragi** — the engineer who had designed the SNES's SPC700 audio chip. At CES in June 1991 Sony announced the partnership publicly. **The next day, on the same show floor, Nintendo announced that it had switched partners to Philips instead** — a public humiliation. Sony's senior leadership wanted to kill the project; it was Norio Ohga (Sony's then-president) who personally ordered Kutaragi to keep building it as an independent team. The machine carried a vendetta from day one.

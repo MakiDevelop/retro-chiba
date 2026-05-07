@@ -77,6 +77,10 @@ hardware_variants:
     release: "1995 NA"
     type: "掌机化版本"
     note: "把 Genesis 主机做成彩色掌机，可直接插卡带，也能接电视。概念前卫，但耗电、价格高、上市时机太晚。"
+videos:
+  - youtube: "ZDnZDXHuC_w"
+    caption: "Genesis Does What Nintendon't（1990）— Sega 对任天堂正面开战的代表广告"
+    source: "YouTube 复刻档案"
 ---
 
 1988 年 10 月 29 日，Sega 在日本推出 Mega Drive。售价 21,000 日元，正面**大字印着「16-BIT」**——这是家用主机史上第一次把规格本身当成营销文案直接刻在外壳上。Sega 押的策略很清楚：早超任两年上市、CPU 是对手两倍速，**用工程强度开出时间差**。

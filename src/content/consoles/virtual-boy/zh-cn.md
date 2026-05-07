@@ -62,6 +62,10 @@ notable_games:
   - "Galactic Pinball（任天堂，1995）"
   - "Teleroboxer（任天堂，1995）"
   - "Virtual Boy Wario Land（任天堂，1995）"
+videos:
+  - youtube: "LoCZ1tNOK_g"
+    caption: "Virtual Boy 1995 北美 TV 广告集（A 3D Game for a 3D World 主题）"
+    source: "YouTube 复刻档案"
 ---
 
 1995 年 7 月 21 日，任天堂在日本推出 Virtual Boy，售价 15,000 日元。**这是横井军平在任天堂的最后一台机器**——他自 1970 年代主导 Game & Watch、Game Boy 一路把任天堂带上掌机霸权，Virtual Boy 是他最后一次「独立挑战新形态」的硬件。设计命题大胆到当时所有人都不敢做：**立体 3D 显示掌机**——远超同期 1995 年的硬件成熟度。

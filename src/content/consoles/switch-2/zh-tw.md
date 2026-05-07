@@ -65,6 +65,10 @@ notable_games:
   - "Hyrule Warriors: Age of Imprisonment（KOEI Tecmo，2025）"
   - "Drag x Drive（任天堂，2025）"
   - "Pokémon Legends Z-A（Game Freak，2025，跨 Switch 1）"
+videos:
+  - youtube: "0QeqO0kFz-E"
+    caption: "Nintendo Switch 2 launch trailer（2025 年 6 月 5 日，Mario Kart World 同捆首發）"
+    source: "任天堂官方頻道"
 ---
 
 Nintendo Switch 2 是任天堂 30 年家用機歷史上**首次完整繼承前代品牌的次世代機型**——FC→SFC、N64→GameCube、Wii→Wii U 都是品牌斷裂式換代，**只有 Switch→Switch 2 是任天堂第一次「正面延續品牌」**。2025 年 6 月 5 日全球同步上市，售價 49,980 円（約 $449 美元）。這個品牌延續決策的背景非常清晰——前代 Switch 賣 1.4665 億台、是任天堂家用機史上最高銷量、市場品牌資產破紀錄強大，**沒有理由不延續**。

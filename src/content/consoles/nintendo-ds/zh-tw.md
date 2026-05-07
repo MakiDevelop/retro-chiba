@@ -82,6 +82,10 @@ notable_games:
   - "Mario Kart DS（任天堂，2005，**首見家用 Wi-Fi 對戰**）"
   - "Pokémon 鑽石/珍珠（GameFreak，2006）"
   - "薩爾達傳說：幻影沙漏（任天堂，2007）"
+videos:
+  - youtube: "4KBzFXH5eyo"
+    caption: "Nintendo DS Touch 廣告（2004）— Touching is Good 時代開幕作"
+    source: "YouTube 復刻檔案"
 ---
 
 2004 年 11 月 21 日，任天堂在北美推出 Nintendo DS，售價 $149.99 美元。**這是任天堂家用機 GameCube 慘敗世代的核心反思產物**——岩田聰社長 2002 年就任後給研發團隊的明確指令是「**規格戰打不贏 Sony PSP，得換戰場**」（PSP 是 Sony 同年也發行的 32-bit 多媒體掌機，規格遠勝 DS）。**雙螢幕 + 觸控 + 麥克風**這個介面組合是任天堂的選擇——**這套「藍海」思維也是 2 年後 Wii 體感操控的雛型**。

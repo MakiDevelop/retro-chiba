@@ -64,6 +64,10 @@ notable_games:
   - "Metal Gear Solid 4: Guns of the Patriots (Konami, 2008)"
   - "Demon's Souls (FromSoftware, 2009)"
   - "LittleBigPlanet (Media Molecule, 2008)"
+videos:
+  - youtube: "gqkNPcUMffU"
+    caption: "PS3 'Baby' commercial (2006) — the controversial 'Play Beyond' launch ad"
+    source: "YouTube archival upload"
 ---
 
 PS3 is the closest Sony came to self-destruction in console hardware — and the most dramatic late-cycle recovery in the medium's history. PS3 launched in Japan on 11 November 2006 at **¥59,980** for the 60GB model, in North America at **$599** — twice the launch price of the PS2 and $200 above Xbox 360. Internally Sony called it the "**double bet**": one bet on the Cell processor, one bet on Blu-ray. Both wagers were extraordinarily ambitious. **Both nearly destroyed Sony's gaming division.**

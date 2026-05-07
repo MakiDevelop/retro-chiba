@@ -78,6 +78,10 @@ hardware_variants:
     release: "2003"
     type: "GameCube adapter"
     note: "Mounted under the GameCube, it played Game Boy, Game Boy Color, and Game Boy Advance cartridges on a television. It formally pulled Nintendo's handheld library back into the home-console space."
+videos:
+  - youtube: "ohzCzXgs0g8"
+    caption: "Game Boy + Tetris North American launch commercial (1989)"
+    source: "YouTube archival upload"
 ---
 
 On 21 April 1989, Nintendo launched the Game Boy in Japan at ¥12,500. **The designer was Gunpei Yokoi** — one of the most influential engineers in Nintendo's history, the lead behind the 1980s Game & Watch line and the inventor of the Famicom controller's directional D-pad. Yokoi articulated the design philosophy that defined Nintendo's handheld future: **"枯れた技術の水平思考" — Lateral Thinking with Withered Technology**. Don't chase new specs; instead, combine commodity technology that has been industrially proven, cheap, and reliable into a new experience. The Game Boy is the most complete expression of this philosophy: **modest specs, long battery, strong content**. The same thinking is visible 30 years later in the Switch.

@@ -65,6 +65,10 @@ notable_games:
   - "薩爾達傳說：黃昏公主（任天堂，2006）"
   - "Mario Kart Wii（任天堂，2008）"
   - "Wii Fit（任天堂，2007，全球瘦身運動）"
+videos:
+  - youtube: "ScBfI3odviQ"
+    caption: "Wii would like to play — 北美 launch 廣告（2006）"
+    source: "任天堂北美官方廣告"
 ---
 
 Wii 是任天堂在規格戰時代的**革命性退場**——以及科技史上最成功的「藍海策略」實踐。經歷 N64 與 GameCube 兩代敗給 PlayStation 的反思，2002 年接任社長的 **岩田聰**（Satoru Iwata，HAL 研究所出身的工程師社長）給研發團隊下了一個明確的指令：「**不要試圖打贏 Sony 的規格戰，要把不玩遊戲的人變成玩家**」。這個策略在內部稱為「**藍海戰略**」（Blue Ocean Strategy，借自 W. Chan Kim 同名商業書）——避開血腥的紅海競爭，去開拓沒人做的市場。

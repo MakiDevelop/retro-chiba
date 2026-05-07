@@ -55,6 +55,10 @@ notable_games:
   - "Lunar: The Silver Star（Game Arts，1992）"
   - "Night Trap（Digital Pictures，1992，FMV 争议）"
   - "Sewer Shark（Digital Pictures，1992，FMV）"
+videos:
+  - youtube: "RjFb1WNrCAg"
+    caption: "Sega CD 1992 年 10 月 15 日 launch 纪录与当代广告"
+    source: "YouTube 复刻档案"
 ---
 
 1991 年 12 月 12 日，Sega 在日本推出 Mega-CD，售价 49,800 日元——**这不是一台主机，而是 Mega Drive 的 CD-ROM 扩充器**，必须与 Mega Drive 联动才能运行。1992 年 10 月以 Sega CD 之名登陆北美，售价 $299（再加 Mega Drive 本体 $129，合计超过一台超任）。Sega 的赌注很大：在超任刚上市的 1991 年，用 CD 介质开出下一个世代差，把 Mega Drive 推进「**多媒体游戏机**」时代。

@@ -57,6 +57,10 @@ notable_games:
   - "极限竞速 地平线 5（Playground，2021）"
   - "Hi-Fi Rush（Tango Gameworks，2023）"
   - "Game Pass 全平台共享"
+videos:
+  - youtube: "4iPjO1MW85U"
+    caption: "Xbox Series X|S 'Us Dreamers' TV commercial（2020）— X 与 S 同期登场的广告"
+    source: "Xbox 官方频道"
 ---
 
 Xbox Series S 是**主机产业 Gen 9 最具争议的单一产品**——也是 Phil Spencer「平台超越主机」哲学最大胆（与最具风险）的押注。2020 年 11 月 10 日与 Series X 同步上市，售价 $299——**比 PS5 Digital Edition（$399）便宜 $100，比 Series X / PS5 Standard（$499）便宜 $200**。**体积只有 Series X 的三分之一**（小白盒，13.5 cm × 6.5 cm × 27.5 cm 直立式），**GPU 算力只有 X 的三分之一**（4 TFLOPS vs X 的 12），**完全没有光驱**（纯数字），目标是 1440p / 60 Hz 而非 X 的 4K。

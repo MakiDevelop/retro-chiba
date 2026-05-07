@@ -55,6 +55,10 @@ notable_games:
   - "Lunar: The Silver Star (Game Arts, 1992)"
   - "Night Trap (Digital Pictures, 1992 — FMV controversy)"
   - "Sewer Shark (Digital Pictures, 1992 — FMV)"
+videos:
+  - youtube: "RjFb1WNrCAg"
+    caption: "The Story of the Sega CD Launch (October 15, 1992) — launch chronicle and contemporary ads"
+    source: "YouTube archival upload"
 ---
 
 On 12 December 1991, Sega launched the Mega-CD in Japan at ¥49,800. **This was not a console but a CD-ROM expansion** that bolted onto the Mega Drive and could not run on its own. The North American release as the Sega CD followed in October 1992 at $299 — combined with the $129 Mega Drive base unit, the full setup cost more than a Super Nintendo. Sega's bet was huge: while the Super Famicom had only just shipped, push the Mega Drive into the next-generation "**multimedia gaming**" tier through optical media.

@@ -59,6 +59,10 @@ hardware_variants:
     release: "2001"
     type: "官方屏幕周边"
     note: "官方 5 英寸液晶屏可直接接在 PS one 后方，让它变成半便携式主机。对宿舍、车用与小房间玩家来说，这是 PS1 晚期最有辨识度的周边。"
+videos:
+  - youtube: "-OjBIhFOtgY"
+    caption: "PlayStation 'U R Not e' / '(e)NOS Lives' 北美 launch 广告（1995）"
+    source: "YouTube 复刻档案"
 ---
 
 PlayStation 的故事不是从 1994 年开始的，是从**任天堂的背叛**开始的。1988-1991 年间，Sony 与任天堂合作开发「Play Station」——超任的 CD-ROM 扩充器，由 Sony 内部的久夛良木健（SFC 音源芯片 SPC700 设计者）主导。1991 年 6 月 CES 展上，Sony 已经对外公布合作。**结果隔天，任天堂在同个展场宣布改与 Philips 合作**，把 Sony 公开羞辱在台上。Sony 内部高层原本要砍掉这个项目，是大贺典雄（时任社长）拍板让久夛良木自己一支团队把它做完——这台机器从一开始就带着复仇的气味。

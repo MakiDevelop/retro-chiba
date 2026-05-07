@@ -68,6 +68,10 @@ notable_games:
   - "Lumines（Q Entertainment，2004，Tetsuya Mizuguchi）"
   - "GTA: Liberty City Stories（Rockstar，2005）"
   - "Persona 3 Portable（Atlus，2009）"
+videos:
+  - youtube: "K1WSOSimvTI"
+    caption: "PSP launch 廣告 'A Day In The Life'（2005）"
+    source: "Sony 官方 #20YearsOfPlay"
 ---
 
 2004 年 12 月 12 日，Sony 在日本推出 PlayStation Portable（PSP），售價 20,790 円。**這是 Sony 史上第一台掌機**——任天堂自 1989 年 Game Boy 起獨佔的掌機市場，第一次面對來自一個有家用機霸權底氣的對手的正面挑戰。設計者**久夛良木健**（PS1/PS2 之父，當時也主導 PS3 開發）—— PSP 的命題很清楚：**把 PS2 級 3D 圖形塞進口袋**。

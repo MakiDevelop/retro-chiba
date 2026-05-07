@@ -64,6 +64,10 @@ notable_games:
   - "时空之轮（Square，1995）"
   - "星际火狐（任天堂，1993，Super FX 芯片开创家用 3D）"
   - "Donkey Kong Country（Rare，1994）"
+videos:
+  - youtube: "Clv9wmXi7g4"
+    caption: "超级任天堂 CM 集（1990-1991）— 含本体上市与《超级马里奥世界》同捆 CM"
+    source: "YouTube 复刻档案"
 ---
 
 1990 年 11 月 21 日，Super Famicom 在日本上市。**首批 30 万台 30 分钟内卖完**，运输途中发生至少一起劫匪事件——日本警方为此正式发函要求零售商加强保安。这台机器从第一天起就不是纯粹的玩具。

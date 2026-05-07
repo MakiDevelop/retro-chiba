@@ -55,6 +55,10 @@ notable_games:
   - "Nights into Dreams... (Sonic Team, 1996)"
   - "Radiant Silvergun (Treasure, 1998)"
   - "Saturn Bomberman (Hudson, 1996)"
+videos:
+  - youtube: "cyv6ZehQyTQ"
+    caption: "Sega Saturn 1995 launch commercial 'It's Out There' (HD remaster)"
+    source: "YouTube archival upload"
 ---
 
 On 22 November 1994, Sega launched the Saturn in Japan at ¥44,800 — **eleven days before PlayStation**. Internally Sega framed it as the comeback machine: after the early-1990s string of disasters (Mega-CD, 32X), Saturn was the all-in flagship. The architecture committed to **dual Hitachi SH-2 CPUs plus dual VDPs** (VDP1 for sprites and polygons, VDP2 for background scrollers) — two CPUs and two GPUs running in parallel, theoretically able to outperform the PlayStation's single-pipeline design.

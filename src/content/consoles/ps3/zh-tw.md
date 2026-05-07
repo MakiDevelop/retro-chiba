@@ -64,6 +64,10 @@ notable_games:
   - "Metal Gear Solid 4: Guns of the Patriots（Konami，2008）"
   - "Demon's Souls（FromSoftware，2009）"
   - "LittleBigPlanet（Media Molecule，2008）"
+videos:
+  - youtube: "gqkNPcUMffU"
+    caption: "PS3 'Baby' 廣告（2006）— Play Beyond 主題的爭議性 launch 廣告"
+    source: "YouTube 復刻檔案"
 ---
 
 PS3 是 Sony 在主機產業最接近自毀的一次世代——也是後半段最戲劇性的翻身。2006 年 11 月 11 日，PS3 在日本上市，60GB 版售價 **59,980 円**，北美版 **$599 美元**——比 PS2 上市價貴一倍、比 Xbox 360 高 200 美元。Sony 內部稱這是「**雙重豪賭**」——豪賭 Cell 處理器、豪賭 Blu-ray 媒介。兩個押注都極具野心，兩個都差點壓垮 Sony 的遊戲事業。

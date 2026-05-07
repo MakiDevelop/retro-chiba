@@ -77,6 +77,10 @@ hardware_variants:
     release: "1995 NA"
     type: "Handheld version"
     note: "A handheld Genesis with a color screen, direct cartridge support, and TV output. The idea was ahead of its time, but price, battery life, and timing kept it niche."
+videos:
+  - youtube: "ZDnZDXHuC_w"
+    caption: "Genesis Does What Nintendon't (1990) — Sega's iconic head-on attack on Nintendo"
+    source: "YouTube archival upload"
 ---
 
 On 29 October 1988, Sega launched the Mega Drive in Japan at ¥21,000. Stamped boldly on the front of the case: **"16-BIT"** — the first time in console history that a spec figure was literally embossed onto the chassis as marketing copy. Sega's bet was simple: ship two years before Nintendo's next generation, ship with a CPU twice as fast, **win on engineering lead time**.

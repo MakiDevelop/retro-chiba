@@ -63,6 +63,10 @@ notable_games:
   - "重力小子（SCE Japan，2012）"
   - "Soul Sacrifice（Marvelous，2013）"
   - "弹丸论破 系列（Spike Chunsoft，2014）"
+videos:
+  - youtube: "Qt0KFeoDwtI"
+    caption: "PS Vita 'Never Stop Playing' 北美 TV 广告（2012）"
+    source: "Sony 官方频道"
 ---
 
 2011 年 12 月 17 日，Sony 在日本推出 PlayStation Vita（PS Vita），售价 24,980 日元（Wi-Fi 版）/ 29,980 日元（3G+Wi-Fi 版）。**这是 PSP 的后继机，也是 Sony 至今最后一台 dedicated handheld**——研发代号 NGP（Next Generation Portable）就明确了任天堂 3DS 才是真正对手。设计目标：**把 PS3 级画面塞进掌机**——同样是 Sony 惯用的「家用机规格小型化」逻辑。

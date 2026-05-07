@@ -64,6 +64,10 @@ notable_games:
   - "合金装备 4：爱国者之枪（Konami，2008）"
   - "恶魔之魂（FromSoftware，2009）"
   - "小小大星球（Media Molecule，2008）"
+videos:
+  - youtube: "gqkNPcUMffU"
+    caption: "PS3 'Baby' 广告（2006）— Play Beyond 主题的争议性 launch 广告"
+    source: "YouTube 复刻档案"
 ---
 
 PS3 是 Sony 在主机产业最接近自毁的一次世代——也是后半段最戏剧性的翻身。2006 年 11 月 11 日，PS3 在日本上市，60GB 版售价 **59,980 日元**，北美版 **$599 美元**——比 PS2 上市价贵一倍、比 Xbox 360 高 200 美元。Sony 内部称这是「**双重豪赌**」——豪赌 Cell 处理器、豪赌 Blu-ray 介质。两个押注都极具野心，两个都差点压垮 Sony 的游戏事业。

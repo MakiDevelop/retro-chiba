@@ -57,6 +57,10 @@ notable_games:
   - "盗贼之海（Rare，2018）"
   - "战争机器 4（The Coalition，2016）"
   - "茶杯头（StudioMDHR，2017）"
+videos:
+  - youtube: "Spz5olq7K1A"
+    caption: "Xbox One: Revealed（2013 年 5 月）— 全合一娱乐主机概念首次公开"
+    source: "Microsoft 官方频道"
 ---
 
 Xbox One 是 Microsoft 主机历史最痛的一代——也是**主机产业 Gen 8 最完整的「策略失误教科书」**。Microsoft 从 Xbox 360 累积的优势（北美主场、Halo 文化、Live 在线服务）在这一代被自家高层判断失误一手败光。故事的中心是当时 Xbox 部门负责人 **Don Mattrick**，与其「**Xbox One 是客厅里的全媒体中心，不只是游戏机**」的战略方向。

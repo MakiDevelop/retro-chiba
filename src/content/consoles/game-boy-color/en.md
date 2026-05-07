@@ -63,6 +63,10 @@ notable_games:
   - "The Legend of Zelda: Oracle of Ages / Seasons (Capcom Flagship, 2001)"
   - "Wario Land 3 (Nintendo, 2000)"
   - "Dragon Quest III (Enix, 2000 port)"
+videos:
+  - youtube: "cn3EAVpOdro"
+    caption: "Game Boy Color debut commercial (1998) — 'It's Black and White... Until You Plug It In'"
+    source: "YouTube archival upload"
 ---
 
 On 21 October 1998, Nintendo launched the Game Boy Color (GBC) in Japan at ¥8,900. **It is the most disciplined mid-life upgrade in Nintendo's history.** The CPU was doubled (4.19 MHz → 8 MHz), the display moved from 4-shade grayscale to a 56-color STN-LCD, RAM quadrupled to 32 KB, and the chassis shrank — but **the design deliberately preserved** the Sharp CPU lineage and the original Game Pak cartridge form factor. This act of preservation was the single most consequential decision behind GBC's success.

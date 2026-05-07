@@ -62,6 +62,10 @@ notable_games:
   - "GoldenEye 007（Rare，1997）"
   - "马里奥卡丁车 64（任天堂，1996）"
   - "Banjo-Kazooie（Rare，1998）"
+videos:
+  - youtube: "in4X7qOUxEg"
+    caption: "Nintendo 64 北美 TV 广告集（1996-2001）— 含 Mario 64、GoldenEye、Zelda 时之笛广告"
+    source: "NintendoComplete YouTube 频道"
 ---
 
 1996 年 6 月 23 日，任天堂推出 NINTENDO64，售价 25,000 日元。**业界第一台 64 位家用机**、第一个量产模拟摇杆、与 Silicon Graphics（SGI，当时的工作站图形龙头）共同设计的 Reality Coprocessor——技术上 N64 是这个世代的工程巅峰：z-buffer、trilinear 滤波、抗锯齿、100,000 多边形/秒（PS1 是 360,000 但是无滤波无深度缓冲的低品质多边形）。**画面成熟度，N64 完胜 PS1**。

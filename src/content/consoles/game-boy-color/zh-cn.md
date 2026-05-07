@@ -63,6 +63,10 @@ notable_games:
   - "塞尔达传说：神谕系列（Capcom Flagship，2001）"
   - "Wario Land 3（任天堂，2000）"
   - "勇者斗恶龙 III（Enix，2000 移植）"
+videos:
+  - youtube: "cn3EAVpOdro"
+    caption: "Game Boy Color debut 广告（1998）— It's Black and White... Until You Plug It In"
+    source: "YouTube 复刻档案"
 ---
 
 1998 年 10 月 21 日，任天堂在日本推出 Game Boy Color（GBC），售价 8,900 日元。**这是任天堂史上最 disciplined 的中期升级案**——CPU 双倍速（4.19 MHz → 8 MHz）、56 色 STN-LCD（取代 4 灰阶）、32 KB RAM（4 倍）、外型小型化。**但故意保留** Sharp 同系 CPU 架构与 Game Pak 卡带物理规格——这个「保留」的决定是 GBC 整代成功的关键。

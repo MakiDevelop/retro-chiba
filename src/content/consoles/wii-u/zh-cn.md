@@ -57,6 +57,10 @@ notable_games:
   - "塞尔达传说：旷野之息（任天堂，2017，与 Switch 同时推出）"
   - "Splatoon（任天堂，2015）"
   - "猎天使魔女 2（PlatinumGames，2014）"
+videos:
+  - youtube: "_Ltj_uMygiQ"
+    caption: "Wii U 首支北美电视广告（2012 年 11 月，How U Will Play Next 主题）"
+    source: "任天堂北美官方频道"
 ---
 
 Wii U 是任天堂家用机历史上**最痛的失败世代**——也是 Switch 后来大爆炸成功的反面教材。2012 年 12 月 8 日日本上市，Premium 版售价 31,500 日元，是任天堂在 Wii 巨大成功（1.018 亿台）后的下一代旗舰机。但**Wii U 累计只卖 1,356 万台**——比 Wii 衰退 **88%**，是任天堂家用主机史上最差成绩，差距甚至比 GameCube 的 2,174 万还惨。

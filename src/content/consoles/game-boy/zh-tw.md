@@ -78,6 +78,10 @@ hardware_variants:
     release: "2003"
     type: "GameCube 轉接器"
     note: "接在 GameCube 底部，能用電視玩 Game Boy、Game Boy Color 與 Game Boy Advance 卡帶。它把掌機軟體庫正式接回家用主機，也是任天堂跨設備相容思維的代表。"
+videos:
+  - youtube: "ohzCzXgs0g8"
+    caption: "Game Boy + Tetris 北美 launch 廣告（1989，Nintendo 經典廣告）"
+    source: "YouTube 復刻檔案"
 ---
 
 1989 年 4 月 21 日，任天堂在日本推出 Game Boy，售價 12,500 円。**設計者是橫井軍平**——任天堂史上最有影響力的工程師之一，1980 年代主導 Game & Watch 系列、Famicom 控制器十字鍵發明者。橫井提出的設計哲學是**「枯れた技術の水平思考」（成熟技術的水平思考）**——不追新規格，反而用業界已驗證可量產、便宜、可靠的舊技術組合出新體驗。Game Boy 是這個哲學最完整的實踐——**省規格、長電池、強內容**——這套思維在 30 年後的 Switch 上仍然能看見。

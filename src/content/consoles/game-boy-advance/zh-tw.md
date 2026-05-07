@@ -81,6 +81,10 @@ notable_games:
   - "Metroid Fusion（任天堂，2002）"
   - "Final Fantasy Tactics Advance（Square，2003）"
   - "Advance Wars（Intelligent Systems，2001）"
+videos:
+  - youtube: "EvK4HA9qKzc"
+    caption: "Game Boy Advance launch 廣告（2001）"
+    source: "YouTube 復刻檔案"
 ---
 
 2001 年 3 月 21 日，任天堂在日本推出 Game Boy Advance（GBA），售價 9,800 円。**這是橫井軍平 1997 年離世後，任天堂掌機部門的第一個世代**——由橫井派傳承的 R&D1 部門主導，岡田智繼任。GBA 是任天堂掌機架構的歷史性轉折——**從 1989 年起的 8-bit Sharp CPU 系譜全面換成 32-bit ARM**，但仍保留橫井「水平思考」的核心精神（成熟技術、長電池、輕薄外型）。

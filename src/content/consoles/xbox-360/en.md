@@ -64,6 +64,10 @@ notable_games:
   - "Mass Effect 2 (BioWare, 2010)"
   - "Grand Theft Auto IV (Rockstar, 2008)"
   - "Forza Motorsport 4 (Turn 10, 2011)"
+videos:
+  - youtube: "GFATqCfmgDM"
+    caption: "Xbox 360 'Jump In' commercial (2005) — Microsoft's cross-generation launch campaign"
+    source: "YouTube archival upload"
 ---
 
 On 22 November 2005, Microsoft launched the Xbox 360 in North America — **a full year ahead of the PS3**. That time gap was the single most important strategic decision in Microsoft's entire console history. The lesson from the original Xbox's Japanese failure was specific: **a one-year lead in console war = locking down the core gamer audience for the entire generation**. By the time PS3 arrived in November 2006 at $599, Xbox 360 ($399) had already built an installed base of more than 10 million units, *Halo 3* was in late development, and Xbox Live had been running for three years.

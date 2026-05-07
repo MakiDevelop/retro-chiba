@@ -57,6 +57,10 @@ notable_games:
   - "Starfield（Bethesda，2023）"
   - "Hi-Fi Rush（Tango Gameworks，2023）"
   - "Indiana Jones and the Great Circle（MachineGames，2024）"
+videos:
+  - youtube: "TuQLNd-Cp_g"
+    caption: "Xbox Series X|S 'Power Your Dreams' launch trailer（2020 年 10 月，Daniel Kaluuya 主演 Us Dreamers）"
+    source: "Xbox 官方頻道"
 ---
 
 Xbox Series X 是 Microsoft 第九世代旗艦——也是 Phil Spencer 接手 Xbox 部門後**戰略思維徹底轉向「平台超越主機」**的具體實踐。2020 年 11 月 10 日全球同步上市（比 PS5 早 2 天），售價 $499，與 PS5 標準版同價同期。技術規格上 Series X 是這個世代的**算力王**——AMD Zen 2 + RDNA 2 GPU @ 12 TFLOPS（**比 PS5 的 10.28 TFLOPS 高 17%**）、16 GB GDDR6 雙頻寬記憶體、1 TB 自製 NVMe SSD（壓縮後 4.8 GB/s，比 PS5 的 5.5 GB/s 略低但容量大）。

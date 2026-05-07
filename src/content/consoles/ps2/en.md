@@ -70,6 +70,10 @@ hardware_variants:
     release: "2010 EU"
     type: "Television-integrated model"
     note: "Sony's Bravia KDL-22PX300 placed PS2 hardware inside the base of a 22-inch television. It is one of the strangest late-life integrations and shows how long PS2 remained viable as a repackaged home appliance."
+videos:
+  - youtube: "Laf9vpJMDjA"
+    caption: "PlayStation 2 'Welcome To The Third Place' (2000, directed by David Lynch)"
+    source: "Sony Official #20YearsOfPlay"
 ---
 
 On 4 March 2000, PlayStation 2 launched in Japan at ¥39,800. **The killer feature wasn't a game — it was a DVD player.** In 1999 a standalone DVD player cost ¥50,000–¥80,000 in Japan; PS2 simply embedded the same playback hardware in the console. **The result: Japan's first PS2 wave sold out instantly, but a substantial fraction of those buyers were not gamers — they were households shopping for an affordable DVD player.** Sony internally referred to the strategy as "**Trojan Horse**": use the DVD-player attach value to smuggle the console into non-gamer homes, then use the resulting installed base to force-feed third-party developers. The cross-category leverage is the actual root of PS2's all-time sales record.

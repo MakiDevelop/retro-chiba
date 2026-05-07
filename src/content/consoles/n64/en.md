@@ -62,6 +62,10 @@ notable_games:
   - "GoldenEye 007 (Rare, 1997)"
   - "Mario Kart 64 (Nintendo, 1996)"
   - "Banjo-Kazooie (Rare, 1998)"
+videos:
+  - youtube: "in4X7qOUxEg"
+    caption: "Nintendo 64 North American TV commercials (1996-2001) — including Super Mario 64, GoldenEye, and Ocarina of Time spots"
+    source: "NintendoComplete YouTube channel"
 ---
 
 On 23 June 1996, Nintendo launched the Nintendo 64 in Japan at ¥25,000. **The first 64-bit home console.** The first mass-deployed analog thumbstick. A Reality Coprocessor co-designed with **Silicon Graphics** — the workstation-graphics leader of the era — that delivered z-buffering, trilinear filtering, anti-aliasing, and 100,000 polygons per second of clean output. (PlayStation pushed 360,000 polygons per second, but without filtering or depth buffering: cleaner pixels vs. messier pixels.) **On graphical maturity, N64 beat PS1 outright.**

@@ -102,6 +102,10 @@ related_consoles:
   - slug: "saturn"
     label: "Sega Saturn"
     note: "Sega 想把街機與 2D/3D 都帶回家，卻在架構與上市節奏上付出代價。"
+videos:
+  - youtube: "ZDnZDXHuC_w"
+    caption: "Genesis Does What Nintendon't（1990）— Sega 對任天堂正面開戰的代表廣告"
+    source: "YouTube 復刻檔案"
 ---
 
 1988 年 10 月 29 日，Sega 在日本推出 Mega Drive。售價 21,000 円，正面**大字印著「16-BIT」**——這是家用主機史上第一次把規格本身當作行銷文案直接刻在外殼上。Sega 押的策略很清楚：早超任兩年上市、CPU 是對手兩倍速，**用工程強度開出時間差**。

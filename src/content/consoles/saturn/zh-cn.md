@@ -55,6 +55,10 @@ notable_games:
   - "Nights into Dreams...（Sonic Team，1996）"
   - "Radiant Silvergun（Treasure，1998）"
   - "Saturn Bomberman（Hudson，1996）"
+videos:
+  - youtube: "cyv6ZehQyTQ"
+    caption: "Sega Saturn 1995 launch 广告 'It's Out There'（HD 复刻版）"
+    source: "YouTube 复刻档案"
 ---
 
 1994 年 11 月 22 日，Sega 推出 Saturn，售价 44,800 日元——**比 PS1 早 11 天**。Sega 内部认为这是反攻的开始：1990 年代初 Mega-CD、32X 接连失败后，Saturn 是把所有资源赌上的旗舰机。架构选择了**双 Hitachi SH-2 + 双 VDP（VDP1 多边形/精灵 + VDP2 背景滚动）**——同时并行两颗 CPU、两颗 GPU 各做不同任务，理论上能榨出比 PS1 更高的算力。
