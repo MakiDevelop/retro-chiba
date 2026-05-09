@@ -840,7 +840,7 @@
     "wikidata": "https://www.wikidata.org/wiki/Q523532"
   },
   {
-    "qid": "Q15880580",
+    "qid": "Q11035338",
     "slug": "subor",
     "gen": "3",
     "kind": "home",
@@ -852,10 +852,10 @@
     },
     "maker": "Subor",
     "first_release": "1987-01-01",
-    "wikidata": "https://www.wikidata.org/wiki/Q15880580"
+    "wikidata": "https://www.wikidata.org/wiki/Q11035338"
   },
   {
-    "qid": "Q1156870",
+    "qid": "Q285025",
     "slug": "ique-player",
     "gen": "6",
     "kind": "home",
@@ -867,10 +867,10 @@
     },
     "maker": "iQue / Nintendo",
     "first_release": "2003-11-17",
-    "wikidata": "https://www.wikidata.org/wiki/Q1156870"
+    "wikidata": "https://www.wikidata.org/wiki/Q285025"
   },
   {
-    "qid": "Q303404",
+    "qid": "Q695161",
     "slug": "amiga-cd32",
     "gen": "5",
     "kind": "home",
@@ -882,10 +882,10 @@
     },
     "maker": "Commodore International",
     "first_release": "1993-09-16",
-    "wikidata": "https://www.wikidata.org/wiki/Q303404"
+    "wikidata": "https://www.wikidata.org/wiki/Q695161"
   },
   {
-    "qid": "Q1306305",
+    "qid": "Q732683",
     "slug": "watara-supervision",
     "gen": "h",
     "kind": "handheld",
@@ -897,10 +897,10 @@
     },
     "maker": "Watara",
     "first_release": "1992-01-01",
-    "wikidata": "https://www.wikidata.org/wiki/Q1306305"
+    "wikidata": "https://www.wikidata.org/wiki/Q732683"
   },
   {
-    "qid": "Q2200012",
+    "qid": "Q2475188",
     "slug": "super-a-can",
     "gen": "4",
     "kind": "home",
@@ -912,10 +912,10 @@
     },
     "maker": "Funtech",
     "first_release": "1995-10-01",
-    "wikidata": "https://www.wikidata.org/wiki/Q2200012"
+    "wikidata": "https://www.wikidata.org/wiki/Q2475188"
   },
   {
-    "qid": "Q3094980",
+    "qid": "Q2395462",
     "slug": "gamate",
     "gen": "h",
     "kind": "handheld",
@@ -927,10 +927,10 @@
     },
     "maker": "Bit Corporation",
     "first_release": "1990-01-01",
-    "wikidata": "https://www.wikidata.org/wiki/Q3094980"
+    "wikidata": "https://www.wikidata.org/wiki/Q2395462"
   },
   {
-    "qid": "Q623316",
+    "qid": "Q215034",
     "slug": "game-and-watch",
     "gen": "h",
     "kind": "handheld",
@@ -942,10 +942,10 @@
     },
     "maker": "Nintendo",
     "first_release": "1980-04-28",
-    "wikidata": "https://www.wikidata.org/wiki/Q623316"
+    "wikidata": "https://www.wikidata.org/wiki/Q215034"
   },
   {
-    "qid": "Q304244",
+    "qid": "Q955368",
     "slug": "amiga-cdtv",
     "gen": "4",
     "kind": "home",
@@ -957,10 +957,10 @@
     },
     "maker": "Commodore International",
     "first_release": "1991-03-01",
-    "wikidata": "https://www.wikidata.org/wiki/Q304244"
+    "wikidata": "https://www.wikidata.org/wiki/Q955368"
   },
   {
-    "qid": "Q716480",
+    "qid": "Q1374482",
     "slug": "sega-pico",
     "gen": "4",
     "kind": "home",
@@ -972,10 +972,10 @@
     },
     "maker": "Sega",
     "first_release": "1993-06-26",
-    "wikidata": "https://www.wikidata.org/wiki/Q716480"
+    "wikidata": "https://www.wikidata.org/wiki/Q1374482"
   },
   {
-    "qid": "Q1397617",
+    "qid": "Q923987",
     "slug": "fm-towns-marty",
     "gen": "5",
     "kind": "home",
@@ -987,10 +987,10 @@
     },
     "maker": "Fujitsu",
     "first_release": "1993-02-20",
-    "wikidata": "https://www.wikidata.org/wiki/Q1397617"
+    "wikidata": "https://www.wikidata.org/wiki/Q923987"
   },
   {
-    "qid": "Q1054572",
+    "qid": "Q1198088",
     "slug": "bandai-playdia",
     "gen": "5",
     "kind": "home",
@@ -1002,10 +1002,10 @@
     },
     "maker": "Bandai",
     "first_release": "1994-09-23",
-    "wikidata": "https://www.wikidata.org/wiki/Q1054572"
+    "wikidata": "https://www.wikidata.org/wiki/Q1198088"
   },
   {
-    "qid": "Q1318935",
+    "qid": "Q1136902",
     "slug": "pc-fx",
     "gen": "5",
     "kind": "home",
@@ -1017,10 +1017,10 @@
     },
     "maker": "NEC + Hudson",
     "first_release": "1994-12-23",
-    "wikidata": "https://www.wikidata.org/wiki/Q1318935"
+    "wikidata": "https://www.wikidata.org/wiki/Q1136902"
   },
   {
-    "qid": "Q1047219",
+    "qid": "Q661952",
     "slug": "casio-loopy",
     "gen": "5",
     "kind": "home",
@@ -1032,10 +1032,10 @@
     },
     "maker": "Casio",
     "first_release": "1995-10-19",
-    "wikidata": "https://www.wikidata.org/wiki/Q1047219"
+    "wikidata": "https://www.wikidata.org/wiki/Q661952"
   },
   {
-    "qid": "Q1320074",
+    "qid": "Q7273280",
     "slug": "tiger-rzone",
     "gen": "h",
     "kind": "handheld",
@@ -1047,6 +1047,6 @@
     },
     "maker": "Tiger Electronics",
     "first_release": "1995-08-01",
-    "wikidata": "https://www.wikidata.org/wiki/Q1320074"
+    "wikidata": "https://www.wikidata.org/wiki/Q7273280"
   }
 ]

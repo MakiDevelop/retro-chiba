@@ -1,7 +1,7 @@
 ---
 lang: zh-cn
 title: Super A'Can（钛友超级卡 / F16）
-qid: Q2200012
+qid: Q2475188
 gen: 4
 kind: home
 maker: Funtech 钛友资讯（台湾台北）
@@ -21,6 +21,12 @@ specs:
   色域: "256 色（同时显示）/ 32,768 色调色板"
   音源: "FM + PCM 混合 6 通道"
   介质: "ROM 卡带（最大 8 MB，与 SFC 卡带外型不同）"
+images:
+  hero:
+    src: "/img/consoles/super-a-can-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Super-ACan-Console-set-h.jpg"
+    license: PD
 notable_games:
   - "中国功夫 / Boom Zoo（Funtech，1995）"
   - "形意拳（Funtech，1995）"

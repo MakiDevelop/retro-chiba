@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Amiga CD32
-qid: Q303404
+qid: Q695161
 gen: 5
 kind: home
 maker: Commodore International (USA / UK / West Germany)
@@ -22,6 +22,12 @@ specs:
   Audio: "Paula 4 channels of 8-bit PCM"
   Media: "2× CD-ROM (300 KB/s)"
   Controller: "11-button gamepad with shoulder buttons"
+images:
+  hero:
+    src: "/img/consoles/amiga-cd32-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Amiga-CD32-wController-L.jpg"
+    license: PD
 notable_games:
   - "Microcosm (Psygnosis, 1993)"
   - "Pinball Fantasies CD32 (DICE, 1993)"

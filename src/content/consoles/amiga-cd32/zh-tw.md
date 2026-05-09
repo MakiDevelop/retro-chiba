@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: Amiga CD32
-qid: Q303404
+qid: Q695161
 gen: 5
 kind: home
 maker: Commodore International（USA / 英國 / 西德跨國辦公）
@@ -22,6 +22,12 @@ specs:
   音源: "Paula 4 通道 8-bit PCM"
   媒介: "CD-ROM 雙倍速（300 KB/s）"
   控制器: "11 鍵搖桿（含肩鍵）"
+images:
+  hero:
+    src: "/img/consoles/amiga-cd32-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Amiga-CD32-wController-L.jpg"
+    license: PD
 notable_games:
   - "Microcosm（Psygnosis，1993）"
   - "Pinball Fantasies CD32（DICE，1993）"

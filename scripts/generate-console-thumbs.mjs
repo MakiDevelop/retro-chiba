@@ -10,13 +10,13 @@ const aspectRatio = 16 / 9;
 await mkdir(outputDir, { recursive: true });
 
 const heroFiles = (await readdir(sourceDir))
-  .filter((file) => file.endsWith('-hero.jpg'))
+  .filter((file) => /-hero\.(jpg|jpeg|png)$/i.test(file))
   .sort();
 
 for (const file of heroFiles) {
   const sourcePath = path.join(sourceDir, file);
   const sourceStat = await stat(sourcePath);
-  const baseName = file.replace(/\.jpg$/, '');
+  const baseName = file.replace(/\.(jpg|jpeg|png)$/i, '');
 
   for (const width of widths) {
     const height = Math.round(width / aspectRatio);

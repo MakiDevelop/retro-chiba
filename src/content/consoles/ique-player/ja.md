@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: 神遊機（iQue Player）
-qid: Q1156870
+qid: Q285025
 gen: 6
 kind: home
 maker: iQue（神遊科技）/ 任天堂合弁（中国蘇州）
@@ -20,6 +20,12 @@ specs:
   解像度: "240p–480i 映像出力"
   ストレージ: "内蔵 64 MB / 256 MB / 512 MB flash（モデル別）"
   メディア: "iQue Depot 店頭キオスクから 256 MB flash カード（iQue Card）へダウンロード"
+images:
+  hero:
+    src: "/img/consoles/ique-player-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-N64-iQue-Player-FL.jpg"
+    license: PD
 notable_games:
   - "Super Mario 64（智趣百科 中国語版、2003）"
   - "ゼルダの伝説 時のオカリナ（中国語版、2003）"

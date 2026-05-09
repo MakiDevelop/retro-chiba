@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: ゲーム＆ウオッチ（Game & Watch）
-qid: Q623316
+qid: Q215034
 gen: h
 kind: handheld
 maker: 任天堂（横井軍平 設計）
@@ -20,6 +20,12 @@ specs:
   音源: "圧電ブザー、一部機種でマルチトーン対応"
   メディア: "ハード = ゲーム（一台一作）"
   電池: "ボタン電池 LR43 / LR44 ×2"
+images:
+  hero:
+    src: "/img/consoles/game-and-watch-hero.png"
+    author: "masatsu"
+    source_url: "https://commons.wikimedia.org/wiki/File:Game-and-watch-ball.png"
+    license: PD
 notable_games:
   - "ボール（Ball、1980 — 第一作）"
   - "ドンキーコング（Multi Screen、1982）"

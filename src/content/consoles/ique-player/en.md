@@ -1,7 +1,7 @@
 ---
 lang: en
 title: iQue Player (神遊機)
-qid: Q1156870
+qid: Q285025
 gen: 6
 kind: home
 maker: iQue (神遊科技) / Nintendo joint venture, Suzhou, China
@@ -20,6 +20,12 @@ specs:
   Output: "240p–480i video"
   Storage: "Built-in 64 MB / 256 MB / 512 MB flash (depending on model)"
   Media: "Games downloaded at iQue Depot kiosks onto a 256 MB flash card (iQue Card)"
+images:
+  hero:
+    src: "/img/consoles/ique-player-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-N64-iQue-Player-FL.jpg"
+    license: PD
 notable_games:
   - "Super Mario 64 (智趣百科, 2003 Chinese edition)"
   - "The Legend of Zelda: Ocarina of Time (Chinese, 2003)"

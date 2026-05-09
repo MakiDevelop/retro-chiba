@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Game & Watch
-qid: Q623316
+qid: Q215034
 gen: h
 kind: handheld
 maker: Nintendo (designed by Gunpei Yokoi)
@@ -20,6 +20,12 @@ specs:
   Audio: "Piezo buzzer; some models support multi-tone"
   Media: "Hardware = game (one game per unit)"
   Battery: "LR43 / LR44 button cells ×2"
+images:
+  hero:
+    src: "/img/consoles/game-and-watch-hero.png"
+    author: "masatsu"
+    source_url: "https://commons.wikimedia.org/wiki/File:Game-and-watch-ball.png"
+    license: PD
 notable_games:
   - "Ball (1980 — first title)"
   - "Donkey Kong (Multi Screen, 1982)"

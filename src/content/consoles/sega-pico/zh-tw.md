@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: Sega Pico（キッズコンピュータ・ピコ）
-qid: Q716480
+qid: Q1374482
 gen: 4
 kind: home
 maker: Sega
@@ -20,6 +20,12 @@ specs:
   音源: "YM2612 FM + PSG（與 Mega Drive 相容）"
   媒介: "「Storyware」書本造型卡帶（每頁對應遊戲場景）"
   控制器: "光筆 + 6 鍵簡化手把"
+images:
+  hero:
+    src: "/img/consoles/sega-pico-hero.jpg"
+    author: "Muband at Japanese Wikipedia"
+    source_url: "https://commons.wikimedia.org/wiki/File:Kids%20Computer%20Pico-01.jpg"
+    license: PD
 notable_games:
   - "Doraemon の Pico（哆啦 A 夢，1993）"
   - "Anpanman とあそぼう（麵包超人）"

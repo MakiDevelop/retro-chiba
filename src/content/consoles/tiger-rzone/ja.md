@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: Tiger R-Zone
-qid: Q1320074
+qid: Q7273280
 gen: h
 kind: handheld
 maker: Tiger Electronics（米国イリノイ州）
@@ -20,6 +20,12 @@ specs:
   音源: "圧電ブザー"
   メディア: "Tiger 独自規格カートリッジ"
   電池: "単三 ×2-4 本"
+images:
+  hero:
+    src: "/img/consoles/tiger-rzone-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Tiger-RZone-Headset.jpg"
+    license: PD
 notable_games:
   - "モータルコンバット 3（移植）"
   - "インディ・ジョーンズ 魔宮の伝説"

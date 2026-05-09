@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: 小霸王學習機（Subor）
-qid: Q15880580
+qid: Q11035338
 gen: 3
 kind: home
 maker: 小霸王（廣東中山，段永平）

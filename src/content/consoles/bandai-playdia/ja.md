@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: バンダイ Playdia（プレイディア）
-qid: Q1054572
+qid: Q1198088
 gen: 5
 kind: home
 maker: バンダイ
@@ -20,6 +20,12 @@ specs:
   音源: "8-bit ADPCM"
   メディア: "CD-ROM（QuickDisc 形式）"
   コントローラ: "赤外線ワイヤレスパッド（4 ボタン + 十字キー）"
+images:
+  hero:
+    src: "/img/consoles/bandai-playdia-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Bandai-Playdia-Set-R.jpg"
+    license: PD
 notable_games:
   - "美少女戦士セーラームーン Super S"
   - "ドラえもん：のび太とフシギな星"

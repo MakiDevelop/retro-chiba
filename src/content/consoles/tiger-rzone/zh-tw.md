@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: Tiger R-Zone
-qid: Q1320074
+qid: Q7273280
 gen: h
 kind: handheld
 maker: Tiger Electronics（美國伊利諾州）
@@ -20,6 +20,12 @@ specs:
   音源: "壓電蜂鳴器"
   媒介: "卡帶（Tiger 自家規格）"
   電池: "AA 電池 ×2-4"
+images:
+  hero:
+    src: "/img/consoles/tiger-rzone-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Tiger-RZone-Headset.jpg"
+    license: PD
 notable_games:
   - "Mortal Kombat 3（移植）"
   - "Indiana Jones and the Temple of Doom"

@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Tiger R-Zone
-qid: Q1320074
+qid: Q7273280
 gen: h
 kind: handheld
 maker: Tiger Electronics (Illinois, USA)
@@ -20,6 +20,12 @@ specs:
   Audio: "Piezo buzzer"
   Media: "Cartridges (Tiger proprietary)"
   Battery: "AA batteries ×2-4"
+images:
+  hero:
+    src: "/img/consoles/tiger-rzone-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Tiger-RZone-Headset.jpg"
+    license: PD
 notable_games:
   - "Mortal Kombat 3 (port)"
   - "Indiana Jones and the Temple of Doom"

@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Gamate (超級小子)
-qid: Q3094980
+qid: Q2395462
 gen: h
 kind: handheld
 maker: Bit Corporation (百加電子, Taiwan)
@@ -20,6 +20,12 @@ specs:
   Audio: "3-channel square + noise"
   Media: "Card-shaped ROMs (~7 × 5 cm flat plastic cards)"
   Battery: "4× AA (~30 hours)"
+images:
+  hero:
+    src: "/img/consoles/gamate-hero.jpg"
+    author: "Miguel Durán"
+    source_url: "https://commons.wikimedia.org/wiki/File:Gamate.jpg"
+    license: PD
 notable_games:
   - "Brick Blast (Bit Corp, 1990, Arkanoid clone)"
   - "Buster Bros (Bit Corp, 1990, Pang clone)"

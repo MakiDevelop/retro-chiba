@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: カシオ Loopy（マイシール・コンピュータ SV-100）
-qid: Q1047219
+qid: Q661952
 gen: 5
 kind: home
 maker: カシオ
@@ -20,6 +20,12 @@ specs:
   音源: "16-bit ADPCM ステレオ"
   メディア: "ROM カートリッジ + 内蔵熱昇華シールプリンタ"
   コントローラ: "簡易 4 ボタンパッド"
+images:
+  hero:
+    src: "/img/consoles/casio-loopy-hero.png"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Casio-Loopy-Console-Set.png"
+    license: PD
 notable_games:
   - "アニメランド（カシオ、1995）"
   - "ドリームチェンジ：こがねちゃんのファッションパーティ"

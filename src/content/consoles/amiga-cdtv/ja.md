@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: Amiga CDTV
-qid: Q304244
+qid: Q955368
 gen: 4
 kind: home
 maker: Commodore International
@@ -21,6 +21,11 @@ specs:
   音源: "Paula 4ch 8-bit PCM"
   メディア: "等速 CD-ROM、キャディ式トレイ"
   コントローラ: "赤外線リモコン + オプションジョイスティック"
+images:
+  hero:
+    src: "/img/consoles/amiga-cdtv-hero.jpg"
+    source_url: "https://commons.wikimedia.org/wiki/File:CDTV.jpg"
+    license: PD
 notable_games:
   - "Lemmings CD（Psygnosis、1991）"
   - "Defender of the Crown II（CDTV）"

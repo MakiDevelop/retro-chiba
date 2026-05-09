@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: Casio Loopy（My Seal Computer SV-100）
-qid: Q1047219
+qid: Q661952
 gen: 5
 kind: home
 maker: Casio
@@ -20,6 +20,12 @@ specs:
   音源: "16-bit ADPCM 立體聲"
   媒介: "ROM 卡帶 + 內建熱昇華貼紙印表機"
   控制器: "簡化 4 鍵搖桿"
+images:
+  hero:
+    src: "/img/consoles/casio-loopy-hero.png"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Casio-Loopy-Console-Set.png"
+    license: PD
 notable_games:
   - "Anime Land（カシオ，1995）"
   - "Dream Change: Kogane-chan no Fashion Party"

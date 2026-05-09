@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: 神遊機（iQue Player）
-qid: Q1156870
+qid: Q285025
 gen: 6
 kind: home
 maker: iQue（神遊科技）/ 任天堂合資（中國蘇州）
@@ -20,6 +20,12 @@ specs:
   解析度: "240p–480i 視訊輸出"
   儲存: "內建 64 MB / 256 MB / 512 MB flash（依機型）"
   媒介: "透過 iQue 店頭 kiosk 下載到 256 MB flash 卡（iQue Card）"
+images:
+  hero:
+    src: "/img/consoles/ique-player-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Nintendo-N64-iQue-Player-FL.jpg"
+    license: PD
 notable_games:
   - "Super Mario 64（Mario 智趣百科 中文版，2003）"
   - "薩爾達傳說 時之笛（Zelda 岁月之笛，2003）"

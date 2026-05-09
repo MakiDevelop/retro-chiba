@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: PC-FX
-qid: Q1318935
+qid: Q1136902
 gen: 5
 kind: home
 maker: NEC ホームエレクトロニクス + ハドソン
@@ -22,6 +22,12 @@ specs:
   音源: "ADPCM 6ch + CD-DA"
   メディア: "CD-ROM 2 倍速"
   コントローラ: "6 ボタンパッド（PC エンジン系統）"
+images:
+  hero:
+    src: "/img/consoles/pc-fx-hero.png"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:PC-FX-Console-Set.png"
+    license: PD
 notable_games:
   - "Anearth Fantasy Stories（NEC、1995）"
   - "Team Innocent（NEC アベニュー、1995）"

@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: Watara Supervision
-qid: Q1306305
+qid: Q732683
 gen: h
 kind: handheld
 maker: Watara（華生 / 香港）
@@ -20,6 +20,12 @@ specs:
   音源: "4 通道方波 + 雜訊"
   媒介: "ROM 卡帶"
   電池: "4 顆 AA（約 30 小時）"
+images:
+  hero:
+    src: "/img/consoles/watara-supervision-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Watara-Supervision-Tilted.jpg"
+    license: PD
 notable_games:
   - "Crystball（Watara，1992）"
   - "Hash Block / Tetris-like（Watara）"

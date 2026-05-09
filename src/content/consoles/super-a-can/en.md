@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Super A'Can (鈦友超級卡 / F16)
-qid: Q2200012
+qid: Q2475188
 gen: 4
 kind: home
 maker: Funtech Multimedia Inc. (鈦友資訊, Taipei, Taiwan)
@@ -21,6 +21,12 @@ specs:
   Palette: "256 colours simultaneous / 32,768 colour palette"
   Audio: "FM + PCM hybrid, 6 channels"
   Media: "ROM cartridges (up to 8 MB; chassis form distinct from SFC carts)"
+images:
+  hero:
+    src: "/img/consoles/super-a-can-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Super-ACan-Console-set-h.jpg"
+    license: PD
 notable_games:
   - "Chinese Heroes / Boom Zoo (Funtech, 1995)"
   - "Xing Yi Quan / 形意拳 (Funtech, 1995)"

@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: 小覇王（Subor）学習機
-qid: Q15880580
+qid: Q11035338
 gen: 3
 kind: home
 maker: 小覇王（広東省中山市、創業者：段永平）

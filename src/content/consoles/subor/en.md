@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Subor (小霸王) Learning Machine
-qid: Q15880580
+qid: Q11035338
 gen: 3
 kind: home
 maker: Subor (Zhongshan, Guangdong; founded by Duan Yongping)

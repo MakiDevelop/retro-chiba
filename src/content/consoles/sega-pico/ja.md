@@ -1,7 +1,7 @@
 ---
 lang: ja
 title: キッズコンピュータ・ピコ（Sega Pico）
-qid: Q716480
+qid: Q1374482
 gen: 4
 kind: home
 maker: セガ
@@ -20,6 +20,12 @@ specs:
   音源: "YM2612 FM + PSG（メガドライブ互換）"
   メディア: "『Storyware』絵本型カートリッジ（ページをめくると画面が切り替わる）"
   コントローラ: "光ペン + 6 ボタン簡易ゲームパッド"
+images:
+  hero:
+    src: "/img/consoles/sega-pico-hero.jpg"
+    author: "Muband at Japanese Wikipedia"
+    source_url: "https://commons.wikimedia.org/wiki/File:Kids%20Computer%20Pico-01.jpg"
+    license: PD
 notable_games:
   - "ドラえもんのピコ（1993）"
   - "アンパンマンとあそぼう"

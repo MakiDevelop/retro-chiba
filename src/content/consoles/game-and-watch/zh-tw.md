@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: Game & Watch（ゲーム＆ウオッチ）
-qid: Q623316
+qid: Q215034
 gen: h
 kind: handheld
 maker: 任天堂（橫井軍平設計）
@@ -20,6 +20,12 @@ specs:
   音源: "壓電蜂鳴器，部分機型支援多音色"
   媒介: "硬體即遊戲（每台只能玩一款）"
   電池: "鈕扣電池 LR43 / LR44 ×2"
+images:
+  hero:
+    src: "/img/consoles/game-and-watch-hero.png"
+    author: "masatsu"
+    source_url: "https://commons.wikimedia.org/wiki/File:Game-and-watch-ball.png"
+    license: PD
 notable_games:
   - "Ball（球，1980 — 第一作）"
   - "Donkey Kong（Multi Screen，1982）"

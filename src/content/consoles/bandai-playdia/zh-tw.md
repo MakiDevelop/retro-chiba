@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: Bandai Playdia
-qid: Q1054572
+qid: Q1198088
 gen: 5
 kind: home
 maker: Bandai（萬代）
@@ -20,6 +20,12 @@ specs:
   音源: "8-bit ADPCM"
   媒介: "CD-ROM（QuickDisc 格式）"
   控制器: "紅外線無線手把（4 鍵 + 十字鍵）"
+images:
+  hero:
+    src: "/img/consoles/bandai-playdia-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:Bandai-Playdia-Set-R.jpg"
+    license: PD
 notable_games:
   - "Sailor Moon Super S（美少女戰士）"
   - "Doraemon: ノビタとフシギな星"

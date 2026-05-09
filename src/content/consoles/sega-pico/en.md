@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Sega Pico (Kids Computer Pico)
-qid: Q716480
+qid: Q1374482
 gen: 4
 kind: home
 maker: Sega
@@ -20,6 +20,12 @@ specs:
   Audio: "YM2612 FM + PSG (Mega Drive compatible)"
   Media: "Storyware — book-shaped cartridges where flipping a page changes the game scene"
   Controller: "Light pen + 6-button simplified gamepad"
+images:
+  hero:
+    src: "/img/consoles/sega-pico-hero.jpg"
+    author: "Muband at Japanese Wikipedia"
+    source_url: "https://commons.wikimedia.org/wiki/File:Kids%20Computer%20Pico-01.jpg"
+    license: PD
 notable_games:
   - "Doraemon no Pico (1993)"
   - "Anpanman to Asobou"

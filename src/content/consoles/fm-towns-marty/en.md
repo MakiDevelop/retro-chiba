@@ -1,7 +1,7 @@
 ---
 lang: en
 title: FM Towns Marty
-qid: Q1397617
+qid: Q923987
 gen: 5
 kind: home
 maker: Fujitsu
@@ -22,6 +22,12 @@ specs:
   Audio: "Yamaha YM2612 FM + 8-channel PCM"
   Media: "2× CD-ROM + 3.5\" floppy"
   Controller: "6-button gamepad"
+images:
+  hero:
+    src: "/img/consoles/fm-towns-marty-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:FM-Towns-Marty-Console-Set.jpg"
+    license: PD
 notable_games:
   - "FM Towns Marty: Free Software Collection 1"
   - "Tatsujin (Toaplan arcade port)"

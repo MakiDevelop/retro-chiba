@@ -1,7 +1,7 @@
 ---
 lang: zh-tw
 title: FM Towns Marty
-qid: Q1397617
+qid: Q923987
 gen: 5
 kind: home
 maker: Fujitsu（富士通）
@@ -22,6 +22,12 @@ specs:
   音源: "Yamaha YM2612 FM + PCM 8 通道"
   媒介: "CD-ROM 雙倍速 + 3.5 吋軟碟"
   控制器: "6 鍵搖桿"
+images:
+  hero:
+    src: "/img/consoles/fm-towns-marty-hero.jpg"
+    author: "Evan-Amos"
+    source_url: "https://commons.wikimedia.org/wiki/File:FM-Towns-Marty-Console-Set.jpg"
+    license: PD
 notable_games:
   - "FM Towns Marty: Free Software Collection 1"
   - "Tatsujin（達人，移植自街機）"
