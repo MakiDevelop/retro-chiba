@@ -21,6 +21,13 @@ specs:
   Palette: "54 colours"
   Audio: "5 channels (Famicom-compatible)"
   Media: "ROM cartridges (yellow carts) + built-in BASIC + PS/2 keyboard port"
+images:
+  hero:
+    src: "/img/consoles/subor-hero.jpg"
+    author: "七个点"
+    source_url: "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9C%B8%E7%8E%8B%E5%AD%A6%E4%B9%A0%E6%9C%BA%20SB-486D%20%E6%AD%A3%E9%9D%A2.jpg"
+    license: fair-use
+    rationale: "educational-commentary"
 notable_games:
   - "Super Mario Bros. (Nintendo, 1985)"
   - "Contra (Konami, 1987)"

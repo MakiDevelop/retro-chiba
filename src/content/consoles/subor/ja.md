@@ -21,6 +21,13 @@ specs:
   色域: "54 色パレット"
   音源: "5 チャンネル（ファミコン互換）"
   メディア: "ROM カートリッジ（黄カセット）+ 内蔵 BASIC + PS/2 キーボードポート"
+images:
+  hero:
+    src: "/img/consoles/subor-hero.jpg"
+    author: "七个点"
+    source_url: "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9C%B8%E7%8E%8B%E5%AD%A6%E4%B9%A0%E6%9C%BA%20SB-486D%20%E6%AD%A3%E9%9D%A2.jpg"
+    license: fair-use
+    rationale: "educational-commentary"
 notable_games:
   - "Super Mario Bros.（任天堂、1985）"
   - "魂斗羅（コナミ、1987）"

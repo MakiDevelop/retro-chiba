@@ -134,7 +134,7 @@ def slugify_filename(commons_filename: str, console_slug: str, *, is_hero: bool 
 
 
 # Match `wikimedia:File:NAME.ext` strings across the document.
-WIKIMEDIA_RE = re.compile(r"\bwikimedia:File:([A-Za-z0-9._\-' ()]+\.[A-Za-z0-9]{3,4})")
+WIKIMEDIA_RE = re.compile(r"\bwikimedia:File:([^\"\s][^\"]*?\.[A-Za-z0-9]{3,4})")
 
 
 def _is_hero_marker(text: str, marker_pos: int) -> bool:
