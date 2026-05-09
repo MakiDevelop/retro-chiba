@@ -3,7 +3,7 @@ import type { Lang } from '../i18n/ui';
 
 export const siteOrigin = 'https://retro.chiba.tw';
 
-export const featureSlugs = ['atari-crash', '16-bit-war', 'playstation-breakup', 'polygon-revolution'] as const;
+export const featureSlugs = ['atari-crash', '16-bit-war', 'playstation-breakup', 'polygon-revolution', 'sega-exit', 'gray-memory'] as const;
 
 export const featureSeo = {
   'atari-crash': {
@@ -65,6 +65,36 @@ export const featureSeo = {
       ja: 'PlayStation、Sega Saturn、Nintendo 64 の第5世代特集。光ディスク、カートリッジ、開発環境、アーケード血統、RPG、90年代ポリゴン美学を扱う。',
     },
     keywords: ['PlayStation', 'Sega Saturn', 'Nintendo 64', '3D games', 'polygon graphics', 'fifth generation consoles'],
+  },
+  'sega-exit': {
+    title: {
+      'zh-tw': 'Sega 的退場',
+      'zh-cn': 'Sega 的退场',
+      en: 'How Sega Left the Console Business',
+      ja: 'セガ、ハードから降りる',
+    },
+    description: {
+      'zh-tw': '從 Saturn 1995 E3 突襲、32X / Sega CD 的內耗，到 Dreamcast 被 PS2 用 DVD 木馬屠城——Sega 退出主機事業並不是一次崩潰，而是七年自我拆解的退場。',
+      'zh-cn': '从 Saturn 1995 E3 突袭、32X / Sega CD 的内耗，到 Dreamcast 被 PS2 用 DVD 木马屠城——Sega 退出主机事业并不是一次崩溃，而是七年自我拆解的退场。',
+      en: 'A special exhibit on Sega’s exit from console hardware: the 1995 Saturn E3 surprise launch, the 32X and Sega CD bleed-out, and Dreamcast falling to PS2’s built-in DVD player.',
+      ja: 'セガがハード事業から降りるまでの 7 年史。サターン 1995 E3 奇襲、32X とメガ CD による疲弊、PS2 の DVD によって沈んだドリームキャストを扱う特集。',
+    },
+    keywords: ['Sega', 'Sega Saturn', 'Dreamcast', 'Mega Drive', 'PlayStation 2', '32X', 'Sega CD', 'console wars', 'Tom Kalinske'],
+  },
+  'gray-memory': {
+    title: {
+      'zh-tw': '華人圈灰色記憶',
+      'zh-cn': '华人圈灰色记忆',
+      en: 'The Gray-Market Memory of the Chinese-Speaking World',
+      ja: '中華圏のグレー記憶',
+    },
+    description: {
+      'zh-tw': '從小霸王學習機到神遊機、從 Gamate 到 Super A\'Can——華人圈 1987-2007 灰色硬體史。政策縫隙裡長出的相容機、台灣自製的 16-bit 嘗試、任天堂晚十年才到的官方答案。',
+      'zh-cn': '从小霸王学习机到神游机、从 Gamate 到 Super A\'Can——华人圈 1987-2007 灰色硬体史。政策缝隙里长出的相容机、台湾自制的 16-bit 尝试、任天堂晚十年才到的官方答案。',
+      en: 'A 1987-2007 history of gray-market gaming hardware in the Chinese-speaking world: Subor learning machines, iQue Player, Gamate, Super A\'Can, and Watara Supervision. Clones from regulatory gaps, Taiwan\'s original 16-bit attempts, and Nintendo arriving a decade late.',
+      ja: '中華圏 1987-2007 のグレーゲームハード史。小覇王学習機、神遊機、Gamate、Super A\'Can、Watara Supervision——政策の隙間から生まれた互換機、台湾自前の 16-bit 挑戦、そして 10 年遅れで到着した任天堂。',
+    },
+    keywords: ['Subor', '小霸王', 'iQue Player', '神遊', 'Super A\'Can', 'Funtech', 'Gamate', '超級小子', 'Watara Supervision', 'Chinese console history', 'gray-market hardware', '中華商場'],
   },
 } satisfies Record<(typeof featureSlugs)[number], {
   title: Record<Lang, string>;

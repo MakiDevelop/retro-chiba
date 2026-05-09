@@ -1,0 +1,399 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import { featureSeo, makeUrl } from '../data/seo';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const seo = featureSeo['gray-memory'];
+
+const copy = {
+  'zh-tw': {
+    title: '華人圈灰色記憶',
+    kicker: '[ SPECIAL EXHIBITION · 1987-2007 ]',
+    intro:
+      '對 1980 年代末出生的華人圈孩子來說，「第一台主機」常常不是正版任天堂——是中華商場玻璃櫃裡那台寫著「電腦」的小霸王、夜市攤位上比 GB 便宜一半的 Gamate、九龍城寨對面店面那台 Watara Supervision。這場展覽談的是這些主機：政策縫隙裡長出的灰色硬體、台灣自己做出來的 16-bit 嘗試、以及任天堂用神遊機正式進場時，已經晚到的那十年。',
+    back: '回首頁',
+    subor: '小霸王學習機',
+    ique: '神遊機（iQue）',
+    superACan: 'Super A\'Can',
+    viewSubor: '看小霸王展品',
+    viewIQue: '看神遊機展品',
+    viewSuperACan: '看 Super A\'Can 展品',
+    sections: [
+      {
+        title: '黃卡王朝（1987-1998）',
+        body:
+          '段永平 1987 年在廣東中山創辦小霸王，把紅白機相容硬體包裝成「學習機」——加上 PS/2 鍵盤、內建 BASIC、外殼模仿 PC——穿過了當年中國禁止電玩進口的政策牆。1993 年成龍代言「望子成龍，小霸王學習機」上線，工廠出貨量在華人圈累積到千萬台量級。家長以為買到電腦，孩子玩到的是黃卡裡的瑪利歐和魂斗羅。',
+      },
+      {
+        title: '台灣本土兩條線（1990-1996）',
+        body:
+          '台灣百加電子（Bit Corporation）1990 年推出 Gamate / 超級小子，用扁平塑膠卡片當卡帶，定價 NT$1,500 不到 GB 的一半，在中華商場大量流通。1995 年台北 Funtech 鈦友資訊更激進——花了五年內部開發代號「F16」，推出全自製硬體 Super A\'Can，定價 NT$5,990 想打 16-bit 戰場。前者賣不到 10 萬，後者賣不到 1,000。',
+      },
+      {
+        title: '任天堂晚十年才到（2003-2007）',
+        body:
+          '2003 年 11 月 17 日，任天堂與顏維群（Wei Yen，N64 RCP 設計者之一）合資的 iQue Ltd 在蘇州推出神遊機（iQue Player）。整機塞進手把、用 256 MB flash + 全國 kiosk 下載——這套模式比 Steam（2003）、Wii Shop（2006）都早。但市場已經被小霸王教育出另一套主機認知，神遊銷量低於 15 萬台，2007 年後轉為任天堂中國掌機代理。',
+      },
+    ],
+    takeaway:
+      '華人圈的紅白機記憶從來不是日本的。它寫在小霸王 SB-486 的鍵盤上、Gamate 那一疊塑膠卡片裡、Super A\'Can 倒閉前最後一批《三國演義鬥將》卡帶上、神遊機 256 MB flash 卡的 kiosk 下載收據上。這是一條與正版任天堂時間線完全平行的硬體史——而它的主角從來不是任天堂。',
+  },
+  'zh-cn': {
+    title: '华人圈灰色记忆',
+    kicker: '[ SPECIAL EXHIBITION · 1987-2007 ]',
+    intro:
+      '对 1980 年代末出生的华人圈孩子来说，「第一台主机」常常不是正版任天堂——是中华商场玻璃柜里那台写著「电脑」的小霸王、夜市摊位上比 GB 便宜一半的 Gamate、九龙城寨对面店面那台 Watara Supervision。这场展览谈的是这些主机：政策缝隙里长出的灰色硬体、台湾自己做出来的 16-bit 尝试、以及任天堂用神游机正式进场时，已经晚到的那十年。',
+    back: '回首页',
+    subor: '小霸王学习机',
+    ique: '神游机（iQue）',
+    superACan: 'Super A\'Can',
+    viewSubor: '看小霸王展品',
+    viewIQue: '看神游机展品',
+    viewSuperACan: '看 Super A\'Can 展品',
+    sections: [
+      {
+        title: '黄卡王朝（1987-1998）',
+        body:
+          '段永平 1987 年在广东中山创办小霸王，把红白机相容硬体包装成「学习机」——加上 PS/2 键盘、内建 BASIC、外壳模仿 PC——穿过了当年中国禁止电玩进口的政策墙。1993 年成龙代言「望子成龙，小霸王学习机」上线，工厂出货量在华人圈累积到千万台量级。家长以为买到电脑，孩子玩到的是黄卡里的玛利欧和魂斗罗。',
+      },
+      {
+        title: '台湾本土两条线（1990-1996）',
+        body:
+          '台湾百加电子（Bit Corporation）1990 年推出 Gamate / 超级小子，用扁平塑料卡片当卡带，定价 NT$1,500 不到 GB 的一半，在中华商场大量流通。1995 年台北 Funtech 钛友资讯更激进——花了五年内部开发代号「F16」，推出全自制硬体 Super A\'Can，定价 NT$5,990 想打 16-bit 战场。前者卖不到 10 万，后者卖不到 1,000。',
+      },
+      {
+        title: '任天堂晚十年才到（2003-2007）',
+        body:
+          '2003 年 11 月 17 日，任天堂与颜维群（Wei Yen，N64 RCP 设计者之一）合资的 iQue Ltd 在苏州推出神游机（iQue Player）。整机塞进手把、用 256 MB flash + 全国 kiosk 下载——这套模式比 Steam（2003）、Wii Shop（2006）都早。但市场已经被小霸王教育出另一套主机认知，神游销量低于 15 万台，2007 年后转为任天堂中国掌机代理。',
+      },
+    ],
+    takeaway:
+      '华人圈的红白机记忆从来不是日本的。它写在小霸王 SB-486 的键盘上、Gamate 那一叠塑料卡片里、Super A\'Can 倒闭前最后一批《三国演义斗将》卡带上、神游机 256 MB flash 卡的 kiosk 下载收据上。这是一条与正版任天堂时间线完全平行的硬体史——而它的主角从来不是任天堂。',
+  },
+  en: {
+    title: 'The Gray-Market Memory of the Chinese-Speaking World',
+    kicker: '[ SPECIAL EXHIBITION · 1987-2007 ]',
+    intro:
+      'For kids born in the late 1980s in the Chinese-speaking world, the first console was rarely a licensed Nintendo. It was the Subor with its keyboard ports sitting in a glass case at Zhonghua Market; the Gamate at half the price of a Game Boy on a night-market stall; the Watara Supervision in a Hong Kong electronics shop. This exhibit covers that hardware: gray devices that grew out of regulatory gaps, Taiwanese attempts at building original 16-bit consoles, and the ten-year delay before Nintendo finally arrived in mainland China through iQue.',
+    back: 'Back to home',
+    subor: 'Subor (小霸王)',
+    ique: 'iQue Player',
+    superACan: 'Super A\'Can',
+    viewSubor: 'View Subor exhibit',
+    viewIQue: 'View iQue Player exhibit',
+    viewSuperACan: 'View Super A\'Can exhibit',
+    sections: [
+      {
+        title: 'The Yellow-Cart Dynasty (1987-1998)',
+        body:
+          'Duan Yongping founded Subor in Zhongshan, Guangdong in 1987, packaging Famicom-compatible hardware as a "learning machine" — PS/2 keyboard, built-in BASIC, PC-styled chassis — to pass through China\'s then-active ban on game console imports. The 1993 Jackie Chan campaign locked the slogan in: "If you want your son to succeed, get him a Subor." Subor shipped tens of millions of units in the Chinese-speaking world. Parents thought they had bought a computer; children were playing Mario and Contra off yellow carts.',
+      },
+      {
+        title: 'Two Taiwanese Tracks (1990-1996)',
+        body:
+          'Taiwan\'s Bit Corporation released Gamate (超級小子) in 1990 — using flat plastic cards as cartridges, retailing at NT$1,500, less than half the price of a Game Boy, distributed heavily through Zhonghua Market. In 1995, Taipei\'s Funtech got more ambitious: five years of internal development under the codename "F16" produced the fully original Super A\'Can at NT$5,990, attempting to fight on the 16-bit field. Gamate sold under 100,000 units; Super A\'Can sold under 1,000.',
+      },
+      {
+        title: 'Nintendo Arrived a Decade Late (2003-2007)',
+        body:
+          'On 17 November 2003, iQue Ltd. — a joint venture between Nintendo and Wei Yen, one of the N64 RCP architects — released the iQue Player in Suzhou. The console was packed into the controller; games were loaded onto a 256 MB flash card via kiosks across China. This pre-dated Steam (2003) and Wii Shop (2006). But Subor had already redefined what a console meant in Chinese living rooms. iQue sold fewer than 150,000 units before pivoting to Nintendo handheld distribution after 2007.',
+      },
+    ],
+    takeaway:
+      'The Chinese-speaking world\'s memory of the Famicom era was never the Japanese version. It was written into the keyboard of a Subor SB-486, the stack of plastic cards in a kid\'s pencil case for Gamate, the last batch of Sango Fighter cartridges before Funtech folded, and the kiosk download receipts for an iQue Player\'s 256 MB flash card. This is a hardware history that runs entirely parallel to the licensed Nintendo timeline — and whose central characters were never Nintendo.',
+  },
+  ja: {
+    title: '中華圏のグレー記憶',
+    kicker: '[ SPECIAL EXHIBITION · 1987-2007 ]',
+    intro:
+      '1980 年代末に中華圏で生まれた子どもにとって、『最初に手にしたゲーム機』は正規版の任天堂ではなく、台北・中華商場のガラスケースにあった『コンピュータ』と書かれた小覇王、夜市の屋台にあった GB の半値の Gamate、香港の電気店にあった Watara Supervision だったことが多い。本特集が扱うのは、その種のハード——政策の隙間から生まれたグレーハード、台湾が自前で作った 16-bit の試み、そして任天堂が神遊機で中国市場に正式参入したときには、すでに 10 年遅れていたという事実だ。',
+    back: 'ホームへ',
+    subor: '小覇王学習機',
+    ique: '神遊機（iQue Player）',
+    superACan: 'Super A\'Can',
+    viewSubor: '小覇王展示へ',
+    viewIQue: '神遊機展示へ',
+    viewSuperACan: 'Super A\'Can 展示へ',
+    sections: [
+      {
+        title: '黄カセット王朝（1987-1998）',
+        body:
+          '1987 年、段永平が広東省中山市で小覇王を創業。ファミコン互換ハードを『学習機』としてリブランドし——PS/2 キーボード、内蔵 BASIC、PC 風筐体を加え——当時の中国がゲーム機輸入を禁止していた政策の壁を通過した。1993 年、ジャッキー・チェンを起用した『望子成龍、小覇王學習機』広告が走り、工場出荷は中華圏で 1,000 万台規模に達した。親はコンピュータを買ったつもりで、子どもは黄カセットでマリオと魂斗羅を遊んでいた。',
+      },
+      {
+        title: '台湾の二系統（1990-1996）',
+        body:
+          '台湾の百加電子（Bit Corporation）は 1990 年に Gamate（超級小子）を発売——薄型プラスチックカードをカートリッジに採用、定価 NT$1,500 で GB の半額未満、中華商場で大量流通。1995 年、台北の Funtech 鈦友資訊はさらに踏み込んだ——5 年間の社内開発コードネーム『F16』を経て、完全自社設計の Super A\'Can を NT$5,990 で投入、16-bit 戦場に挑んだ。Gamate は 10 万台未満、Super A\'Can は 1,000 台未満。',
+      },
+      {
+        title: '任天堂は 10 年遅れて到着（2003-2007）',
+        body:
+          '2003 年 11 月 17 日、任天堂と Wei Yen（顔維群、N64 RCP の設計者の一人）の合弁会社 iQue Ltd が蘇州で神遊機（iQue Player）を発売。本体をコントローラに一体化し、256 MB flash カード + 全国キオスクダウンロードで配信——Steam（2003）と Wii Shop（2006）より早い設計だった。だが市場はすでに小覇王によって別の主機概念に教育されており、神遊の販売は 15 万台未満。2007 年以降、神遊は任天堂携帯機の中国代理に方向転換した。',
+      },
+    ],
+    takeaway:
+      '中華圏のファミコン記憶は、はじめから日本のものではなかった。それは小覇王 SB-486 のキーボード、Gamate のあの薄型カードを筆箱に重ねていた感覚、Funtech 倒産前の最後の『三國演義鬥將』カートリッジ、神遊機 256 MB flash カードのキオスク・ダウンロード控えに書き込まれている。これは正規任天堂のタイムラインと完全に並行する別のハード史であり、その主役は最初から最後まで任天堂ではなかった。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    anatomyTitle: '灰色硬體不是一台機器，是三個生長機制',
+    anatomy: [
+      {
+        label: '政策縫隙',
+        body:
+          '1990 年代中國大陸明文禁止電玩主機進口（這條禁令直到 2014 年才解除），但「學習機」與「電腦周邊」可以。小霸王 SB-486 的 PS/2 鍵盤與內建 BASIC 不是技術選擇，是法律合規工具。香港 Watara、台灣 Bit Corp、Funtech 沒有同樣的政策壓力，但都共用「正版任天堂在華人區域基本不存在」這個前提。',
+      },
+      {
+        label: '自製硬體 vs 相容硬體',
+        body:
+          '兩條路線並存。小霸王走相容路線——直接抄 6502 + 2C02 晶片組，省下研發成本，把錢砸進廣告與通路。Funtech 走自製路線——Super A\'Can 從 CPU 到 GPU 全部 in-house 設計，研發成本拉高、單機售價拉高、銷量拉低到 1,000 台以下。Bit Corp 的 Gamate 介於兩者之間：自製 65SC02 衍生硬體 + 卡片造型，但軟體資源跟不上。',
+      },
+      {
+        label: '灰色流通通路',
+        body:
+          '中華商場（台北）、旺角電腦中心（香港）、深水埗黃金商場（香港）、廣州海印電器城——這些不是合法主機通路，但卻是 1990 年代華人圈玩家實際買主機的地方。Gamate 與 Watara Supervision 在這條通路上是常駐商品，正版 Game Boy 反而需要去更貴的玩具店或百貨公司。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事實',
+    myths: [
+      {
+        myth: '迷思：小霸王是任天堂授權產品。',
+        fact:
+          '從來不是。小霸王使用 6502 / 2C02 衍生晶片組（任天堂專利已過期或繞道實作），全程沒有任天堂授權，但任天堂也從未對它提告——當年任天堂主要精力在北美與日本對 Sega，沒有實質進入中國市場的計畫，控告小霸王沒有商業意義。',
+      },
+      {
+        myth: '迷思：Super A\'Can 是 SFC 仿冒機。',
+        fact:
+          '不是。Super A\'Can 走的是平行設計：68000 系 CPU、自製 GPU、自有卡帶規格、12 款全 in-house 遊戲。它在硬體層面確實受 SFC 啟發，但不是逆向工程或晶片仿冒——這是它的成本暴漲到 NT$5,990、銷量崩到 1,000 台以下的根本原因。',
+      },
+      {
+        myth: '迷思：神遊機失敗 = 任天堂在中國失敗。',
+        fact:
+          '比較準確的說法是「任天堂進入中國時市場形態已被小霸王重塑」。神遊機賣不到 15 萬台，但 iQue Ltd 至今仍在運作，2005 年後改做掌機代理（iQue DS / DSi / 3DS），Switch 中國版時代被騰訊取代。失敗的是 iQue Player 那台主機，不是合資公司。',
+      },
+    ],
+    nintendoTitle: '三個關鍵動作',
+    nintendoMoves: [
+      {
+        title: '小霸王的成龍代言（1993）',
+        body:
+          '「望子成龍，小霸王學習機」——這句話跑了三年。在中國 1990 年代，請成龍代言一台「學習機」並不只是廣告，是把家長對科技 / 教育的焦慮轉化為購買行為的最有效路徑。從這一刻開始，小霸王不再是黃卡機，是中產家庭客廳裡的「電腦」。',
+      },
+      {
+        title: 'Funtech 的 F16 計畫（1990-1995）',
+        body:
+          '台北 Funtech 鈦友資訊用五年時間在內部代號「F16」下開發完整 16-bit 主機。當時台灣的 IC 設計能力與軟體研發能量都還不足以撐起一個獨立平台，但他們仍然做了——Super A\'Can 是台灣半導體產業在 1990 年代中期一次罕見的「向上整合」嘗試，只是市場已經換到 32-bit。',
+      },
+      {
+        title: 'iQue Ltd 的 kiosk 模式（2003）',
+        body:
+          '神遊機沒選實體卡帶或光碟，而選了「256 MB flash + 全國 kiosk 下載」——比 Steam（2003）與 Wii Shop（2006）都早。Wei Yen 從 N64 RCP 設計直接跳到中國 retail 設計，這套模式在 2003 年中國家庭寬頻普及率不到 5% 的環境下注定失敗，但它在概念上其實領先了業界 5 年。',
+      },
+    ],
+    gamesTitle: '展品代表卡帶',
+    gamePicks: [
+      {
+        platform: '中國灰色側',
+        games: [
+          ['Super Mario Bros.（小霸王黃卡版）', '1990 年代中國孩子第一次跳起來的義大利水管工，幾乎都是經由小霸王 + 黃卡，而不是任天堂正版 NES。'],
+          ['魂斗羅（小霸王黃卡版）', '上、上、下、下、左、右、左、右、B、A 在華人圈的傳播路徑——主要靠小霸王。任天堂從未授權，但小霸王讓這個 30 字符的密碼成為跨越正版/盜版邊界的共同記憶。'],
+          ['Super Mario 64（神遊版「智趣百科」）', '2003 年神遊機首發旗艦。簡體中文化、語音翻譯、鎖區。對中國孩子是「正版瑪利歐第一次以中文形式合法到客廳」——但市場已經知道這台機器跑的就是 1996 年的 N64 軟體。'],
+          ['薩爾達傳說 時之笛（神遊版）', '與 Master Quest 同梱中文化。神遊在地化深度的最高展示，但 2003 年時這個 IP 已經是七歲的 N64 作品。'],
+        ],
+      },
+      {
+        platform: '台灣本土側',
+        games: [
+          ['中國功夫 / Boom Zoo（Super A\'Can）', 'Funtech 自家旗艦動作。中國武俠美術 + 台灣 16-bit 自有硬體，是 Super A\'Can 平台代表作，二手單卡 USD $500 起跳。'],
+          ['三國演義鬥將（Super A\'Can）', '三國格鬥題材。Funtech 為主機重做了整套 sprite，是收藏圈視為「Super A\'Can 全平台代表作」的一片。'],
+          ['Brick Blast（Gamate）', 'Bit Corp 自家 Arkanoid 移植，最常被推薦為 Gamate 入門作。卡片造型讓它的物理收藏比 GB 卡帶更獨特。'],
+          ['Coin Boy 麻將（Gamate）', '簡化版麻將。Bit Corp 把這款作為 Gamate 在華人市場代表性軟體，反映平台針對本地玩家的內容策略。'],
+          ['Crystball（Watara Supervision）', '香港 Watara 自家 Arkanoid clone。Supervision 平台最常被推薦的入門作，也是「華人圈製造的掌機代表」之一。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: 'Gamate 的卡片之謎（已解）',
+        body:
+          'Maki 個人原本記得「90 年代中華商場有一台仿 GB 但用卡片不用卡帶的掌機」，本展覽前一直考證不到具體品牌——答案是 Bit Corporation 的 Gamate（超級小子），1990 年台灣製。約 7×5 cm 扁平塑膠卡片，是 1990 年代掌機物理形態最獨特的設計，後來再也沒有人延續這條路線。',
+      },
+      {
+        title: '中華商場的玻璃櫃',
+        body:
+          '台北中華商場（1961-1992）三樓電器與電玩攤位，是 1980 年代末到 1990 年代初台灣孩子最常見到「不是任天堂的任天堂」的地方。Gamate、Watara Supervision、各種小天才相容機並列在玻璃櫃裡，價格用紅筆寫在白板上。1992 年中華商場拆除，這個物理空間消失，但它在那十年裡寫進的灰色硬體記憶沒有消失。',
+      },
+      {
+        title: 'Watara TV Link 比 GB 早四年',
+        body:
+          '1993 年香港 Watara 推出 Supervision TV Link 配件，把掌機畫面以四階偽彩呈現到電視上。**這個能力 GB 直到 1994 年的 Super Game Boy（SFC 周邊）才以類似形態出現**。一台缺乏第三方授權的華人圈掌機，在硬體創新上實際領先任天堂——這條歷史在英語維基上仍幾乎沒被記錄。',
+      },
+      {
+        title: '段永平 → 步步高 → Oppo / Vivo',
+        body:
+          '小霸王創辦人段永平 1995 年離開公司、自己創立步步高（BBK Electronics）。步步高後來成為 Oppo、Vivo、OnePlus、realme 的母集團。**今天每一支 Oppo Reno 或 Vivo X 系列手機，都可以追溯到 1990 年代那個賣黃卡的男人**——這是華人圈科技史上最被低估的線。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources:
+      '本頁採以下口徑：小霸王累積出貨量「千萬台量級」採 Subor 1990 年代廣告自陳 + 段永平離職前內部估算（無公開官方審計）；Super A\'Can 銷量「不到 1,000 台」採 2010 年後 Lost Levels 與 Hardcore Computist 收藏圈訪談（Funtech 內部文件未完整公開）；神遊機銷量「不到 15 萬」採業界估算 + iQue 經銷商訪談（Nintendo 與神遊均未公開正式數字）；Gamate 銷量「不到 10 萬」與 Watara Supervision 銷量「8-15 萬」均採同類二級史料估算。Wei Yen 為 N64 RCP 設計者之一以 ArtX / 任天堂 1996 訪談為據。Maki 對 Gamate 的個人記憶以 retro.chiba.tw 策展註腳形式保留——這是策展者本人的童年實際記憶，不是後來考據結果。延伸閱讀可參 Service Games（Pollack/Horowitz）、Game Over（David Sheff）、以及 The Untold History of Japanese Game Developers。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout
+  title={seo.title[lang]}
+  description={seo.description[lang]}
+  image="/img/consoles/famicom-hero.jpg"
+  type="article"
+  keywords={seo.keywords}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: seo.title[lang],
+    description: seo.description[lang],
+    about: ['Subor', 'iQue Player', 'Super A\'Can', 'Gamate', 'Watara Supervision', 'Chinese console history', 'gray-market hardware'],
+    articleSection: 'Special Exhibition',
+    author: { '@type': 'Person', name: 'Makito Chiba' },
+    mainEntityOfPage: makeUrl(localizedPath(lang, 'features/gray-memory/')),
+  }}
+>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-3">
+      <a href={localizedPath(lang, '/consoles/subor/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/famicom-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.subor}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewSubor}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/ique-player/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/n64-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.ique}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewIQue}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/super-a-can/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/super-famicom-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.superACan}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewSuperACan}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.anatomyTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.anatomy.map((item) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{item.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.mythTitle}</h2>
+          <div class="space-y-4">
+            {deepDive.myths.map((item) => (
+              <div class="grid gap-3 md:grid-cols-[16rem_minmax(0,1fr)]">
+                <div class="border-l-2 border-crt-amber/70 pl-4 text-sm leading-relaxed text-crt-amber-dim">{item.myth}</div>
+                <p class="text-sm leading-relaxed text-crt-text/82">{item.fact}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.nintendoTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.nintendoMoves.map((move) => (
+              <div class="border-l-2 border-crt-green/65 pl-4">
+                <h3 class="font-mono text-xs text-crt-amber-dim">{move.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{move.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-2">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storiesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>

@@ -838,5 +838,95 @@
     "maker": "Tapwave",
     "first_release": "2003-01-01",
     "wikidata": "https://www.wikidata.org/wiki/Q523532"
+  },
+  {
+    "qid": "Q15880580",
+    "slug": "subor",
+    "gen": "3",
+    "kind": "home",
+    "names": {
+      "en": "Subor (小霸王)",
+      "ja": "小覇王（Subor）",
+      "zh-tw": "小霸王學習機",
+      "zh-cn": "小霸王学习机"
+    },
+    "maker": "Subor",
+    "first_release": "1987-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q15880580"
+  },
+  {
+    "qid": "Q1156870",
+    "slug": "ique-player",
+    "gen": "6",
+    "kind": "home",
+    "names": {
+      "en": "iQue Player",
+      "ja": "神遊機（iQue Player）",
+      "zh-tw": "神遊機",
+      "zh-cn": "神游机"
+    },
+    "maker": "iQue / Nintendo",
+    "first_release": "2003-11-17",
+    "wikidata": "https://www.wikidata.org/wiki/Q1156870"
+  },
+  {
+    "qid": "Q303404",
+    "slug": "amiga-cd32",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "Amiga CD32",
+      "ja": "Amiga CD32",
+      "zh-tw": "Amiga CD32",
+      "zh-cn": "Amiga CD32"
+    },
+    "maker": "Commodore International",
+    "first_release": "1993-09-16",
+    "wikidata": "https://www.wikidata.org/wiki/Q303404"
+  },
+  {
+    "qid": "Q1306305",
+    "slug": "watara-supervision",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Watara Supervision",
+      "ja": "Watara Supervision",
+      "zh-tw": "Watara Supervision",
+      "zh-cn": "Watara Supervision"
+    },
+    "maker": "Watara",
+    "first_release": "1992-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q1306305"
+  },
+  {
+    "qid": "Q2200012",
+    "slug": "super-a-can",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "Super A'Can (F16)",
+      "ja": "Super A'Can（鈦友超級卡 / F16）",
+      "zh-tw": "Super A'Can（鈦友超級卡 / F16）",
+      "zh-cn": "Super A'Can（钛友超级卡 / F16）"
+    },
+    "maker": "Funtech",
+    "first_release": "1995-10-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q2200012"
+  },
+  {
+    "qid": "Q3094980",
+    "slug": "gamate",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Gamate (超級小子)",
+      "ja": "Gamate（超級小子）",
+      "zh-tw": "Gamate（超級小子）",
+      "zh-cn": "Gamate（超级小子）"
+    },
+    "maker": "Bit Corporation",
+    "first_release": "1990-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q3094980"
   }
 ]

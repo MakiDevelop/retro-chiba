@@ -1,0 +1,400 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import { featureSeo, makeUrl } from '../data/seo';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const seo = featureSeo['sega-exit'];
+
+const copy = {
+  'zh-tw': {
+    title: 'Sega 的退場',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      'Sega 不是被一台主機打倒的。從 Mega Drive 後期到 Dreamcast，它連續七年同時被自己的擴充配件、太分散的開發資源、太自信的市場決策、以及 Sony 那台內建 DVD 的 PS2 包圍。2001 年 1 月 31 日，Sega 宣布停產 Dreamcast、退出主機事業——那不是一次崩潰，而是一段把自己一格一格拆掉的退場。',
+    back: '回首頁',
+    megaDrive: 'Mega Drive / Genesis',
+    saturn: 'Sega Saturn',
+    dreamcast: 'Dreamcast',
+    viewMega: '看 Mega Drive 展品',
+    viewSaturn: '看 Saturn 展品',
+    viewDreamcast: '看 Dreamcast 展品',
+    sections: [
+      {
+        title: 'Saturn 的高開低走',
+        body:
+          '1994 年 11 月 22 日，Saturn 比 PS1 早一週在日本上市。雙 SH-2 + VDP1/VDP2 的多晶片架構讓 2D 表現驚人（《VF2》《Radiant Silvergun》），但 3D 多邊形開發難度高到讓多數第三方繞道走 PS1。1995 年 5 月 E3 上 Tom Kalinske 突襲提早北美上市，零售商當場被冷處理——KB Toys、Walmart 直接拒絕進貨。',
+      },
+      {
+        title: '32X 與 Sega CD 的內耗',
+        body:
+          '1991 年 Sega CD（Mega-CD）和 1994 年 11 月 32X 兩個擴充配件，把 Mega Drive 玩家分成三群——買主機、買 Sega CD、買 32X 還是等 Saturn。32X 上市 14 個月就停產。等 Saturn 真正登場時，Sega 自己的核心玩家已經被前面兩波擴充磨掉了信任。',
+      },
+      {
+        title: 'Dreamcast 早一年到場，被 PS2 屠城',
+        body:
+          '1998 年 11 月 27 日 Dreamcast 在日本上市，比 PS2 早一年。內建 56K modem + SegaNet，比 Xbox Live 早四年把線上對戰做成預設。但 2000 年 3 月 PS2 上市時內建 DVD 播放——當時市售 DVD 播放器要 ¥80,000，PS2 只要 ¥39,800。日本媽媽們把 PS2 當 DVD 機買回家，順便陪小孩玩。Dreamcast 的硬體軍備競賽當場被木馬屠城。',
+      },
+    ],
+    takeaway:
+      '2001 年 1 月 31 日，Sega 正式宣布停產 Dreamcast，退出主機硬體事業——但 Sega 沒死。Sonic 在 2002 年首登 GameCube《Sonic Adventure 2 Battle》，2004 年 Sammy 收購 Sega 成立 Sega Sammy Holdings，2013 年買下 Atlus，再之後是 Yakuza、Persona、Sonic 系列繼續活到今天。Sega 的退場不是失敗故事，是一個硬體商學會放手、變成跨平台軟體商的標本。',
+  },
+  'zh-cn': {
+    title: 'Sega 的退场',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      'Sega 不是被一台主机打倒的。从 Mega Drive 后期到 Dreamcast，它连续七年同时被自己的扩充配件、太分散的开发资源、太自信的市场决策、以及 Sony 那台内建 DVD 的 PS2 包围。2001 年 1 月 31 日，Sega 宣布停产 Dreamcast、退出主机事业——那不是一次崩溃，而是一段把自己一格一格拆掉的退场。',
+    back: '回首页',
+    megaDrive: 'Mega Drive / Genesis',
+    saturn: 'Sega Saturn',
+    dreamcast: 'Dreamcast',
+    viewMega: '看 Mega Drive 展品',
+    viewSaturn: '看 Saturn 展品',
+    viewDreamcast: '看 Dreamcast 展品',
+    sections: [
+      {
+        title: 'Saturn 的高开低走',
+        body:
+          '1994 年 11 月 22 日，Saturn 比 PS1 早一周在日本上市。双 SH-2 + VDP1/VDP2 的多芯片架构让 2D 表现惊人（《VF2》《Radiant Silvergun》），但 3D 多边形开发难度高到让多数第三方绕道走 PS1。1995 年 5 月 E3 上 Tom Kalinske 突袭提早北美上市，零售商当场被冷处理——KB Toys、Walmart 直接拒绝进货。',
+      },
+      {
+        title: '32X 与 Sega CD 的内耗',
+        body:
+          '1991 年 Sega CD（Mega-CD）和 1994 年 11 月 32X 两个扩充配件，把 Mega Drive 玩家分成三群——买主机、买 Sega CD、买 32X 还是等 Saturn。32X 上市 14 个月就停产。等 Saturn 真正登场时，Sega 自己的核心玩家已经被前面两波扩充磨掉了信任。',
+      },
+      {
+        title: 'Dreamcast 早一年到场，被 PS2 屠城',
+        body:
+          '1998 年 11 月 27 日 Dreamcast 在日本上市，比 PS2 早一年。内建 56K modem + SegaNet，比 Xbox Live 早四年把在线对战做成预设。但 2000 年 3 月 PS2 上市时内建 DVD 播放——当时市售 DVD 播放器要 ¥80,000，PS2 只要 ¥39,800。日本妈妈们把 PS2 当 DVD 机买回家，顺便陪小孩玩。Dreamcast 的硬件军备竞赛当场被木马屠城。',
+      },
+    ],
+    takeaway:
+      '2001 年 1 月 31 日，Sega 正式宣布停产 Dreamcast，退出主机硬件事业——但 Sega 没死。Sonic 在 2002 年首登 GameCube《Sonic Adventure 2 Battle》，2004 年 Sammy 收购 Sega 成立 Sega Sammy Holdings，2013 年买下 Atlus，再之后是 Yakuza、Persona、Sonic 系列继续活到今天。Sega 的退场不是失败故事，是一个硬件商学会放手、变成跨平台软件商的标本。',
+  },
+  en: {
+    title: 'How Sega Left the Console Business',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      'Sega did not lose to a single console. For seven years — from late Mega Drive through Dreamcast — it was squeezed at once by its own add-ons, scattered development resources, overconfident market calls, and a Sony PS2 with a built-in DVD player. On 31 January 2001, Sega announced it would discontinue Dreamcast and exit the hardware business. That was not a crash. It was a slow disassembly.',
+    back: 'Back to home',
+    megaDrive: 'Mega Drive / Genesis',
+    saturn: 'Sega Saturn',
+    dreamcast: 'Dreamcast',
+    viewMega: 'View Mega Drive exhibit',
+    viewSaturn: 'View Saturn exhibit',
+    viewDreamcast: 'View Dreamcast exhibit',
+    sections: [
+      {
+        title: 'Saturn opened high and slid',
+        body:
+          'Saturn launched in Japan on 22 November 1994, one week before PS1. Its dual SH-2 + VDP1/VDP2 multi-chip architecture produced spectacular 2D (Virtua Fighter 2, Radiant Silvergun), but 3D was painful enough that most third parties chose PS1. At E3 May 1995, Tom Kalinske surprise-launched Saturn in North America early — KB Toys and Walmart refused to stock it.',
+      },
+      {
+        title: '32X and Sega CD bled the base',
+        body:
+          'Sega CD (1991) and 32X (November 1994) split Mega Drive owners into three camps — base console, CD add-on, 32X add-on, or wait for Saturn. 32X was killed 14 months after launch. By the time Saturn arrived, Sega’s core fans had already paid for two add-ons that did not last.',
+      },
+      {
+        title: 'Dreamcast came a year early, and PS2 walked over it',
+        body:
+          'Dreamcast launched in Japan on 27 November 1998 — a year before PS2. With a built-in 56K modem and SegaNet, it shipped console online play four years before Xbox Live. But when PS2 arrived in March 2000 with a built-in DVD player, retail DVD players cost ¥80,000 in Japan; PS2 was ¥39,800. Households bought PS2 as a DVD player that also played games. Dreamcast lost the hardware race the moment that math became visible.',
+      },
+    ],
+    takeaway:
+      'On 31 January 2001, Sega officially ended Dreamcast and left console hardware. But Sega did not die. Sonic moved to GameCube in 2002 (Sonic Adventure 2 Battle). Sammy bought Sega in 2004 to form Sega Sammy Holdings. Atlus joined in 2013. Yakuza, Persona, and Sonic still ship today. Sega’s exit is not a failure story — it is a clean specimen of a hardware maker becoming a multi-platform software house.',
+  },
+  ja: {
+    title: 'セガ、ハードから降りる',
+    kicker: '[ SPECIAL EXHIBITION · 1994-2001 ]',
+    intro:
+      'セガは一台のハードに敗れたわけではない。メガドライブ後期から Dreamcast まで、自社の拡張機器、分散した開発資源、強気のマーケ判断、そして DVD プレイヤー付きの PS2 — これらに 7 年間同時に挟まれた。2001 年 1 月 31 日、セガは Dreamcast の生産終了とハード事業からの撤退を発表する。一夜の崩壊ではなく、自分でひとつずつ解体していく退場だった。',
+    back: 'ホームへ',
+    megaDrive: 'メガドライブ / Genesis',
+    saturn: 'セガサターン',
+    dreamcast: 'ドリームキャスト',
+    viewMega: 'メガドライブ展示へ',
+    viewSaturn: 'サターン展示へ',
+    viewDreamcast: 'ドリームキャスト展示へ',
+    sections: [
+      {
+        title: 'サターンは高く始まり、低く滑った',
+        body:
+          '1994 年 11 月 22 日、サターンは PS1 より一週間早く日本で発売。SH-2 ×2 と VDP1/VDP2 のマルチチップ構成で 2D は圧巻（『バーチャファイター 2』『斑鳩』）だが、3D の難易度がサードパーティを PS1 へ流した。1995 年 5 月 E3 で Tom Kalinske が北米早期発売を奇襲発表したが、KB Toys や Walmart は仕入れを拒否した。',
+      },
+      {
+        title: '32X とメガ CD が基盤を削った',
+        body:
+          '1991 年のメガ CD と 1994 年 11 月の 32X — メガドライブ所有者は本体、CD 拡張、32X 拡張、それともサターンを待つかに分裂した。32X は発売 14 か月で生産終了。サターン本格登場の時点で、セガはもうコアファンの信頼を二度の拡張で削ってしまっていた。',
+      },
+      {
+        title: 'Dreamcast は一年早く来て、PS2 にひかれた',
+        body:
+          '1998 年 11 月 27 日、Dreamcast 日本発売。PS2 より一年早く、56K モデムと SegaNet 内蔵で、コンソールのオンライン対戦を Xbox Live より四年早く標準にした。しかし 2000 年 3 月、PS2 が DVD プレイヤー内蔵で登場。当時の DVD プレイヤーは ¥80,000、PS2 は ¥39,800。家庭は PS2 を DVD 機として買い、子供のゲーム機を兼ねさせた。ハード軍拡競走は、その瞬間に終わっていた。',
+      },
+    ],
+    takeaway:
+      '2001 年 1 月 31 日、セガは Dreamcast の生産終了とハード事業からの撤退を正式発表。だがセガは死んでいない。ソニックは 2002 年 GameCube に移籍（『ソニックアドベンチャー 2 バトル』）、2004 年にサミーがセガを買収してセガサミーホールディングス、2013 年にアトラスを傘下に。龍が如く、ペルソナ、ソニックは今でも続いている。セガの退場は失敗物語ではなく、ハードメーカーが手放してマルチプラットフォームのソフトハウスになる、きれいな標本だ。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    anatomyTitle: '退場不是一場戰役，是三條同時失血的線',
+    anatomy: [
+      {
+        label: '產品線分裂',
+        body:
+          'Mega Drive 末期已被 Sega CD（1991）+ 32X（1994）切成三層；Saturn 上市時又有 Sega Net Link、雙手把、Action Replay。一條主機線同時開出五張延伸表，沒有任何一張可以好好維護。Sony 那邊只有一台 PS1。',
+      },
+      {
+        label: '日美雙頭內鬥',
+        body:
+          'Sega of America CEO Tom Kalinske 力推 Sonic、Sega CD 與 Saturn 早登場；社長中山隼雄信任日本團隊，Saturn 開發以日本市場為中心。1995 年 E3 突襲事件後雙方裂痕公開化，Kalinske 1996 年離開。對外打仗的同時，公司內部正在打另一場。',
+      },
+      {
+        label: '商業策略 v.s. 工程現實',
+        body:
+          'Saturn 為了搶 3D 戰場臨時加上第二顆 SH-2 與 SCU 副處理器，硬體成本與開發複雜度同時失控。《Sonic Xtreme》（Saturn 的 Sonic 3D 大作）做到一半被砍，這顆缺角的 first-party 旗艦讓平台失去 momentum。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事實',
+    myths: [
+      {
+        myth: '迷思：Saturn 是因為 3D 不行才輸 PS1。',
+        fact:
+          'Saturn 的 3D 不是不能做，是「比 PS1 難做太多」。多數第三方在預算有限下選擇對開發者更友善的 PS1。Saturn 在日本贏 PS1 一段時間（1995 中到 1996 末），輸掉的是北美與歐洲，並且輸給的是工具鏈與第三方關係，不是純粹的多邊形性能。',
+      },
+      {
+        myth: '迷思：Dreamcast 因為硬體爛才退場。',
+        fact:
+          'Dreamcast 硬體比 PS2 容易開發、線上比 PS2 早四年、《音速小子大冒險》《櫻花大戰 3》《莎木》都是平台級作品。它退場是因為 PS2 用 DVD 木馬屠城，加上 Sega 上一輪 Saturn 已經把開發者信任和資金都燒掉，撐不到下一回合。',
+      },
+      {
+        myth: '迷思：Sega 退出主機事業 = Sega 死了。',
+        fact:
+          'Sega 從 2001 年開始變成跨平台軟體商，第一年就在 GameCube 與 Xbox 上推出原本 Dreamcast 獨佔的作品。2004 年被 Sammy 收購、2013 年買下 Atlus、Yakuza 與 Persona 在 PS / Xbox / Switch / PC 全平台活到今天。退出主機 = 退出一個生意，不是退出產業。',
+      },
+    ],
+    nintendoTitle: 'Sega 的三個關鍵動作',
+    nintendoMoves: [
+      {
+        title: '1995 年 E3 突襲提早上市',
+        body:
+          'Tom Kalinske 在 1995 年 5 月 E3 宣布 Saturn 即日北美上市、定價 $399。零售商完全沒被通知，KB Toys 與 Walmart 拒絕進貨；Sony 在同一場 E3 用一句「$299」殺價。Saturn 在北美的零售關係從這一刻開始就回不來。',
+      },
+      {
+        title: '1998 年湯川專務的自嘲廣告',
+        body:
+          'Dreamcast 上市前，Sega 副社長湯川英一親自上廣告自嘲「セガなんてだサい」（Sega 真遜），並把這個梗做進《湯川専務のお宝サーチ》遊戲。罕見的「我們知道我們上一輪輸了」公開姿態，短期內讓 DC 在日本爆紅，預售衝到 100 萬台。',
+      },
+      {
+        title: '2001 年的乾淨退場',
+        body:
+          '2001 年 1 月 31 日宣布退出主機事業後，Sega 沒有繼續硬撐。同年內把 Sonic 推上 GameCube、把 Crazy Taxi 推上 PS2、把 Phantasy Star Online 帶到 Xbox。退場做得乾淨，反而保住了所有 IP。',
+      },
+    ],
+    gamesTitle: '退場路上的代表展品',
+    gamePicks: [
+      {
+        platform: 'Saturn 黃金',
+        games: [
+          ['Virtua Fighter 2（1995）', 'Saturn 早期銷量發動機，日本一年破百萬，把街機格鬥的精度搬進客廳。'],
+          ['NiGHTS into Dreams…（1996）', 'Sonic Team 的飛行夢遊作，配 3D 控制器一起賣，是 Saturn 在 3D 時代的少數設計傑作。'],
+          ['Panzer Dragoon Saga（1998）', '北美只發 6,000 套的 RPG 神作，今天二手價可破 $1,000，象徵 Saturn 後期的「孤獨黃金」。'],
+          ['Radiant Silvergun（1998）', 'Treasure 製作的彈幕射擊巔峰，Saturn 2D 性能的代表作，至今仍被視為機種神作。'],
+          ['Sakura Wars 1-2（1996/98）', 'AVG + SLG 的混血玩法，紅美鈴系列把 Saturn 後期撐成了戀愛策略機，奠定後續多媒體企劃。'],
+        ],
+      },
+      {
+        platform: 'Dreamcast 黃金',
+        games: [
+          ['Sonic Adventure（1998）', '日本首發《音速小子》3D 化作品，Sonic Team 一年內把 IP 搬到 3D 並做出獨特關卡語言。'],
+          ['Shenmue（1999）', '鈴木裕的開放世界原型，當時製作費約 ¥7,000,000,000（70 億日圓），是直到當時日本遊戲史上最貴的單一案。'],
+          ['Phantasy Star Online（2000）', '日本主機線上 RPG 的開山作，2001 年 PSO ver.2 在 Dreamcast 上線時還在運轉，比 Xbox Live 早一年。'],
+          ['Jet Set Radio（2000）', 'Cel-shading 的早期商業化代表，把街頭塗鴉文化做成主機美術語言，影響後續 Borderlands、Persona 5 的視覺路線。'],
+          ['Power Stone 2（2000）', 'Capcom 的 4 人多平面格鬥，把街機合作對戰搬到家用，今天看仍是 Dreamcast 平台特有體驗。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: '湯川專務的「セガなんてだサい」',
+        body:
+          '1998 年 Dreamcast 預熱期，副社長湯川英一在廣告裡被路人嫌棄「Sega 真遜」。Sega 把它做成連續廣告 + 一款遊戲（《湯川専務のお宝サーチ》Sega Saturn 1998）。一個 60 多歲的副社長在電視上被打、自嘲、然後上市新主機——這在保守的日本上市公司文化裡幾乎沒有第二個案例。',
+      },
+      {
+        title: 'SegaNet 比 Xbox Live 早四年',
+        body:
+          'Dreamcast 內建 56K modem（北美也有 broadband 配件），SegaNet 在 2000 年 9 月正式開站，提供《PSO》《Quake III Arena》《NFL 2K1》線上對戰。Xbox Live 直到 2002 年 11 月才上線，比 SegaNet 晚了兩年又兩個月。Sega 把對的東西做太早，但市場還沒準備好。',
+      },
+      {
+        title: 'Tom Kalinske 的離開',
+        body:
+          '把 Mega Drive 在北美打成霸主的 Tom Kalinske，因為 Saturn 1995 E3 突襲事件、北美定價權、與東京的多次衝突，1996 年離開 Sega of America。他離開之後，Sega 失去了一個既懂北美零售、又敢和日本總部硬碰的人，這比任何單一硬體決策都致命。',
+      },
+      {
+        title: 'Sammy 的入主與 Atlus 的補位',
+        body:
+          '2004 年 10 月，柏青哥大廠 Sammy 用 ¥111,000,000,000（約 1,100 億日圓）合併 Sega，成立 Sega Sammy Holdings。柏青哥的現金流養活了 Sega 的 IP，2013 年再用 ¥14,000,000,000 收購 Atlus。今天的 Persona 5 / 龍が如く 8 / Sonic Frontiers 都長在這條資金線上。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources:
+      '本頁採主流遊戲史口徑：Saturn 全球銷量約 920 萬台（1994-2000），Dreamcast 約 913 萬台（1998-2001/2002 北美持續到 2002）。Tom Kalinske 1995 E3 突襲事件以《Sega Saturn Magazine》與後來 Kalinske 訪談（IGN 2013、Sega-16 訪談）為基準。湯川專務廣告與《お宝サーチ》以 Sega Japan 1998-1999 廣告檔案、《週刊ファミ通》報導為據。SegaNet vs Xbox Live 時序以 SegaNet 2000/9/7 開站、Xbox Live 2002/11/15 上線為準。Sammy 收購金額採 2004 年合併公告 ¥111B 數字。退場後 IP 動向採 Sega Sammy 年報與 Atlus 收購公告（2013/9）。延伸閱讀可參 Service Games: The Rise and Fall of SEGA（Pollack/Horowitz, 2018）、Console Wars（Blake Harris, 2014）。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout
+  title={seo.title[lang]}
+  description={seo.description[lang]}
+  image="/img/consoles/dreamcast-hero.jpg"
+  type="article"
+  keywords={seo.keywords}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: seo.title[lang],
+    description: seo.description[lang],
+    about: ['Sega', 'Saturn', 'Dreamcast', 'Mega Drive', 'PlayStation 2', 'console wars'],
+    articleSection: 'Special Exhibition',
+    author: { '@type': 'Person', name: 'Makito Chiba' },
+    mainEntityOfPage: makeUrl(localizedPath(lang, 'features/sega-exit/')),
+  }}
+>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-3">
+      <a href={localizedPath(lang, '/consoles/mega-drive/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/mega-drive-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.megaDrive}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewMega}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/saturn/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/saturn-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.saturn}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewSaturn}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/dreamcast/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/dreamcast-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.dreamcast}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewDreamcast}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.anatomyTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.anatomy.map((item) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{item.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.mythTitle}</h2>
+          <div class="space-y-4">
+            {deepDive.myths.map((item) => (
+              <div class="grid gap-3 md:grid-cols-[16rem_minmax(0,1fr)]">
+                <div class="border-l-2 border-crt-amber/70 pl-4 text-sm leading-relaxed text-crt-amber-dim">{item.myth}</div>
+                <p class="text-sm leading-relaxed text-crt-text/82">{item.fact}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.nintendoTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.nintendoMoves.map((move) => (
+              <div class="border-l-2 border-crt-green/65 pl-4">
+                <h3 class="font-mono text-xs text-crt-amber-dim">{move.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{move.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-2">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storiesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>
