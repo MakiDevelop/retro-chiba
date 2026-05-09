@@ -3,7 +3,7 @@ import type { Lang } from '../i18n/ui';
 
 export const siteOrigin = 'https://retro.chiba.tw';
 
-export const featureSlugs = ['atari-crash', '16-bit-war', 'playstation-breakup', 'polygon-revolution', 'sega-exit', 'gray-memory'] as const;
+export const featureSlugs = ['atari-crash', '16-bit-war', 'playstation-breakup', 'polygon-revolution', 'sega-exit', 'gray-memory', 'handheld-wars'] as const;
 
 export const featureSeo = {
   'atari-crash': {
@@ -95,6 +95,21 @@ export const featureSeo = {
       ja: '中華圏 1987-2007 のグレーゲームハード史。小覇王学習機、神遊機、Gamate、Super A\'Can、Watara Supervision——政策の隙間から生まれた互換機、台湾自前の 16-bit 挑戦、そして 10 年遅れで到着した任天堂。',
     },
     keywords: ['Subor', '小霸王', 'iQue Player', '神遊', 'Super A\'Can', 'Funtech', 'Gamate', '超級小子', 'Watara Supervision', 'Chinese console history', 'gray-market hardware', '中華商場'],
+  },
+  'handheld-wars': {
+    title: {
+      'zh-tw': '掌機戰爭三部曲',
+      'zh-cn': '掌机战争三部曲',
+      en: 'The Three Acts of the Handheld Wars',
+      ja: '携帯機戦争三部作',
+    },
+    description: {
+      'zh-tw': '從 1989 年 Game Boy vs Lynx vs Game Gear，到 2004 年 DS vs PSP，到 2011 年 Vita 被 iPhone 屠殺——掌機戰爭三幕 30 年史，最後 Switch 用「跳出戰場」結束這場戰爭。',
+      'zh-cn': '从 1989 年 Game Boy vs Lynx vs Game Gear，到 2004 年 DS vs PSP，到 2011 年 Vita 被 iPhone 屠杀——掌机战争三幕 30 年史，最后 Switch 用「跳出战场」结束这场战争。',
+      en: 'A three-act, thirty-year history of the handheld console wars: Game Boy vs Lynx vs Game Gear (1989), Nintendo DS vs PSP (2004), Vita\'s death by iPhone (2011), and how Switch finally ended the war by walking off the battlefield.',
+      ja: 'ゲームボーイ対 Lynx 対ゲームギア（1989）、ニンテンドー DS 対 PSP（2004）、iPhone に屠られる Vita（2011）——携帯機戦争三幕 30 年史、そして Switch が『戦場を降りる』ことでこの戦争を終わらせた経緯。',
+    },
+    keywords: ['Game Boy', 'Nintendo DS', 'PSP', 'PS Vita', 'Atari Lynx', 'Sega Game Gear', 'TurboExpress', 'handheld console wars', '3DS', 'Switch'],
   },
 } satisfies Record<(typeof featureSlugs)[number], {
   title: Record<Lang, string>;

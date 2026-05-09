@@ -1,0 +1,407 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import { featureSeo, makeUrl } from '../data/seo';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const seo = featureSeo['handheld-wars'];
+
+const copy = {
+  'zh-tw': {
+    title: '掌機戰爭三部曲',
+    kicker: '[ SPECIAL EXHIBITION · 1989-2020 ]',
+    intro:
+      '掌機戰爭打了 30 年，分成三幕。1989-1995 第一幕：Game Boy 用單色螢幕與電池命長打敗 Lynx / Game Gear / TurboExpress 的彩色高規路線。2004-2011 第二幕：Nintendo DS 用雙螢幕 + 觸控反吃 PSP 的「掌機 PS2 化」野心。2011-2020 第三幕：iPhone 與 Android 從外面把整個專用掌機市場吃掉，PS Vita 在 2019 年停產，3DS 撐到 2020。Switch 不是第三幕的延續，是任天堂跳出戰場本身。',
+    back: '回首頁',
+    gameBoy: 'Game Boy',
+    ds: 'Nintendo DS',
+    vita: 'PS Vita',
+    viewGameBoy: '看 Game Boy 展品',
+    viewDs: '看 Nintendo DS 展品',
+    viewVita: '看 PS Vita 展品',
+    sections: [
+      {
+        title: '第一幕：彩色之戰（1989-1995）',
+        body:
+          '1989 年 Game Boy 上市，4 顆 AA 電池能撐 30 小時、單色螢幕、橫井軍平的「枯れた技術の水平思考」哲學。Atari Lynx（1989）、Sega Game Gear（1990）、NEC TurboExpress（1990）都用彩色螢幕想反擊，**結果三台都輸給了電池續航**——彩色背光在 1990 年代初的硬體下吃 6 顆 AA 還只能撐 4-6 小時。GB 賣 1.18 億台，三台對手加起來不到 1,500 萬。',
+      },
+      {
+        title: '第二幕：觸控革命（2004-2011）',
+        body:
+          '2004 年同期出場的兩台掌機定義了完全不同的方向。Sony PSP 走「掌機 PS2 化」——UMD 光碟、4.3 吋寬螢幕、3D 多邊形、Wi-Fi、看電影。Nintendo DS 走「介面顛覆」——雙螢幕、觸控、麥克風、《Nintendogs》《腦力鍛鍊》抓非玩家。**最終 DS 賣 1.54 億台、PSP 賣 8,200 萬台**——PSP 銷量在主機史上排名第十仍是失敗，因為它輸給了同期的 DS。',
+      },
+      {
+        title: '第三幕：智慧型手機之死（2011-2020）',
+        body:
+          '2007 年 iPhone 上市時沒人認為它是掌機競爭者。2011 年 Sony 推 PS Vita（OLED + 雙搖桿 + 4G），上市半年後就被 iPhone 4S 與 App Store 完整碾壓。**Vita 全球銷量約 1,500 萬台（PSP 的 1/5）**。3DS 用任天堂第一方軟體撐到 2020 年才停產，但 Wii U 失敗讓任天堂直接重新思考「掌機 vs 家用機」的分類——2017 年 Switch 上市，**它不是 3DS 的後繼，是任天堂從掌機戰場跳出去的方法**。',
+      },
+    ],
+    takeaway:
+      '掌機戰爭的勝負從來不是規格表決定的。Game Boy 用單色 LCD 打敗彩色螢幕，DS 用雙螢幕 + 觸控打敗光碟 + 3D，Switch 用「掌機 = 家用機」根本繞過第三幕的智慧型手機戰場。**規格輸的人通常是定義戰場規則的人，規格贏的人通常是還在用上一輪規則打仗的人**——這是掌機史最容易看清楚的一條線。',
+  },
+  'zh-cn': {
+    title: '掌机战争三部曲',
+    kicker: '[ SPECIAL EXHIBITION · 1989-2020 ]',
+    intro:
+      '掌机战争打了 30 年，分成三幕。1989-1995 第一幕：Game Boy 用单色屏幕与电池命长打败 Lynx / Game Gear / TurboExpress 的彩色高规路线。2004-2011 第二幕：Nintendo DS 用双屏 + 触控反吃 PSP 的「掌机 PS2 化」野心。2011-2020 第三幕：iPhone 与 Android 从外面把整个专用掌机市场吃掉，PS Vita 在 2019 年停产，3DS 撑到 2020。Switch 不是第三幕的延续，是任天堂跳出战场本身。',
+    back: '回首页',
+    gameBoy: 'Game Boy',
+    ds: 'Nintendo DS',
+    vita: 'PS Vita',
+    viewGameBoy: '看 Game Boy 展品',
+    viewDs: '看 Nintendo DS 展品',
+    viewVita: '看 PS Vita 展品',
+    sections: [
+      {
+        title: '第一幕：彩色之战（1989-1995）',
+        body:
+          '1989 年 Game Boy 上市，4 颗 AA 电池能撑 30 小时、单色屏幕、横井军平的「枯れた技術の水平思考」哲学。Atari Lynx（1989）、Sega Game Gear（1990）、NEC TurboExpress（1990）都用彩色屏幕想反击，**结果三台都输给了电池续航**——彩色背光在 1990 年代初的硬体下吃 6 颗 AA 还只能撑 4-6 小时。GB 卖 1.18 亿台，三台对手加起来不到 1,500 万。',
+      },
+      {
+        title: '第二幕：触控革命（2004-2011）',
+        body:
+          '2004 年同期出场的两台掌机定义了完全不同的方向。Sony PSP 走「掌机 PS2 化」——UMD 光碟、4.3 吋宽屏、3D 多边形、Wi-Fi、看电影。Nintendo DS 走「介面颠覆」——双屏、触控、麦克风、《Nintendogs》《脑力锻炼》抓非玩家。**最终 DS 卖 1.54 亿台、PSP 卖 8,200 万台**——PSP 销量在主机史上排名第十仍是失败，因为它输给了同期的 DS。',
+      },
+      {
+        title: '第三幕：智慧型手机之死（2011-2020）',
+        body:
+          '2007 年 iPhone 上市时没人认为它是掌机竞争者。2011 年 Sony 推 PS Vita（OLED + 双摇杆 + 4G），上市半年后就被 iPhone 4S 与 App Store 完整碾压。**Vita 全球销量约 1,500 万台（PSP 的 1/5）**。3DS 用任天堂第一方软体撑到 2020 年才停产，但 Wii U 失败让任天堂直接重新思考「掌机 vs 家用机」的分类——2017 年 Switch 上市，**它不是 3DS 的后继，是任天堂从掌机战场跳出去的方法**。',
+      },
+    ],
+    takeaway:
+      '掌机战争的胜负从来不是规格表决定的。Game Boy 用单色 LCD 打败彩色屏幕，DS 用双屏 + 触控打败光碟 + 3D，Switch 用「掌机 = 家用机」根本绕过第三幕的智慧型手机战场。**规格输的人通常是定义战场规则的人，规格赢的人通常是还在用上一轮规则打仗的人**——这是掌机史最容易看清楚的一条线。',
+  },
+  en: {
+    title: 'The Three Acts of the Handheld Wars',
+    kicker: '[ SPECIAL EXHIBITION · 1989-2020 ]',
+    intro:
+      'The handheld wars ran for thirty years across three distinct acts. **Act One (1989-1995):** Game Boy beat Lynx, Game Gear, and TurboExpress using monochrome and battery life rather than color and specs. **Act Two (2004-2011):** Nintendo DS beat PSP using dual screens and touch instead of optical discs and 3D polygons. **Act Three (2011-2020):** iPhone and Android consumed the entire dedicated handheld market from the outside. PS Vita was discontinued in 2019; 3DS held on until 2020. Switch (2017) is not Act Three\'s continuation — it is Nintendo stepping out of the battlefield entirely.',
+    back: 'Back to home',
+    gameBoy: 'Game Boy',
+    ds: 'Nintendo DS',
+    vita: 'PS Vita',
+    viewGameBoy: 'View Game Boy exhibit',
+    viewDs: 'View Nintendo DS exhibit',
+    viewVita: 'View PS Vita exhibit',
+    sections: [
+      {
+        title: 'Act One: The Color War (1989-1995)',
+        body:
+          'Game Boy launched in 1989 — 30 hours on four AA batteries, monochrome LCD, Gunpei Yokoi\'s "lateral thinking with seasoned technology" philosophy. Atari Lynx (1989), Sega Game Gear (1990), and NEC TurboExpress (1990) all bet on color screens. **All three lost to battery life** — color backlights in 1990 hardware burned through six AA cells in just four to six hours. Game Boy sold 118 million units; the three challengers combined sold under 15 million.',
+      },
+      {
+        title: 'Act Two: The Touch Revolution (2004-2011)',
+        body:
+          'Two handhelds shipped in late 2004 with completely different premises. Sony\'s PSP went "PS2 in your pocket" — UMD optical discs, a 4.3" widescreen, 3D polygons, Wi-Fi, movie playback. Nintendo DS went "interface disruption" — dual screens, touch, microphone, Nintendogs and Brain Age targeting non-gamers. **DS sold 154 million units; PSP sold 82 million.** PSP\'s number is the tenth-best in console history and still counts as a failure — because it lost to its own contemporary.',
+      },
+      {
+        title: 'Act Three: Death by Smartphone (2011-2020)',
+        body:
+          'When iPhone launched in 2007, nobody thought it was a handheld competitor. In 2011 Sony released PS Vita (OLED, dual analog sticks, 4G). Six months later iPhone 4S and the App Store had crushed it completely. **Vita sold around 15 million units globally — one-fifth of PSP\'s number.** 3DS survived until 2020 on Nintendo\'s first-party output, but the Wii U failure forced Nintendo to rethink the entire "handheld vs home console" split. The 2017 Switch was not 3DS\'s successor — **it was Nintendo\'s exit from the handheld battlefield itself**.',
+      },
+    ],
+    takeaway:
+      'Handheld wars are never decided by spec sheets. Game Boy beat color with monochrome. DS beat optical discs and 3D with dual screens and touch. Switch sidestepped Act Three entirely by collapsing "handheld" and "home console" into one product. **The winners on specs are usually the ones still fighting the previous war\'s rules; the losers on specs are usually the ones writing the next war\'s rules.** That is the cleanest pattern visible in handheld history.',
+  },
+  ja: {
+    title: '携帯機戦争三部作',
+    kicker: '[ SPECIAL EXHIBITION · 1989-2020 ]',
+    intro:
+      '携帯機戦争は 30 年間、三幕で展開した。**第一幕（1989-1995）**：ゲームボーイがモノクロ画面と電池持ちで Lynx / ゲームギア / TurboExpress のカラー高仕様路線を破った。**第二幕（2004-2011）**：ニンテンドー DS が二画面とタッチで PSP の『携帯機の PS2 化』野心を逆転。**第三幕（2011-2020）**：iPhone と Android が外側から専用携帯機市場全体を飲み込み、PS Vita は 2019 年に生産終了、3DS は 2020 年まで持ちこたえた。Switch は第三幕の続編ではなく、任天堂が携帯機戦場そのものから降りた方法だった。',
+    back: 'ホームへ',
+    gameBoy: 'ゲームボーイ',
+    ds: 'ニンテンドー DS',
+    vita: 'PS Vita',
+    viewGameBoy: 'ゲームボーイ展示へ',
+    viewDs: 'ニンテンドー DS 展示へ',
+    viewVita: 'PS Vita 展示へ',
+    sections: [
+      {
+        title: '第一幕：カラー戦争（1989-1995）',
+        body:
+          '1989 年ゲームボーイ発売——単三 4 本で 30 時間、モノクロ LCD、横井軍平の『枯れた技術の水平思考』哲学。Atari Lynx（1989）、セガゲームギア（1990）、NEC TurboExpress（1990）はいずれもカラー画面で対抗を試みた。**だが三機種すべて電池持ちに敗北した**——1990 年代初頭のカラーバックライトは単三 6 本で 4-6 時間しか持たなかった。GB は 1.18 億台、対抗三機種は合わせて 1,500 万台未満。',
+      },
+      {
+        title: '第二幕：タッチ革命（2004-2011）',
+        body:
+          '2004 年末、まったく異なる前提を持つ二つの携帯機が同時期に登場。Sony PSP は『携帯機の PS2 化』——UMD 光ディスク、4.3 インチワイド画面、3D ポリゴン、Wi-Fi、動画再生。ニンテンドー DS は『インタフェース破壊』——二画面、タッチ、マイク、『nintendogs』『脳トレ』で非ゲーマーを取り込んだ。**最終的に DS は 1.54 億台、PSP は 8,200 万台**——PSP の数字は主機史で第 10 位に入るが、同期の DS に負けたため『失敗』として記憶される。',
+      },
+      {
+        title: '第三幕：スマートフォンによる死（2011-2020）',
+        body:
+          '2007 年 iPhone 発売時、誰もそれを携帯機の競合とは見ていなかった。2011 年 Sony は PS Vita を投入（OLED、デュアルアナログスティック、4G）——だが半年後には iPhone 4S と App Store に完全に踏み潰されていた。**Vita の全世界販売は約 1,500 万台（PSP の 1/5）**。3DS は任天堂の第一弾ソフトで 2020 年まで持ちこたえたが、Wii U の失敗により任天堂は『携帯機 vs 家庭用機』の区分そのものを再考。2017 年 Switch 発売——**それは 3DS の後継ではなく、任天堂が携帯機戦場そのものから降りた方法だった**。',
+      },
+    ],
+    takeaway:
+      '携帯機戦争の勝敗はスペック表で決まらない。ゲームボーイはモノクロでカラーを破った。DS は二画面とタッチで光ディスクと 3D を破った。Switch は『携帯機』と『家庭用機』を一つの製品に統合することで第三幕のスマートフォン戦場そのものを回避した。**スペックで勝つ者はたいてい前の戦争のルールでまだ戦っている者であり、スペックで負ける者はたいてい次の戦争のルールを書いている者だ**——これが携帯機史で最も明瞭に見えるパターンだ。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    anatomyTitle: '三幕共通的三個變數',
+    anatomy: [
+      {
+        label: '電池效率',
+        body:
+          '掌機的第一個物理約束。1989 年 GB 用單色 LCD 換來 30 小時電池命；2004 年 DS 用雙螢幕 + LED 背光換來 10-15 小時；2011 年 Vita 用 OLED + 4G 模組換來 3-5 小時——電池技術沒進步那麼快，但螢幕與運算需求一直拉高，這條曲線決定了哪些功能能放進掌機，哪些不能。',
+      },
+      {
+        label: '第三方軟體陣容',
+        body:
+          'GB 在第一幕贏，不是因為硬體規格，是因為 Tetris、Pokémon、Square 把所有 RPG 都做了 GB 版。DS 在第二幕贏，不是因為觸控本身，是因為 Capcom《魔物獵人》、Square《最終幻想》系列、Konami 全部押 DS。Vita 在第三幕輸，不只因為 iPhone，**也因為日本第三方在 2012-2014 集體把資源從 Vita 轉到 3DS + 智慧型手機**。',
+      },
+      {
+        label: '平台外的競爭者',
+        body:
+          '掌機戰爭最致命的對手通常不在掌機戰場上。第一幕 GB 的對手不是 Lynx，是 Sega 把家用 Mega Drive 移植成 Nomad 試圖搶兒童市場。第二幕 DS 的對手不是 PSP，是 Wii 同時抓非玩家市場。第三幕全部掌機的對手不是彼此，**是 iPhone + App Store + Free-to-play 經濟模型**——這個競爭者根本不在主機產業內，所以索尼與任天堂的所有戰略都對不上。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事實',
+    myths: [
+      {
+        myth: '迷思：PSP 是失敗的掌機。',
+        fact:
+          'PSP 全球銷量 8,200 萬台，在主機史上是第十名（前面九名都是家用機 + Game Boy 系列 + DS）。它失敗的唯一原因是「同期的 DS 賣 1.54 億」——但如果單獨看 PSP，它是 21 世紀最成功的非任天堂掌機。失敗的不是 PSP 本身，是「PSP vs DS」這場特定戰役。',
+      },
+      {
+        myth: '迷思：Vita 是因為硬體爛才失敗。',
+        fact:
+          'Vita 硬體在 2011 年是業界頂尖：5 吋 OLED、雙類比搖桿、四核 ARM Cortex-A9、Wi-Fi + 3G。它失敗的根本原因是 **(1) 索尼把記憶卡做成超貴的專用規格、(2) 第三方軟體陣容崩盤、(3) 智慧型手機完整滿足了輕度遊戲需求**。硬體無關，是商業策略 + 競爭環境同時失誤。',
+      },
+      {
+        myth: '迷思：Switch 是 3DS 的後繼掌機。',
+        fact:
+          '從任天堂內部組織來看，Switch 同時取代 3DS（掌機部）與 Wii U（家用機部）。**它不是 3DS 的下一代，是任天堂把「掌機 vs 家用機」整個分類抽掉**。2017 年 Switch 上市時任天堂同步停產 Wii U；3DS 因為剩餘軟體陣容拖到 2020 年才完全停。Switch 在掌機史上的位置是「結束戰爭，不是繼續戰爭」。',
+      },
+    ],
+    nintendoTitle: '三幕的三個關鍵動作',
+    nintendoMoves: [
+      {
+        title: '1989 年 GB 黃綠 LCD 的選擇',
+        body:
+          '橫井軍平堅持用反射式單色 LCD（黃綠底色）而不是彩色 STN，被內部與業界都批評「太保守」。但這個選擇直接決定了 GB 4 顆 AA 電池能撐 30 小時——同期 Lynx 用彩色 LCD 6 顆 AA 只能撐 4 小時。**GB 賣 1.18 億，Lynx 賣不到 200 萬**。橫井軍平的「枯れた技術」哲學在這台機器上達到頂點。',
+      },
+      {
+        title: '2004 年 DS 抓非玩家',
+        body:
+          '宮本茂在 DS 開發中堅持「不是給玩家的續作機，是給家庭主婦與長輩的新機器」。《Nintendogs》（2005，2,400 萬）、《腦力鍛鍊》（2005，1,900 萬）、《動物之森 DS》（2005，1,200 萬）——這三款軟體賣的不是傳統玩家，是日本媽媽與 50 歲以上族群。**DS 1.54 億台中估計超過 4,000 萬台是任天堂第一次接觸的客群**——這是掌機史上最大的一次客群擴張。',
+      },
+      {
+        title: '2017 年 Switch 跳出戰場',
+        body:
+          '岩田聰 2015 年過世前已確立 NX 計畫（後來的 Switch）方向：合併掌機與家用機。這不是技術選擇，是策略選擇——**任天堂判斷掌機戰場已被智慧型手機毀掉，但「家用 + 攜帶混合」是手機沒有的形態**。Switch 上市第一年銷量超過 Wii U 整個生命週期，2024 年累積超過 1.4 億台，超越 GB / DS / 3DS 加起來。',
+      },
+    ],
+    gamesTitle: '三幕代表展品',
+    gamePicks: [
+      {
+        platform: '第一幕（1989-1995）',
+        games: [
+          ['Tetris（1989, GB 首發）', 'GB 銷量發動機。1989-1995 年 GB 軟體中最不可取代的一款，從硬體上市到俄羅斯方塊本身就成為 GB 的同義詞。'],
+          ['Pokémon 紅 / 綠（1996, GB）', '掌機史上最重要的 IP 起點。GB 末期推出，但讓 GB / GBC / GBA 整條產品線在 1996-2003 年延長了 7 年壽命。'],
+          ['California Games（1989, Lynx）', 'Atari Lynx 早期代表作。彩色運動模擬遊戲，是 Lynx 證明「彩色螢幕做運動更吸引人」的展示作——但消費者選擇了 GB 的單色 Tetris。'],
+          ['Sonic the Hedgehog（1991, Game Gear）', 'Game Gear 旗艦移植作。把家用 Mega Drive 的 Sonic 拉進掌機，但彩色螢幕的耗電讓玩家家裡的 AA 電池庫存比 GB 玩家多吃 3 倍。'],
+        ],
+      },
+      {
+        platform: '第二幕（2004-2011）',
+        games: [
+          ['Nintendogs（2005, DS）', '第二幕的客群擴張代表。觸控 + 麥克風讓媽媽們第一次拿起遊戲機，全球賣 2,400 萬。'],
+          ['Brain Age / 腦力鍛鍊（2005, DS）', '抓 50 歲以上族群的代表。一款看起來不像遊戲的遊戲，全球 1,900 萬台。'],
+          ['Monster Hunter Freedom Unite（2009, PSP）', 'PSP 在日本逆轉 DS 的關鍵作。Capcom 用合作對戰把 PSP 變成 2008-2012 年日本國民掌機，但這個現象幾乎只發生在日本。'],
+          ['Final Fantasy VII Crisis Core（2007, PSP）', 'Square Enix 為 PSP 做的 FF VII 前傳。技術上是 PSP 上最接近 PS2 的 RPG，把「掌機 = 家用機等級體驗」的願景做到最完整。'],
+        ],
+      },
+      {
+        platform: '第三幕（2011-2020）',
+        games: [
+          ['Persona 4 Golden（2012, Vita）', 'Vita 平台最重要的 RPG，把 PS2 經典《女神異聞錄 4》整套加長改編。是 Vita 在日本撐起一段時間的核心作，後來 2020 年才登 PC。'],
+          ['Pokémon Sun / Moon（2016, 3DS）', '3DS 末期的軟體續命。任天堂用第一方 IP 把 3DS 撐到 2020 年才停產，但這已經完全靠 Pokémon 而不是平台本身。'],
+          ['Animal Crossing: New Leaf（2013, 3DS）', '《動物之森》3DS 版，把 DS 時代的成功公式延伸進 3DS。1,200 萬銷量是 3DS 中後期最重要的支撐。'],
+          ['Angry Birds（2009, iOS）', '不是掌機軟體，但它是第三幕的真正主角。免費 + iPhone + App Store 把「快速一局休閒掌機體驗」這個 GB / DS 開創的市場直接搬走。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: 'Game Boy 為什麼選黃綠色',
+        body:
+          '橫井軍平選的不是「最便宜的 LCD」，是「最不刺眼、最能在不同光源下保持可讀」的反射式 STN。黃綠色背景在自然光下對比度最高，比黑白 LCD 更容易閱讀小像素。這個審美選擇後來變成 GB 的視覺識別——任天堂在 2018 年推 NES Classic 與 Switch 的 GB 模擬器時，**還會主動加上「黃綠濾鏡」來重現這個歷史色調**。',
+      },
+      {
+        title: 'DS 雙螢幕的歷史回收',
+        body:
+          'DS 的雙螢幕設計直接源自 1982 年 Game & Watch Multi Screen《Donkey Kong》。當年橫井軍平用兩個 LCD 做雙螢幕，22 年後岩田聰把這個概念用觸控 + 彩色重新做一次。**這不是「新發明」，是任天堂對自家歷史的精準回收**——回收成功的標誌是 1.54 億台銷量。',
+      },
+      {
+        title: 'Vita 的記憶卡定價自殺',
+        body:
+          '索尼為 Vita 設計專用記憶卡（PS Vita Memory Card），16GB 賣 USD $50、32GB 賣 USD $80、64GB 賣 USD $100——這個定價是同期普通 microSD 的 5 倍以上。索尼想用記憶卡綁定避免盜版，結果**家長與輕度玩家直接放棄 Vita 改買 iPhone + Angry Birds**。這個策略失誤，加上日本第三方陣容 2013-2014 集體撤退，是 Vita 全球只賣 1,500 萬台的直接原因。',
+      },
+      {
+        title: 'Switch 為什麼跳出戰場活下來',
+        body:
+          '2014-2015 年任天堂內部已確認：3DS 是最後一台「純掌機」、Wii U 是最後一台「純家用機」。**繼續做兩條獨立產品線等於同時被智慧型手機與 PS / Xbox 雙線壓**。Switch 的「掌機 = 家用機」本質是策略上的撤退——不是「我們要打贏掌機戰爭」，是「**這個戰場已經沒贏家可能，我們改去另一個沒人在的戰場**」。2024 年累積 1.4 億台證明這個判斷對了。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources:
+      '本頁採以下口徑：Game Boy 系列銷量「1.18 億」採任天堂官方累計（含 GB Pocket / GB Light / GB Color，不含 GBA）；GBA 6,800 萬另計。Lynx 銷量「不到 200 萬」採 Atari 1991-1996 內部數字。Game Gear 銷量「1,062 萬」採 Sega 1996 年報。TurboExpress 銷量「不到 150 萬」採 NEC 1991-1995 內部估算。DS 全系列「1.54 億」與 PSP「8,200 萬」採任天堂與索尼官方累計（截至 2014 年生產終結）。Vita「約 1,500 萬」採索尼 2019 停產時的累計估算（索尼後期不再公布精確數字）。3DS「7,594 萬」採任天堂 2020 停產時官方累計。Switch「1.4 億」採任天堂 2024 年累計。Pokémon、Nintendogs、Brain Age、Monster Hunter 銷量採各家發行商官方累計。延伸閱讀可參 Game Over（David Sheff）、Console Wars（Blake Harris）、The Untold History of Japanese Game Developers、岩田聰著《岩田さん》（任天堂前社長談話集）。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout
+  title={seo.title[lang]}
+  description={seo.description[lang]}
+  image="/img/consoles/game-boy-hero.jpg"
+  type="article"
+  keywords={seo.keywords}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: seo.title[lang],
+    description: seo.description[lang],
+    about: ['Game Boy', 'Nintendo DS', 'PlayStation Portable', 'PS Vita', 'Atari Lynx', 'Sega Game Gear', 'handheld console history'],
+    articleSection: 'Special Exhibition',
+    author: { '@type': 'Person', name: 'Makito Chiba' },
+    mainEntityOfPage: makeUrl(localizedPath(lang, 'features/handheld-wars/')),
+  }}
+>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-3">
+      <a href={localizedPath(lang, '/consoles/game-boy/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/game-boy-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.gameBoy}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewGameBoy}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/nintendo-ds/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/nintendo-ds-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.ds}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewDs}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/ps-vita/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/ps-vita-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.vita}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewVita}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.anatomyTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.anatomy.map((item) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{item.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.mythTitle}</h2>
+          <div class="space-y-4">
+            {deepDive.myths.map((item) => (
+              <div class="grid gap-3 md:grid-cols-[16rem_minmax(0,1fr)]">
+                <div class="border-l-2 border-crt-amber/70 pl-4 text-sm leading-relaxed text-crt-amber-dim">{item.myth}</div>
+                <p class="text-sm leading-relaxed text-crt-text/82">{item.fact}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.nintendoTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.nintendoMoves.map((move) => (
+              <div class="border-l-2 border-crt-green/65 pl-4">
+                <h3 class="font-mono text-xs text-crt-amber-dim">{move.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{move.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-3">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storiesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>
