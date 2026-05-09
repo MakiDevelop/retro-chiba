@@ -1048,5 +1048,65 @@
     "maker": "Tiger Electronics",
     "first_release": "1995-08-01",
     "wikidata": "https://www.wikidata.org/wiki/Q7273280"
+  },
+  {
+    "qid": "Q173097",
+    "slug": "pac-man-arcade",
+    "gen": "a",
+    "kind": "arcade",
+    "names": {
+      "en": "Pac-Man Arcade",
+      "ja": "パックマン",
+      "zh-tw": "Pac-Man 街機",
+      "zh-cn": "Pac-Man 街机"
+    },
+    "maker": "Namco",
+    "first_release": "1980-05-22",
+    "wikidata": "https://www.wikidata.org/wiki/Q173097"
+  },
+  {
+    "qid": "Q1024169",
+    "slug": "capcom-cps2",
+    "gen": "a",
+    "kind": "arcade",
+    "names": {
+      "en": "Capcom CPS-2",
+      "ja": "Capcom CPS-2",
+      "zh-tw": "Capcom CPS-2",
+      "zh-cn": "Capcom CPS-2"
+    },
+    "maker": "Capcom",
+    "first_release": "1993-08-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q1024169"
+  },
+  {
+    "qid": "Q200254",
+    "slug": "apple-ii",
+    "gen": "p",
+    "kind": "computer",
+    "names": {
+      "en": "Apple II",
+      "ja": "Apple II",
+      "zh-tw": "Apple II",
+      "zh-cn": "Apple II"
+    },
+    "maker": "Apple Computer",
+    "first_release": "1977-06-10",
+    "wikidata": "https://www.wikidata.org/wiki/Q200254"
+  },
+  {
+    "qid": "Q99775",
+    "slug": "commodore-64",
+    "gen": "p",
+    "kind": "computer",
+    "names": {
+      "en": "Commodore 64",
+      "ja": "Commodore 64",
+      "zh-tw": "Commodore 64",
+      "zh-cn": "Commodore 64"
+    },
+    "maker": "Commodore International",
+    "first_release": "1982-08-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q99775"
   }
 ]

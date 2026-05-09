@@ -63,8 +63,8 @@ export const consoles = defineCollection({
     lang: langEnum,
     title: z.string(),
     qid: z.string().regex(/^Q\d+$/),
-    gen: z.union([z.number().int().min(1).max(9), z.literal('h')]),
-    kind: z.enum(['home', 'handheld', 'hybrid', 'addon']),
+    gen: z.union([z.number().int().min(1).max(9), z.literal('h'), z.literal('a'), z.literal('p')]),
+    kind: z.enum(['home', 'handheld', 'hybrid', 'addon', 'arcade', 'computer']),
     maker: z.string(),
     release: z.object({
       jp: z.string().optional(),
