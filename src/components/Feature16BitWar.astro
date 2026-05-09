@@ -197,9 +197,252 @@ const deepDive = {
     sourcesTitle: '資料口徑',
     sources: '本頁素材綜合自任天堂官方銷量口徑、New York Times 1990 年 Sega 廣告報導、Tom Kalinske 訪談、Console Wars 相關口述史、SegaRetro / Den of Geek / Digital Foundry 等回顧與技術分析；玩家記憶段落則參考台港論壇、HK01 超任博士回顧與 retro 社群常見敘事。市場百分比採「時期性估計」而非最終審計數字。',
   },
-  'zh-cn': null,
-  en: null,
-  ja: null,
+  'zh-cn': {
+    regionalTitle: '三个地区，三种战争',
+    regions: [
+      {
+        label: '北美 / 欧洲',
+        body: 'Genesis / Mega Drive 被记成「酷、快、比较像大孩子玩的机器」。Sonic、运动游戏、街机移植与攻击型广告，让 Sega 派像校园里比较叛逆的一群。欧洲尤其把 Mega Drive 当成价格更亲民、运动游戏更多的 16-bit 入门机。',
+      },
+      {
+        label: '日本',
+        body: '日本记忆几乎相反。Super Famicom 是国民机，FF、DQ、Street Fighter II、Chrono Trigger 与 Mode 7 直接压住主流市场。Mega Drive 变成硬派、街机迷、射击玩家懂的机器：很强，但不是大众童年。',
+      },
+      {
+        label: '台港华人圈',
+        body: '这里的 16-bit 记忆永远跟水货、杂志、盗版卡带与磁碟机绑在一起。光华商场、旺角电玩店、电玩杂志秘技栏、超任博士广告，把这场战争变成很生活化的灰色童年。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事实',
+    myths: [
+      {
+        myth: 'Blast Processing 是神秘晶片。',
+        fact: '它主要是 Sega 的行销语言。Genesis 的 68000 CPU 确实比 SFC 主 CPU 快，适合高速卷轴与动作游戏，但不是一颗会让所有游戏自动变快的魔法晶片。',
+      },
+      {
+        myth: 'SFC 画面一定比 Genesis 强。',
+        fact: 'SFC 在色彩、Mode 7、采样音源与 RPG 表现力上更强；Genesis 则在高速动作、街机节奏、运动游戏和部分射击游戏上更有锐利感。两台是不同美学，不是单向碾压。',
+      },
+      {
+        myth: '这场战争有绝对胜负。',
+        fact: '日本是 SFC 完胜，欧洲与北美早中期 Genesis 很强，全球终局则 SNES 略胜。真正的结论是 Sega 赢了态度与攻势，Nintendo 赢了软体厚度与长尾。',
+      },
+    ],
+    marketTitle: '市场数字怎么看',
+    marketNotes: [
+      'Super Famicom / SNES 的全球 4,910 万台、日本 1,717 万、北美 2,335 万，属于任天堂官方长期重复揭露的高可信度口径。',
+      'Mega Drive / Genesis 常见全球数字约 3,075 万台，但 Sega 没有像任天堂一样留下完整统一的后年官方表；北美约 1,850-2,000 万台、欧洲强势、日本约 350 万台，是比较稳妥的写法。',
+      '「Genesis 一度拿下美国 16-bit 市场 65%」适合写成当年报导、访谈与内部估计反复出现的时期性现象，而不是整个世代的最终审计结果。',
+    ],
+    gamesTitle: '5 + 5 代表作',
+    gamePicks: [
+      {
+        platform: 'Super Famicom / SNES',
+        games: [
+          ['Super Mario World', '任天堂用它示范 16-bit 玛利欧的节奏、地图与隐藏路线，让 SFC 一上市就有完整的世代答案。'],
+          ['A Link to the Past', '把萨尔达的世界设计、音乐与双世界结构推到成熟，成为动作冒险类型的长期模板。'],
+          ['Final Fantasy VI', '用群像剧、歌剧桥段与 SPC700 音乐，把 SFC 的 RPG 王国形象推到高峰。'],
+          ['Chrono Trigger', 'Square、堀井雄二、鸟山明的梦幻合作，代表 SFC 后期仍能端出顶级叙事与系统设计。'],
+          ['Super Metroid', '用孤独气氛、地图探索与能力门槛定义后来 Metroidvania 的半边语法。'],
+        ],
+      },
+      {
+        platform: 'Mega Drive / Genesis',
+        games: [
+          ['Sonic the Hedgehog', '速度、蓝色、斜坡、弹簧与广告人格全部绑在一起，几乎等于 Genesis 的品牌本体。'],
+          ['Streets of Rage 2', '把街机清版动作、双人合作与 Yuzo Koshiro 的电子音乐变成最有 Sega 气味的客厅夜色。'],
+          ['Golden Axe', '早期最直接的「把 Sega 街机搬回家」样板，即使移植有取舍，定位非常清楚。'],
+          ['Madden NFL', '北美运动游戏文化的关键支柱，让 Genesis 成为许多玩家心中打球赛的首选。'],
+          ['Phantasy Star IV', '证明 Genesis 不是没有 RPG，只是它的 RPG 阵容更硬派、更小众，也更像 Sega 自己的宇宙。'],
+        ],
+      },
+    ],
+    storyTitle: '策展小框',
+    stories: [
+      {
+        title: 'Sonic 跑得比光还快',
+        body: '1991 年的孩子看到蓝色刺猬在广告里冲刺，开始把 Mario 叫成慢乌龟。Sega 用一句 Genesis Does What Nintendon\'t，把任天堂从产业标准打成老派玩具。',
+      },
+      {
+        title: 'Mortal Kombat 的血案',
+        body: 'Genesis 版可以开血，SNES 版被任天堂审查到变成比较干净的版本。美国小孩为了「真血」吵翻天，这一局 Sega 赢的不是画面，而是态度。',
+      },
+      {
+        title: '超任博士的玻璃球',
+        body: '香港 90 年代的超任博士广告，把盗版磁碟机包成童年神器。无限复活、慢动作、抄碟，黑色幽默地说明了华人圈怎么消化昂贵的 16-bit 游戏。',
+      },
+      {
+        title: '杂志翻烂的夜晚',
+        body: '没有 YouTube 的年代，玩家靠电玩杂志抄秘技、看评测、比较 MD 和超任画面。杂志页角被翻到毛边，就是那一代人的攻略资料库。',
+      },
+    ],
+    sourcesTitle: '资料口径',
+    sources: '本页素材综合自任天堂官方销量口径、New York Times 1990 年 Sega 广告报导、Tom Kalinske 访谈、Console Wars 相关口述史、SegaRetro / Den of Geek / Digital Foundry 等回顾与技术分析；玩家记忆段落则参考台港论坛、HK01 超任博士回顾与 retro 社群常见叙事。市场百分比采「时期性估计」而非最终审计数字。',
+  },
+  en: {
+    regionalTitle: 'Three regions, three different wars',
+    regions: [
+      {
+        label: 'North America / Europe',
+        body: 'Genesis / Mega Drive is remembered as "cooler, faster, the machine for older kids." Sonic, sports titles, arcade ports, and aggressive advertising made Sega look like the more rebellious crowd at school. Europe in particular treated Mega Drive as the more affordable, sports-heavy 16-bit entry point.',
+      },
+      {
+        label: 'Japan',
+        body: 'Japanese memory is almost the inverse. Super Famicom was the national console — FF, DQ, Street Fighter II, Chrono Trigger, and Mode 7 dominated the mainstream. Mega Drive became the hardcore option for arcade fans and shooter players: technically strong, but not the mass-market childhood.',
+      },
+      {
+        label: 'Taiwan / Hong Kong / Chinese-speaking',
+        body: '16-bit memory here is forever tied to gray imports, magazines, bootleg cartridges, and floppy-drive copiers. Guanghua Market, Mong Kok game shops, magazine cheat-code columns, and Super Nintendo Doctor (超任博士) ads turned the war into a richly textured gray-area childhood.',
+      },
+    ],
+    mythTitle: 'Myth vs. fact',
+    myths: [
+      {
+        myth: 'Myth: Blast Processing was a magic chip.',
+        fact: 'It was mostly Sega marketing language. Genesis\'s 68000 CPU was indeed faster than SFC\'s main CPU and well-suited to high-speed scrolling and action games — but it was not a magical chip that made every game automatically faster.',
+      },
+      {
+        myth: 'Myth: SFC graphics were always better than Genesis.',
+        fact: 'SFC was stronger in color depth, Mode 7, sample-based audio, and RPG expressiveness. Genesis had sharper edges in high-speed action, arcade rhythm, sports games, and certain shooters. They were different aesthetics, not a one-way crush.',
+      },
+      {
+        myth: 'Myth: There was a clean winner.',
+        fact: 'Japan was a clear SFC win. Europe and North America (early-to-mid generation) were strong for Genesis. The global endgame slightly favored SNES. The real conclusion: Sega won attitude and assault; Nintendo won software depth and the long tail.',
+      },
+    ],
+    marketTitle: 'How to read the market numbers',
+    marketNotes: [
+      'Super Famicom / SNES global 49.1M, Japan 17.17M, North America 23.35M — high-confidence figures because Nintendo discloses them repeatedly across its own retrospectives.',
+      'Mega Drive / Genesis commonly cited at ~30.75M global, but Sega never produced a unified retrospective sales table the way Nintendo does. North America ~18.5-20M, strong in Europe, ~3.5M in Japan — the conservative framing.',
+      'The often-quoted "Genesis briefly held 65% of the US 16-bit market" is best treated as a period-specific statement repeated across contemporary press, interviews, and internal estimates — not a final-audit figure for the whole generation.',
+    ],
+    gamesTitle: '5 + 5 representative titles',
+    gamePicks: [
+      {
+        platform: 'Super Famicom / SNES',
+        games: [
+          ['Super Mario World', 'Nintendo used it to demonstrate 16-bit Mario\'s rhythm, world map, and hidden routes — SFC arrived with a complete generational answer on day one.'],
+          ['A Link to the Past', 'Pushed Zelda\'s world design, music, and dual-world structure into maturity, becoming a long-term template for the action-adventure genre.'],
+          ['Final Fantasy VI', 'Ensemble drama, operatic set pieces, and SPC700 music pushed SFC\'s RPG kingdom image to its peak.'],
+          ['Chrono Trigger', 'Square, Yuji Horii, and Akira Toriyama\'s dream collaboration showed SFC could still deliver top-tier narrative and systems design late in life.'],
+          ['Super Metroid', 'Used isolation atmosphere, map exploration, and ability gating to define half the vocabulary of later Metroidvania design.'],
+        ],
+      },
+      {
+        platform: 'Mega Drive / Genesis',
+        games: [
+          ['Sonic the Hedgehog', 'Speed, blue, slopes, springs, and the ad personality all bound together — almost identical to the Genesis brand itself.'],
+          ['Streets of Rage 2', 'Took arcade beat-\'em-up, two-player co-op, and Yuzo Koshiro\'s electronic music and turned them into the most distinctively Sega living-room nighttime.'],
+          ['Golden Axe', 'The earliest, most direct "Sega arcade in your home" template. Even with porting compromises, the positioning was unmistakably clear.'],
+          ['Madden NFL', 'A pillar of North American sports-game culture that made Genesis the default choice for many players running football games.'],
+          ['Phantasy Star IV', 'Proof that Genesis had RPGs — its lineup was just harder, more niche, more distinctly part of Sega\'s own universe.'],
+        ],
+      },
+    ],
+    storyTitle: 'Curation notes',
+    stories: [
+      {
+        title: 'Sonic, faster than light',
+        body: 'In 1991, kids saw a blue hedgehog dashing in TV ads and started calling Mario the slow turtle. Sega\'s "Genesis does what Nintendon\'t" knocked Nintendo from industry standard to old-fashioned toy in one sentence.',
+      },
+      {
+        title: 'The Mortal Kombat blood case',
+        body: 'The Genesis version let you turn blood on. The SNES version got Nintendo-censored into a cleaner build. American kids fought viciously over "real blood." Sega did not win the visuals here — it won the attitude.',
+      },
+      {
+        title: 'Super Nintendo Doctor\'s glass case',
+        body: '1990s Hong Kong\'s Super Nintendo Doctor ads packaged the bootleg floppy-drive copier as a childhood relic. Infinite lives, slow motion, copy disc — black-humor explanation of how the Chinese-speaking world digested expensive 16-bit games.',
+      },
+      {
+        title: 'Magazine pages worn to the edge',
+        body: 'In the pre-YouTube era, players copied cheat codes from magazines, read reviews, compared MD and Super Famicom screenshots. Page corners frayed to fuzz — that was the strategy database of the generation.',
+      },
+    ],
+    sourcesTitle: 'Source framing',
+    sources: 'Material drawn from: Nintendo\'s official sales disclosures; New York Times 1990 reporting on Sega advertising; Tom Kalinske interviews; Console Wars oral history; SegaRetro, Den of Geek, Digital Foundry retrospectives and technical analysis. Player-memory sections reference Taiwanese / Hong Kong forums, HK01\'s Super Nintendo Doctor retrospective, and common retro community narratives. Market percentage figures are treated as period-specific estimates rather than final-audit numbers.',
+  },
+  ja: {
+    regionalTitle: '三つの地域、三つの異なる戦争',
+    regions: [
+      {
+        label: '北米 / 欧州',
+        body: 'メガドライブ / Genesis は『クールで速い、年上の子向けの機械』として記憶される。ソニック、スポーツ作品、アーケード移植、攻撃的広告がセガ派を学校で反抗的なグループに見せた。欧州では特にメガドライブが、より手頃でスポーツゲームの厚い 16-bit 入門機として扱われた。',
+      },
+      {
+        label: '日本',
+        body: '日本の記憶はほぼ逆。スーパーファミコンは国民機で、FF、DQ、ストリートファイター II、クロノ・トリガー、Mode 7 が主流市場を支配した。メガドライブは硬派なアーケードファンや STG プレイヤーが理解する機械——技術は強くても、大衆的な子ども時代ではなかった。',
+      },
+      {
+        label: '台湾・香港・中華圏',
+        body: 'ここでの 16-bit 記憶は、並行輸入・雑誌・コピーカートリッジ・FDD コピー機と永遠に結びついている。光華商場、旺角ゲームショップ、雑誌の裏技欄、スーパー任天堂博士（超任博士）の広告が、戦争を生活感のあるグレー色の幼年期に変えた。',
+      },
+    ],
+    mythTitle: '誤解と事実',
+    myths: [
+      {
+        myth: '誤解：Blast Processing は魔法のチップだった。',
+        fact: '主にセガのマーケティング言語。Genesis の 68000 CPU は確かに SFC のメイン CPU より速く、高速スクロールやアクションに適していたが、すべてのゲームを自動的に速くする魔法のチップではない。',
+      },
+      {
+        myth: '誤解：SFC のグラフィックは常に Genesis を上回っていた。',
+        fact: 'SFC は色域、Mode 7、サンプリング音源、RPG 表現力で強い。Genesis は高速アクション、アーケードリズム、スポーツゲーム、一部 STG でシャープな切れ味を持つ。両者は異なる美学であり、一方的な圧倒ではない。',
+      },
+      {
+        myth: '誤解：はっきりした勝者がいた。',
+        fact: '日本は SFC の完勝。欧州と北米の世代前半～中盤は Genesis が強かった。全世界終盤はわずかに SNES が上回った。真の結論は、セガが姿勢と攻撃で勝ち、任天堂がソフトの厚みとロングテールで勝ったということ。',
+      },
+    ],
+    marketTitle: '市場数字の読み方',
+    marketNotes: [
+      'スーパーファミコン / SNES の世界 4,910 万台、日本 1,717 万、北米 2,335 万——任天堂が公式回顧で繰り返し開示している高信頼度の数値。',
+      'メガドライブ / Genesis は世界 3,075 万台前後がよく引用されるが、セガは任天堂のような統一的な後年公式表を残していない。北米 1,850-2,000 万、欧州で強く、日本 350 万——堅実な書き方はこの範囲。',
+      '『Genesis が一時米国 16-bit 市場の 65% を取った』はその時期の報道・インタビュー・内部見積もりに繰り返し現れる時期的現象として扱うべきで、世代全体の最終監査数値ではない。',
+    ],
+    gamesTitle: '5 + 5 代表作',
+    gamePicks: [
+      {
+        platform: 'スーパーファミコン / SNES',
+        games: [
+          ['スーパーマリオワールド', '任天堂は 16-bit マリオのリズム、ワールドマップ、隠しルートをこの一作で示し、SFC は発売初日から完成された世代の答えを持っていた。'],
+          ['ゼルダの伝説 神々のトライフォース', 'ゼルダの世界設計、音楽、二つの世界の構造を成熟させ、アクションアドベンチャージャンルの長期テンプレートになった。'],
+          ['ファイナルファンタジー VI', '群像劇、オペラ場面、SPC700 音源を使い、SFC の RPG 王国イメージを頂点へ押し上げた。'],
+          ['クロノ・トリガー', 'スクウェア、堀井雄二、鳥山明の夢のコラボ。SFC 後期でもトップティアの物語と システム設計を提供できることを示した。'],
+          ['スーパーメトロイド', '孤独な雰囲気、マップ探索、アビリティゲートで、後の Metroidvania 設計語彙の半分を定義した。'],
+        ],
+      },
+      {
+        platform: 'メガドライブ / Genesis',
+        games: [
+          ['ソニック・ザ・ヘッジホッグ', 'スピード、青色、斜面、スプリング、広告のキャラクター性がすべて結びつき、Genesis ブランドそのものとほぼ等価に。'],
+          ['ベア・ナックル II', 'アーケードベルトアクション、二人協力、古代祐三のエレクトロニックミュージックを、最もセガ色の濃いリビング夜景に変えた。'],
+          ['ゴールデンアックス', '初期の最も直接的な『セガアーケードを家に持ち込む』テンプレート。移植にトレードオフはあったが、ポジショニングは明確だった。'],
+          ['Madden NFL', '北米スポーツゲーム文化の柱。多くのプレイヤーにとって Genesis をフットボール用の第一選択にした。'],
+          ['ファンタシースター IV', 'Genesis に RPG がなかったわけではない——ラインナップが硬派でニッチで、よりセガ自身の宇宙寄りだったということを証明した。'],
+        ],
+      },
+    ],
+    storyTitle: 'キュレーションメモ',
+    stories: [
+      {
+        title: 'ソニック、光より速く',
+        body: '1991 年、子どもたちは TV CM で青いハリネズミがダッシュするのを見て、マリオを遅いカメと呼び始めた。セガの「Genesis does what Nintendon\'t」一言で、任天堂は業界標準から古いおもちゃへ突き落とされた。',
+      },
+      {
+        title: 'モータルコンバット血の事件',
+        body: 'Genesis 版は血のオン・オフが切り替えられた。SNES 版は任天堂の検閲でクリーンな仕様に。アメリカの子どもたちが「本当の血」を巡って激しく議論した。セガが勝ったのは画面ではなく、姿勢だった。',
+      },
+      {
+        title: '超任博士のガラスケース',
+        body: '1990 年代香港の超任博士広告は、コピー FDD を幼年期の神器としてパッケージングした。無限ライフ、スロー再生、ディスクコピー——中華圏が高価な 16-bit ゲームをどう消化したかを、ブラックユーモアで説明した。',
+      },
+      {
+        title: '雑誌のページが擦り切れた夜',
+        body: 'YouTube 以前の時代、プレイヤーはゲーム雑誌から裏技を写し、レビューを読み、MD とスーパーファミコンの画面を比較した。ページの隅が毛羽立つまで擦り切れた——あれが世代の攻略データベースだった。',
+      },
+    ],
+    sourcesTitle: '資料の取り方',
+    sources: '本ページの素材は次から総合：任天堂公式販売数値、New York Times 1990 年セガ広告報道、Tom Kalinske インタビュー、Console Wars 関連オーラルヒストリー、SegaRetro / Den of Geek / Digital Foundry の回顧と技術分析。プレイヤー記憶パートは台湾・香港のフォーラム、HK01 の超任博士回顧、retro コミュニティの一般的な語りを参考。市場パーセンテージは『時期的な見積もり』として扱い、最終監査数値ではない。',
+  },
 }[lang];
 ---
 

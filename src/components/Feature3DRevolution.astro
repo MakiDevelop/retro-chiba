@@ -240,9 +240,297 @@ const deepDive = {
     sources:
       '本頁以第五世代主機史、各平台代表作與玩家記憶為策展素材；銷量與市場敘事採常見歷史口徑：PlayStation 全球破億並成為主流，Nintendo 64 約三千萬級且第一方強勢，Saturn 約千萬級且日本相對較強、海外失利。若後續要做正式註腳版，可再補 Sony / Nintendo 官方數字、SegaRetro、Edge / Next Generation 當年報導與各平台開發者訪談。',
   },
-  'zh-cn': null,
-  en: null,
-  ja: null,
+  'zh-cn': {
+    lanesTitle: '三台主机，三条路线',
+    lanes: [
+      {
+        label: 'PlayStation：夜店、CD、记忆卡',
+        body:
+          'Sony 没有把 PlayStation 包装成儿童玩具，而是把它放进音乐、杂志、夜生活与更成熟的广告语境。CD 便宜、开发友善、第三方愿意上车，让 Square、Namco、Capcom、Konami 等作品把 PS1 推成第五世代主流。',
+      },
+      {
+        label: 'Saturn：2D 很强，3D 转身很痛',
+        body:
+          'Saturn 的多处理器架构与 2D 能力很有 Sega 味，移植格斗、射击、街机作品表现精彩；但面对市场突然全面转向 3D，多 CPU 开发门槛、海外策略与 Sonic 缺席让它很难跟 PS1 正面竞争。',
+      },
+      {
+        label: 'Nintendo 64：卡带孤岛与模拟未来',
+        body:
+          'N64 坚持卡带，换来低读取与耐用，也失去 CD 容量与大量第三方。它用 Super Mario 64、Zelda: Ocarina of Time、GoldenEye 007 证明 3D 设计可以非常成熟，但软体阵容变得更集中。',
+      },
+    ],
+    shiftTitle: '从卡带时代到光碟时代',
+    shifts: [
+      {
+        title: '容量暴增',
+        body:
+          'RPG 可以塞进动画、语音、长过场与多片光碟。Final Fantasy VII 的冲击，不只来自 3D，而是整个叙事包装突然像电影与唱片一起进了客厅。',
+      },
+      {
+        title: '成本下降',
+        body:
+          'CD 压片成本比卡带低很多，库存风险也不同。这让第三方更愿意尝试新 IP、较长叙事与大量内容，也让 PlayStation 形成「游戏很多、什么都有」的印象。',
+      },
+      {
+        title: '盗版扩散',
+        body:
+          '华人圈的 PS1 记忆常和改机、烧片、光华商场、游戏店清单绑在一起。它加速普及，也让正版、代理、灰色市场的界线变得更复杂。',
+      },
+    ],
+    gamesTitle: '代表作怎么看',
+    gamePicks: [
+      {
+        platform: 'PlayStation',
+        games: [
+          ['Final Fantasy VII', '把 JRPG 推到全球流行文化中心，CG、音乐、角色与多片光碟共同塑造「电影化 RPG」印象。'],
+          ['Metal Gear Solid', '用语音、镜头、潜入节奏与后设演出，证明 3D 主机可以承载更像电影的叙事。'],
+          ['Resident Evil', '固定镜头、预算限制与恐怖节奏合成 survival horror 的主流语法。'],
+          ['Gran Turismo', '用真实车款、驾照、调校与长期养成，把赛车从街机爽感推向汽车文化。'],
+          ['Tekken 3', '代表 PS1 晚期 3D 格斗的成熟度，也证明 Namco 对 PlayStation 的支援有多关键。'],
+        ],
+      },
+      {
+        platform: 'Sega Saturn',
+        games: [
+          ['Virtua Fighter 2', '街机 3D 格斗在家用机上的标志性移植，保住 Sega 技术信仰。'],
+          ['Sega Rally Championship', '用不同路面手感与街机节奏，留下 Saturn 最鲜明的竞速记忆。'],
+          ['NiGHTS into Dreams', '配合 3D Control Pad，做出介于飞行、轨道与梦境演出的 Sega 式异色作品。'],
+          ['Radiant Silvergun', '让 Saturn 在射击游戏收藏圈变成神主机之一。'],
+          ['Guardian Heroes', 'Treasure 把清版动作、分歧路线与 RPG 成长混在一起，成为 2D 强项代表。'],
+        ],
+      },
+      {
+        platform: 'Nintendo 64',
+        games: [
+          ['Super Mario 64', '教会玩家在 3D 空间里跑、跳、转镜头，是现代 3D 动作游戏的起点之一。'],
+          ['The Legend of Zelda: Ocarina of Time', 'Z-targeting、场景节奏与 3D 冒险结构，让动作冒险类型完成关键转译。'],
+          ['GoldenEye 007', '把分割画面多人 FPS 带进客厅，是很多玩家第一次在家里打「枪战派对」。'],
+          ['Mario Kart 64', '四人同乐、道具混战与 3D 赛道，让派对型赛车成为长期公式。'],
+          ['Star Fox 64', '语音、震动包与轨道射击节奏，展示 N64 的另一种爽快感。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: '第一次看到 FFVII 片头',
+        body:
+          '火车进站、镜头拉远、Midgar 亮起。很多玩家第一次觉得 RPG 不只是角色在格子地图上走，而是可以像电影一样开场。这一刻，CD-ROM 的容量变成情绪。',
+      },
+      {
+        title: '三叉戟手把的困惑',
+        body:
+          'N64 手把第一次拿起来很怪：到底要握哪两支？但模拟摇杆一推，Mario 在 3D 空间里慢走、奔跑、转圈，玩家才发现这不是怪，是新的操作语言。',
+      },
+      {
+        title: 'Saturn 玩家守著街机味',
+        body:
+          '当同学都在聊 PS1 RPG 和 CG 动画，Saturn 玩家可能在打 Virtua Fighter 2、格斗移植或射击神作。它不是最大众的选择，但很像 Sega 最后一次把街机魂塞进家用主机。',
+      },
+      {
+        title: '改机店的清单',
+        body:
+          '台湾 90 年代末的 PS1 记忆，常是游戏店柜台、烧片目录、手写编号和透明光碟盒。灰色市场让游戏大量流动，也留下很复杂的青春味道。',
+      },
+    ],
+    sourcesTitle: '资料口径',
+    sources:
+      '本页以第五世代主机史、各平台代表作与玩家记忆为策展素材；销量与市场叙事采常见历史口径：PlayStation 全球破亿并成为主流，Nintendo 64 约三千万级且第一方强势，Saturn 约千万级且日本相对较强、海外失利。若后续要做正式注脚版，可再补 Sony / Nintendo 官方数字、SegaRetro、Edge / Next Generation 当年报导与各平台开发者访谈。',
+  },
+  en: {
+    lanesTitle: 'Three consoles, three lanes',
+    lanes: [
+      {
+        label: 'PlayStation: nightclub, CD, memory card',
+        body:
+          'Sony refused to package PlayStation as a children\'s toy, placing it instead in music, magazines, nightlife, and more grown-up advertising. Cheap CDs, friendly development, willing third parties — Square, Namco, Capcom, Konami — collectively pushed PS1 into fifth-generation mainstream.',
+      },
+      {
+        label: 'Saturn: strong in 2D, painful 3D pivot',
+        body:
+          'Saturn\'s multi-processor architecture and 2D capabilities had distinct Sega flavor — fighting games, shooters, and arcade ports were excellent. But facing the market\'s sudden full pivot to 3D, the multi-CPU development barrier, weak overseas strategy, and absent Sonic made it hard to compete with PS1 head-on.',
+      },
+      {
+        label: 'Nintendo 64: cartridge island, analog future',
+        body:
+          'N64 stuck with cartridges, gaining low load times and durability but losing CD capacity and most third parties. Through Super Mario 64, Zelda: Ocarina of Time, and GoldenEye 007, it proved 3D design could be remarkably mature — even as the software lineup narrowed.',
+      },
+    ],
+    shiftTitle: 'From the cartridge era to the disc era',
+    shifts: [
+      {
+        title: 'Capacity exploded',
+        body:
+          'RPGs could now contain animation, voice acting, long cutscenes, and multiple discs. Final Fantasy VII\'s impact came not just from 3D but from an entire narrative wrapper landing in the living room — film and album, all at once.',
+      },
+      {
+        title: 'Costs collapsed',
+        body:
+          'CD pressing was vastly cheaper than cartridge production, with very different inventory risk. Third parties became more willing to try new IPs, longer narratives, and content-heavy releases — and PlayStation built its "lots of games, all kinds" image.',
+      },
+      {
+        title: 'Piracy spread',
+        body:
+          'Chinese-speaking world PS1 memory is often tied to mod chips, burned discs, Guanghua Market, and game-shop catalog lists. It accelerated adoption and made the boundaries between licensed, distributed, and gray-market increasingly complicated.',
+      },
+    ],
+    gamesTitle: 'How to read the representative titles',
+    gamePicks: [
+      {
+        platform: 'PlayStation',
+        games: [
+          ['Final Fantasy VII', 'Pushed JRPG into global pop-culture center. CG, music, characters, and multi-disc all together built the "cinematic RPG" image.'],
+          ['Metal Gear Solid', 'Voice acting, camera work, stealth pacing, and meta-staging proved 3D consoles could carry more film-like narrative.'],
+          ['Resident Evil', 'Fixed cameras, budget constraints, and horror pacing combined into the mainstream vocabulary of survival horror.'],
+          ['Gran Turismo', 'Real cars, license tests, tuning, and long-term progression pushed racing from arcade thrill to car culture.'],
+          ['Tekken 3', 'Represented PS1\'s late-life 3D fighter maturity and revealed how critical Namco support was to PlayStation.'],
+        ],
+      },
+      {
+        platform: 'Sega Saturn',
+        games: [
+          ['Virtua Fighter 2', 'A signature arcade 3D fighter port to home. Preserved Sega technical credibility.'],
+          ['Sega Rally Championship', 'Different surface feel and arcade pacing left Saturn\'s most distinctive racing memory.'],
+          ['NiGHTS into Dreams', 'Combined with the 3D Control Pad, produced a uniquely Sega flying / orbital / dream-staging hybrid.'],
+          ['Radiant Silvergun', 'Made Saturn one of the holy machines in shoot-\'em-up collector circles.'],
+          ['Guardian Heroes', 'Treasure mixed beat-\'em-up, branching paths, and RPG progression — the platform\'s 2D-strength flagship.'],
+        ],
+      },
+      {
+        platform: 'Nintendo 64',
+        games: [
+          ['Super Mario 64', 'Taught players how to run, jump, and rotate the camera in 3D space. One of the starting points of modern 3D action gaming.'],
+          ['The Legend of Zelda: Ocarina of Time', 'Z-targeting, scene rhythm, and 3D adventure structure completed the action-adventure genre\'s critical translation.'],
+          ['GoldenEye 007', 'Brought split-screen multiplayer FPS into the living room — many players\' first home "shooter party."'],
+          ['Mario Kart 64', 'Four-player co-op, item chaos, and 3D tracks made party-style racing a long-term formula.'],
+          ['Star Fox 64', 'Voice, Rumble Pak, and rail-shooter pacing demonstrated N64\'s other kind of thrill.'],
+        ],
+      },
+    ],
+    storiesTitle: 'Curation notes',
+    stories: [
+      {
+        title: 'The first time you saw the FFVII opening',
+        body:
+          'A train pulling in, the camera pulling out, Midgar lighting up. For many players, RPGs stopped being characters walking on grid maps and became something that could open like a film. In that moment, CD-ROM capacity became emotion.',
+      },
+      {
+        title: 'The three-pronged controller confusion',
+        body:
+          'The N64 controller felt strange the first time you held it — which two prongs do you grip? But once you pushed the analog stick and Mario walked, ran, and rotated in 3D space, you realized it was not strange but a new control language.',
+      },
+      {
+        title: 'Saturn players defending the arcade flavor',
+        body:
+          'When classmates were talking about PS1 RPGs and CG cinematics, Saturn players might have been playing Virtua Fighter 2, fighting-game ports, or shooter masterpieces. Not the most popular choice — but Sega\'s last attempt to put arcade soul into a home console.',
+      },
+      {
+        title: 'The mod-shop catalog',
+        body:
+          '1990s late-Taiwan PS1 memory often involves the game-shop counter, burned-disc catalogs, handwritten serial numbers, and clear plastic disc cases. The gray market accelerated software flow and left a complicated youth flavor.',
+      },
+    ],
+    sourcesTitle: 'Source framing',
+    sources:
+      'This page treats fifth-generation console history, platform-defining titles, and player memory as curatorial material. Sales and market narrative follow conventional historical framings: PlayStation crossed 100M globally and became mainstream; Nintendo 64 reached the ~30M tier with strong first-party output; Saturn reached the ~10M tier — relatively stronger in Japan, weaker overseas. A formal annotated edition could later add Sony / Nintendo official figures, SegaRetro, contemporaneous Edge / Next Generation reporting, and platform developer interviews.',
+  },
+  ja: {
+    lanesTitle: '三台のハード、三つの航路',
+    lanes: [
+      {
+        label: 'PlayStation：ナイトクラブ、CD、メモリーカード',
+        body:
+          'Sony は PlayStation を子ども玩具としてではなく、音楽・雑誌・ナイトライフ・より大人向けの広告文脈に置いた。CD の安さ、開発しやすさ、サードパーティの参入意欲——スクウェア、ナムコ、カプコン、コナミ——が共に PS1 を第五世代主流へ押し上げた。',
+      },
+      {
+        label: 'サターン：2D は強く、3D 転換は痛い',
+        body:
+          'サターンのマルチプロセッサ構成と 2D 能力は色濃いセガ味——格闘、シューティング、アーケード移植は秀逸だった。だが市場が突然 3D へ全面転換する中、マルチ CPU の開発障壁、海外戦略の弱さ、ソニックの不在が PS1 との真っ向勝負を困難にした。',
+      },
+      {
+        label: 'Nintendo 64：カートリッジ孤島とアナログの未来',
+        body:
+          'N64 はカートリッジを堅持し、低ロードと耐久性を得たが CD 容量と多くのサードパーティを失った。スーパーマリオ 64、ゼルダの伝説 時のオカリナ、ゴールデンアイ 007 を通じて 3D 設計が極めて成熟しうることを証明した一方、ソフトラインナップは集中化していった。',
+      },
+    ],
+    shiftTitle: 'カートリッジ時代から光ディスク時代へ',
+    shifts: [
+      {
+        title: '容量の爆増',
+        body:
+          'RPG にアニメーション、ボイス、長尺カットシーン、複数枚ディスクを詰め込めるようになった。FFVII の衝撃は 3D だけでなく、物語の包装そのものが映画とアルバムとともにリビングに到着した瞬間だった。',
+      },
+      {
+        title: 'コストの低下',
+        body:
+          'CD のプレスコストはカートリッジより遥かに低く、在庫リスクも別物。サードパーティが新規 IP、長尺な物語、コンテンツ重視の作品に挑む意欲が高まり、PlayStation は『ゲームが多い、何でもある』イメージを築いた。',
+      },
+      {
+        title: '海賊版の拡散',
+        body:
+          '中華圏の PS1 記憶はモッドチップ、焼き込みディスク、光華商場、ゲームショップのカタログリストと結びついていることが多い。普及を加速したが、正規版、代理、グレー市場の境界はますます複雑になった。',
+      },
+    ],
+    gamesTitle: '代表作の読み方',
+    gamePicks: [
+      {
+        platform: 'PlayStation',
+        games: [
+          ['ファイナルファンタジー VII', 'JRPG を世界のポップカルチャーの中心へ押し上げた。CG、音楽、キャラクター、複数枚ディスクが共に『映画的 RPG』のイメージを形作った。'],
+          ['メタルギアソリッド', 'ボイス、カメラ、潜入のテンポ、メタ的演出を通じて、3D 機が映画的物語を担えることを証明した。'],
+          ['バイオハザード', '固定カメラ、予算制限、ホラーのテンポが組み合わさって、サバイバルホラーの主流語彙を形成した。'],
+          ['グランツーリスモ', 'リアル車種、ライセンス、チューニング、長期的成長で、レーシングをアーケードの爽快感から自動車文化へと押し上げた。'],
+          ['鉄拳 3', 'PS1 後期 3D 格闘の成熟度を象徴し、ナムコの PlayStation 支援がどれだけ重要だったかを示した。'],
+        ],
+      },
+      {
+        platform: 'セガサターン',
+        games: [
+          ['バーチャファイター 2', 'アーケード 3D 格闘の家庭用機への象徴的移植。セガの技術信仰を守った。'],
+          ['セガラリーチャンピオンシップ', '異なる路面の手応えとアーケードのテンポで、サターン最鮮明のレーシング記憶を残した。'],
+          ['NiGHTS into Dreams', '3D Control Pad と組み合わせ、飛行・軌道・夢の演出を融合させたセガらしい異色作。'],
+          ['斑鳩 / Radiant Silvergun', 'サターンを STG コレクター界の聖機の一つに押し上げた。'],
+          ['ガーディアンヒーローズ', 'トレジャーがベルトアクション、分岐ルート、RPG 成長を混合させ、プラットフォームの 2D 強さの代表作となった。'],
+        ],
+      },
+      {
+        platform: 'Nintendo 64',
+        games: [
+          ['スーパーマリオ 64', 'プレイヤーに 3D 空間で走り、跳び、カメラを回転させる方法を教えた。現代 3D アクションゲームの起点の一つ。'],
+          ['ゼルダの伝説 時のオカリナ', 'Z 注目、シーンのテンポ、3D 冒険構造でアクションアドベンチャージャンルの決定的翻訳を完成させた。'],
+          ['ゴールデンアイ 007', 'スプリットスクリーン マルチ FPS をリビングに持ち込み、多くのプレイヤーに初めての家庭『シューターパーティ』体験を与えた。'],
+          ['マリオカート 64', '4 人協力、アイテム混戦、3D コースで、パーティ型レーシングを長期公式とした。'],
+          ['スターフォックス 64', 'ボイス、振動パック、レールシューターのテンポで、N64 のもう一種の爽快感を示した。'],
+        ],
+      },
+    ],
+    storiesTitle: 'キュレーションメモ',
+    stories: [
+      {
+        title: 'FFVII オープニングを初めて見た時',
+        body:
+          '列車が駅に入り、カメラが引き、ミッドガルが灯る。多くのプレイヤーにとって RPG はもう格子マップ上をキャラが歩くものではなく、映画のように開幕しうる何かに変わった。この瞬間、CD-ROM の容量が感情へと変換された。',
+      },
+      {
+        title: '三叉コントローラの戸惑い',
+        body:
+          'N64 コントローラを初めて握った時の違和感——どの二本を握るのか？だがアナログスティックを倒し、マリオが 3D 空間を歩き、走り、回転すると、それは奇妙ではなく新しい操作言語だと気づく。',
+      },
+      {
+        title: 'サターン派のアーケード魂',
+        body:
+          '同級生が PS1 の RPG と CG ムービーの話をしている時、サターンプレイヤーはバーチャファイター 2、格闘移植、STG の名作を遊んでいたかもしれない。最大公約数の選択ではないが、それはセガがアーケード魂を家庭用機に詰めた最後の試みだった。',
+      },
+      {
+        title: 'モッドショップのカタログ',
+        body:
+          '1990 年代末台湾の PS1 記憶は、ゲームショップのカウンター、焼き込みディスクのカタログ、手書きの番号、透明プラスチックのディスクケースと結びついていることが多い。グレー市場はソフトの大量流通を加速し、複雑な青春の味を残した。',
+      },
+    ],
+    sourcesTitle: '資料の取り方',
+    sources:
+      '本ページは第五世代家庭用ゲーム機史、プラットフォーム代表作、プレイヤー記憶をキュレーションの素材として扱う。販売と市場ナラティブは慣例的な歴史枠組みに従う：PlayStation は世界 1 億台超で主流入り、Nintendo 64 は約 3,000 万台級で第一弾が強く、Saturn は約 1,000 万台級で日本相対的に強く海外で苦戦。将来の正式注釈版では Sony / 任天堂公式数字、SegaRetro、当時の Edge / Next Generation 報道、プラットフォーム開発者インタビューを補える。',
+  },
 }[lang];
 ---
 
