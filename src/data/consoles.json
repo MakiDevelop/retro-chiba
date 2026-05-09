@@ -928,5 +928,125 @@
     "maker": "Bit Corporation",
     "first_release": "1990-01-01",
     "wikidata": "https://www.wikidata.org/wiki/Q3094980"
+  },
+  {
+    "qid": "Q623316",
+    "slug": "game-and-watch",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Game & Watch",
+      "ja": "ゲーム＆ウオッチ",
+      "zh-tw": "Game & Watch",
+      "zh-cn": "Game & Watch"
+    },
+    "maker": "Nintendo",
+    "first_release": "1980-04-28",
+    "wikidata": "https://www.wikidata.org/wiki/Q623316"
+  },
+  {
+    "qid": "Q304244",
+    "slug": "amiga-cdtv",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "Amiga CDTV",
+      "ja": "Amiga CDTV",
+      "zh-tw": "Amiga CDTV",
+      "zh-cn": "Amiga CDTV"
+    },
+    "maker": "Commodore International",
+    "first_release": "1991-03-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q304244"
+  },
+  {
+    "qid": "Q716480",
+    "slug": "sega-pico",
+    "gen": "4",
+    "kind": "home",
+    "names": {
+      "en": "Sega Pico",
+      "ja": "キッズコンピュータ・ピコ",
+      "zh-tw": "Sega Pico",
+      "zh-cn": "Sega Pico"
+    },
+    "maker": "Sega",
+    "first_release": "1993-06-26",
+    "wikidata": "https://www.wikidata.org/wiki/Q716480"
+  },
+  {
+    "qid": "Q1397617",
+    "slug": "fm-towns-marty",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "FM Towns Marty",
+      "ja": "FM Towns Marty",
+      "zh-tw": "FM Towns Marty",
+      "zh-cn": "FM Towns Marty"
+    },
+    "maker": "Fujitsu",
+    "first_release": "1993-02-20",
+    "wikidata": "https://www.wikidata.org/wiki/Q1397617"
+  },
+  {
+    "qid": "Q1054572",
+    "slug": "bandai-playdia",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "Bandai Playdia",
+      "ja": "バンダイ Playdia",
+      "zh-tw": "Bandai Playdia",
+      "zh-cn": "Bandai Playdia"
+    },
+    "maker": "Bandai",
+    "first_release": "1994-09-23",
+    "wikidata": "https://www.wikidata.org/wiki/Q1054572"
+  },
+  {
+    "qid": "Q1318935",
+    "slug": "pc-fx",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "PC-FX",
+      "ja": "PC-FX",
+      "zh-tw": "PC-FX",
+      "zh-cn": "PC-FX"
+    },
+    "maker": "NEC + Hudson",
+    "first_release": "1994-12-23",
+    "wikidata": "https://www.wikidata.org/wiki/Q1318935"
+  },
+  {
+    "qid": "Q1047219",
+    "slug": "casio-loopy",
+    "gen": "5",
+    "kind": "home",
+    "names": {
+      "en": "Casio Loopy",
+      "ja": "カシオ Loopy",
+      "zh-tw": "Casio Loopy",
+      "zh-cn": "Casio Loopy"
+    },
+    "maker": "Casio",
+    "first_release": "1995-10-19",
+    "wikidata": "https://www.wikidata.org/wiki/Q1047219"
+  },
+  {
+    "qid": "Q1320074",
+    "slug": "tiger-rzone",
+    "gen": "h",
+    "kind": "handheld",
+    "names": {
+      "en": "Tiger R-Zone",
+      "ja": "Tiger R-Zone",
+      "zh-tw": "Tiger R-Zone",
+      "zh-cn": "Tiger R-Zone"
+    },
+    "maker": "Tiger Electronics",
+    "first_release": "1995-08-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q1320074"
   }
 ]
