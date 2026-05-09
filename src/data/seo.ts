@@ -3,7 +3,7 @@ import type { Lang } from '../i18n/ui';
 
 export const siteOrigin = 'https://retro.chiba.tw';
 
-export const featureSlugs = ['atari-crash', '16-bit-war', 'playstation-breakup', 'polygon-revolution', 'sega-exit', 'gray-memory', 'handheld-wars'] as const;
+export const featureSlugs = ['atari-crash', '16-bit-war', 'playstation-breakup', 'polygon-revolution', 'sega-exit', 'gray-memory', 'handheld-wars', 'failure-museum'] as const;
 
 export const featureSeo = {
   'atari-crash': {
@@ -110,6 +110,21 @@ export const featureSeo = {
       ja: 'ゲームボーイ対 Lynx 対ゲームギア（1989）、ニンテンドー DS 対 PSP（2004）、iPhone に屠られる Vita（2011）——携帯機戦争三幕 30 年史、そして Switch が『戦場を降りる』ことでこの戦争を終わらせた経緯。',
     },
     keywords: ['Game Boy', 'Nintendo DS', 'PSP', 'PS Vita', 'Atari Lynx', 'Sega Game Gear', 'TurboExpress', 'handheld console wars', '3DS', 'Switch'],
+  },
+  'failure-museum': {
+    title: {
+      'zh-tw': '失敗主機博物館',
+      'zh-cn': '失败主机博物馆',
+      en: 'The Museum of Failed Consoles',
+      ja: '失敗ハード博物館',
+    },
+    description: {
+      'zh-tw': '12 台失敗主機的分類學：過早登場（CDTV / Marty / 3DO / CD32）、押錯方向（PC-FX / Virtual Boy / Pippin / Loopy）、時代終結的孤兒（N-Gage / Zodiac / Game.com / R-Zone）。',
+      'zh-cn': '12 台失败主机的分类学：过早登场（CDTV / Marty / 3DO / CD32）、押错方向（PC-FX / Virtual Boy / Pippin / Loopy）、时代终结的孤儿（N-Gage / Zodiac / Game.com / R-Zone）。',
+      en: 'A taxonomy of 12 failed consoles: those that launched too early (CDTV, Marty, 3DO, CD32), those that bet on the wrong axis (PC-FX, Virtual Boy, Pippin, Loopy), and those orphaned by an ending era (N-Gage, Zodiac, Game.com, R-Zone).',
+      ja: '失敗ハード 12 機種の分類学：早すぎた登場（CDTV / Marty / 3DO / CD32）、軸を誤った賭け（PC-FX / バーチャルボーイ / Pippin / Loopy）、時代終焉の孤児（N-Gage / Zodiac / Game.com / R-Zone）。',
+    },
+    keywords: ['Virtual Boy', '3DO', 'N-Gage', 'PC-FX', 'Apple Pippin', 'FM Towns Marty', 'Amiga CD32', 'failed consoles', 'console history', 'Trip Hawkins', 'Gunpei Yokoi'],
   },
 } satisfies Record<(typeof featureSlugs)[number], {
   title: Record<Lang, string>;

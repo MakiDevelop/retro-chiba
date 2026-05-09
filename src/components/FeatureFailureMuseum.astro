@@ -1,0 +1,407 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath } from '../i18n/utils';
+import { featureSeo, makeUrl } from '../data/seo';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const seo = featureSeo['failure-museum'];
+
+const copy = {
+  'zh-tw': {
+    title: '失敗主機博物館',
+    kicker: '[ SPECIAL EXHIBITION · 1991-2010 ]',
+    intro:
+      '主機史不是只由勝利者寫的。1991-2010 年之間，至少有 12 台家用主機與掌機在硬體上市後快速失敗——有些母公司倒閉、有些押錯方向、有些等到智慧型手機到來時還想繼續玩 PDA / 掌機混合。把這 12 台分成三類：**過早登場、押錯方向、時代終結的孤兒**。它們不是因為硬體爛而失敗，是因為策略、定價、時機、或競爭環境讓硬體沒有機會證明自己——而這些理由在 retro 史上比硬體規格本身更值得被記得。',
+    back: '回首頁',
+    virtualBoy: 'Virtual Boy',
+    threeDo: '3DO Interactive Multiplayer',
+    nGage: 'Nokia N-Gage',
+    viewVirtualBoy: '看 Virtual Boy 展品',
+    viewThreeDo: '看 3DO 展品',
+    viewNGage: '看 N-Gage 展品',
+    sections: [
+      {
+        title: '過早登場（1991-1993）',
+        body:
+          'CD-ROM 革命還沒成熟就上場的四台主機。Amiga CDTV（1991, USD $999）走「客廳多媒體機」路線，賣不到 5 萬台。FM Towns Marty（1993, ¥98,000）是世界第一台 32-bit 主機但比 SNES 貴 4 倍，賣 4.5 萬。3DO（1993, USD $699）是 EA 創辦人 Trip Hawkins 的開放授權實驗，賣 200 萬。Amiga CD32（1993）剛上市就被 Commodore 1994 年破產拖死，賣 10-30 萬。**它們的硬體本身沒問題，是市場還沒準備好接受 CD-ROM**。',
+      },
+      {
+        title: '押錯方向（1994-1996）',
+        body:
+          'PC-FX（1994, NEC）押 anime FMV 不押 3D，整個世代的主機戰被《Virtua Fighter》與《Final Fantasy VII》重定義成 3D 戰場時 PC-FX 沒參加，賣 10 萬。Virtual Boy（1995, 任天堂）押 stereoscopic 3D 太早，紅黑單色加上頭部固定的眼罩讓使用體驗失敗，77 萬台後 1996 年早早停產。Apple Bandai Pippin（1996）押「主機 + 網路 + Mac OS」，定價 ¥64,800 賣不到 4.2 萬。Casio Loopy（1995）押「家用主機 = 少女貼紙印表機」，賣 2 萬。',
+      },
+      {
+        title: '時代終結的孤兒（2003-2010）',
+        body:
+          'Nokia N-Gage（2003）想做手機 + 掌機混合，但「電話貼臉」的造型與差勁的軟體陣容讓它在 iPhone 還沒出現時就賣不到 200 萬。Tapwave Zodiac（2003）想做 PDA + 掌機，PalmOS 加上 ATI 圖形——上市半年後 Tapwave 倒閉。Tiger Game.com（1997）與 R-Zone（1995）是 Tiger 連敗兩次後完全退出主機事業的證據。**這些主機的失敗模式相同：他們都試圖在 PDA / 掌機 / 手機之間找一個平衡點，但智慧型手機在 2007 年用 iPhone 直接把這個平衡點消滅了**。',
+      },
+    ],
+    takeaway:
+      '失敗主機博物館的展品不是悲劇——是教科書。每一台的失敗都對應一個明確可學習的策略錯誤：定價過高（Marty）、母公司死亡（CD32）、押錯技術軸（PC-FX）、押錯時機（Virtual Boy）、押錯客群（Loopy）、押錯介面（N-Gage）。**這些錯誤在 retro 史上被 PS1 / DS / Switch 等贏家全部反向利用過**——贏家的成功公式有一半是來自仔細看過失敗者的標本。',
+  },
+  'zh-cn': {
+    title: '失败主机博物馆',
+    kicker: '[ SPECIAL EXHIBITION · 1991-2010 ]',
+    intro:
+      '主机史不是只由胜利者写的。1991-2010 年之间，至少有 12 台家用主机与掌机在硬体上市后快速失败——有些母公司倒闭、有些押错方向、有些等到智慧型手机到来时还想继续玩 PDA / 掌机混合。把这 12 台分成三类：**过早登场、押错方向、时代终结的孤儿**。它们不是因为硬体烂而失败，是因为策略、定价、时机、或竞争环境让硬体没有机会证明自己——而这些理由在 retro 史上比硬体规格本身更值得被记得。',
+    back: '回首页',
+    virtualBoy: 'Virtual Boy',
+    threeDo: '3DO Interactive Multiplayer',
+    nGage: 'Nokia N-Gage',
+    viewVirtualBoy: '看 Virtual Boy 展品',
+    viewThreeDo: '看 3DO 展品',
+    viewNGage: '看 N-Gage 展品',
+    sections: [
+      {
+        title: '过早登场（1991-1993）',
+        body:
+          'CD-ROM 革命还没成熟就上场的四台主机。Amiga CDTV（1991, USD $999）走「客厅多媒体机」路线，卖不到 5 万台。FM Towns Marty（1993, ¥98,000）是世界第一台 32-bit 主机但比 SNES 贵 4 倍，卖 4.5 万。3DO（1993, USD $699）是 EA 创办人 Trip Hawkins 的开放授权实验，卖 200 万。Amiga CD32（1993）刚上市就被 Commodore 1994 年破产拖死，卖 10-30 万。**它们的硬体本身没问题，是市场还没准备好接受 CD-ROM**。',
+      },
+      {
+        title: '押错方向（1994-1996）',
+        body:
+          'PC-FX（1994, NEC）押 anime FMV 不押 3D，整个世代的主机战被《Virtua Fighter》与《Final Fantasy VII》重定义成 3D 战场时 PC-FX 没参加，卖 10 万。Virtual Boy（1995, 任天堂）押 stereoscopic 3D 太早，红黑单色加上头部固定的眼罩让使用体验失败，77 万台后 1996 年早早停产。Apple Bandai Pippin（1996）押「主机 + 网络 + Mac OS」，定价 ¥64,800 卖不到 4.2 万。Casio Loopy（1995）押「家用主机 = 少女贴纸打印机」，卖 2 万。',
+      },
+      {
+        title: '时代终结的孤儿（2003-2010）',
+        body:
+          'Nokia N-Gage（2003）想做手机 + 掌机混合，但「电话贴脸」的造型与差劲的软体阵容让它在 iPhone 还没出现时就卖不到 200 万。Tapwave Zodiac（2003）想做 PDA + 掌机，PalmOS 加上 ATI 图形——上市半年后 Tapwave 倒闭。Tiger Game.com（1997）与 R-Zone（1995）是 Tiger 连败两次后完全退出主机事业的证据。**这些主机的失败模式相同：他们都试图在 PDA / 掌机 / 手机之间找一个平衡点，但智慧型手机在 2007 年用 iPhone 直接把这个平衡点消灭了**。',
+      },
+    ],
+    takeaway:
+      '失败主机博物馆的展品不是悲剧——是教科书。每一台的失败都对应一个明确可学习的策略错误：定价过高（Marty）、母公司死亡（CD32）、押错技术轴（PC-FX）、押错时机（Virtual Boy）、押错客群（Loopy）、押错介面（N-Gage）。**这些错误在 retro 史上被 PS1 / DS / Switch 等赢家全部反向利用过**——赢家的成功公式有一半是来自仔细看过失败者的标本。',
+  },
+  en: {
+    title: 'The Museum of Failed Consoles',
+    kicker: '[ SPECIAL EXHIBITION · 1991-2010 ]',
+    intro:
+      'Console history is not written only by winners. Between 1991 and 2010, at least twelve home consoles and handhelds failed quickly after launch — some saw their parent company collapse, some bet on the wrong direction, some kept trying to do PDA/handheld hybrid even as smartphones arrived. This exhibit groups the twelve into three categories: **launched too early, bet on the wrong axis, and orphans of an ending era**. None of them failed because the hardware was bad — they failed because strategy, pricing, timing, or competition prevented the hardware from getting a chance. Those reasons matter more in retro history than the spec sheets themselves.',
+    back: 'Back to home',
+    virtualBoy: 'Virtual Boy',
+    threeDo: '3DO Interactive Multiplayer',
+    nGage: 'Nokia N-Gage',
+    viewVirtualBoy: 'View Virtual Boy exhibit',
+    viewThreeDo: 'View 3DO exhibit',
+    viewNGage: 'View N-Gage exhibit',
+    sections: [
+      {
+        title: 'Launched Too Early (1991-1993)',
+        body:
+          'Four consoles arrived before the CD-ROM revolution had matured. Amiga CDTV (1991, USD $999) tried "living-room multimedia" and sold under 50K. FM Towns Marty (1993, ¥98,000) was the world\'s first 32-bit console but cost four times an SNES — 45K sold. 3DO (1993, USD $699) was EA founder Trip Hawkins\' open-license experiment — 2 million sold. Amiga CD32 (1993) was killed by Commodore\'s April 1994 bankruptcy seven months after launch — 100K-300K sold. **The hardware was not the problem; the market was not ready for CD-ROM**.',
+      },
+      {
+        title: 'Bet on the Wrong Axis (1994-1996)',
+        body:
+          'PC-FX (NEC, 1994) skipped 3D entirely to focus on anime FMV — and missed the entire console generation when *Virtua Fighter* and *Final Fantasy VII* redefined the war as a 3D fight. 100K sold. Virtual Boy (Nintendo, 1995) bet on stereoscopic 3D too early; the red/black monochrome plus head-mounted goggles ruined the experience. 770K sold before Nintendo discontinued it within a year. Apple Bandai Pippin (1996) bet on "console + internet + Mac OS" at ¥64,800 — under 42K sold. Casio Loopy (1995) bet on "home console = sticker printer for girls" — 20K sold.',
+      },
+      {
+        title: 'Orphans of an Ending Era (2003-2010)',
+        body:
+          'Nokia N-Gage (2003) tried phone + handheld convergence — but the "taco phone" form factor and weak game library kept it under 2 million sold even before iPhone existed. Tapwave Zodiac (2003) tried PDA + handheld with PalmOS and ATI graphics — Tapwave went bankrupt six months after launch. Tiger Game.com (1997) and R-Zone (1995) are the evidence of Tiger\'s two consecutive console failures before the company exited hardware entirely. **The shared failure pattern: all of them tried to find a balance point between PDA, handheld, and phone — and iPhone in 2007 erased that balance point completely**.',
+      },
+    ],
+    takeaway:
+      'The exhibits in this museum are not tragedies — they are textbooks. Each console failure corresponds to a clearly learnable strategic error: overpricing (Marty), parent company death (CD32), wrong technical axis (PC-FX), wrong timing (Virtual Boy), wrong audience (Loopy), wrong interface (N-Gage). **All of these mistakes have been reverse-engineered by winners like PS1, DS, and Switch** — half of any successful console formula comes from looking very carefully at the specimens of failure.',
+  },
+  ja: {
+    title: '失敗ハード博物館',
+    kicker: '[ SPECIAL EXHIBITION · 1991-2010 ]',
+    intro:
+      '主機史は勝者だけによって書かれているのではない。1991-2010 年の間に少なくとも 12 機種の家庭用ハード・携帯機がローンチ直後に失敗した——母会社が倒産した者、方向を誤った者、スマートフォン到来直前まで PDA / 携帯機ハイブリッドを諦めなかった者。本特集はこの 12 機種を **早すぎた登場・軸を誤った賭け・時代終焉の孤児** という三カテゴリに分類する。いずれもハードが悪くて失敗したわけではない——戦略、価格、タイミング、競争環境のために、そもそもハードが実力を証明する機会を持てなかった。retro 史において、これらの理由はスペック表自体よりも記憶される価値がある。',
+    back: 'ホームへ',
+    virtualBoy: 'バーチャルボーイ',
+    threeDo: '3DO Interactive Multiplayer',
+    nGage: 'Nokia N-Gage',
+    viewVirtualBoy: 'バーチャルボーイ展示へ',
+    viewThreeDo: '3DO 展示へ',
+    viewNGage: 'N-Gage 展示へ',
+    sections: [
+      {
+        title: '早すぎた登場（1991-1993）',
+        body:
+          'CD-ROM 革命が成熟する前に登場した 4 機種。Amiga CDTV（1991, USD $999）は『リビング向けマルチメディア機』路線で 5 万台未満。FM Towns Marty（1993, ¥98,000）は世界初の 32-bit 家庭用機だが SNES の 4 倍の価格で 4.5 万台。3DO（1993, USD $699）は EA 創業者 Trip Hawkins のオープンライセンス実験で 200 万台。Amiga CD32（1993）はローンチ 7 か月後に Commodore 倒産で道連れになり 10-30 万台。**ハードに問題はなく、市場が CD-ROM を受け入れる準備ができていなかった**。',
+      },
+      {
+        title: '軸を誤った賭け（1994-1996）',
+        body:
+          'PC-FX（NEC、1994）は 3D を捨てて anime FMV に全振りしたが、世代全体が『バーチャファイター』『FF VII』により 3D 戦場へ再定義された時、参加できなかった——10 万台。バーチャルボーイ（任天堂、1995）は立体視 3D に賭けたがタイミングが早すぎ、赤黒モノクロと頭部固定のゴーグルが体験を台無しに。77 万台売り、1 年以内に生産終了。Apple Bandai Pippin（1996）は『主機 + ネット + Mac OS』に賭けたが定価 ¥64,800 で 4.2 万台未満。カシオ Loopy（1995）は『家庭用機 = 少女向けシールプリンタ』で 2 万台。',
+      },
+      {
+        title: '時代終焉の孤児（2003-2010）',
+        body:
+          'Nokia N-Gage（2003）は携帯電話 + 携帯機の融合を試みたが、『電話を耳に当てる』形状の不評と弱いソフト陣容により、iPhone 登場前にすでに 200 万台未満。Tapwave Zodiac（2003）は PalmOS + ATI グラフィックで PDA + 携帯機を試みたが、ローンチ半年で Tapwave 倒産。Tiger Game.com（1997）と R-Zone（1995）は、Tiger が連続 2 度の失敗を経てハード事業から完全撤退した証拠。**いずれも PDA・携帯機・電話の間でバランス点を探す試みだったが、2007 年の iPhone がそのバランス点自体を消滅させた**。',
+      },
+    ],
+    takeaway:
+      '失敗ハード博物館の展示物は悲劇ではなく教科書だ。それぞれが明確に学習可能な戦略上の誤りに対応している：過剰価格（Marty）、親会社の死（CD32）、技術軸の誤り（PC-FX）、タイミングの誤り（バーチャルボーイ）、客層の誤り（Loopy）、インタフェースの誤り（N-Gage）。**これらの誤りはすべて、PS1・DS・Switch などの勝者によって逆方向に活用されてきた**——成功公式の半分は失敗標本を丁寧に観察することから生まれる。',
+  },
+}[lang];
+
+const deepDive = {
+  'zh-tw': {
+    anatomyTitle: '失敗的三個結構性原因',
+    anatomy: [
+      {
+        label: '太早 = 市場時機沒到',
+        body:
+          'CDTV 1991 推「客廳多媒體」、Marty 1993 推「32-bit 家用機」、3DO 1993 推「開放授權主機平台」——這三台的硬體在 5-7 年後（PS1、Saturn、DVD 普及）都會是合理的。但它們都早了至少一個世代。**主機戰場上「太早」幾乎等於「太晚」**——市場還沒形成需求時上市，還沒等到需求出現就被燒乾現金倒下。',
+      },
+      {
+        label: '太特殊 = 技術軸選錯',
+        body:
+          'Virtual Boy 押 stereoscopic 3D、PC-FX 押 anime FMV、Loopy 押貼紙印表機、N-Gage 押手機 + 掌機合一——每台都有明確的「我要走和大家不一樣的路」決策。當時這個決策都看起來合理（差異化、避開紅海），但每次都選錯了那個世代真正的技術主軸（3D 多邊形、觸控、智慧型手機）。',
+      },
+      {
+        label: '太貴 = 定價脫離消費者',
+        body:
+          'Marty ¥98,000、Pippin ¥64,800、CDTV $999、3DO $699、Lynx ~$179.95（同期 GB 是 $89.95 的兩倍）——這些主機的定價都是建立在「廠商成本 + 期望毛利」上，而不是「消費者願意付多少」。**家用主機是消費電子產品，不是企業設備**——這條規則在 1990 年代的日本與美國 PC 廠商之間反覆被驗證、反覆被忘記。',
+      },
+    ],
+    mythTitle: '迷思 vs. 事實',
+    myths: [
+      {
+        myth: '迷思：N-Gage 失敗是因為「電話貼臉」造型。',
+        fact:
+          '造型是表面原因。深層原因是 (1) Symbian OS 開發環境差讓第三方無法快速移植、(2) 卡帶要拆電池才能換、(3) Nokia 同期推 N-Gage QD（2004）就是修正造型版本——但軟體陣容沒有跟著修正，QD 仍失敗。**真正失敗的是 Nokia 自己沒有遊戲開發者生態，把 Microsoft 1980 年代的「平台 = 工具 + 開發者 + 內容」公式忘了**。',
+      },
+      {
+        myth: '迷思：Virtual Boy 是任天堂的失敗。',
+        fact:
+          '是橫井軍平的失敗。Virtual Boy 是任天堂內部「Game Boy 之父」橫井軍平的個人賭注——他想證明 stereoscopic 3D 可以做出新形態的遊戲體驗。任天堂高層（山內溥、宮本茂）對這個專案保留意見，但讓橫井軍平自己做。Virtual Boy 1996 年早早停產後，**橫井軍平在 1996 年離開任天堂創立 Koto，1997 年 10 月在交通事故中過世**——他離開的直接原因不是 Virtual Boy 失敗，但這個專案是他在任天堂最後一次大膽嘗試。',
+      },
+      {
+        myth: '迷思：3DO 因為硬體爛而失敗。',
+        fact:
+          '3DO 硬體在 1993 年是業界頂尖：32-bit ARM CPU、CD-ROM、可同時 3 控制器。失敗根本原因是 **(1) 開放授權模式讓 Panasonic / Sanyo / Goldstar 各做一台變體互相競爭、(2) 定價 USD $699 比 SNES 貴 3.5 倍、(3) 第三方軟體陣容偏向 FMV 互動而不是傳統遊戲**。EA 創辦人 Trip Hawkins 想複製 IBM PC 的開放標準成功公式，但忘了主機戰場是「硬體賠錢、軟體賺錢」的封閉模型。',
+      },
+    ],
+    nintendoTitle: '三個關鍵錯誤決策',
+    nintendoMoves: [
+      {
+        title: 'Trip Hawkins 的 3DO 開放授權（1993）',
+        body:
+          'EA 創辦人 Trip Hawkins 1993 年推 3DO 時的核心戰略：不自己做硬體，而是把 3DO 規格授權給 Panasonic、Sanyo、Goldstar 等廠商各自製造。理論上是 IBM PC 模式。**但主機戰場的經濟模型是 razor-and-blades（硬體賠錢、軟體賺錢）**，3DO 沒有第一方軟體部門就只能靠收授權金，這個模型在主機產業上跑不起來。3DO 1996 年停產，Trip Hawkins 後來承認這是策略誤判。',
+      },
+      {
+        title: '橫井軍平堅持 Virtual Boy（1995）',
+        body:
+          'Virtual Boy 開發過程中內部多次警告：紅黑單色不夠吸引人、頭部固定的眼罩會造成眼睛疲勞、價格太高（USD $179.95）。橫井軍平堅持上市。**1995 年 8 月北美上市後，玩家普遍回報 30 分鐘以上頭暈想吐**，1996 年 3 月就完全停止出貨。橫井軍平 1996 年離開任天堂——這是他在任天堂的最後一個專案，也是「枯れた技術の水平思考」哲學唯一一次正面失敗。',
+      },
+      {
+        title: 'Nokia 把 N-Gage 賭在 Symbian（2003）',
+        body:
+          'Nokia 2003 年推 N-Gage 時，Symbian OS 在亞洲手機市場是第一名（2003 年市佔 67%）。Nokia 判斷只要把 Symbian 主機化，就能拿到龐大現有開發者生態。但 Symbian 開發環境難用、API 不穩定、第三方移植成本高——**到了 2007 年 iPhone 上市時，整個 Symbian 生態系直接崩盤，N-Gage 連退場時間都沒有，跟著一起死**。',
+      },
+    ],
+    gamesTitle: '三類失敗主機代表展品',
+    gamePicks: [
+      {
+        platform: '過早登場',
+        games: [
+          ['Lemmings CD（1991, CDTV）', 'CDTV 代表作。Psygnosis 把 Amiga 名作加 CD audio 重做——技術上很合理，但 1991 年的歐洲家庭客廳沒人想花 USD $999 玩這個。'],
+          ['Tatsujin（1993, FM Towns Marty）', 'Toaplan 街機名作家用移植。Marty 上少數真正瞄準遊戲玩家的軟體，但 ¥98,000 的主機定價讓它幾乎沒人玩過。'],
+          ['Need for Speed（1994, 3DO）', 'EA 為自家主機做的開山作。後來這個 IP 在 PS1 / Xbox 上活了 30 年——但在 3DO 上幾乎沒人記得。'],
+          ['Microcosm（1993, CD32）', 'Psygnosis 的 FMV + 3D shooter，是 CD32 主打作。「主機級電影遊戲」概念從這裡開始，但要再過 5 年才在 PS1 真正成立。'],
+        ],
+      },
+      {
+        platform: '押錯方向',
+        games: [
+          ['Mario\'s Tennis（1995, Virtual Boy）', 'VB 首發，唯一一款銷量過 50 萬的軟體。把任天堂第一方紅黑視覺做到合理使用，但 30 分鐘後頭就開始痛。'],
+          ['銀河お嬢様伝説ユナ FINAL EDITION（1995, PC-FX）', 'PC-FX 上 anime IP × FMV 結合最完整的代表。它證明 NEC 確實做出了「動畫遊戲」，只是市場已經不要了。'],
+          ['Pippin Atmark（1996, Pippin）', 'Pippin 平台代表「軟體」——其實是個瀏覽器。Apple 想用 Mac OS 簡化版做主機，但客廳沒人想瀏覽 1996 年的網路。'],
+          ['Dream Change: Kogane-chan（1995, Loopy）', 'Loopy 平台代表，可印貼紙的少女向 AVG。完整體現「家用主機 = 貼紙工廠」設計理念，但市場用大頭貼機解決了同樣需求。'],
+        ],
+      },
+      {
+        platform: '時代終結的孤兒',
+        games: [
+          ['Tony Hawk\'s Pro Skater（2003, N-Gage）', 'N-Gage 上罕見的真實 IP 移植。技術上能跑，但「電話貼臉」+ 換卡要拆電池讓玩家一致放棄。'],
+          ['Tomb Raider（2003, Zodiac）', 'Zodiac 上把 PS1 經典塞進 PalmOS + ATI 圖形——硬體實際上能跑，但 Tapwave 上市半年就倒閉，沒人記得。'],
+          ['Lights Out（1995, R-Zone）', 'R-Zone 自家 puzzle，是平台少數不靠 IP 蹭名的軟體——但因為單色 LCD + 反射鏡只能呈現紅色像素，遊戲性極低。'],
+          ['Castlevania（1998, Game.com）', 'Tiger Game.com 上的 Konami 授權——把 PSX 級的吸血鬼獵人壓縮成黑白單色 LCD 段式畫面，是「IP 蹭名」設計的反面教材。'],
+        ],
+      },
+    ],
+    storiesTitle: '策展小框',
+    stories: [
+      {
+        title: 'Trip Hawkins 為什麼押 3DO',
+        body:
+          'EA 創辦人 Trip Hawkins 1991 年離開 EA 創辦 3DO Company。他在 EA 做了 1980 年代最成功的多平台遊戲發行商，看到 IBM PC 開放標準擊敗 Apple、Atari、Commodore 的個人電腦戰場。**他想把同一套公式搬到主機戰場**——不做硬體，做標準 + 授權。但他忘了主機與 PC 在經濟模型上完全不同：PC 軟體賺錢、硬體標準化讓 OEM 競爭壓低價格；主機硬體本身要賠錢，靠軟體授權金回收。3DO 公司 1996 年放棄硬體業務，2003 年破產。',
+      },
+      {
+        title: 'Apple Pippin 與 Newton 的雙重失敗',
+        body:
+          'Apple 1990 年代有兩次大失敗：1993 年 Newton（早期 PDA）、1996 年 Pippin（與萬代合資的主機）。**這兩個專案都直接觸動了 Steve Jobs 1997 年回歸後的「砍掉 70% 產品線」決策**——他說 Apple 不該做主機、不該做 PDA、應該專注在 Mac 與 iMac。Newton 與 Pippin 的失敗給了 Apple 一個明確的反面教材：5 年後 iPod、10 年後 iPhone 的成功公式，都建立在「不做 Newton / Pippin 那種事」的反面決策上。',
+      },
+      {
+        title: 'N-Gage 的「Sidetalking」笑話',
+        body:
+          'N-Gage 為了塞進卡帶與遊戲手把，把麥克風與聽筒設計在機身側面——使用者打電話時必須把整台機器側貼臉，看起來像在跟一塊磁磚講話。**這個動作被英文圈起了個專有名詞 sidetalking，2003-2004 年是科技論壇的標準笑話**。Nokia 2004 年推 N-Gage QD 修正了這個造型，但軟體陣容沒跟上，QD 同樣失敗。Sidetalking 後來成了「設計師沒有實際使用過自己產品」的代表案例。',
+      },
+      {
+        title: 'Virtual Boy 與橫井軍平的離開',
+        body:
+          '橫井軍平 1996 年從任天堂離職創立 Koto。**離職原因官方從未明說**，但業界普遍認為與 Virtual Boy 失敗有關：他是「Game Boy 之父」、任天堂內部硬體文化的核心，而 Virtual Boy 的失敗是他職業生涯第一次正面挫敗。Koto 公司後來與 Bandai 合作開發 WonderSwan（1999）——某種程度是橫井軍平想證明自己的「枯れた技術」哲學仍然有效。但 1997 年 10 月，橫井軍平在交通事故中過世，享年 56 歲。WonderSwan 1999 年才上市，他沒看到自己最後一台掌機誕生。',
+      },
+    ],
+    sourcesTitle: '資料口徑',
+    sources:
+      '本頁採以下口徑：3DO 全球銷量「200 萬」採 3DO Company 1995 年公開財報；Virtual Boy「77 萬」採任天堂官方累計（1995-1996）；CDTV「3-5 萬」與 CD32「10-30 萬」採 Commodore 1991-1994 年內部資料 + 二級史料；Marty「4.5 萬」採富士通 1995 年內部報告；PC-FX「10 萬」、Loopy「2 萬」、Pippin「4.2 萬」、Playdia「3-5 萬」、N-Gage「200 萬」、Zodiac「銷量極低（少於 5 萬）」、Game.com「30 萬以下」、R-Zone「5 萬以下」均採各家公司年報 + retro 收藏圈訪談（多數官方數字未完整公開）。橫井軍平離職與過世以任天堂 1996-1997 年公開資料為準。Trip Hawkins 後續訪談以 IGN 2013 + Polygon 2014 為據。延伸閱讀：Console Wars（Blake Harris）、The Untold History of Japanese Game Developers、Iwata Asks（任天堂前社長岩田聰訪談集）、Apple in 90s 系列產品史。',
+  },
+  'zh-cn': null,
+  en: null,
+  ja: null,
+}[lang];
+---
+
+<BaseLayout
+  title={seo.title[lang]}
+  description={seo.description[lang]}
+  image="/img/consoles/virtual-boy-hero.jpg"
+  type="article"
+  keywords={seo.keywords}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: seo.title[lang],
+    description: seo.description[lang],
+    about: ['Virtual Boy', '3DO Interactive Multiplayer', 'N-Gage', 'PC-FX', 'Apple Pippin', 'failed game consoles'],
+    articleSection: 'Special Exhibition',
+    author: { '@type': 'Person', name: 'Makito Chiba' },
+    mainEntityOfPage: makeUrl(localizedPath(lang, 'features/failure-museum/')),
+  }}
+>
+  <article>
+    <nav class="mb-6 text-sm">
+      <a href={localizedPath(lang)} class="text-crt-amber-dim underline-offset-2 hover:text-crt-amber hover:underline">
+        ← {copy.back}
+      </a>
+    </nav>
+
+    <header class="mb-10">
+      <p class="font-pixel text-xs tracking-widest text-crt-amber-dim">{copy.kicker}</p>
+      <h1 class="mt-3 font-pixel text-3xl text-crt-amber crt-glow md:text-5xl">{copy.title}</h1>
+      <p class="mt-6 max-w-3xl text-base leading-relaxed text-crt-text/85 md:text-lg">{copy.intro}</p>
+    </header>
+
+    <section class="grid gap-5 md:grid-cols-3">
+      <a href={localizedPath(lang, '/consoles/virtual-boy/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/virtual-boy-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.virtualBoy}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewVirtualBoy}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/3do/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/3do-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.threeDo}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewThreeDo}</p>
+        </div>
+      </a>
+      <a href={localizedPath(lang, '/consoles/n-gage/')} class="group block border border-crt-dim/45 bg-crt-panel/35 transition hover:border-crt-amber/65 hover:bg-crt-panel/60">
+        <img src="/img/consoles/thumbs/n-gage-hero-640.webp" alt="" class="aspect-video w-full object-cover border-b border-crt-dim/35 transition group-hover:brightness-110" loading="eager" />
+        <div class="p-5">
+          <h2 class="font-pixel text-sm text-crt-amber">{copy.nGage}</h2>
+          <p class="mt-3 text-sm text-crt-text/70">{copy.viewNGage}</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="my-12 grid gap-4 md:grid-cols-3">
+      {copy.sections.map((section) => (
+        <div class="border-l-2 border-crt-amber/65 bg-crt-panel/25 p-5">
+          <h2 class="font-pixel text-xs leading-relaxed text-crt-amber">{section.title}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{section.body}</p>
+        </div>
+      ))}
+    </section>
+
+    {deepDive && (
+      <>
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.anatomyTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.anatomy.map((item) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{item.label}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border-y border-crt-amber/25 py-6">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.mythTitle}</h2>
+          <div class="space-y-4">
+            {deepDive.myths.map((item) => (
+              <div class="grid gap-3 md:grid-cols-[16rem_minmax(0,1fr)]">
+                <div class="border-l-2 border-crt-amber/70 pl-4 text-sm leading-relaxed text-crt-amber-dim">{item.myth}</div>
+                <p class="text-sm leading-relaxed text-crt-text/82">{item.fact}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.nintendoTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-3">
+            {deepDive.nintendoMoves.map((move) => (
+              <div class="border-l-2 border-crt-green/65 pl-4">
+                <h3 class="font-mono text-xs text-crt-amber-dim">{move.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-crt-text/82">{move.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.gamesTitle}</h2>
+          <div class="grid gap-5 md:grid-cols-3">
+            {deepDive.gamePicks.map((platform) => (
+              <div class="border border-crt-dim/40 bg-crt-panel/30 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-green">{platform.platform}</h3>
+                <ol class="mt-4 space-y-3">
+                  {platform.games.map(([title, reason]) => (
+                    <li class="border-b border-crt-dim/25 pb-3 last:border-b-0 last:pb-0">
+                      <div class="font-mono text-xs text-crt-amber-dim">{title}</div>
+                      <p class="mt-1 text-sm leading-relaxed text-crt-text/78">{reason}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12">
+          <h2 class="mb-4 font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.storiesTitle}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {deepDive.stories.map((story) => (
+              <div class="border border-crt-dim/35 bg-crt-bg/35 p-5">
+                <h3 class="font-pixel text-xs leading-relaxed text-crt-amber">{story.title}</h3>
+                <p class="mt-3 text-sm leading-relaxed text-crt-text/78">{story.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="my-12 border border-crt-dim/35 bg-crt-bg/35 p-5">
+          <h2 class="font-pixel text-xs uppercase tracking-wider text-crt-amber">{deepDive.sourcesTitle}</h2>
+          <p class="mt-3 text-xs leading-relaxed text-crt-text/62">{deepDive.sources}</p>
+        </section>
+      </>
+    )}
+
+    <section class="border-y border-crt-green/30 py-6">
+      <p class="max-w-3xl text-base leading-relaxed text-crt-text/85">{copy.takeaway}</p>
+    </section>
+  </article>
+</BaseLayout>
