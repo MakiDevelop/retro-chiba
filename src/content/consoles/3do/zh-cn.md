@@ -55,6 +55,14 @@ hardware_variants:
     release: "1995-1996（取消后卖给 Konami）"
     type: "取消的 64-bit 后继机"
     note: "3DO 公司 1995 年规划中的后继机 M2 采用 PowerPC 602 + 客制 3D 图形芯片，理论性能远超 PS1 / Saturn / N64。1996 年 Trip Hawkins 把 3DO 公司转型为纯软件商，**M2 整套硬件 IP 以约 1 亿美元卖给松下**，但松下也判断消费市场已被 Sony 锁死，1997 年将 M2 技术转授权给 Konami 作为街机板（后来的 Cobra system，跑《Battle Tryst》、《Tobal No.1》）。**从家用主机到街机板的奇异路径，是 3DO 标准商业模型彻底失败的尾声。**"
+  - name: "Creative 3DO Blaster（PC ISA 卡）"
+    release: "1994–1995"
+    type: "PC 端 3DO 兼容卡"
+    note: "以 Sound Blaster 闻名的 Creative Labs 推出的 3DO Blaster，是一张插在 PC ISA 槽的卡，**把整台 3DO 的 ARM60 + 图形芯片搬到电脑上**，让你用 PC 键盘鼠标玩 3DO 游戏。售价约 $400，需要一台够强的 486/Pentium 当「外接显示器」。这是 3DO「开放标准」走到极端的产物——**连 PC 都能变成 3DO 兼容机**。今日在 retro 收藏圈是极稀有物品，X 上偶尔有人贴出实机 + Blaster 卡的组合，留言永远是『这根本是 90 年代的赛博朋克失败案例』。"
+  - name: "GoldStar 3DO 品管笑话"
+    release: "1994–1995"
+    type: "韩国授权机的黑暗面"
+    note: "GoldStar（LG）版 3DO 在 collector 圈有『品管最不稳定』的恶名。有些机体焊接点不良、读碟异常率高，当时美版论坛就有人戏称『GDO = Goldstar Disaster Only』。但也因为售价较低（$399），反而成为少数真正想玩 3DO 却买不起 Panasonic 的玩家选择。今日在 X 和 eBay 交易时，**Panasonic FZ-1 被视为『正统』，GoldStar 版则是『有故事的平价替代』**，价格反而有时更亲民。"
 notable_games:
   - "Road Rash（Electronic Arts，1994）"
   - "Star Control II（Toys for Bob，1994）"
@@ -65,6 +73,32 @@ videos:
   - youtube: "3a2YfUPyX_w"
     caption: "Panasonic REAL 3DO 1993 广告（ 上市时 TV CM）"
     source: "YouTube 复刻档案"
+curation:
+  thesis: "3DO 是 1990 年代初最纯粹的『把 PC 开放标准思想搬进家用主机，打破封闭模式』实验，同时也是家用主机史上最昂贵、最快死亡的警示寓言。问题从来不是硬件，而是完全误判了家用主机的经济模型。"
+  turning_point: "1993 年 $699 的定价，以及 1995 年 PlayStation（$299）和 Saturn（$399）的登场。Trip Hawkins 把公司转向纯软件，把 M2 技术卖给松下，最终 2003 年破产。这一整段轨迹至今仍是『开放标准思想在家用主机领域为什么会死』的标准教材。"
+  local_memory: "对北美玩家来说是『中古车同价的主机』。日本几乎没有存在感（Sanyo TRY 是 spectacular 失败）。韩国 GoldStar 版确实有发行，但很快消失。台湾和香港则是『在电玩通看到、妈妈看到价格直接把杂志合上』的传说机器。中国大陆几乎完全空白。"
+curated_games:
+  - title: "Star Control II"
+    reason: "Toys for Bob 在这个平台上做出的太空探索＋对话＋战略神作。至今仍有许多收藏家说：『如果 3DO 只有这一款游戏，也算值回票价。』"
+  - title: "Road Rash"
+    reason: "EA 把摩托车公路打架做成平台的招牌体验，配上杀伐的摇滚原声带和当时罕见的 FMV 演出。"
+  - title: "Way of the Warrior"
+    reason: "后来做出 Crash Bandicoot 的 Naughty Dog，在 3DO 上送出的第一款像样的作品。既显示了硬件的极限，也预示了他们之后在 PlayStation 上的爆发。"
+legacy:
+  one_liner: "用 $699 的价格证明了『把所有风险推给 OEM 和玩家，自己却不肯补贴硬件』这种商业模式在家用主机领域完全行不通的终极失败案例。X 上至今仍被当作『90 年代傲慢的极致』持续嘲讽。"
+  context: "Trip Hawkins 离开 EA 时带着『要把家用主机像 PC 一样民主化』的明确理想成立 3DO。他把纯粹的『VHS 模型』（只出规格，授权别人做硬件）硬套在家用主机上，结果就是这样。家用主机从来不是这样的行业。"
+  hardware_tradeoffs: "ARM60 + 双 16 位图形芯片在 1993 年算得上合格，但极小的 2MB 主内存和缓慢的 CD 驱动，逼着开发者走 FMV（全动态影像）路线。结果就是少数真正有灵魂的游戏，淹没在大量像 90 年代烂 CGI 电影一样的互动电影作品里。"
+  software_identity: "3DO 的游戏库呈现极端二极化：Star Control II、Road Rash 这类至今仍有评价的作品，被大量 FMV 为主的授权垃圾作品淹没。这种『少数钻石 + 大量粗制滥造』的结构，至今仍是 retro 圈讨论 CD 世代黑暗面时的经典案例。"
+  regional_memory: "北美：$699 的震撼 + Creative Blaster 卡的怪异存在。日本：几乎没有存在感（Sanyo TRY 是收藏家的好奇对象）。韩国：GoldStar 版确实有发行，但品质恶评如潮。中国大陆：几乎完全空白，要等到 2003 年的 iQue Player 才第一次有『合法任天堂主机』，但 3DO 本身完全缺席。"
+  business_result: "全球约 200 万台、1996 年退出硬件事业、M2 IP 卖给松下、2003 年破产。商业教训可以用大字写：家用主机要么自己吃硬件亏，要么让第三方相信你能帮他们赚钱。3DO 两个都没做到。"
+  myths:
+    - myth: "3DO 失败只是因为太贵。"
+      fact: "价格只是表面症状。更深层的问题是拒绝补贴硬件、把所有风险推给 OEM 和消费者的模式，从一开始就违反了 1980 年代后期以来家用主机的经济铁律。"
+    - myth: "3DO 上面全是 FMV 垃圾游戏。"
+      fact: "确实有很多垃圾，但 Star Control II、Road Rash、Way of the Warrior 至今仍有忠实玩家。真正的问题是好游戏太少，无法支撑整个平台。"
+    - myth: "Trip Hawkins 一早就知道会失败。"
+      fact: "从他把 M2 卖给松下、公司转软件、最终 2003 年破产的轨迹来看，他其实一直到最后都还在赌，只是赌注越来越小。"
+  afterlife: "2026 年的 X、r/3DO、retro YouTube 上，3DO 永远带着一种特定的黑色幽默被讨论：『史上最贵的主机』、『能把电脑变成 3DO 的 ISA 卡』、『Naughty Dog 第一款正经游戏在这里做完就跑去 Sony 发大财』。Creative 3DO Blaster 是收藏圈『我有一台电脑可以变成 3DO』的失败浪漫圣杯。GoldStar 版则是『有故事的平价替代』，有时反而更受关注。整个故事至今仍是『为什么你聪明的开放标准想法会死』的终极教材。"
 ---
 
 3DO 是 1990 年代初期最野心也最不切实际的家用主机实验。**Electronic Arts 创办人 Trip Hawkins**（曾在 1980 年代把 EA 从零打造成第三方发行商龙头）1991 年离开 EA，成立 The 3DO Company，目标是**用 PC 产业的「开放标准」模式打破家用主机产业**——3DO 公司只设计硬件规格与授权标准，**不自己生产主机**，而是把规格授权给 Panasonic、GoldStar（韩国，后改名 LG）、Sanyo、Creative Labs 等家电厂商生产。每家做自己版本的 3DO 主机，规格兼容，第三方软件一份适配所有主机。
@@ -74,3 +108,22 @@ videos:
 软件上 3DO 有过短暂亮点：Naughty Dog（后来做 Crash Bandicoot 那家）的早期作品《Way of the Warrior》（1994）就在 3DO 上发行；EA 的《Road Rash》（1994，摩托车公路打架）成为 3DO 招牌；Toys for Bob 的《Star Control II》（1994）至今仍是 retro 圈神作。但**整体阵容单薄**，FMV 互动电影风潮也污染了相当比例的软件库。
 
 3DO 在中国大陆完全空白——上市价格已经远超普通家庭收入水平，水货管道也罕见。**LG（韩国 GoldStar）虽然是 3DO 的 OEM 之一，但中国大陆的家电卖场几乎看不到 3DO。** 台湾水货市场偶有但极少。商业上，3DO 全球累计只卖**约 200 万台**，1996 年 3DO 公司退出硬件业务，Trip Hawkins 把公司转型为纯软件发行商，**2003 年仍宣告破产**。3DO 的故事是**开放标准在主机产业失败的标准教案**——你需要自己的软件生态、自己的硬件补贴、自己的零售控制权。3DO 一个都没有。
+
+---
+
+**X 与收藏圈至今仍在嘲讽的 3DO**
+
+在 2026 年的 X、Bilibili、retro Discord 上，3DO 永远带着一种「又爱又恨」的黑色幽默被反复提起。最常见的两个 meme 是：
+
+- 「1993 年卖到跟二手车一样贵的主机」
+- 「我有一台电脑，它可以变成 3DO」（指 Creative 3DO Blaster 那张 ISA 卡）
+
+Creative 3DO Blaster 在中文收藏圈被奉为「90 年代赛博朋克失败艺术巅峰」。有人会贴出实机照片配文：「我有一台 486，它同时是 Sound Blaster + 3DO + 坏掉的 VGA 卡。」底下回复永远是「恭喜，你现在拥有世界上最贵的镇纸」。
+
+GoldStar 版则占据「平价悲剧」位置——更便宜、也更容易坏，因此反而被某些收藏家当「有故事的版本」特别喜欢。「我就是冲着 disaster 版去的」这种发言在 X 上是认真的。
+
+Naughty Dog 的关系也被反复提及：「做出 Crash Bandicoot 的那家公司，第一款正经游戏居然是在这台破机器上做的，然后立刻跑去 Sony 发大财。」既当笑话，也当生存智慧的教材。
+
+Trip Hawkins 从 EA 救世主到 2003 年破产的完整弧线，在中文 retro 圈被讲了无数次，永远带着「理想很丰满，现实很骨感」的感慨。Bilibili 上偶尔能看到把 3DO 整个故事做成 20 分钟视频的 UP 主，评论区最常见的句子是：「这台机器教会了我们一个道理——想当救世主之前，先问问这个行业到底认不认这套。」
+
+3DO 没有安静地消失。它成了家用主机史上 meme 密度最高、嘲讽价值最持久的失败案例之一。30 年过去，retro 玩家依然在用它笑自己，也用它警醒后来所有「我有一个很聪明的开放想法」的人。
