@@ -13,8 +13,6 @@ order: 9
 related_consoles: ["dreamcast", "ps2", "gamecube", "xbox"]
 ---
 
-# 第六世代四强争霸
-
 1998 年到 2001 年，短短三年内，四台主机几乎把所有可能的未来都试了一遍：
 
 - Dreamcast 把「未来」提前搬进客厅

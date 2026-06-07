@@ -13,8 +13,6 @@ order: 9
 related_consoles: ["dreamcast", "ps2", "gamecube", "xbox"]
 ---
 
-# The Sixth Generation Deathmatch
-
 Between 1998 and 2001, four radically different consoles launched within an extremely short window. Dreamcast tried to bring the future into the living room. PlayStation 2 used DVD and backward compatibility as weapons. GameCube represented Nintendo’s most “core” philosophy. Xbox entered with brute-force PC hardware and aggressive third-party tactics.
 
 It was not a normal generational transition. It was the most stacked, most brutal four-way collision in console history. Only one emerged dominant, but the rules of the entire industry were permanently rewritten.

@@ -13,8 +13,6 @@ order: 9
 related_consoles: ["dreamcast", "ps2", "gamecube", "xbox"]
 ---
 
-# 第六世代四強爭霸
-
 **1998 年 11 月到 2001 年 11 月**，短短三年內，四台主機幾乎同時把所有可能的路線都走過一遍：
 
 - **Dreamcast** 把未來提前搬進客廳
