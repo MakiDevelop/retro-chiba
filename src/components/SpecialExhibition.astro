@@ -16,6 +16,26 @@ const { data } = entry;
     <div class="eyebrow">{data.eyebrow}</div>
     <h1>{data.title}</h1>
     {data.description && <p class="lead">{data.description}</p>}
+    {
+      data.hero && (
+        <figure class="hero-figure">
+          <img src={data.hero.src} alt={data.hero.alt ?? ''} loading="eager" decoding="async" />
+          {(data.hero.caption || data.hero.source_url) && (
+            <figcaption>
+              {data.hero.caption}
+              {data.hero.source_url && (
+                <>
+                  {' '}
+                  <a href={data.hero.source_url} rel="noreferrer" target="_blank">
+                    source
+                  </a>
+                </>
+              )}
+            </figcaption>
+          )}
+        </figure>
+      )
+    }
   </header>
 
   <article class="exhibition-body">
@@ -45,6 +65,28 @@ const { data } = entry;
     max-width: 720px;
     margin: 1rem auto 0;
     opacity: 0.85;
+  }
+  .hero-figure {
+    margin: 2rem auto 0;
+    overflow: hidden;
+    border: 1px solid rgba(250, 179, 60, 0.32);
+    background: rgba(18, 24, 28, 0.7);
+  }
+  .hero-figure img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  .hero-figure figcaption {
+    padding: 0.75rem 1rem;
+    color: rgba(233, 220, 190, 0.68);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .hero-figure a {
+    color: rgb(250, 179, 60);
   }
   .exhibition-body {
     font-size: 1.05rem;

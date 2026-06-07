@@ -183,7 +183,7 @@ const fontSizeOptions = [
             {
               (Object.keys(languages) as Lang[]).map((l) => (
                 <a
-                  href={localizedPath(l)}
+                  href={localizedPath(l, routePath)}
                   class:list={[
                     'rounded border px-2 py-1 transition',
                     l === lang
