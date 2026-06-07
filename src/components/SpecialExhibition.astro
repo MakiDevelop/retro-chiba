@@ -9,6 +9,15 @@ interface Props {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const sixthGenShowcase =
+  data.slug === 'sixth-gen-war'
+    ? [
+        { title: 'Dreamcast', src: '/img/consoles/dreamcast-hero.jpg' },
+        { title: 'PlayStation 2', src: '/img/consoles/ps2-hero.jpg' },
+        { title: 'GameCube', src: '/img/consoles/gamecube-hero.jpg' },
+        { title: 'Xbox', src: '/img/consoles/xbox-hero.jpg' },
+      ]
+    : [];
 ---
 
 <main class="exhibition">
@@ -34,6 +43,18 @@ const { data } = entry;
             </figcaption>
           )}
         </figure>
+      )
+    }
+    {
+      sixthGenShowcase.length > 0 && (
+        <div class="showcase-grid" aria-label="Sixth generation console lineup">
+          {sixthGenShowcase.map((console) => (
+            <figure>
+              <img src={console.src} alt={console.title} loading="eager" decoding="async" />
+              <figcaption>{console.title}</figcaption>
+            </figure>
+          ))}
+        </div>
       )
     }
   </header>
@@ -88,6 +109,38 @@ const { data } = entry;
   .hero-figure a {
     color: rgb(250, 179, 60);
   }
+  .showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 1rem auto 0;
+  }
+  .showcase-grid figure {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid rgba(77, 255, 136, 0.24);
+    background: rgba(18, 24, 28, 0.7);
+  }
+  .showcase-grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+  .showcase-grid figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.55rem 0.7rem;
+    background: linear-gradient(to top, rgba(5, 7, 10, 0.88), rgba(5, 7, 10, 0));
+    color: rgb(250, 179, 60);
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.55rem;
+    line-height: 1.5;
+    text-align: left;
+  }
   .exhibition-body {
     font-size: 1.05rem;
     line-height: 1.75;
@@ -96,5 +149,10 @@ const { data } = entry;
     margin-top: 3rem;
     margin-bottom: 1rem;
     font-size: 1.6rem;
+  }
+  @media (max-width: 640px) {
+    .showcase-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
