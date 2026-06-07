@@ -95,4 +95,22 @@ export const consoles = defineCollection({
   }),
 });
 
-export const collections = { consoles };
+const exhibitions = defineCollection({
+  loader: glob({
+    pattern: '**/*.md',
+    base: './src/content/exhibitions',
+    generateId: ({ entry }) => entry.replace(/\.md$/, ''),
+  }),
+  schema: z.object({
+    lang: langEnum,
+    title: z.string(),
+    slug: z.string(),
+    description: z.string().optional(),
+    eyebrow: z.string().optional().default('[ SPECIAL EXHIBITIONS ]'),
+    hero: imageRef.optional(),
+    order: z.number().optional(),
+    related_consoles: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { consoles, exhibitions };

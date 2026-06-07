@@ -1,0 +1,58 @@
+---
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'exhibitions'>;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { data } = entry;
+---
+
+<main class="exhibition">
+  <header class="exhibition-header">
+    <div class="eyebrow">{data.eyebrow}</div>
+    <h1>{data.title}</h1>
+    {data.description && <p class="lead">{data.description}</p>}
+  </header>
+
+  <article class="exhibition-body">
+    <Content />
+  </article>
+</main>
+
+<style>
+  .exhibition {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  .exhibition-header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .eyebrow {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    opacity: 0.6;
+    margin-bottom: 0.5rem;
+  }
+  .lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    max-width: 720px;
+    margin: 1rem auto 0;
+    opacity: 0.85;
+  }
+  .exhibition-body {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+  .exhibition-body :global(h2) {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+  }
+</style>
